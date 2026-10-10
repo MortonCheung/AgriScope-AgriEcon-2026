@@ -11,10 +11,12 @@
 |---|---:|
 | 源工作区 `source_snapshot/` 文件总数 | 15,508 |
 | 源工作区合计大小 | 852,541,195 字节 ≈ 813 MiB |
-| **本次上传文件数** | **1,757** |
-| **本次上传大小** | **225,587,149 字节 ≈ 215 MiB** |
-| 未上传文件数 | 13,751 |
-| 未上传大小 | 626,954,046 字节 ≈ 598 MiB |
+| **源自快照的上传文件数** | **1,755** |
+| **源自快照的上传大小** | **225,583,896 字节 ≈ 215.1 MiB** |
+| 本仓库文件总数（含自动生成文档） | 1,769 |
+| 本仓库总大小 | 230,205,703 字节 ≈ 219.5 MiB |
+| 未上传文件数 | 13,753 |
+| 未上传大小 | 626,957,299 字节 ≈ 598 MiB |
 
 > 上传清单见 [`UPLOAD_MANIFEST.csv`](UPLOAD_MANIFEST.csv)（逐条含 SHA256，可与源文件逐字节比对）。
 
@@ -34,6 +36,7 @@
 | `runtime_log_or_snapshot` | 7 | 0.2 MB | 日度运行日志与旧快照 |
 | `runtime_log` | 44 | 0.2 MB | 运行日志 |
 | `compiled_binary` | 1 | 0.1 MB | 编译产物 |
+| `root_level_source_metadata_not_uploaded` | 2 | 0.0 MB | 源根目录非研究性元数据（`README_src_root.md`、`gitignore_src_root.txt`） |
 
 **特别说明（商业数据）**：源工作区内 `data/raw/prices/{ecommerce,b2b,hnwb}` 等**电商/B2B/商户平台价格数据**
 属于**付费或商业平台原始资料，无再分发许可**，一律未上传（含于上表 `raw_third_party_source_local_offline`）。

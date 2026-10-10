@@ -34,6 +34,7 @@ source_snapshot/AgriScope/.playwright-cli/page-2026-10-10T06-16-25-698Z.yml,2538
 source_snapshot/AgriScope/.playwright-cli/page-2026-10-10T06-18-55-241Z.yml,0,browser_log/cache/__pycache__
 source_snapshot/AgriScope/.playwright-cli/page-2026-10-10T06-22-56-784Z.yml,0,browser_log/cache/__pycache__
 source_snapshot/AgriScope/pipelines/data_foundation/collectors/.ocr_image_bin,87360,compiled_binary
+source_snapshot/README_src_root.md,2396,root_level_source_metadata_not_uploaded
 source_snapshot/data/metadata/quality/build_integrated.log,253,runtime_log
 source_snapshot/data/metadata/quality/build_standardized.log,3512,runtime_log
 source_snapshot/data/processed/daily/logs/run_2026-10-01.log,2498,runtime_log
@@ -13749,4 +13750,5 @@ source_snapshot/data/research/shenyang/case_studies/shenbei_2026_rainstorm_corn/
 source_snapshot/data/research/shenyang/case_studies/shenbei_2026_rainstorm_corn/logs/116_read.log,7708,runtime_log
 source_snapshot/data/research/shenyang/case_studies/shenbei_2026_rainstorm_corn/logs/116_smoke.log,501,runtime_log
 source_snapshot/data/research/shenyang/case_studies/shenbei_2026_rainstorm_corn/logs/build_clean.log,450,runtime_log
+source_snapshot/gitignore_src_root.txt,857,root_level_source_metadata_not_uploaded
 source_snapshot/models/reports/final/_clean_repro.log,29586,runtime_log
