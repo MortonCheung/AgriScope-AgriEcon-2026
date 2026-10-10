@@ -1,0 +1,4 @@
+﻿check,value,ok,note
+target 列数量,14,True,建模时禁止进入 X（由 FINAL_FEATURE_COLS 白名单保证）
+禁用特征名扫描,0,True,
+volume 特征缺席,0,True,volume 不在 data/model_ready/，Final 价格模型不使用

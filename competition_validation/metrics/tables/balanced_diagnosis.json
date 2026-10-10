@@ -1,0 +1,10 @@
+{
+  "n_cutoffs": 667,
+  "mean_corr_HRI_forecast": 0.30035051663534756,
+  "mean_corr_HRI_anchor": 0.32244681371597794,
+  "mean_corr_HRI_realized": -0.19217031861076014,
+  "high_hri_rate_old": 0.043478260869565216,
+  "high_hri_rate_fix": 0.0014992503748125937,
+  "high_hri_rate_profit": 0.031484257871064465,
+  "diagnosis_case": "C (HRI 有效，但与预测收益/价格水平高相关 → 旧 score 未有效惩罚)"
+}

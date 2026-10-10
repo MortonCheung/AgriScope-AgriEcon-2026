@@ -1,0 +1,8 @@
+﻿test,passed,note
+P0-1 HRI 前缀不变性,True,三个 cutoff 下 c_consecutive_rise 与 HRI 均逐值相等（n=3010）
+P0-2 前瞻标签右删失,True,尾部 fwd_* 全部为 NaN 且存在 label_matured_* 标记
+P0-3 季节基线 argmax,True,季节基线选取同月历史相对收益最优作物（西红柿）
+P0-4 相对收益基线,True,Profit/Chase 基线均按预测相对收益（forecast/anchor-1）排序
+P0-5a 切点步长生效,True,切点抽稀生效：step7=140 > step30=33（原始实现两者都等于全部交易日）
+P0-5b 随机基线可复现,True,确定性种子跨进程一致 (1710796674)
+P0-6 策略命名一致性,True,"策略集合口径明确：['Balanced_fix_v1', 'Balanced_fix_v2', 'Balanced_old', 'Chase_price_momentum', 'Highest_forecast_return', 'Highest_price_level', 'Low_risk', 'Most_Robust']"

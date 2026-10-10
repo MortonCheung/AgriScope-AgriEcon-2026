@@ -1,0 +1,94 @@
+{
+ ".source_fingerprint.json": {
+  "sha256": "87803d35f8f6901deff509b71800f99f58692090c585f1d1d6cd3e9fd7916627",
+  "bytes": 122
+ },
+ "model_ready/FEATURE_SOURCE_MAP.csv": {
+  "sha256": "cb5662b9aed4f434b5f6bd49573aad5a27492152f1c751b79e3d88895bdeaf4c",
+  "bytes": 86793
+ },
+ "model_ready/recommendation/market_nodes.parquet": {
+  "sha256": "663e493377e2adccaf9b6a3bac38707d2b0069ba92ff031451a42650cbc2a6cd",
+  "bytes": 18637
+ },
+ "model_ready/recommendation/structural_context.parquet": {
+  "sha256": "0311dc6ba63dc305df4804c74e3d6b5ab4648f0f11f0a7884e2d882326e7b5ab",
+  "bytes": 82048
+ },
+ "model_ready/hri/hri_inputs.parquet": {
+  "sha256": "1d8f701b77bd2dad8dadea9b9fadc2d8443e86404040e3c1f79be7959912e9e5",
+  "bytes": 1571972
+ },
+ "model_ready/chaoyang_extended/environment_daily.parquet": {
+  "sha256": "5536378f5d06e217a42da96ab6166a56cd44e492a7ff42288be3aba778f50987",
+  "bytes": 185768
+ },
+ "model_ready/chaoyang_extended/market_daily.parquet": {
+  "sha256": "fec84dfc0d05a65c52fb2362d3072fceda5a9351aaa9e9f417ab120f34626b8f",
+  "bytes": 181559
+ },
+ "model_ready/chaoyang_extended/phenology.parquet": {
+  "sha256": "7a5273178521ee02e389e731d6ca893e7c65400d4139184c4a8f9fda55997186",
+  "bytes": 28311
+ },
+ "model_ready/shenyang_core/cost_reference.parquet": {
+  "sha256": "ec0c7bd292d2d53a747262aedbbca376b20de747f540538c86cc9f16001227f2",
+  "bytes": 27163
+ },
+ "model_ready/shenyang_core/crop_context.parquet": {
+  "sha256": "ae94628caf2734adc939efe607a00e240c0de58dbe0f41132c6a8c1f631aaef6",
+  "bytes": 24060
+ },
+ "model_ready/shenyang_core/environment_daily.parquet": {
+  "sha256": "14ac04d8a56f5f28adfd5916e8bb2ed21a401f394da9af2b4ce2f528aedfd651",
+  "bytes": 137102
+ },
+ "model_ready/shenyang_core/market_daily.parquet": {
+  "sha256": "aae951b42f207907ec75505b651c3c3ba5345c5e332945df23f98e7338d6b008",
+  "bytes": 91869
+ },
+ "model_ready/shenyang_core/phenology.parquet": {
+  "sha256": "e6a1592b6f129074b980496635ed9782be3bb707a996db2b48347ad568de146f",
+  "bytes": 30383
+ },
+ "model_ready/profit/cost_components.parquet": {
+  "sha256": "ec0c7bd292d2d53a747262aedbbca376b20de747f540538c86cc9f16001227f2",
+  "bytes": 27163
+ },
+ "model_ready/profit/cost_proxy.parquet": {
+  "sha256": "b4786b620c7da19210b24041ab8ac95e1eb32775ba76e38eb6b43a9d446706aa",
+  "bytes": 21613
+ },
+ "model_ready/profit/crop_cost.parquet": {
+  "sha256": "c06c71a2e0593953b04075460a1cd077b6e4025203bb6f20141025e00d954ea1",
+  "bytes": 24944
+ },
+ "model_ready/climate/climate_daily.parquet": {
+  "sha256": "0b9e5d50fb53eaf81c19e3fa0633d5cde25258971fdea81438a7ac3a8ff2449d",
+  "bytes": 699987
+ },
+ "model_ready/climate/vegetation_anomaly.parquet": {
+  "sha256": "ae205bddf64af7aa03de1e248b442254a8cc5cbd54a73183f71765e7d7866c60",
+  "bytes": 31250
+ },
+ "model_ready/jinzhou_extended/environment_daily.parquet": {
+  "sha256": "2700b630353fc9913c5abae532943f195f6e754c81639bed1b2fc598bf2d3924",
+  "bytes": 186451
+ },
+ "model_ready/jinzhou_extended/market_daily.parquet": {
+  "sha256": "f90060f0a50916c595fdf7a70e9cb35ad43381960ebad0e310e56c5a49302743",
+  "bytes": 212401
+ },
+ "model_ready/jinzhou_extended/phenology.parquet": {
+  "sha256": "44b705154596f8e3b7e1694841cd9d7e98b97163fd622ccd48a61bc5c9ede099",
+  "bytes": 29152
+ },
+ "datasets/decision_dataset_朝阳.parquet": {
+  "sha256": "bdbe1307ed16a7c2d4be5b9b9d61b8b90724b6eb5d96825b48719da142e00e6d",
+  "bytes": 2291517
+ },
+ "datasets/decision_dataset_沈阳.parquet": {
+  "sha256": "a98fddae660ab656a6758fb595db90afab2835892fa1022acd938f5b04e403fc",
+  "bytes": 3968931
+ }
+}

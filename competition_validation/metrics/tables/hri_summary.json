@@ -1,0 +1,16 @@
+{
+  "沈阳": {
+    "n_weeks": 3010,
+    "HRI_valid_rows": 2620,
+    "mean_HRI": 50.20473290528984,
+    "spearman_HRI_vs_marketrisk": -0.045462769334778205,
+    "n": 2620
+  },
+  "朝阳": {
+    "n_weeks": 7020,
+    "HRI_valid_rows": 6006,
+    "mean_HRI": 48.52123705277464,
+    "spearman_HRI_vs_marketrisk": -0.08578600994860167,
+    "n": 6006
+  }
+}

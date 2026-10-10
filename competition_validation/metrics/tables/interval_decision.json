@@ -1,0 +1,10 @@
+{
+  "method": "seasonal_window_quantile",
+  "coverage": 0.7134240122160718,
+  "mean_width": 2.505721541884811,
+  "label": "scenario_range",
+  "nominal": 0.8,
+  "calibrated": false,
+  "min_crop_coverage": 0.424,
+  "ts": "2026-10-10 15:52:12"
+}

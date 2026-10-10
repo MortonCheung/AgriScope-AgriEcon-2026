@@ -1,0 +1,8 @@
+﻿test,passed,note
+P0-1 HRI 前缀不变性,False,前缀不变性被破坏 → c_consecutive_rise@cut202330: max|Δ|=5.82511 (n=1336); HRI@cut202330: max|Δ|=5.82511 (n=1336); c_consecutive_rise@cut202426: max|Δ|=4.5745 (n=1814); HRI@cut202426: max|Δ|=4.5745 (n=1814)
+P0-2 前瞻标签右删失,False,尾部未右删失 → 土豆 h=4: tail 2 行有值; 土豆 h=8: tail 6 行有值; 土豆 h=12: tail 10 行有值; 尖椒 h=4: tail 2 行有值
+P0-3 季节基线 argmax,False,选到「土豆」，应为同月历史相对收益最优的「西红柿」（字典序陷阱：土豆）
+P0-4 相对收益基线,False,Profit 基线选到「A」（绝对价最高），应为相对收益最高「B」
+P0-5a 切点步长生效,False,缺少 _select_cutoffs 抽稀函数 → cutoff_step_days 未生效
+P0-5b 随机基线可复现,False,仍使用 abs(hash(str(t)))（受 PYTHONHASHSEED 影响，不可跨进程复现）
+P0-6 策略命名一致性,False,仍存在 Profit_only（实际为跨作物绝对价格排序，命名不准确）
