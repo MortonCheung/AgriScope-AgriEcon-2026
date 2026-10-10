@@ -1,0 +1,12 @@
+﻿strategy,top1_crop,top1_share,top3_share,n_unique_crops
+Balanced_fix_v1,芸豆,0.625,0.9765625,6
+Balanced_fix_v2,黄瓜,0.2109375,0.546875,10
+Balanced_old,芸豆,0.828125,1.0,3
+Chase_price_momentum,黄瓜,0.2109375,0.4765625,10
+Highest_forecast_return,黄瓜,0.3359375,0.6796875,8
+Highest_price_level,芸豆,0.8203125,0.9453125,5
+Low_risk,土豆,0.234375,0.484375,10
+Most_Robust,土豆,0.4453125,0.703125,9
+Random_expectation,__POOL__,1.0,1.0,1
+Random_seeded,青椒,0.1484375,0.375,10
+Seasonal,茄子,0.203125,0.59375,7
