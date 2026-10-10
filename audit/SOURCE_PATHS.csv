@@ -1,0 +1,9 @@
+﻿category,source_relative_path,target_relative_path,description,copied_files,copied_bytes,source_files,source_bytes,coverage
+project_docs,AgriScope,source_snapshot/AgriScope,目录(应用代码/文档/程序),514,16458242,18562,1260160442,完整
+data_research,data/research,source_snapshot/data/research,六城A01-A09+沈北案例+cross_city,1077,134169067,1115,336839622,完整
+data_metadata,data/metadata,source_snapshot/data/metadata,数据治理/来源/质量/清单,73,16866974,76,16892852,完整
+data_model_ready,data/model_ready,source_snapshot/data/model_ready,正式模型输入,41,27294613,168,108643166,完整
+data_processed,data/processed,source_snapshot/data/processed,价格/生产/成本/灾害/政策,105,45232073,114,46566016,完整
+data_raw,data/raw,source_snapshot/data/raw,原始证据(选择性),13609,610898392,23343,1835403676,部分(选择性排除)
+models_reports,models/reports/final,source_snapshot/models/reports/final,最终模型报告+指标表,81,1478108,81,1478108,完整
+models_registry,models/registry,source_snapshot/models/registry,模型注册表,4,132814,4,132814,完整

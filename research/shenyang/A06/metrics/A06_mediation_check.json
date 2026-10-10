@@ -1,0 +1,6 @@
+{
+ "weather_to_volume_fdr_sig": 4,
+ "volume_to_price_fdr_sig": 0,
+ "verdict": "步骤一存在部分证据，继续检查步骤二",
+ "rule": "only discuss mediation if BOTH steps have evidence (analysis_plan A06.mediation)"
+}

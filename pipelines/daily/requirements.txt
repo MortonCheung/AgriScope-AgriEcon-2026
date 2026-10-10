@@ -1,0 +1,23 @@
+# ============================================================================
+# AgriScope Daily · 服务器运行依赖（沈阳 Daily P0）
+# 安装：python3 -m pip install -r data/daily/requirements.txt
+#
+# 版本与 Final Model 冻结时的运行环境一致（见 models/reports/final/FINAL_RUN_META.json
+# 的 packages 字段）。Daily 本身只用 pandas/numpy/pyarrow/pyyaml，
+# scikit-learn / catboost / lightgbm / scipy 用于**加载 Final Model 的 .pkl 产物**。
+# ============================================================================
+
+# --- Daily 主链必需 ---
+pandas==2.3.3
+numpy==2.0.2
+pyarrow==20.0.0
+PyYAML==6.0.3
+
+# --- Final Model 推理（加载 models/models/final/*.pkl）必需 ---
+scikit-learn==1.6.1
+scipy==1.13.1
+catboost==1.2.10
+lightgbm==4.6.0
+
+# --- 测试（可选，生产可不装）---
+pytest==8.4.2

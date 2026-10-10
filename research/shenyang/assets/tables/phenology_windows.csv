@@ -1,0 +1,19 @@
+﻿crop,region,cultivation,scope_row,window_label,doy_start,doy_end,wraps_year,window_field,granularity,source_type,source
+土豆,沈阳,设施（三膜/两膜/单膜）,protected,5月中旬 ~ 5月下旬,131,151,False,harvest_start~harvest_end,旬/月（原文粒度）,government_agricultural_technical,中国作物学会（沈阳地区马铃薯促早熟栽培）；辽宁省农业农村厅2025年59号文件
+土豆,北方露地一作区,露地,open_field,9月 ~ 10月,244,304,False,harvest_start~harvest_end,月（原文粒度）,institutional,教育部科技小院·马铃薯栽培管理策略
+甘蓝,辽宁/北方（春茬）,露地/设施皆可,mixed,5月 ~ 6月,121,181,False,harvest_start~harvest_end,月（原文粒度）,government_agricultural_technical,烟台市农业农村局·绿色食品结球甘蓝生产技术规程(春)；甘肃省农业农村厅·春甘蓝定植后管理要点
+甘蓝,辽宁/北方（秋茬）,露地,open_field,10月 ~ 11月,274,334,False,harvest_start~harvest_end,月（原文粒度）,government_agricultural_technical,甘肃省农业农村厅·秋茬结球甘蓝
+芹菜,辽宁（春芹·设施）,设施,mixed,4月下旬 ~ 6月,111,181,False,harvest_start~harvest_end,月（原文粒度）,government_agricultural_technical,南阳市农业农村局·芹菜生产技术规范
+芹菜,辽宁（秋芹）,露地,open_field,10月 ~ 11月,274,334,False,harvest_start~harvest_end,月（原文粒度）,government_agricultural_technical,南阳市农业农村局·芹菜生产技术规范
+韭菜,东北,露地/设施,mixed,全年（割茬） ~ 全年（割茬）,1,365,False,harvest_start~harvest_end,月（原文粒度）,government_agricultural_technical,农业农村部质量安全监管司·韭菜安全生产风险防控；南阳市农业农村局·韭菜生产技术规范
+黄瓜,辽宁（设施·早春茬）,设施,protected,2月 ~ 3月,32,90,False,harvest_start~harvest_end,月（原文粒度）,government_agricultural_technical,黑龙江省农业农村厅·双城黄瓜田间指导；甘肃农业大学·日光温室黄瓜栽培技术
+黄瓜,辽宁（露地·春茬）,露地,open_field,6月 ~ 9月,152,273,False,harvest_start~harvest_end,月（原文粒度）,institutional,宁夏12316·黄瓜生育周期和种植条件
+尖椒,辽宁/北方（露地）,露地,open_field,7月 ~ 10月,182,304,False,harvest_start~harvest_end,月（原文粒度）,government_agricultural_technical,锦州市农业农村局·无公害辣椒栽培技术
+尖椒,辽宁（日光温室长季节·冬春茬）,设施,protected,3月中旬 ~ 7月,70,212,False,harvest_start~harvest_end,月（原文粒度）,official_standard,DB21/T 3127-2019 温室青椒长季节生产技术规程（含尖椒）
+芸豆,辽宁北部（露地）,露地,open_field,7月 ~ 9月,182,273,False,harvest_start~harvest_end,旬/日（原文粒度）,official_technical_guidance,农业农村部小宗粮豆专家指导组·2023年芸豆生产技术指导意见（natesc）
+茄子,辽宁（设施·春提早）,设施,protected,4月下旬 ~ 6月,111,181,False,harvest_start~harvest_end,月（原文粒度）,institutional,《主要设施蔬菜生产与病虫害绿色防控技术》（孙茜等，中国农业出版社）
+西红柿,沈阳（夏茬·夏秋栽培）,设施,protected,8月上旬 ~ 10月上旬,213,283,False,harvest_start~harvest_end,旬（原文粒度）,official_standard,DB2101/T 0070-2023 温室大棚夏秋番茄栽培技术规程（沈阳市）
+西红柿,辽宁（温室·春茬）,设施,protected,4月 ~ 7月,91,212,False,harvest_start~harvest_end,月（原文粒度）,institutional,辽宁省农科院·番茄辽粉185；中国农业大学·茄果类蔬菜设施栽培技术
+青椒,辽宁（温室长季节·冬春茬）,设施,protected,3月中旬 ~ 7月中旬,70,201,False,harvest_start~harvest_end,月（原文粒度）,official_standard,DB21/T 3127-2019 温室青椒长季节生产技术规程
+青椒,辽宁朝阳（日光温室越冬一大茬）,设施,protected,11月 ~ 翌年7月,305,365,True,harvest_start~harvest_end,月（原文粒度）,institutional,辽宁省农科院《农业工程技术》·辽宁朝阳市青椒越冬优质高产栽培技术
+青椒,辽宁朝阳（日光温室越冬一大茬）,设施,protected,11月 ~ 翌年7月,1,212,True,harvest_start~harvest_end,月（原文粒度）,institutional,辽宁省农科院《农业工程技术》·辽宁朝阳市青椒越冬优质高产栽培技术

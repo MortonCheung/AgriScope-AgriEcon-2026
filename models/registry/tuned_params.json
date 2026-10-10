@@ -1,0 +1,126 @@
+{
+  "results": [
+    {
+      "family": "hist_gradient_boosting",
+      "route": "per_crop",
+      "target": "target_mean_price_next_30d",
+      "best_value": 15.8253747170097,
+      "best_params": {
+        "learning_rate": 0.08182441148887568,
+        "max_leaf_nodes": 21,
+        "max_iter": 300,
+        "min_samples_leaf": 18,
+        "l2_regularization": 0.023345864076016236
+      },
+      "n_trials": 8,
+      "runtime_sec": 1112.1
+    },
+    {
+      "family": "extra_trees",
+      "route": "per_crop",
+      "target": "target_mean_price_next_30d",
+      "best_value": 13.92497645307337,
+      "best_params": {
+        "n_estimators": 400,
+        "min_samples_leaf": 10,
+        "max_features": 0.7855951534491241
+      },
+      "n_trials": 6,
+      "runtime_sec": 1200.5
+    },
+    {
+      "family": "random_forest",
+      "route": "per_crop",
+      "target": "target_mean_price_next_30d",
+      "best_value": 14.294639984425311,
+      "best_params": {
+        "n_estimators": 200,
+        "min_samples_leaf": 9,
+        "max_features": 0.6808920093945671
+      },
+      "n_trials": 5,
+      "runtime_sec": 1385.8
+    },
+    {
+      "family": "ridge",
+      "route": "per_crop",
+      "target": "target_mean_price_next_30d",
+      "best_value": 14.710241209376651,
+      "best_params": {
+        "alpha": 161.13041839797296
+      },
+      "n_trials": 6,
+      "runtime_sec": 1388.4
+    },
+    {
+      "family": "elasticnet",
+      "route": "per_crop",
+      "target": "target_mean_price_next_30d",
+      "best_value": 12.570455503599625,
+      "best_params": {
+        "alpha": 0.10129197956845731,
+        "l1_ratio": 0.6872653200164409
+      },
+      "n_trials": 5,
+      "runtime_sec": 1422.4
+    },
+    {
+      "family": "lightgbm",
+      "route": "per_crop",
+      "target": "target_mean_price_next_30d",
+      "best_value": 15.422513745411221,
+      "best_params": {
+        "n_estimators": 800,
+        "learning_rate": 0.03261137469244295,
+        "num_leaves": 23,
+        "min_child_samples": 11,
+        "subsample": 0.721696897183815,
+        "colsample_bytree": 0.762378215816119
+      },
+      "n_trials": 8,
+      "runtime_sec": 1668.0
+    },
+    {
+      "family": "ebm",
+      "route": "per_crop",
+      "target": "target_mean_price_next_30d",
+      "best_value": 16.478344731685876,
+      "best_params": {
+        "max_rounds": 500,
+        "interactions": 13,
+        "learning_rate": 0.034902854606300035
+      },
+      "n_trials": 6,
+      "runtime_sec": 5051.6
+    },
+    {
+      "family": "hist_gradient_boosting",
+      "route": "pooled",
+      "target": "target_mean_price_next_30d",
+      "best_value": 13.829069725017174,
+      "best_params": {
+        "learning_rate": 0.02097077545038924,
+        "max_leaf_nodes": 62,
+        "max_iter": 600,
+        "min_samples_leaf": 12,
+        "l2_regularization": 0.0035113563139704067
+      },
+      "n_trials": 8,
+      "runtime_sec": 5114.2
+    },
+    {
+      "family": "extra_trees",
+      "route": "pooled",
+      "target": "target_mean_price_next_30d",
+      "best_value": 12.465709109016888,
+      "best_params": {
+        "n_estimators": 400,
+        "min_samples_leaf": 10,
+        "max_features": 0.7855951534491241
+      },
+      "n_trials": 5,
+      "runtime_sec": 5162.3
+    }
+  ],
+  "quick": true
+}

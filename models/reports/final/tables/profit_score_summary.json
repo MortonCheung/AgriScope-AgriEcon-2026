@@ -1,0 +1,26 @@
+{
+  "profit_crops_ok": 10,
+  "source_class_distribution": {
+    "local_reference": 5,
+    "regional_proxy": 5
+  },
+  "decision_score_rows": 270,
+  "top3_by_decision_score": [
+    {
+      "crop": "芸豆",
+      "horizon": 90,
+      "decision_score_final": 82.1
+    },
+    {
+      "crop": "芸豆",
+      "horizon": 30,
+      "decision_score_final": 82.1
+    },
+    {
+      "crop": "芸豆",
+      "horizon": 90,
+      "decision_score_final": 82.1
+    }
+  ],
+  "ts": "2026-10-07 19:42:55"
+}

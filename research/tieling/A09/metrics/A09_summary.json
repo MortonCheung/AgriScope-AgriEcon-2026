@@ -1,0 +1,14 @@
+{
+ "city": "tieling",
+ "clim": {
+  "n_years": 17,
+  "precip_ann_mean": 773.1588235294118,
+  "precip_gs_mean": 654.964705882353,
+  "tmean_ann_mean": 9.283630685512675,
+  "precip_ann_recent": 816.4833333333332,
+  "precip_ann_early": 749.5272727272727,
+  "gs_share": 0.8471282819906114
+ },
+ "prod_top": "玉米 84.5%、水稻 6.7%、花生 5.9%",
+ "prod_hhi": 0.7231541212009527
+}

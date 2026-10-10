@@ -1,0 +1,7 @@
+{
+  "table": "fapar",
+  "status": "NOT_AVAILABLE",
+  "reason": "MODIS 通道受限，未取得",
+  "searched": "data/raw/ + city_data/ + supplements",
+  "access_date": "2026-10-04"
+}

@@ -1,0 +1,13 @@
+﻿feature,VIF
+corn_area_ha,NOT_COMPUTABLE_p_ge_n
+time_index,NOT_COMPUTABLE_p_ge_n
+veg_precip_sum,NOT_COMPUTABLE_p_ge_n
+repro_precip_sum,NOT_COMPUTABLE_p_ge_n
+repro_precip_max_5d,NOT_COMPUTABLE_p_ge_n
+repro_heavy_rain_days,NOT_COMPUTABLE_p_ge_n
+repro_tmax_mean,NOT_COMPUTABLE_p_ge_n
+repro_hot_days,NOT_COMPUTABLE_p_ge_n
+grain_filling_precip_sum,NOT_COMPUTABLE_p_ge_n
+rx1day,NOT_COMPUTABLE_p_ge_n
+rx5day,NOT_COMPUTABLE_p_ge_n
+antecedent_precip_14d,NOT_COMPUTABLE_p_ge_n

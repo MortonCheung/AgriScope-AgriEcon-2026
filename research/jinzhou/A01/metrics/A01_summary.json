@@ -1,0 +1,21 @@
+{
+ "city": "jinzhou",
+ "n_crops": 11,
+ "crops": [
+  "西红柿",
+  "黄瓜",
+  "尖椒",
+  "茄子",
+  "芸豆",
+  "土豆",
+  "芹菜",
+  "大白菜",
+  "菜花",
+  "大葱",
+  "胡萝卜"
+ ],
+ "median_seasonal_amplitude": 0.6823509245029825,
+ "n_trend_tests": 11,
+ "n_trend_fdr_sig": 2,
+ "alpha": 0.05
+}

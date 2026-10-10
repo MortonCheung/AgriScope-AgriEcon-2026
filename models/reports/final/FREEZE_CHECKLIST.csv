@@ -1,0 +1,39 @@
+﻿check,ok,detail
+Final Data Audit PASS,True,DATA_AUDIT_PASS
+Data v1 frozen (manifest),True,19
+no leakage (truncation test),True,leak=0
+price_level clean (single level used),True,
+baseline complete,True,rows=90
+price models retrained,True,"horizons=[np.int64(7), np.int64(14), np.int64(30), np.int64(60), np.int64(90)]"
+scenario range calibrated or downgraded,True,scenario_range
+HRI validated (12w significant),True,sig=9/10
+Market Risk validated,True,
+HRI vs MarketRisk incremental,True,-0.0485592141787771
+Climate boundaries documented,True,
+Profit proxy handled (graded),True,crops=10
+Profit Engine 三式+来源分级,True,crops=10
+Decision Score 实际应用,True,
+§15 折元数据(区间+样本数),True,
+§54 可复现性元数据,True,
+§21-23 scenario range 逐crop×horizon,True,
+极差区间已降级(不掩盖最差),True,worst_coverage=0.5113122171945701
+§24/§25 HRI 时间序列稳健验证,True,
+§31/§35/§36/§50 生产不变量,True,9/9
+§6/§60 Final 生产 v1 依赖=0,True,static=0 runtime=0
+§44/§46 唯一推理入口 + Contract 实运行,True,
+§12-§15 untouched + 默认策略决策,True,decision=A no_overfit=True
+§53 时间切分明确,True,
+Confidence calibrated,True,
+Balanced root cause diagnosed,True,C (HRI 有效，但与预测收益/价格水平高相关 → 旧 score 未有效惩罚)
+Balanced high-HRI rate reduced vs old,True,old=0.1273006134969325 fix=0.004601226993865031 profit=0.13803680981595093
+production Balanced fix effective,True,balanced_before=0.1304347826086956 after=0.0 profit=0.13043478260869565
+historical backtest complete,True,strategies=8
+ablation complete,True,
+robustness complete,True,
+portfolio rerun,True,
+stress rerun,True,
+counterfactual (minimax regret) rerun,True,
+independent metric recalculation,True,887/887
+Pareto/window/area/portfolio/stress 重跑,True,§31-§36
+robustness 扩展(risk pref/budget/proxy),True,
+13 交付物齐备,True,missing=[]

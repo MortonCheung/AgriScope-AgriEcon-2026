@@ -1,0 +1,5 @@
+﻿model,LOYO_MAE_kg_ha,LOYO_RMSE_kg_ha,LOYO_R2,n_train,n_features
+historical_mean,975.2,1058.1,-0.306,7,1
+linear_trend,676.8,718.5,0.398,7,1
+ridge_lambda1,5353.9,6236.1,-44.37,7,12
+ols_core,648.7,876.7,0.103,7,12

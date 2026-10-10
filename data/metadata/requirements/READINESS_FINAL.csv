@@ -1,0 +1,9 @@
+﻿module,n_requirements,readiness_pct,green,yellow,red
+price_model,7,52.6,5,2,0
+hri,9,66.7,7,2,0
+market_risk,13,72.4,9,2,2
+climate,18,64.3,11,4,3
+production,12,75.0,11,1,0
+profit,9,61.4,4,4,1
+recommendation,17,78.4,15,2,0
+evidence,9,70.0,6,3,0

@@ -1,0 +1,8 @@
+﻿source_id,source_name,source_url,source_type,quality_grade,n_obs,date_min,date_max,price_level,note
+SRC-CH-01,朝阳市发改委 主要菜篮子产品每日价情(全市平均价格),https://fgw.chaoyang.gov.cn/html/CYFGW/202103/0162522383044151.html,official_government,A,36250,2021-03-06,2026-09-21,market_average,
+SRC-CH-02,惠农网行情,https://www.cnhnb.com/hangqing/q-0-0-0-1606-20221101/,third_party_b2b,C,854,2020-01-01,2026-09-22,farm_gate,
+SRC-CH-03,辽宁省农业农村厅 主要蔬菜产品价格简讯,,official_government,B,114,2024-07-18,2026-09-17,wholesale,
+SRC-CH-04,辽宁省农业农村厅 主要粮油产品价格简讯,,official_government,B,23,2024-09-04,2026-05-14,wholesale,
+SRC-CH-05,辽宁省发改委(朝阳价格监测),https://fgw.ln.gov.cn/fgw/xxgk/jgjc/fxyc/,official_government,B,19,2023-03-14,2024-08-12,market_average,
+SRC-CH-06,Open-Meteo Historical Weather API（ERA5 / ERA5-Land 再分析网格）,https://archive-api.open-meteo.com/v1/archive,official_api,A,,,,,再分析网格，非气象站实测
+SRC-CH-07,辽宁统计年鉴（农作物播种面积/产量/单产，分市）,https://tjj.ln.gov.cn/,official_statistics,A,,,,,城市级年鉴

@@ -1,0 +1,88 @@
+# 辽宁省农业农村厅 - 农产品信息 数据源配置
+# 说明：所有 URL 均来自对站点实际 DOM 的实测（2026-09 探查），非推测。
+# 分页机制：列表页分页由 JS 函数 queryArticleByCondition 驱动，真实目标 URL
+#   存放在分页 <a> 标签的 tagname 属性中（形如 /{cat}/{module_uid}-{n}.shtml）。
+#   已实测：该 URL 可直接 HTTP GET，返回 200 与对应页内容，无需浏览器自动化。
+
+site:
+  base_url: "https://nync.ln.gov.cn"
+  name: "辽宁省农业农村厅"
+  charset: "utf-8"
+  robots_status: "robots.txt 返回 404（无声明），站点未设置抓取限制；本项目采用低频限速抓取"
+
+categories:
+  - key: grain_oil
+    name: 粮油
+    display_name: 辽宁省内主要粮油品种市场价格
+    path: /nync/index/zwgk/zszdgz/ncpxx/lnsnzylypzscjg/
+    priority: P0
+    enabled: true
+  - key: vegetable
+    name: 蔬菜
+    display_name: 辽宁省内主要蔬菜品种价格
+    path: /nync/index/zwgk/zszdgz/ncpxx/lnsnzyscpzjg/
+    priority: P0
+    enabled: true
+  - key: fruit
+    name: 水果
+    display_name: 辽宁省内主要水果产品价格
+    path: /nync/index/zwgk/zszdgz/ncpxx/lnsnzysgcpjg/
+    priority: P0
+    enabled: true
+  - key: agri_input
+    name: 农资
+    display_name: 辽宁省内主要农资产品市场价格
+    path: /nync/index/zwgk/zszdgz/ncpxx/lnsnzynzcpscjg/
+    priority: P1
+    enabled: true
+
+# 预留扩展（当前不采集，框架已支持，后续按需启用）
+categories_future:
+  - key: livestock_aquatic
+    name: 畜水产
+    display_name: 辽宁省内主要畜水产品价格
+    path: /nync/index/zwgk/zszdgz/ncpxx/lnsnzycscpjg/
+    priority: P2
+    enabled: false
+
+listing:
+  # 列表条目正则：实测站点列表为 <li><a href=".../index.shtml"><span>标题</span><span>[日期]</span></a></li>
+  # 注意：历史文章 ID 为大写十六进制串，早期文章亦可能为非数字 ID，故不限制 ID 字符集。
+  item_pattern: '<li><a href="(/nync/index/zwgk/zszdgz/ncpxx/[^"]+/index\.shtml)"[^>]*>\s*<span>(.*?)</span>\s*<span>\[(.*?)\]</span>'
+  # 分页："共N页"
+  total_pages_pattern: '共(\d+)页'
+  # 下一页/尾页 URL 位于 tagname 属性（实测无 href）
+  next_page_attr: tagname
+  page_url_template: "{category_path}{module_uid}-{page_no}.shtml"
+
+article:
+  # 正文容器候选 selector，按优先级 fallback（TRS CMS 标准 + 站点自定义）
+  content_selectors:
+    - "div.TRS_Editor"
+    - "div.TRS_UEDITOR"
+    - "div#pages_content"
+    - "div.pages_content"
+    - "div.nr"
+    - "div.article-content"
+    - "div.content"
+  title_selectors:
+    - "h1"
+    - "div.artical-title"
+    - "p.dt_title"
+    - "title"
+  date_selectors:
+    - "meta[name='PubDate']"
+    - "meta[name='publishdate']"
+    - "div.artical-info"
+    - "span.date"
+
+request:
+  concurrency: 2
+  min_interval_sec: 0.5
+  max_interval_sec: 1.5
+  connect_timeout: 10
+  read_timeout: 30
+  max_retries: 3
+  backoff_sec: [2, 4, 8]
+  retry_on_status: [429, 500, 502, 503, 504]
+  user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"

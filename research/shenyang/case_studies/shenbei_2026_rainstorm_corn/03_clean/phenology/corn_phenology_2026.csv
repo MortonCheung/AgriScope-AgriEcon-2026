@@ -1,0 +1,9 @@
+﻿stage,start,end,confidence,evidence,source_id
+播种期(sowing),2026-04-20,2026-05-10,中（官方适播期区间）,沈阳市2026年技术指导意见：玉米适播期5-10cm地温稳定8-10℃，我市一般4月下旬至5月上旬；沈阳春耕计划4月下旬开犁、5月中旬播完,SRC-SY-NYJ-2026-JSZ
+出苗期(emergence),2026-05-01,2026-05-20,低（推算）,播种后约7-15天出苗（农学常识）,SRC-CROP-CALENDAR
+拔节期(jointing),2026-06-01,2026-06-25,低（区域经验）,辽宁春玉米拔节多在6月,SRC-CROP-CALENDAR
+大喇叭口期,2026-06-25,2026-07-10,低（区域经验）,抽雄前10-15天,SRC-CROP-CALENDAR
+抽雄期(tasseling),2026-07-10,2026-07-25,中（区域粒度：7月）,AgriScope作物日历：辽宁玉米flowering/抽雄期=7月；官方技术资料称7月玉米‘正值生长关键期’,SRC-CROP-CALENDAR
+吐丝期(silking),2026-07-18,2026-08-03,中（区域粒度：7月-8月）,AgriScope作物日历：pollination/吐丝期=7月-8月；需水临界期,SRC-CROP-CALENDAR
+灌浆期(grain filling),2026-08-05,2026-09-05,中（区域粒度：8月-9月）,AgriScope作物日历：grain_filling=8月-9月,SRC-CROP-CALENDAR
+成熟期(maturity),2026-09-20,2026-10-05,中（区域粒度：9月下旬-10月上旬）,AgriScope作物日历：maturity=9月；harvest=9月下旬-10月上旬,SRC-CROP-CALENDAR

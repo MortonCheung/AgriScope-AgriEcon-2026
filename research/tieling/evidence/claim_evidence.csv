@@ -1,0 +1,4 @@
+﻿claim_id,study_id,city,claim_text,claim_type,evidence_id,source_ids,table_id,figure_id,estimate,ci_low,ci_high,p_raw,p_adjusted,sample_size,method_id,status
+tieling-A09-C1,A09,铁岭,年降水 773mm（生长季 85%）；玉米 84.5%、水稻 6.7%、花生 5.9%,descriptive,,,A09_climatology.csv,,,,,,,,,SUPPORTED
+tieling-A09-C2,A09,铁岭,生长季降水占比 85%；玉米主导（玉米 84.5%、水稻 6.7%、花生 5.9%）,descriptive,,,,,,,,,,,,PARTIAL
+tieling-A07-C1,A07,铁岭,HHI=0.723、CR4=0.992；前三 玉米 84.5%；水稻 6.7%；花生 5.9%,descriptive,,,A07_concentration.csv,,0.7231541212009527,,,,,8,,SUPPORTED

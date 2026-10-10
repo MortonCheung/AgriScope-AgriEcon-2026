@@ -1,0 +1,63 @@
+{
+  "standardized_integrated_modelready_rows": 565317,
+  "tables": 69,
+  "proxy_rows": 68,
+  "proxy_tables": 3,
+  "remediation": {
+    "OK": 110026,
+    "RECOVERABLE": 33004,
+    "TRUE_NON_CROP": 3930,
+    "UNKNOWN": 670,
+    "market_average": 42031,
+    "farm_gate": 38192,
+    "retail_market": 23878,
+    "wholesale": 22661,
+    "supermarket": 19583,
+    "retail": 1067,
+    "purchase": 215,
+    "other": 3
+  },
+  "snapshot_files": [],
+  "migration": {
+    "SUPERSEDED": 149,
+    "NOT_USED": 99,
+    "FULLY_MIGRATED": 83
+  },
+  "path_dep_refs": 1060,
+  "path_dep_files": 210,
+  "gap_status": {
+    "PROXY_ONLY": 9,
+    "PUBLICLY_UNAVAILABLE": 7,
+    "LOW_PRIORITY": 3,
+    "USER_INPUT_REQUIRED": 1
+  },
+  "readiness": {
+    "price_model": 52.6,
+    "hri": 66.7,
+    "market_risk": 72.4,
+    "climate": 64.3,
+    "production": 75.0,
+    "profit": 61.4,
+    "recommendation": 78.4,
+    "evidence": 70.0
+  },
+  "sources": 235,
+  "feature_source_map_rows": 662,
+  "key_tables": {
+    "market/price_observation": 143030,
+    "market/price_observation_nonstandard": 4600,
+    "production/yearbook_shenyang_district_crop": 3519,
+    "production/bulletin_shenyang_district": 104,
+    "production/district_facility_vegetable": 14,
+    "production/facility_agriculture_city": 13,
+    "remote_sensing/ndvi": 403,
+    "climate/weather_daily": 73212
+  },
+  "not_available_markers": [
+    "case_events_NOT_AVAILABLE.json",
+    "cropland_landcover_NOT_AVAILABLE.json",
+    "lai_NOT_AVAILABLE.json",
+    "fapar_NOT_AVAILABLE.json",
+    "yield_yearly_NOT_AVAILABLE.json"
+  ]
+}

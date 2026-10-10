@@ -1,0 +1,190 @@
+{
+ "id": "A03",
+ "city": "锦州",
+ "slug": "weather-lag-accumulation-nonlinearity",
+ "title": "锦州市气象影响的滞后、累积与非线性特征",
+ "abstract": "本研究检验锦州主要农产品价格异常对气象的**滞后与累积**响应及**非线性**。价格为该城主源（菜篮子平台（图片 OCR），以超市价为主），频率日度；异常用严格无未来信息基线。滞后窗 k=1/3/7/14/21/30 期，模型 z_t = α + φ·z_(t-1) + β·exposure_window_z + ε_t（HAC(14)）。共 198 项滞后窗检验，**6 项 FDR 显著**；非线性（7 期窗二次项）33 项中 2 项显著。\n\n**关键词**：滞后窗；累积暴露；非线性；HAC；BH-FDR；锦州",
+ "frontend_summary": "锦州：滞后窗 198 项中 6 项显著；非线性 2/33。",
+ "keywords": [
+  "滞后窗",
+  "累积暴露",
+  "非线性",
+  "HAC",
+  "BH-FDR",
+  "锦州"
+ ],
+ "research_questions": [
+  "锦州价格异常是否存在气象滞后/累积/非线性响应？"
+ ],
+ "data_scope": {
+  "summary": "### 2.1 研究对象\n锦州主要蔬菜（西红柿、黄瓜、尖椒、茄子、芸豆、土豆、芹菜、大白菜、菜花、大葱、胡萝卜），频率 日度。\n\n### 2.2 数据来源\n价格：菜篮子平台（图片 OCR），以超市价为主；气象：ERA5 再分析网格。\n\n### 2.3 变量\n- z：严格去季节化价格异常。\n- exposure_window：过去 k 期的累积降水/平均最高温/平均 VPD（标准化）。"
+ },
+ "methods": [
+  {
+   "summary": "### 3.1 主分析\n逐作物×暴露×窗估计 z_t = α + φ·z_(t-1) + β·w_z + ε_t，HAC(14)。\n\n### 3.2 非线性\n7 期窗加二次项，控制自相关后检验 β_sq。\n\n### 3.3 多重检验\n按暴露分组 BH-FDR。"
+  }
+ ],
+ "key_findings": [
+  {
+   "heading": "研究问题与背景"
+  },
+  {
+   "heading": "数据与变量"
+  },
+  {
+   "heading": "研究方法"
+  },
+  {
+   "heading": "研究结果"
+  },
+  {
+   "heading": "讨论"
+  },
+  {
+   "heading": "研究局限"
+  },
+  {
+   "heading": "结论"
+  }
+ ],
+ "sections": [
+  {
+   "number": "1",
+   "title": "研究问题与背景",
+   "content": "锦州价格异常是否存在气象滞后/累积/非线性响应？"
+  },
+  {
+   "number": "2",
+   "title": "数据与变量",
+   "content": "### 2.1 研究对象\n锦州主要蔬菜（西红柿、黄瓜、尖椒、茄子、芸豆、土豆、芹菜、大白菜、菜花、大葱、胡萝卜），频率 日度。\n\n### 2.2 数据来源\n价格：菜篮子平台（图片 OCR），以超市价为主；气象：ERA5 再分析网格。\n\n### 2.3 变量\n- z：严格去季节化价格异常。\n- exposure_window：过去 k 期的累积降水/平均最高温/平均 VPD（标准化）。"
+  },
+  {
+   "number": "3",
+   "title": "研究方法",
+   "content": "### 3.1 主分析\n逐作物×暴露×窗估计 z_t = α + φ·z_(t-1) + β·w_z + ε_t，HAC(14)。\n\n### 3.2 非线性\n7 期窗加二次项，控制自相关后检验 β_sq。\n\n### 3.3 多重检验\n按暴露分组 BH-FDR。"
+  },
+  {
+   "number": "4",
+   "title": "研究结果",
+   "content": "### 滞后窗\n198 项中 **6 项 FDR 显著**：大葱×precipitation(k=1) +0.373；土豆×precipitation(k=7) -0.662；芹菜×precipitation(k=21) -0.376；茄子×precipitation(k=1) -0.168；胡萝卜×precipitation(k=30) -0.396；芹菜×precipitation(k=1) +0.417。（表 A03_lag_windows.csv）\n\n### 累积窗汇总\n     exposure  window  n_tests  n_sig  median_beta\nprecipitation       1       11      3     0.036863\nprecipitation       3       11      0     0.076010\nprecipitation       7       11      1     0.024521\nprecipitation      14       11      0    -0.048857\nprecipitation      21       11      1    -0.130526\nprecipitation      30       11      1    -0.177814\n     temp_max       1       11      0    -0.022590\n     temp_max       3       11      0    -0.014653\n     temp_max       7       11      0    -0.063478\n     temp_max      14       11      0    -0.033383\n     temp_max      21       11      0    -0.095616\n     temp_max      30       11      0    -0.146408\n          vpd       1       11      0     0.046649\n          vpd       3       11      0     0.000919\n          vpd       7       11      0    -0.064466\n          vpd      14       11      0     0.007530\n          vpd      21       11      0     0.091381\n          vpd      30       11      0     0.008795\n\n### 非线性\n33 项二次项检验中 2 项显著；控制自相关后非线性证据有限。（表 A03_nonlinearity.csv）"
+  },
+  {
+   "number": "5",
+   "title": "讨论",
+   "content": "滞后窗显著项的分布反映气象影响的时滞结构；但显著比例低、效应量小，说明价格异常主要由自身持续性解释。非线性证据薄弱，提示不宜引入阈值型机制叙事。观察性设计不构成因果。"
+  },
+  {
+   "number": "6",
+   "title": "研究局限",
+   "content": "1. **价格口径**：菜篮子平台（图片 OCR），以超市价为主，非批发市场，跨城不可直接比较。\n2. **再分析网格**：ERA5 平滑极端值。\n3. **自相关**：价格异常强持续，未控制自相关会高估气象显著性（本分析已控制）。\n4. **窗长上限 30**：更长窗在周度城市信息量不足。"
+  },
+  {
+   "number": "7",
+   "title": "结论",
+   "content": "锦州：滞后窗 198 项中 6 项 FDR 显著，非线性 2/33；气象影响的滞后/累积/非线性证据部分存在，效应量普遍较小。"
+  }
+ ],
+ "limitations": [
+  "1. **价格口径**：菜篮子平台（图片 OCR），以超市价为主，非批发市场，跨城不可直接比较。",
+  "2. **再分析网格**：ERA5 平滑极端值。",
+  "3. **自相关**：价格异常强持续，未控制自相关会高估气象显著性（本分析已控制）。",
+  "4. **窗长上限 30**：更长窗在周度城市信息量不足。"
+ ],
+ "conclusion": "锦州：滞后窗 198 项中 6 项 FDR 显著，非线性 2/33；气象影响的滞后/累积/非线性证据部分存在，效应量普遍较小。",
+ "figures": [
+  {
+   "file": "A03_lag_profile.png"
+  }
+ ],
+ "tables": [
+  {
+   "file": "A03_lag_windows.csv"
+  },
+  {
+   "file": "A03_accumulation.csv"
+  },
+  {
+   "file": "A03_nonlinearity.csv"
+  }
+ ],
+ "source_ids": [
+  "SRC-JI-01",
+  "SRC-JI-02",
+  "SRC-JI-06",
+  "SRC-JI-07"
+ ],
+ "status": "DRAFT",
+ "explorer": {
+  "selectors": [
+   {
+    "key": "crop",
+    "label": "作物",
+    "options": [
+     "西红柿",
+     "黄瓜",
+     "尖椒",
+     "茄子",
+     "芸豆",
+     "土豆",
+     "芹菜",
+     "大白菜",
+     "菜花",
+     "大葱",
+     "胡萝卜"
+    ]
+   },
+   {
+    "key": "exposure",
+    "label": "暴露",
+    "options": [
+     "precipitation",
+     "temp_max",
+     "vpd"
+    ]
+   },
+   {
+    "key": "window",
+    "label": "滞后窗",
+    "options": [
+     1,
+     3,
+     7,
+     14,
+     21,
+     30
+    ]
+   }
+  ],
+  "metrics": [
+   "n_lag_tests",
+   "n_lag_sig",
+   "n_nl_sig"
+  ],
+  "series": [
+   {
+    "id": "lag_profile",
+    "table": "A03_lag_windows.csv",
+    "x": "window",
+    "y": "beta_per_sd",
+    "group": "crop",
+    "facet": "exposure"
+   }
+  ],
+  "tables": [
+   "A03_lag_windows.csv",
+   "A03_accumulation.csv",
+   "A03_nonlinearity.csv"
+  ],
+  "figures": [
+   "A03_lag_profile.png"
+  ],
+  "sources": [],
+  "methodology": "### 3.1 主分析\n逐作物×暴露×窗估计 z_t = α + φ·z_(t-1) + β·w_z + ε_t，HAC(14)。\n\n### 3.2 非线性\n7 期窗加二次项，控制自相关后检验 β_sq。\n\n### 3.3 多重检验\n按暴露分组 BH-FDR。",
+  "limitations": [
+   "1. **价格口径**：菜篮子平台（图片 OCR），以超市价为主，非批发市场，跨城不可直接比较。",
+   "2. **再分析网格**：ERA5 平滑极端值。",
+   "3. **自相关**：价格异常强持续，未控制自相关会高估气象显著性（本分析已控制）。",
+   "4. **窗长上限 30**：更长窗在周度城市信息量不足。"
+  ]
+ }
+}

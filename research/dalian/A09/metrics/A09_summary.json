@@ -1,0 +1,14 @@
+{
+ "city": "dalian",
+ "clim": {
+  "n_years": 17,
+  "precip_ann_mean": 613.2647058823529,
+  "precip_gs_mean": 509.2647058823528,
+  "tmean_ann_mean": 11.874454982467288,
+  "precip_ann_recent": 715.9333333333334,
+  "precip_ann_early": 557.2636363636364,
+  "gs_share": 0.8304158073953286
+ },
+ "prod_top": "玉米 66.8%、大豆 14.9%、花生 6.7%",
+ "prod_hhi": 0.47981522174604513
+}

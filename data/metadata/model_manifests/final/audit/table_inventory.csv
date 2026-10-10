@@ -1,0 +1,20 @@
+﻿table,topic,rows,cols,date_range,n_city,n_crop,granularity,dup_full_rows,content_md5
+chaoyang_extended/environment_daily.parquet,朝阳环境日频,6101,31,date:2010-01-01~2026-09-14,1,0,daily,0,60cd76a5c28218dab4d4c0c90f8d6210
+chaoyang_extended/market_daily.parquet,朝阳市场日频价格（market_average 主源）,37129,44,observation_date:2020-01-01~2026-09-22,1,49,daily,0,c751bf468e724f2db46a8e6a063c9558
+chaoyang_extended/phenology.parquet,朝阳物候日历,74,34,start_date:2022-07-01~2026-06-10,1,8,event,0,6b2339e54b440df7223142d89f65a9eb
+climate/climate_daily.parquet,六城环境日频（合并）,36606,31,date:2010-01-01~2026-09-14,6,0,daily,0,a074ce5fae482c3f9ccb29314e97aa3b
+climate/vegetation_anomaly.parquet,六城植被异常（月度）,403,14,period:2021-01-01~2026-09-01,6,0,monthly,0,e09160796ba6d613422ec7d25fee2faf
+hri/hri_inputs.parquet,HRI 输入（城×作物×周）,39188,23,-,6,110,-,0,f51e5b573b4c9a640e9298f1136e1f43
+jinzhou_extended/environment_daily.parquet,锦州环境日频,6101,31,date:2010-01-01~2026-09-14,1,0,daily,0,4c76f49ec1b1d8a382ee45909bd32505
+jinzhou_extended/market_daily.parquet,锦州市场日频价格（多 level/OCR）,35123,44,observation_date:2020-01-01~2026-09-22,1,48,daily,0,0df9bab090636f8b4984c47912329845
+jinzhou_extended/phenology.parquet,锦州物候日历,62,34,start_date:2022-09-15~2026-05-01,1,9,event,0,d583a0200649b5ff0ac8a8221a5bd66f
+profit/cost_components.parquet,成本构成（研究参考）,13,34,-,9,8,cross_section,0,e58e6ea41ccf1af551c601e1ebef40e5
+profit/cost_proxy.parquet,成本 proxy（区域）,7,32,-,2,3,-,0,94c7d95e0e7984af6fbd4020b448239f
+profit/crop_cost.parquet,作物成本（LOCAL/PROXY）,16,35,-,6,5,yearly,0,e873fab15165e7e75a1ed9c6d62aaafa
+recommendation/market_nodes.parquet,市场节点（静态）,32,22,-,6,0,static,0,3bc0a650a38ce8ad3683313138b34be9
+recommendation/structural_context.parquet,结构性上下文（多 block 合并宽表）,808,83,-,24,17,cross_section|static|yearly,83,ce0131023da6c8cac999d344104b4533
+shenyang_core/cost_reference.parquet,沈阳成本参考（RESEARCH_REFERENCE）,13,34,-,9,8,cross_section,0,e58e6ea41ccf1af551c601e1ebef40e5
+shenyang_core/crop_context.parquet,沈阳设施蔬菜结构（截面）,53,27,-,2,10,cross_section,0,229c38b3b1dcc6d579e2ca768f3aa766
+shenyang_core/environment_daily.parquet,沈阳环境日频（ERA5/ERA5-Land+NDVI月度）,6101,31,date:2010-01-01~2026-09-14,1,0,-,0,305f4f476076491e22d23f6b9516a647
+shenyang_core/market_daily.parquet,沈阳市场日频价格（wholesale）,14100,44,observation_date:2021-01-01~2026-09-14,1,10,daily,0,7419c5fde60944795792dca8097fea28
+shenyang_core/phenology.parquet,沈阳物候日历（多 geo_scope）,95,34,start_date:2020-04-30~2026-07-16,1,5,event,0,08a26c4c54b5f746f1c0608c0797ad06

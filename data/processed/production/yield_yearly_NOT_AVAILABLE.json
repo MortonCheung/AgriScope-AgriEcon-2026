@@ -1,0 +1,7 @@
+{
+  "table": "yield_yearly",
+  "status": "NOT_AVAILABLE",
+  "reason": "由 planting_area_yearly × production_yearly 在 03_integrated 派生（避免重复口径）",
+  "searched": "data/raw/ + city_data/ + supplements",
+  "access_date": "2026-10-04"
+}

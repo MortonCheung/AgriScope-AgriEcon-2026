@@ -1,0 +1,45 @@
+# ============================================================================
+# AgriScope v1.0 · 单仓库（ONE OFFICIAL REPOSITORY）
+# 只追踪「源码与清单」；大型运行时资产由 runtime/manifest.json 管理。
+# ============================================================================
+
+# --- 依赖 / 构建 / 缓存 ---
+node_modules/
+dist/
+output/
+.vite/
+.playwright-cli/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+*.log
+.env
+
+# --- 大型运行时资产（不进 Git；由 pipelines/publishing 从外层 data/models 生成）---
+# runtime/manifest.json 仍在 Git 中，用于记录本次发布使用了哪些资产与版本。
+runtime/models/models/
+runtime/models/data/
+runtime/models/evaluation/
+runtime/models/reports/
+runtime/models/registry/
+runtime/models/src/
+runtime/data/
+runtime/research/
+runtime/*.csv
+
+# --- 归档 / 参考 / 训练缓存（不进 Git）---
+archive/
+reference/
+catboost_info/
+
+# --- LLM 调用缓存与中间产物 ---
+# llm/cache contains Python source; response caches live under llm/artifacts/cache.
+llm/artifacts/
+
+# --- Long-Horizon 研究中间产物（大 parquet/csv；源与交付报告仍进 Git）---
+pipelines/long_horizon/artifacts/
+pipelines/long_horizon/reports/

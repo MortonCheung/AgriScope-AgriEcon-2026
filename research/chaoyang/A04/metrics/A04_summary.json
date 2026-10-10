@@ -1,0 +1,10 @@
+{
+ "city": "chaoyang",
+ "freq": "D",
+ "n_event_days": 159,
+ "n_event_clusters": 60,
+ "n_official_disaster": 13,
+ "median_post_z": 0.10760012351388987,
+ "placebo_p": 0.858739837398374,
+ "alpha": 0.05
+}

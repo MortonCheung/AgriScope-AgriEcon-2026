@@ -1,0 +1,65 @@
+# =============================================================================
+# 核心研究对象定义
+# 依据：city_data/reference/marts/fact_market_supply.csv（批发 marketType=1）+ fact_price_city（wholesale）
+#       沈阳批发口径连续可得 10 种蔬菜，2020-01-03 ~ 2026-09-21，1655 个交易日
+# =============================================================================
+
+market:
+  city: 沈阳
+  market_type: wholesale        # 仅批发口径有真实有效 volume
+  market_name: 沈阳市批发市场平均（市本级）
+  price_unit_raw: 元/500g       # 原始单位永久保留，不强制换算
+  volume_unit: unknown          # 官方未公开
+  region: 市本级
+
+# 10 种核心批发蔬菜（crop_raw 原文名，禁止改名）
+core_crops:
+  - 土豆
+  - 尖椒
+  - 甘蓝
+  - 芸豆
+  - 芹菜
+  - 茄子
+  - 西红柿
+  - 青椒
+  - 韭菜
+  - 黄瓜
+
+# 品种别名（同一 crop 在官方接口中的多个 grade 写法，用于核对）
+grade_notes:
+  黄瓜: "新鲜一级，水黄瓜"
+  尖椒: "新鲜一级"
+  麻辣椒: "非核心对象（尖椒同科但独立品类）"
+
+# 非核心零售商品（不进入核心面板，仅用于交叉核对）
+non_core_examples:
+  - 大白菜
+  - 大萝卜
+  - 冬瓜
+  - 油菜
+  - 菠菜
+  - 菜花
+
+# 年度生产层的作物（年尺度，来自辽宁统计年鉴 / 沈阳市统计公报）
+# 注意：年鉴/公报中 10 种批发蔬菜 无分品种生产数据，仅「蔬菜及食用菌」合计
+yearly_crops:
+  grain_oilseed:
+    - 玉米
+    - 水稻
+    - 大豆
+    - 花生
+    - 小麦
+    - 高粱
+    - 谷子
+    - 薯类
+  aggregate_vegetable:
+    - 蔬菜及食用菌
+  total:
+    - 粮食
+
+# 农资（不是作物；任何候选/选定作物逻辑都不得纳入）
+agricultural_inputs:
+  - urea
+  - compound_fertilizer
+  - diammonium_phosphate
+  - soybean_meal

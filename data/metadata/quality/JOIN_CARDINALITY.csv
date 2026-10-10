@@ -1,0 +1,11 @@
+﻿table_a,table_b,shared_city,only_a,only_b
+city_crop_yearly.parquet,city_daily_environment.parquet,6,8,0
+city_crop_yearly.parquet,city_structural_context.parquet,14,0,11
+city_daily_environment.parquet,city_structural_context.parquet,6,0,19
+city_crop_weekly.parquet,city_crop_yearly.parquet,6,0,8
+city_crop_weekly.parquet,city_daily_environment.parquet,6,0,0
+city_crop_weekly.parquet,city_structural_context.parquet,6,0,19
+city_crop_monthly.parquet,city_crop_yearly.parquet,6,0,8
+city_crop_monthly.parquet,city_daily_environment.parquet,6,0,0
+city_crop_monthly.parquet,city_crop_weekly.parquet,6,0,0
+city_crop_monthly.parquet,city_structural_context.parquet,6,0,19

@@ -1,0 +1,41 @@
+variable,study_ids,layer,definition,unit,source,transformation,role,notes
+price,A01;A02;A03;A04;A05;A06,market,沈阳主要蔬菜批发市场日度批发价,元/500g,沈阳市发改委菜篮子信息发布平台（经 liaoning-agri-risk 04_marts/fact_price_city.csv）,log 变换仅用于趋势回归；异常用去季节化稳健 z（主）与相对偏离%（次）,outcome;predictor,原样单位；禁止换算为元/公斤以外的替代口径除非同时给出换算说明
+volume,A01;A02;A03;A04;A05;A06,market,批发市场日度成交量,unknown（官方未标注）,04_marts/fact_market_supply.csv,仅相对口径（稳健 z / 相对偏离% / log 变化）,outcome;predictor,单位未知：禁止写"吨"；禁止做绝对量比较
+price_anomaly_z_hist,A02;A03;A04;A05;A06,market,价格相对季节性常态的稳健 z（主口径）,标准差单位,由 price 与留一年法历史同期（doy±5）中位数基线构造,anomaly=(price-expected)；scale=1.4826×MAD（按品种×留一年）；z=anomaly/scale,outcome,无未来信息：基线不含目标年
+volume_anomaly_z_hist,A02;A03;A04;A05;A06,market,成交量相对季节性常态的稳健 z（主口径）,标准差单位,同上,同上,outcome,单位未知故必须用 z
+price_anomaly_pct_hist,A01;A02,market,价格相对季节性常态的相对偏离,%,同上,anomaly/expected×100,outcome(secondary),分母为期望值；低价品种会放大，须与 z 并列报告
+precipitation,A02;A03;A08,weather,日降水量（ERA5 再分析网格）,mm,Open-Meteo Archive API（ERA5）,原样；累积量按日历日 rolling sum,exposure,再分析数据：不得称气象站实测
+precip_1d,A03,weather,当日降水,mm,同上,=precipitation,exposure(accumulation),与 precip_3d/7d/14d 比较累积效应
+precip_3d,A02;A03;A08,weather,3 日累计降水,mm,同上,rolling(3).sum(),exposure,—
+precip_7d,A02;A03,weather,7 日累计降水,mm,同上,rolling(7).sum(),exposure,—
+precip_14d,A03,weather,14 日累计降水,mm,同上,rolling(14).sum(),exposure,—
+temp_mean,A02;A03,weather,日平均气温,℃,同上,原样,exposure,—
+temp_max,A02;A03;A08,weather,日最高气温,℃,同上,原样；A08 用其异常/分位,exposure,ERA5 网格平滑：≥35℃日数在 2020-2024 为 0，禁止用作主暴露
+temp_min,A02,weather,日最低气温,℃,同上,原样,exposure,—
+temp_anomaly,A02;A03;A08,weather,气温相对 1991-2020 同期基线的距平,℃,同上,"temp_mean - clim_temp_mean_mean",exposure(A08 主用),A08 用标准化异常或同区县历史分位
+vpd,A02;A03;A08,weather,饱和水汽压差（VPD max）,kPa,同上,原样,exposure,农学可解释
+humidity,A02,weather,日平均相对湿度,%,同上,原样,exposure,与 VPD 共线，二选一或分模型
+wind_speed,A02,weather,日最大风速,m/s,同上,原样,exposure,—
+soil_moisture_0_7,A02;A03;A08,weather,0-7cm 土壤含水量（ERA5-Land）,m³/m³,同上（era5_land hourly→日聚合）,原样；异常 z 用观测期 LOO 基线,exposure,官方 30 年基线缺失：异常口径证据等级 B
+et0,A02;A03;A08,weather,参考蒸散量（FAO）,mm,同上,原样/累加,exposure(supplementary),§9 列为水分类核心暴露之一
+radiation,A02,weather,短波辐射累计,MJ/m²,同上,原样,exposure(supplementary),放补充分析
+pressure_msl,A02,weather,海平面气压,hPa,同上,原样,exposure(supplementary),放补充分析
+dew_point,A02,weather,露点温度,℃,同上,原样,exposure(supplementary),放补充分析
+cloud_cover,A02,weather,云量,%,同上,原样,exposure(supplementary),放补充分析
+is_public_holiday,A01;A02;A06,calendar,法定节假日哑变量,0/1,04_marts/dim_calendar.csv,原样,control,日历控制
+is_extreme_period,A04,calendar,是否处于灾害影响窗（事件起前1日~结束后7日）,0/1,由 fact_disaster_events 构造,原样,stratifier,A04 事件窗与分层
+sown_area,A07;A08,production,农作物播种面积,公顷,《沈阳统计年鉴》分区县农业表（3-4）,原样,outcome(A07);control/structure(A08),禁止与产量做绝对量比较
+production,A07;A08,production,农作物总产量,吨,同上（3-5）,原样,outcome,secondary outcome in A08
+yield_value,A07;A08,production,农作物单产量（官方公布）,公斤/公顷,同上（3-6）,原样；A08 用 log 或标准化异常,outcome(A07);primary outcome(A08),官方直接公布值，非反算
+yield_calculated,A07,production,由产量÷面积反算的单产,公斤/公顷,由 production/sown_area×1000,计算值,QA only,仅用于一致性校验，不得作为结果
+growing_season_temp_mean,A08,weather_annual,生长季（5-9月）平均气温,℃,由区县日度 ERA5 聚合,mean over months 5-9,exposure,生长季定义沿用 config time.growing_season_months
+growing_season_precip,A08,weather_annual,生长季累计降水,mm,同上,sum over months 5-9,exposure,—
+max_1d_precip,A08,weather_annual,年内最大 1 日降水,mm,同上,max over year,exposure,强降水强度
+max_3d_precip,A08,weather_annual,年内最大 3 日累计降水,mm,同上,rolling(3).sum().max(),exposure,—
+heavy_rain_days,A08,weather_annual,年内日降水≥50mm 的天数,天,同上,count(precipitation>=50),exposure,阈值沿用 config hazard_thresholds.rainstorm_daily_mm
+hot_days,A08,weather_annual,年内日最高温≥35℃ 的天数,天,同上,count(temp_max>=35),NOT used as primary,ERA5 平滑：2020-2024 为 0；仅作记录
+district,A07;A08,geo,农业区县（苏家屯/浑南/沈北新区/于洪/辽中/康平/法库/新民）,—,《沈阳统计年鉴》农业表列,/,-(FE),8 个区县；城市核心区不单列
+year,A01;A07;A08,time,数据年份,—,统计年鉴/公报,/,-(FE),A07/A08 主时间 2018-2024
+crop,A01;A07;A08,agri,作物或统计类别,—,统计年鉴,/,(grouping),层级嵌套（粮食⊃谷物⊃稻谷/玉米）：禁止相加
+event_cluster,A04;A05,event,复合事件簇（间隔≤3 天合并为一个簇）,—,由 fact_disaster_events（算法）与官方通报（官方）分别构造,/,-,两套事件严格分开
+z_rel,A04;A05,market,事件相对化稳健 z（减去事件前基准窗均值）,标准差单位,由 price/volume_anomaly_z_hist 与事件基准窗构造,anomaly_z - mean(基准窗),outcome,基准窗 T-14~T-4

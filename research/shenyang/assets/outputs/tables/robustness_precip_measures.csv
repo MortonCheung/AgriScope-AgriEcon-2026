@@ -1,0 +1,4 @@
+﻿measure,threshold_mm,days_flagged,max_mm
+precip_1d (daily ≥50mm),50.0,2,173.9
+precip_3d (3d cum ≥100mm),100.0,3,221.1
+precip_7d (7d cum ≥150mm),150.0,7,283.2

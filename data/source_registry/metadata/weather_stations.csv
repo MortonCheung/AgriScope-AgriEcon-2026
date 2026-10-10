@@ -1,0 +1,8 @@
+﻿station_id,station_name,latitude,longitude,elevation,city,district,station_type,source
+OM-沈阳,沈阳 ERA5 再分析网格点,41.796768,123.429092,,沈阳,,reanalysis_grid,open-meteo-era5-reanalysis
+OM-铁岭,铁岭 ERA5 再分析网格点,42.290585,123.844276,,铁岭,,reanalysis_grid,open-meteo-era5-reanalysis
+OM-朝阳,朝阳 ERA5 再分析网格点,41.576759,120.45118,,朝阳,,reanalysis_grid,open-meteo-era5-reanalysis
+OM-锦州,锦州 ERA5 再分析网格点,41.11927,121.135742,,锦州,,reanalysis_grid,open-meteo-era5-reanalysis
+OM-丹东,丹东 ERA5 再分析网格点,40.124294,124.383041,,丹东,,reanalysis_grid,open-meteo-era5-reanalysis
+OM-大连,大连 ERA5 再分析网格点,38.914589,121.618622,,大连,,reanalysis_grid,open-meteo-era5-reanalysis
+OM-沈北新区,沈北新区 ERA5 再分析网格点,42.052311,123.521469,,沈北新区,,reanalysis_grid,open-meteo-era5-reanalysis

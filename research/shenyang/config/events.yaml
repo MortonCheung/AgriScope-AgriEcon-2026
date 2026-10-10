@@ -1,0 +1,71 @@
+# =============================================================================
+# 极端天气事件定义
+# 红线：官方灾害事件与算法派生事件严格分开，永不混用
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# 事件来源分级（event_source 字段取值）
+# -----------------------------------------------------------------------------
+event_sources:
+  derived_weather:
+    label: 算法派生（Open-Meteo ERA5 再分析日值阈值识别）
+    table: city_data/reference/marts/fact_disaster_events.csv
+    city_filter: 沈阳
+    count_expected: 20
+    note: 阈值来自 config/analysis.yaml hazard_thresholds；不是官方灾情通报
+  official:
+    label: 官方通报
+    table: city_data/reference/marts/fact_disaster_events_shenyang_2026_official.csv
+    count_expected: 6
+    note: 沈阳市 / 沈北新区政府门户；含 city / district / township / village 空间级别
+  official_province:
+    label: 官方通报（省级口径）
+    table: raw_data/disaster/official_2026/official_agricultural_disaster_events.json
+    note: 省级受灾约 290 万亩等；spatial_level=province，禁止摊派到市级
+
+# -----------------------------------------------------------------------------
+# 事件重叠 / 复合规则（Phase 5 §31）
+# -----------------------------------------------------------------------------
+overlap_rules:
+  gap_days: 3                 # 相邻事件间隔 ≤3 天 → 同一复合事件簇
+  action: merge_to_compound   # 合并为复合事件，并在 event_overlap / compound_event 标记
+  keep_original: true         # 原始事件保留，不删除
+  compound_hazard_types:      # 复合类型命名（按簇内 hazard 集合事后命名）
+    all_rain: 连续降雨复合
+    rain_heat: 雨热复合
+    mixed: 混合复合
+
+# -----------------------------------------------------------------------------
+# 2026 年 7 月暴雨重点案例（Phase 6）
+#   事实来自官方通报，非算法推定
+# -----------------------------------------------------------------------------
+case_2026_07:
+  case_id: SY-2026-07-RAINSTORM
+  label: 2026年7月沈阳特大暴雨
+  # 派生天气口径（ERA5 再分析，日值阈值识别）
+  derived_start: 2026-07-11
+  derived_end: 2026-07-15
+  derived_peak_date: 2026-07-13
+  derived_max_daily_rain_mm: 173.9
+  derived_3d_accumulated_mm: 221.1
+  derived_event_ids: [EV00098, EV00099, EV00100, EV00101]
+  # 官方口径（沈阳市人民政府 / 沈北新区）
+  official_start: 2026-07-12
+  official_end: 2026-07-17
+  official_event_id: SYD-2026-07-01
+  official_rainfall_text: "13日0-17时全地区平均129.5mm；城区平均234.7mm；13日0时-14日16时城区平均346.8mm（特大暴雨）"
+  official_transferred_persons: 81360
+  official_response: 7月13日9时10分市防指发布防汛红色预警、应急响应升至最高一级；13-14日停工停课停运停业+居家办公
+  official_hydro: 蒲河1957年以来第一大洪水、浑河1951年以来第二大洪水；棋盘山水库建库以来首次超设计水位
+  # 研究口径：以 ERA5 派生口径做量化（可与天气序列对齐），以官方口径做定性佐证
+  analysis_t0: 2026-07-13
+
+# -----------------------------------------------------------------------------
+# 历史极端事件全景（用于 Event Study 平均响应）
+# -----------------------------------------------------------------------------
+historical_event_types: [rainstorm, heavy_rain, heat]
+excluded_event_types: [drought]     # 沈阳派生事件中无 drought；若出现则单独处理
+event_type_labels:
+  rainstorm: 暴雨（单日≥50mm）
+  heavy_rain: 连续强降雨（3日累计≥100mm）
+  heat: 高温（连续≥2日≥35℃）

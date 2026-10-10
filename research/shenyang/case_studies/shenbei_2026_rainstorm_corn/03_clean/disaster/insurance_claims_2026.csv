@@ -1,0 +1,7 @@
+﻿claim_id,record_date,scope,item,value,unit,status,source_type,source_id,source_url,raw_file,quality,notes
+CLM-SY-2026-001,2026-08-11,沈阳市(全市口径，含沈北),已支付农业保险理赔资金,44,万元,已支付(截至8月11日),official,SRC-SY-CZJ-2026-0811,https://www.shenyang.gov.cn/zwgk/,01_sources/official/sy_czj_agri_insurance_20260811.html,A,★唯一的官方理赔实况数字；未按区县拆分，沈北分摊额未知；相对于沈北1万亩级受淹面积，此数字提示实际获赔覆盖面或赔付进度有限
+CLM-SY-2026-002,2026-08-11,沈阳市(全市口径),承保机构捐赠抽水泵,170,台,已捐赠,official,SRC-SY-CZJ-2026-0811,https://www.shenyang.gov.cn/zwgk/,01_sources/official/sy_czj_agri_insurance_20260811.html,A,★排涝装备实物投入；与八间房村12台8寸泵、省应急厅44台大型泵可并列为三级排水力量
+CLM-SY-2026-003,2026-08-11,沈阳市(全市口径),承保机构捐赠物资价值,94.5,万元,已捐赠,official,SRC-SY-CZJ-2026-0811,https://www.shenyang.gov.cn/zwgk/,01_sources/official/sy_czj_agri_insurance_20260811.html,A,含矿泉水400箱、方便面501箱等
+CLM-SY-2026-004,2026-07-14,沈阳市(全市口径),农业保险防汛救灾推进会,1,次,已召开,official,SRC-SY-CZJ-2026-0811,https://www.shenyang.gov.cn/zwgk/,01_sources/official/sy_czj_agri_insurance_20260811.html,A,"市财政局会同市农业农村局；动员承保机构""能赔快赔、应赔尽赔、合理预赔"""
+CLM-SY-2026-005,2026-07~08,沈阳市(全市口径),查勘定损手段,卫星遥感+无人机+现场走访,—,执行中,official,SRC-SY-CZJ-2026-0811,https://www.shenyang.gov.cn/zwgk/,01_sources/official/sy_czj_agri_insurance_20260811.html,A,★与遥感技术路线吻合：官方定损本身就用卫星遥感，佐证遥感灾损评估的业务可行性
+CLM-LN-2026-006,2026-07~08,辽宁省,遥感定损无人机投入,200+,台,报道口径,media_secondary,SRC-TT-LN-CLAIM-2026,https://m.toutiao.com/article/7662055881047835179,(未保存原文),C,"⚠️二手媒体口径，未获官方文件确认；该报道同时把保额写成""800-950元/亩""、起赔线写成""10%""，均与官方条款不符 → 整体可信度降级，仅作量级参考"

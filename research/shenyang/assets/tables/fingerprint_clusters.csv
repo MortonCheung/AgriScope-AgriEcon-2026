@@ -1,0 +1,3 @@
+﻿cluster_label,n_curves,members,price_trough,price_trough_off,price_end,price_swing,volume_trough,volume_trough_off,volume_end,volume_swing,cluster_name
+1,19,土豆·价、土豆·量、尖椒·价、尖椒·量、甘蓝·价、甘蓝·量、芸豆·价、芸豆·量、芹菜·价、芹菜·量、茄子·价、茄子·量、西红柿·价、西红柿·量、青椒·价、青椒·量、韭菜·价、韭菜·量、黄瓜·量,-0.219,5,0.018,0.483,-0.18,13.0,0.035,0.485,量平稳(-0.18)、价平稳(-0.22)
+2,1,黄瓜·价,-1.183,9,-0.199,2.372,,,,,价深谷(-1.18)

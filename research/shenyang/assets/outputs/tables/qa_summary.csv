@@ -1,0 +1,38 @@
+﻿check,target,value,status,note
+气象序列连续性,weather_daily,2083 天 / 断裂 0 处,PASS,2021-01-01 起完整日序列，无断裂
+市场观测日,market_daily,1655 个交易日,PASS,
+无效日期,market_daily,0,PASS,
+市场观测日落在周末,market_daily,0,PASS,
+三源共同覆盖期（核心研究窗口）,weather ∩ market,2021-01-01 ~ 2026-09-14,PASS,天气止于 2026-09-14（再分析滞后），核心窗口随之截止
+核心窗口面板行数,daily_panel,14100,PASS,= 1410 个交易日 × 10 品种
+原始批发层完全重复行,market_raw,0,PASS,Raw 保留，不删除
+原始批发层业务主键(date+crop)重复行,market_raw,0,PASS,Curated 层按记录序保留首条
+marts 批发层业务主键重复行,fact_price_city(wholesale),0,PASS,
+日历归因/published(已发布有观测),market_calendar,1655,PASS,67.4% 的日历日
+日历归因/collection_gap(采集缺口：未发起请求),market_calendar,702,INFO,28.6% 的日历日
+日历归因/not_published_holiday(已请求·法定节假日未发布),market_calendar,76,INFO,3.1% 的日历日
+日历归因/not_published_workday(已请求·工作日未发布),market_calendar,23,INFO,0.9% 的日历日
+缺失处理策略,全项目,留空(null),PASS,禁止插值 / 禁止把缺失当 0
+10 种蔬菜覆盖天数（最小/最大）,market_raw,1655 / 1655,PASS,10 种全部 1655 天齐备
+marts 与 Raw 价格一致,fact_price_city,不一致 0 行,PASS,
+marts 与 Raw 成交量一致,fact_market_supply,不一致 0 行,PASS,
+派生极端天气事件（沈阳）,fact_disaster_events,20,PASS,event_source=derived_weather
+官方灾害通报事件（沈阳 2026）,official,6,PASS,event_source=official
+复合事件簇（簇内事件数>1）,derived_weather,3,INFO,间隔 ≤3 天合并；原始事件全部保留
+事件类型计数,rainstorm,11,INFO,
+事件类型计数,heavy_rain,6,INFO,
+事件类型计数,heat,3,INFO,
+价格≤0 行数,daily_panel,0,PASS,
+成交量<0 行数,daily_panel,0,PASS,
+成交量=0 行数,daily_panel,0,PASS,批发口径 16550 条全部 >0（原始层已过滤）
+极端值（|MAD-z|>6）总计数,daily_panel,347,INFO,仅标记，不删除、不填补
+气象物理合理性：降水<0,weather_daily,0,PASS,
+气象物理合理性：湿度越界,weather_daily,0,PASS,
+气象物理合理性：temp_max<temp_min,weather_daily,0,PASS,
+气象物理合理性：土壤含水量越界,weather_daily,0,PASS,
+气候基线覆盖 doy,climatology_daily,366,PASS,1991-2020 共 30 年，2/29 归并入 doy=59
+基线每个 doy 有效年数（最小/最大）,climatology_daily,8 / 38,PASS,
+降水经验分位覆盖率,weather_daily,100.00%,PASS,
+土壤含水量异常 z 基线口径,weather_daily,observation_period_loo,INFO,1991-2020 基线 JSON 的 soil_moisture_0_to_10cm_mean 全为 null → 降级为观测期 leave-one-year-out 同期（doy±5）期望 + 1.4826×MAD 稳健尺度（见 BLOCKERS.md），证据等级 A→B
+土壤含水量异常 z 覆盖率,weather_daily,100.00%,PASS,
+与仓库 1991-2020 周基线交叉核对（最大差值℃）,weekly_climatology,4.036,PASS,本研究用日值基线重建，两者应一致（差异来自聚合口径）

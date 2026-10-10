@@ -1,0 +1,102 @@
+# AgriScope Models — 路径配置
+# 迁移说明（2026-10-07 结构收口）：
+#   旧 decision_engine/ 已更名为 models/；
+#   旧 city_data/ 已按职责拆分（research→data/research，原始来源→data/raw）；
+#   正式模型输入层统一为 data/model_ready/。
+# 原则：正式模型优先读取 data/model_ready/；
+#       冻结快照 models/data/snapshots/ 为当前实际输入（兼容映射，见下）；
+#       marts/curated 默认不读（口径与 canonical 冲突，见审计报告 §6.1）。
+
+# 项目根：不再硬编码本机绝对路径（架构规范 §5.1）。
+#   ROOT 由 decision_engine/common.py 按「环境变量 PROJECT_ROOT/AGRISCOPE_ROOT → 由 __file__ 位置推导」得出；
+#   此键仅为文档性提示，消费方不得把它当作可用路径使用。
+project_root: auto
+
+# 引擎工作区（相对 project_root）
+workspace: models
+
+# 输入源（只读，禁止写入）
+# 注：canonical 原为 city_data/<city>/data；结构收口后该层不复存在，
+#     其原始证据保留在 data/raw/retained_source/city_data/<city>/data/。
+#     正式模型输入层请以 data/model_ready/ 为准。
+inputs:
+  canonical: data/model_ready
+  legacy_canonical_raw: data/raw/retained_source/city_data/{city}/data
+  supplement: data/raw/decision_engine_supplement
+  supplement_v2: data/raw/decision_engine_supplement_v2
+  supplement_v3: data/raw/decision_engine_supplement_v3
+  shenyang_research: data/research/shenyang
+  # marts/curated 不在默认输入内（口径与 canonical 冲突，见审计报告 §6.1）
+
+# Decision Engine v2（推荐/优化层）输入清单：v2/v3 补充层（optional enhancement）
+snapshot_globs_v2:
+  - data/raw/decision_engine_supplement_v2/*
+  - data/raw/decision_engine_supplement_v3/*
+
+# 快照与产物
+snapshot_version: v1
+snapshot_dir: models/data/snapshots/v1
+
+# Decision Engine v2 产物目录
+v2:
+  snapshot_dir: models/data/snapshots/v2
+  manifest: models/data/manifests/input_manifest_v2.csv
+  rec_dir: models/evaluation/recommendation
+  opt_dir: models/evaluation/optimization
+  port_dir: models/evaluation/portfolio
+processed_dir: models/data/processed
+features_dir: models/data/features
+manifests_dir: models/data/manifests
+models_dir: models/models
+evaluation_dir: models/evaluation
+open_source_dir: models/evaluation/open_source
+outputs_dir: models/outputs
+docs_dir: models/docs
+
+# 城市
+cities:
+  p0: 沈阳
+  p1: [朝阳, 锦州]
+  p2_no_price_model: [大连, 铁岭, 丹东]
+
+# 沈阳 P0 作物（canonical crop_standard，10 种批发蔬菜）
+shenyang_crops: [土豆, 西红柿, 黄瓜, 韭菜, 青椒, 尖椒, 茄子, 芹菜, 芸豆, 甘蓝]
+
+# 快照文件清单（相对 project_root 的 glob）
+# 结构收口后，原 city_data/<city>/data 的原始证据位于 data/raw/retained_source/city_data/<city>/data/
+snapshot_globs:
+  - data/raw/retained_source/city_data/shenyang/data/price_observation.csv
+  - data/raw/retained_source/city_data/shenyang/data/volume_observations.csv
+  - data/raw/retained_source/city_data/shenyang/data/weather_daily_era5.csv
+  - data/raw/retained_source/city_data/shenyang/data/weather_daily_era5land.csv
+  - data/raw/retained_source/city_data/shenyang/data/weather_extra_daily_era5.csv
+  - data/raw/retained_source/city_data/shenyang/data/weather_extra_daily_era5land.csv
+  - data/raw/retained_source/city_data/shenyang/data/disaster_events_observed.csv
+  - data/raw/retained_source/city_data/shenyang/data/policy_events.csv
+  - data/raw/retained_source/city_data/shenyang/data/phenology_events.csv
+  - data/raw/retained_source/city_data/shenyang/data/input_cost_weekly.csv
+  - data/raw/retained_source/city_data/chaoyang/data/price_observation.csv
+  - data/raw/retained_source/city_data/chaoyang/data/production_yearly.csv
+  - data/raw/retained_source/city_data/chaoyang/data/weather_daily_era5.csv
+  - data/raw/retained_source/city_data/chaoyang/data/soil_daily.csv
+  - data/raw/retained_source/city_data/chaoyang/data/disaster_events_observed.csv
+  - data/raw/retained_source/city_data/chaoyang/data/phenology_events.csv
+  - data/raw/retained_source/city_data/jinzhou/data/price_observation.csv
+  - data/raw/retained_source/city_data/jinzhou/data/production_yearly.csv
+  - data/raw/retained_source/city_data/jinzhou/data/weather_daily_era5.csv
+  - data/raw/retained_source/city_data/jinzhou/data/soil_daily.csv
+  - data/raw/retained_source/city_data/jinzhou/data/disaster_events_observed.csv
+  - data/raw/retained_source/city_data/jinzhou/data/phenology_events.csv
+  - data/raw/retained_source/city_data/dalian/data/price_observation.csv
+  - data/raw/retained_source/city_data/dalian/data/production_yearly.csv
+  - data/raw/retained_source/city_data/dalian/data/weather_daily_era5.csv
+  - data/raw/retained_source/city_data/dalian/data/soil_daily.csv
+  - data/raw/retained_source/city_data/tieling/data/price_observation.csv
+  - data/raw/retained_source/city_data/tieling/data/production_yearly.csv
+  - data/raw/retained_source/city_data/tieling/data/weather_daily_era5.csv
+  - data/raw/retained_source/city_data/tieling/data/soil_daily.csv
+  - data/raw/retained_source/city_data/dandong/data/price_observation.csv
+  - data/raw/retained_source/city_data/dandong/data/production_yearly.csv
+  - data/raw/retained_source/city_data/dandong/data/weather_daily_era5.csv
+  - data/raw/retained_source/city_data/dandong/data/soil_daily.csv
+  - data/raw/retained_source/city_data/reference/decision_engine_supplement/*.csv

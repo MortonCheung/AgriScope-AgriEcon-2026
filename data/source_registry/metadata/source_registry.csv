@@ -1,0 +1,31 @@
+source_id,category,organization,dataset_name,official_flag,spatial_resolution,temporal_resolution,date_range,access_method,status,notes,checked_at
+SRC-LN-NYNC-PRICE,price,辽宁省农业农村厅,农产品信息·价格简讯,官方,省/市/区县(极值),周,2021-03-11~2026-09-17,HTML列表分页(JS tagname)+正文解析,success,1125篇文章、26216条记录；含省级均价与最高/最低价地区,2026-09-21
+SRC-MOA-PFSC-MARKET,price,农业农村部,全国农产品批发市场价格信息系统·市场目录,官方,市场,静态,-,公开JSON API(/price_portal/region/selectList、getMarketByProvinceCode),partial,取辽宁12个市场(含经纬度)；丹东、铁岭无纳入市场,2026-09-21
+SRC-MOA-PFSC-PRICE,price,农业农村部,全国农产品批发市场价格信息系统·价格查询,官方,市场×品种,日,-,XHR(/api/priceQuotationController/pageList),blocked_by_auth,接口需Bearer token，匿名返回404；未绕过鉴权,2026-09-21
+SRC-MOFCOM,price,商务部,全国农产品产销智能分析平台,官方,市场,日,-,网站,network_failed,域名解析失败；zdscxx.mofcom.gov.cn 502,2026-09-21
+SRC-LN-FGW-PRICE,price,辽宁省发展和改革委员会,价格监测(每日价格/涉农产品/农副产品),官方,省,日/周,-,栏目页,not_publicly_available,三个栏目均无列表内容(空栏目),2026-09-21
+SRC-WEATHER-CMA,weather,中国气象局,中国气象数据网,官方,站点,日,-,网站/API,blocked_by_auth,需登录+实名认证；未绕过,2026-09-21
+SRC-WEATHER-OM,weather,Copernicus/ECMWF 经 Open-Meteo,ERA5 / ERA5-Land 再分析,非官方,0.25°网格(城市点),日/小时,2021-01-01~2026-09-14；基线1991-2020,公开REST API,success,核心11变量+扩展8变量+日照时数+土壤3层；data_type=reanalysis,2026-09-21
+SRC-WEATHER-NASA,weather,NASA,POWER Daily API (MERRA2),非官方,0.5°网格,日,2021-01-01~2026-09-14,公开REST API,success,交叉验证用,2026-09-21
+SRC-LN-TJJ-YEARBOOK,production,辽宁省统计局,辽宁统计年鉴(Excel),官方,省/市,年,2017~2019(3卷),官网ZIP下载→Excel解析,partial,仅公开2018/2019/2020三卷；含播种面积/产量/单产/农业生产条件/人口/CPI/收入/GDP/官方城市气象,2026-09-21
+SRC-LN-TJJ-BULLETIN,production,辽宁省统计局,年度统计公报,官方,省,年,-,网页文本,partial,文字叙述，未结构化为城市面板,2026-09-21
+SRC-LN-SLT-DISASTER,disaster,辽宁省水利厅,汛情快报/监测预警/防汛动态,官方,省/市,事件,2026,网页文本,partial,列表为异步加载，静态页无条目；仅少量文本,2026-09-21
+SRC-LN-NYNC-DISASTER,disaster,辽宁省农业农村厅,农业要闻(防灾减灾),官方,省,事件,2026,网页文本+关键词过滤,partial,命中少且多为外省转载,2026-09-21
+SRC-DERIVED-WEATHER-EVENTS,disaster,本项目派生,极端天气事件(气象阈值识别),派生,城市,事件,2021~2026,日值固定阈值算法,success,140起(暴雨63/强降水54/高温19/干旱4)；与官方通报严格分开,2026-09-21
+SRC-LN-PESTS,pests,辽宁省农业农村厅及省农业发展服务中心,植保/病虫害相关公开栏目,官方,省/区域(原文),事件,2026,网页文本+关键词过滤,partial,32篇文章；未结构化到城市级；region_raw保留原文如「辽西北」,2026-09-21
+SRC-LN-FGW-FUEL,input_cost,辽宁省发展和改革委员会,成品油价格调整公告,官方,省,调价期,2026-07~2026-09(6期),PDF下载+pypdf解析,partial,仅近期公告公开；含92#/95#/0#柴油批发零售价,2026-09-21
+SRC-LN-SOIL-OFFICIAL,soil,辽宁省农业农村厅,土壤墒情/旱情监测,官方,-,-,-,栏目检索,not_publicly_available,未发现公开的结构化墒情历史序列,2026-09-21
+SRC-ERA5LAND-SOIL,soil,Copernicus 经 Open-Meteo,ERA5-Land 土壤分层含水量,非官方,0.1°网格,小时→日,2021~2026-09-14,公开REST API,success,0-7/7-28/28-100cm 土壤水 + 0-7cm 土温；data_type=reanalysis,2026-09-21
+SRC-MARKET-SUPPLY,market_supply,-,批发市场上市量/成交量/库存,-,-,-,-,-,not_publicly_available,官方系统不公开结构化供应量数据,2026-09-21
+SRC-LOGISTICS,logistics,交通运输部门,物流中断/道路封闭事件,官方,-,事件,-,网站检索,not_publicly_available,多为实时公告，无结构化历史留存,2026-09-21
+SRC-HYDRO-MWR,hydro,水利部,大江大河/大型水库水情,官方,站点,实时,-,网站,network_failed,xxfb.mwr.cn 返回502,2026-09-21
+SRC-HYDRO-LNSLT,hydro,辽宁省水利厅,水文动态/实时水情,官方,站点,实时,-,栏目页,partial,列表异步加载，静态页面无条目,2026-09-21
+SRC-DCE,macro,大连商品交易所,玉米/大豆/豆油期货行情,官方,-,日,-,网站,blocked_by_auth,HTTP 412 反爬，需特定Cookie；未绕过,2026-09-21
+SRC-STATS-CN,macro,国家统计局,数据查询接口(CPI/人口等),官方,省/市,月/年,-,API data.stats.gov.cn,blocked_by_auth,HTTP 403 IP限制；**CPI已改从辽宁统计年鉴 Excel 取得**,2026-09-21
+SRC-LN-TJJ-WIDE,macro,辽宁省统计局,辽宁统计年鉴·各地区宽表,官方,市,年/月,2014~2019,Excel解析,success,官方城市气象汇总(气温/湿度/降水/日照时数)、人口、CPI、城乡居民收入、GDP,2026-09-21
+SRC-CALENDAR,macro,国务院办公厅,法定节假日安排,官方,-,日,2021~2026,chinese_calendar库,success,2191天,2026-09-21
+SRC-REMOTE-SENSING,remote_sensing,NASA/ESA,MODIS/Sentinel-2 植被指数,非官方,像元→城市,8~16天,-,未采集,not_publicly_available,P3增强层，本轮按手册第30节不阻塞主流程，未采集,2026-09-21
+SRC-SY-BULLETIN-2025,production,沈阳市统计局/国家统计局沈阳调查队,2025年沈阳市国民经济和社会发展统计公报+粮食产量调查,官方,市,年,2025,网页→正文解析,success,公报2026-05-19发布；粮食549.6千公顷/420.0万吨；调查队单产与公报互证；蔬菜分类数据（白菜/茄果/叶菜）,2026-09-21
+SRC-SY-CLZ-PRICE,price,沈阳市发展和改革委员会,菜篮子信息发布平台（lnsyjgjc.com）,官方,市,日,2020-01-02~2026-09-21,公开GET API（marketType 1批发/2超市/3集市）,partial,已采5262 JSON/143527条；volume=日成交量(批发)，单位官方未标注=unknown；2026-09站点改版为登录制、旧接口500，无法继续公开增量采集,2026-09-21
+SRC-SY-DISASTER-2026,disaster,沈阳市防指/市气象局/沈北新区政府/辽宁省防指,2026年7月台风巴威暴雨沈阳与沈北灾情通报,官方,市/区/街道,事件,2026-07-12~17,网页文本,success,市级：全地区平均129.5mm/城区346.8mm、转移81360人、一级应急响应；街道级转移（马刚423人/虎石台50人）；市级农业受灾面积官方未拆分公开,2026-09-21
+SRC-VEG-AGRO-REF,agronomy,农业农村部/辽宁等省农业农村厅/农科院/地方标准,10种蔬菜物候与气象敏感性参考资料,官方/机构,辽宁/东北/北方,静态参考,-,网页检索+标准库,success,178行物候+敏感性；阈值均带来源URL（见01_raw/agronomy/vegetable_reference_sources.json）；商业来源（陵丰种苗）降级标明,2026-09-21

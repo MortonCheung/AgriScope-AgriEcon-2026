@@ -1,0 +1,6 @@
+﻿exposure,n_tests,n_sig,median_abs_beta
+precipitation,11,2,0.12457834790744696
+soil_moisture,11,0,0.09075478972415406
+temp_max,11,1,0.134894913862707
+vpd,11,0,0.10454572521132277
+wind_speed,11,0,0.09230942212886721

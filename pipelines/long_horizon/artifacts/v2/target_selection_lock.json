@@ -1,0 +1,12 @@
+{
+  "harvest_definition": "harvest_post_14",
+  "target_scores": {
+    "harvest_centered_14": 33.82507787236975,
+    "harvest_centered_7": 33.87638154807127,
+    "harvest_post_14": 34.31077754672808,
+    "harvest_post_7": 34.09216976210723
+  },
+  "selection_data": "development+tuning only",
+  "config_hash": "3259aaad287e25b757c62e9bb293aaf0471a0bca34ffb5fae5a82f1ef8d7affe",
+  "locked_at": "2026-10-07T18:04:51.221885+00:00"
+}

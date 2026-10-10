@@ -1,0 +1,13 @@
+﻿dimension,key,n_rows,pct
+crop_recovery_flag,OK,110026,74.528
+crop_recovery_flag,RECOVERABLE,33004,22.356
+crop_recovery_flag,TRUE_NON_CROP,3930,2.662
+crop_recovery_flag,UNKNOWN,670,0.454
+price_level,market_average,42031,28.471
+price_level,farm_gate,38192,25.87
+price_level,retail_market,23878,16.174
+price_level,wholesale,22661,15.35
+price_level,supermarket,19583,13.265
+price_level,retail,1067,0.723
+price_level,purchase,215,0.146
+price_level,other,3,0.002

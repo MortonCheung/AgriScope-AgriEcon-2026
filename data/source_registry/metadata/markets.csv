@@ -1,0 +1,13 @@
+market_id,market_name,province,city,district,market_type,market_category,enterprise_name,address,latitude,longitude,source
+2102006,大连双兴,210000,210200,116011,0,1,大连双兴商品城有限公司,大连市西岗区兴业街9号大菜市工商税务楼302,38.92499,121.620,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2113018,辽朝阳果菜,210000,211300,122000,0,1,辽宁朝阳市果菜批发市场,辽宁省朝阳市和平街三段12号,41.569,120.42883,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2113010,辽宁凌源,210000,211300,122500,0,1,辽宁省凌源市八里堡蔬菜果品批发市场有限公司,辽宁省凌源市八里堡蔬菜果品批发市场有限公司,41.236879,119.365908,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2101011,沈阳南五,210000,210100,110005,0,0,辽宁沈阳南五农副产品批发市场,暂无,41.790246,123.287338,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2113012,辽宁北票,210000,211300,122100,0,1,辽宁北票蔬菜批发市场,辽宁省北票蔬菜批发市场管理委员会,41.907686,120.855908,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2108014,辽宁大石桥,210000,210800,115100,0,0,辽宁大石桥博洛铺蔬菜果品批发市场,辽宁大石桥市博洛铺蔬菜果品批发市场,40.66524,122.273302,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2101000,沈阳十二线,210000,210100,110002,0,0,辽宁沈阳十二线蔬菜批发市场,沈阳市畜牧副食局和平区绥化东街2号,41.821492,123.421127,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2103001,辽宁南台,210000,210300,114202,0,0,辽宁海城市南台镇禽蛋专业批发市场,辽宁省海城市南台镇,40.927984,122.804441,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2107003,北镇窟隆台,210000,210700,121304,0,1,辽宁北宁市窟窿台蔬菜批发市场,辽宁北宁市窟窿台蔬菜批发市场,41.563256,121.96834,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2101023,盛发市场,210000,210100,110141,0,1,沈阳盛发菜果批发有限公司,沈阳经济技术开发区洪湖一街11号,41.779231,123.320674,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2103013,辽宁鞍山,210000,210300,,0,1,辽宁鞍山宁远农产品批发市场,辽宁鞍山市鞍腾路186号,41.110626,122.995628,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode
+2109019,阜新瑞轩蔬菜农副产品综合批发市场,210000,210900,,0,1,阜新市瑞轩实业发展有限公司,辽宁省阜新市细河区东风路西段瑞轩蔬菜批发市场办公楼,42.011795,121.648964,pfsc.agri.cn /api/priceQuotationController/getMarketByProvinceCode

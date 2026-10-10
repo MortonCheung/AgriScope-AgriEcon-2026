@@ -1,0 +1,328 @@
+﻿date,commodity,price,unit,price_type,market_name,location,location_level,source_id,source_name,data_nature,quality,note
+2024-07-10,玉米,2.36,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-07-10,玉米,2.4,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-07-10,玉米,2.3,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-07-18,玉米,2.36,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-07-18,玉米,2.4,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-07-18,玉米,2.3,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-07-24,玉米,2.34,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-07-24,玉米,2.42,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-07-24,玉米,2.28,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-08-02,玉米,2.34,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-08-02,玉米,2.4,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-08-02,玉米,2.26,元/公斤,farmgate_extremum,全省最低地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-08-08,玉米,2.32,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-08-08,玉米,2.4,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-08-08,玉米,2.24,元/公斤,farmgate_extremum,全省最低地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-08-16,玉米,2.3,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-08-16,玉米,2.36,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-08-16,玉米,2.22,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-08-22,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-08-22,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-08-22,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-08-29,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-08-29,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-08-29,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-09-04,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-09-04,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-09-04,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-09-14,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-09-14,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-09-14,玉米,2.18,元/公斤,farmgate_extremum,全省最低地区,营口,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-09-19,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-09-19,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-09-19,玉米,2.16,元/公斤,farmgate_extremum,全省最低地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-09-27,玉米,2.2,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-09-27,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-09-27,玉米,2.1,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-10-11,玉米,2.1,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-10-11,玉米,2.14,元/公斤,farmgate_extremum,全省最高地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-10-11,玉米,2.06,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-10-17,玉米,2.1,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-10-17,玉米,2.1,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-10-17,玉米,2.04,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-10-23,玉米,2.06,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-10-23,玉米,2.14,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-10-23,玉米,1.94,元/公斤,farmgate_extremum,全省最低地区,本溪,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-10-31,玉米,2.02,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-10-31,玉米,2.08,元/公斤,farmgate_extremum,全省最高地区,营口,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-10-31,玉米,1.92,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-11-06,玉米,2.02,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-11-06,玉米,2.1,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-11-06,玉米,1.96,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-11-14,玉米,2.02,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-11-14,玉米,2.1,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-11-14,玉米,1.92,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-11-20,玉米,2.0,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-11-20,玉米,2.04,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-11-20,玉米,1.86,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-11-28,玉米,2.0,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-11-28,玉米,2.1,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-11-28,玉米,1.9,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-12-05,玉米,2.0,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-12-05,玉米,2.06,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-12-05,玉米,1.82,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-12-11,玉米,1.94,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-12-11,玉米,2.04,元/公斤,farmgate_extremum,全省最高地区,营口,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-12-11,玉米,1.8,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-12-20,玉米,1.94,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-12-20,玉米,2.04,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-12-20,玉米,1.8,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-12-25,玉米,1.92,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2024-12-25,玉米,2.0,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2024-12-25,玉米,1.8,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-01-03,玉米,1.9,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-01-03,玉米,1.96,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-01-03,玉米,1.82,元/公斤,farmgate_extremum,全省最低地区,阜新,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-01-09,玉米,1.9,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-01-09,玉米,1.94,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-01-09,玉米,1.8,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-01-16,玉米,1.9,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-01-16,玉米,1.96,元/公斤,farmgate_extremum,全省最高地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-01-16,玉米,1.8,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-01-22,玉米,1.9,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-01-22,玉米,1.96,元/公斤,farmgate_extremum,全省最高地区,营口,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-01-22,玉米,1.8,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-02-06,玉米,1.92,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-02-06,玉米,2.0,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-02-06,玉米,1.84,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-02-13,玉米,1.94,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-02-13,玉米,2.04,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-02-13,玉米,1.86,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-02-20,玉米,1.96,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-02-20,玉米,2.06,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-02-20,玉米,1.88,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-02-27,玉米,2.0,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-02-27,玉米,2.1,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-02-27,玉米,1.88,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-03-06,玉米,2.02,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-03-06,玉米,2.1,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-03-06,玉米,1.92,元/公斤,farmgate_extremum,全省最低地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-03-12,玉米,2.02,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-03-12,玉米,2.12,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-03-12,玉米,1.94,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-03-20,玉米,2.06,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-03-20,玉米,2.2,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-03-20,玉米,1.96,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-03-28,玉米,2.1,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-03-28,玉米,2.2,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-03-28,玉米,1.98,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-04-03,玉米,2.1,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-04-03,玉米,2.2,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-04-03,玉米,1.98,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-04-16,玉米,2.1,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-04-16,玉米,2.22,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-04-16,玉米,2.02,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-04-24,玉米,2.1,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-04-24,玉米,2.2,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-04-24,玉米,1.98,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-04-30,玉米,2.12,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-04-30,玉米,2.2,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-04-30,玉米,2.06,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-05-07,玉米,2.14,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-05-07,玉米,2.2,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-05-07,玉米,2.08,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-05-16,玉米,2.18,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-05-16,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-05-16,玉米,2.1,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-05-21,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-05-21,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-05-21,玉米,2.18,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-05-29,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-05-29,玉米,2.26,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-05-29,玉米,2.16,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-06-05,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-06-05,玉米,2.28,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-06-05,玉米,2.16,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-06-12,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-06-12,玉米,2.28,元/公斤,farmgate_extremum,全省最高地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-06-12,玉米,2.18,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-06-20,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-06-20,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-06-20,玉米,2.18,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-06-25,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-06-25,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-06-25,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-07-03,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-07-03,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-07-03,玉米,2.22,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-07-10,玉米,2.28,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-07-10,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-07-10,玉米,2.24,元/公斤,farmgate_extremum,全省最低地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-07-18,玉米,2.28,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-07-18,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-07-18,玉米,2.24,元/公斤,farmgate_extremum,全省最低地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-07-25,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-07-25,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-07-25,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-08-01,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-08-01,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-08-01,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-08-07,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-08-07,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-08-07,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-08-15,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-08-15,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-08-15,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-08-21,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-08-21,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-08-21,玉米,2.18,元/公斤,farmgate_extremum,全省最低地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-08-28,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-08-28,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-08-28,玉米,2.18,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-09-05,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-09-05,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-09-05,玉米,2.12,元/公斤,farmgate_extremum,全省最低地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-09-11,玉米,2.18,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-09-11,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-09-11,玉米,2.12,元/公斤,farmgate_extremum,全省最低地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-09-18,玉米,2.18,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-09-18,玉米,2.24,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-09-18,玉米,2.14,元/公斤,farmgate_extremum,全省最低地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-09-30,玉米,2.18,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-09-30,玉米,2.22,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-09-30,玉米,2.12,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-10-11,玉米,2.18,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-10-11,玉米,2.2,元/公斤,farmgate_extremum,全省最高地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-10-11,玉米,2.16,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-10-16,玉米,2.12,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-10-16,玉米,2.16,元/公斤,farmgate_extremum,全省最高地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-10-16,玉米,2.04,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-10-24,玉米,2.04,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-10-24,玉米,2.16,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-10-24,玉米,1.98,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-10-31,玉米,2.04,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-10-31,玉米,2.12,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-10-31,玉米,1.98,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-11-06,玉米,2.02,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-11-06,玉米,2.1,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-11-06,玉米,1.98,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-11-14,玉米,2.02,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-11-14,玉米,2.12,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-11-14,玉米,1.92,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-11-20,玉米,2.02,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-11-20,玉米,2.12,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-11-20,玉米,1.94,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-11-28,玉米,2.04,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-11-28,玉米,2.12,元/公斤,farmgate_extremum,全省最高地区,朝阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-11-28,玉米,1.98,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-12-04,玉米,2.06,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-12-04,玉米,2.16,元/公斤,farmgate_extremum,全省最高地区,朝阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-12-04,玉米,1.96,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-12-11,玉米,2.12,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-12-11,玉米,2.22,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-12-11,玉米,2.04,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-12-17,玉米,2.12,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-12-17,玉米,2.22,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-12-17,玉米,2.0,元/公斤,farmgate_extremum,全省最低地区,朝阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-12-25,玉米,2.12,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2025-12-25,玉米,2.18,元/公斤,farmgate_extremum,全省最高地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2025-12-25,玉米,2.02,元/公斤,farmgate_extremum,全省最低地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-01-04,玉米,2.12,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-01-04,玉米,2.2,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-01-04,玉米,2.02,元/公斤,farmgate_extremum,全省最低地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-01-09,玉米,2.14,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-01-09,玉米,2.24,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-01-09,玉米,2.02,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-01-16,玉米,2.14,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-01-16,玉米,2.24,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-01-16,玉米,2.06,元/公斤,farmgate_extremum,全省最低地区,阜新,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-01-22,玉米,2.16,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-01-22,玉米,2.26,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-01-22,玉米,2.06,元/公斤,farmgate_extremum,全省最低地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-01-30,玉米,2.16,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-01-30,玉米,2.26,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-01-30,玉米,2.08,元/公斤,farmgate_extremum,全省最低地区,阜新,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-02-05,玉米,2.16,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-02-05,玉米,2.26,元/公斤,farmgate_extremum,全省最高地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-02-05,玉米,2.04,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-02-13,玉米,2.14,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-02-13,玉米,2.24,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-02-13,玉米,2.06,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-02-27,玉米,2.14,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-02-27,玉米,2.24,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-02-27,玉米,2.08,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-03-06,玉米,2.16,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-03-06,玉米,2.28,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-03-06,玉米,2.06,元/公斤,farmgate_extremum,全省最低地区,丹东,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-03-13,玉米,2.2,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-03-13,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-03-13,玉米,2.1,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-03-20,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-03-20,玉米,2.36,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-03-20,玉米,2.12,元/公斤,farmgate_extremum,全省最低地区,阜新,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-04-02,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-04-02,玉米,2.34,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-04-02,玉米,2.14,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-04-09,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-04-09,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-04-09,玉米,2.14,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-04-17,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-04-17,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-04-17,玉米,2.12,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-04-23,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-04-23,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-04-23,玉米,2.22,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-04-30,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-04-30,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-04-30,玉米,2.24,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-05-07,玉米,2.28,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-05-07,玉米,2.34,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-05-07,玉米,2.26,元/公斤,farmgate_extremum,全省最低地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-05-14,玉米,2.28,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-05-14,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-05-14,玉米,2.24,元/公斤,farmgate_extremum,全省最低地区,朝阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-05-21,玉米,2.28,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-05-21,玉米,2.32,元/公斤,farmgate_extremum,全省最高地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-05-21,玉米,2.24,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-05-29,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-05-29,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-05-29,玉米,2.24,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-06-04,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-06-04,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-06-04,玉米,2.24,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-06-12,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-06-12,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-06-12,玉米,2.22,元/公斤,farmgate_extremum,全省最低地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-06-18,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-06-18,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,鞍山,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-06-18,玉米,2.22,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-06-26,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-06-26,玉米,2.3,元/公斤,farmgate_extremum,全省最高地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-06-26,玉米,2.22,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-07-02,玉米,2.26,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-07-02,玉米,2.28,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-07-02,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-07-10,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-07-10,玉米,2.28,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-07-10,玉米,2.22,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-07-17,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-07-17,玉米,2.28,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-07-17,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-07-23,玉米,2.24,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-07-23,玉米,2.26,元/公斤,farmgate_extremum,全省最高地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-07-23,玉米,2.2,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-07-30,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-07-30,玉米,2.26,元/公斤,farmgate_extremum,全省最高地区,营口,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-07-30,玉米,2.16,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-08-07,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-08-07,玉米,2.26,元/公斤,farmgate_extremum,全省最高地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-08-07,玉米,2.16,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-08-13,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-08-13,玉米,2.26,元/公斤,farmgate_extremum,全省最高地区,沈阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-08-13,玉米,2.16,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-08-20,玉米,2.2,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-08-20,玉米,2.24,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-08-20,玉米,2.14,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-08-27,玉米,2.2,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-08-27,玉米,2.24,元/公斤,farmgate_extremum,全省最高地区,锦州,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-08-27,玉米,2.16,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-09-03,玉米,2.2,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-09-03,玉米,2.26,元/公斤,farmgate_extremum,全省最高地区,大连,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-09-03,玉米,2.14,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-09-10,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-09-10,玉米,2.28,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-09-10,玉米,2.14,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-09-17,玉米,2.22,元/公斤,farmgate,辽宁省省级汇总,辽宁省,province,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic,B,省级产地收购均价（全省汇总）
+2026-09-17,玉米,2.28,元/公斤,farmgate_extremum,全省最高地区,辽阳,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接
+2026-09-17,玉米,2.14,元/公斤,farmgate_extremum,全省最低地区,铁岭,county_extremum,SRC-LNNYNC-GRAIN,辽宁省农业农村厅 主要粮油产品价格简讯,official_statistic_extremum,C,⚠️极值锚定观测（全省最高/最低地区），**非连续价格序列**，禁止与 farmgate 连续序列拼接

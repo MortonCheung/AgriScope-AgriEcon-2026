@@ -1,0 +1,65 @@
+# 六城研究：城市配置（唯一权威来源）
+# 说明：primary_sources 为各城"主分析"价格来源（子串匹配 source_name）；
+#      五城价格层级不同，禁止跨城比较价格水平，只比较结构与相对指标。
+#      price_level_note 仅用于报告口径说明。
+
+cities:
+  shenyang:
+    name: 沈阳
+    role: reference            # 参照模板（已有 A01–A09）
+    primary_sources: ["沈阳菜篮子信息发布平台"]
+    primary_price_level: wholesale
+    price_level_note: "批发市场价（元/500g）"
+    has_volume: true
+    has_district_production: true
+    window: ["2021-01-01", "2026-09-14"]
+
+  chaoyang:
+    name: 朝阳
+    role: five_city
+    primary_sources: ["朝阳市发改委"]
+    primary_price_level: market_average
+    price_level_note: "发改委菜篮子『全市平均价格』（元/500g，非批发市场）"
+    has_volume: false
+    has_district_production: false
+    window: ["2021-01-01", "2026-09-21"]
+
+  jinzhou:
+    name: 锦州
+    role: five_city
+    primary_sources: ["锦州市菜篮子"]
+    primary_price_level: supermarket
+    price_level_note: "菜篮子平台（图片 OCR），以超市价为主"
+    has_volume: false
+    has_district_production: false
+    window: ["2020-07-01", "2026-09-21"]
+
+  dalian:
+    name: 大连
+    role: five_city
+    primary_sources: ["12316金农热线"]
+    primary_price_level: mixed_weekly
+    price_level_note: "农业农村局周报（周度；含零售市场/产地价，层级混合）"
+    has_volume: false
+    has_district_production: false
+    window: ["2017-01-01", "2026-09-22"]
+
+  dandong:
+    name: 丹东
+    role: five_city
+    primary_sources: ["惠农网行情"]
+    primary_price_level: farm_gate
+    price_level_note: "第三方 B2B 产地行情（稀疏；质量 C）"
+    has_volume: false
+    has_district_production: false
+    window: ["2020-01-01", "2026-09-22"]
+
+  tieling:
+    name: 铁岭
+    role: five_city
+    primary_sources: ["惠农网行情"]
+    primary_price_level: farm_gate
+    price_level_note: "第三方 B2B 产地行情（稀疏；质量 C）"
+    has_volume: false
+    has_district_production: false
+    window: ["2020-01-01", "2026-09-22"]

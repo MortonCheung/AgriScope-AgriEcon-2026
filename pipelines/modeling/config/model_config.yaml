@@ -1,0 +1,81 @@
+# AgriScope Decision Engine — 模型配置
+seed: 42
+
+# 时间回测切分（expanding window，按年）
+backtest:
+  folds:
+    - name: fold1_test2024
+      train_end: "2023-12-31"
+      test_start: "2024-01-01"
+      test_end: "2024-12-31"
+    - name: fold2_test2025
+      train_end: "2024-12-31"
+      test_start: "2025-01-01"
+      test_end: "2025-12-31"
+    - name: fold3_test2026
+      train_end: "2025-12-31"
+      test_start: "2026-01-01"
+      test_end: "2026-09-14"
+  # 训练最早起点（价格数据起始）
+  train_start: "2021-01-01"
+  # 30 天目标需要未来窗口，末端样本 target=NA
+  target_horizons_days: [7, 14, 30]
+
+# 主目标（业务优先）：未来 30 天平均价格
+primary_target: target_mean_price_next_30d
+secondary_targets:
+  - target_mean_price_next_7d
+  - target_mean_price_next_14d
+  - target_median_price_next_30d
+  - target_price_t7
+  - target_price_t14
+  - target_price_t30
+
+# 价格单位（canonical 原始为 元/斤，派生 元/kg）
+price_unit_canonical: CNY/500g
+price_unit_model: CNY/kg
+
+# 缺测处理
+min_train_rows_per_crop: 200
+missing_policy: "不插值；模型入模行不足时报告实际样本数"
+
+# 模型候选（sklearn 兼容）
+models:
+  linear: [ridge, elasticnet, linear]
+  tree: [random_forest, extra_trees, hist_gradient_boosting]
+  boosting_optional: [xgboost, lightgbm, catboost]
+  ebm: interpret_ebm
+  statsforecast: [naive, seasonal_naive, auto_arima, auto_ets, auto_theta, auto_ces, mstl]
+  baselines: [last_value, rolling_mean_7, rolling_mean_30, seasonal_median, previous_year_same_period]
+
+# 模型选择原则：跨 fold 平均最稳定（mean + lambda*std）
+selection:
+  primary_metric: WAPE
+  stability_lambda: 0.5
+
+# 区间
+interval:
+  nominal_coverage: 0.80
+  quantiles: [0.1, 0.5, 0.9]
+  methods: [seasonal_quantile, residual_calibration, quantile_regression, mapie_conformal]
+
+# HRI
+hri:
+  weight_schemes: [equal, conceptual, entropy]
+  levels: ["<P50", "P50-P75", "P75-P90", ">=P90"]
+  forward_windows: [30, 60, 90]
+
+# 气候暴露
+climate:
+  baseline_years: [1991, 2020]
+  heavy_rain_mm: 50
+  heat_percentiles: [0.90, 0.95]
+
+# 决策评分权重（默认 balanced 风险偏好）
+decision_weights:
+  conservative: {expected_return: 0.20, downside_risk: 0.30, market_risk: 0.20, herding: 0.15, climate: 0.15}
+  balanced:     {expected_return: 0.35, downside_risk: 0.20, market_risk: 0.20, herding: 0.15, climate: 0.10}
+  aggressive:   {expected_return: 0.50, downside_risk: 0.15, market_risk: 0.15, herding: 0.10, climate: 0.10}
+
+# 随机性
+random_state: 42

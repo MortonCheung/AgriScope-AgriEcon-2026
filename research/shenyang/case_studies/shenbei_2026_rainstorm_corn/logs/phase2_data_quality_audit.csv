@@ -1,0 +1,13 @@
+dataset,path,rows,cols,dup,miss,tmin,tmax
+玉米历史(扩展),03_clean/agriculture/corn_history_extended.csv,8,11,0,0.0,,
+年度生育期天气特征,04_marts/corn_year_weather_features.csv,36,165,0,0.0475,1970-01-01,1970-01-01
+统一建模数据集,04_marts/corn_model_dataset_annual.csv,8,179,0,0.0,1970-01-01,1970-01-01
+CORE特征集,04_marts/corn_model_dataset_annual_CORE.csv,8,18,0,0.0,1970-01-01,1970-01-01
+文献参数库,04_marts/literature_parameter_library.csv,7,13,0,0.0769,,
+2026灾损结果变量,03_clean/disaster/disaster_outcomes_2026.csv,4,13,0,0.0,,
+干预量化,03_clean/intervention/intervention_quantified.csv,3,24,0,0.1944,,
+物候参考,03_clean/phenology/corn_phenology_reference.csv,8,9,0,0.0,,
+遥感影像清单,03_clean/remote_sensing/rs_scene_manifest.csv,93,9,0,0.1111,2026-05-01,2026-09-09
+S1后向散射(探索),03_clean/remote_sensing/rs_s1_backscatter_exploratory.csv,2,10,0,0.4,,
+气象源校验,05_analysis/02_climate_baseline/weather_source_validation.csv,10,2,0,0.0,,
+逐年GDD物候,05_analysis/05_phenology/corn_phenology_yearly_gdd.csv,36,10,0,0.0167,1970-01-01,1970-01-01

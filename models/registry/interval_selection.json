@@ -1,0 +1,9 @@
+{
+  "method": "residual_adaptive_scaled",
+  "coverage": 0.743665074710236,
+  "mean_width": 3.834560307518214,
+  "nominal": 0.8,
+  "is_calibrated_interval": false,
+  "point_model_family_for_residual": "elasticnet_tuned",
+  "note": "P10/P50/P90 nominal coverage=80%；仅当 empirical coverage 接近名义值时称为 prediction interval"
+}

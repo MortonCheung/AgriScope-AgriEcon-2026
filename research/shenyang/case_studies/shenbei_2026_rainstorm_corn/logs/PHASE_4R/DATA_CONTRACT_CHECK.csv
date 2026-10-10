@@ -1,0 +1,12 @@
+﻿dataset,required,status,file,detail,n_candidates
+M2_drainage_network,True,PASS,03_clean/spatial/hydro/osm_drainage_network.gpkg,"n(≤50)=50, crs=EPSG:4326",3.0
+M2_pump_stations,True,PASS,03_clean/intervention/pump_stations.gpkg,"n(≤50)=2, crs=EPSG:4326",2.0
+M2_DEM_bare,False,PASS,03_clean/spatial/dem/pnb_dem_30m_utm.tif,"1248x1162, crs=EPSG:32651, dtype=float32",2.0
+M2_corn_mask,False,NOT_FOUND,,"未找到（patterns=['*corn*', '*maize*']）",
+M2_soil,False,PASS,03_clean/soil/pnb_soil_clay_0-5cm_soilgrids.tif,"375x349, crs=EPSG:32651, dtype=float32",12.0
+M2_multitemporal_SAR,True,FAIL,,"未找到（patterns=['*sar*', '*s1*', '*S1*']）",
+M2_ground_evidence,False,PASS,06_models/M2_waterlogging_spatial/labels/ground_evidence_points.csv,"rows(≤200)=11, cols=17",1.0
+M3_literature,False,PASS,04_marts/literature_parameter_library.csv,"rows(≤200)=17, cols=13",1.0
+M4_pump_params,True,PASS,03_clean/intervention/drainage_capacity_pump_params.csv,"rows(≤200)=5, cols=21",1.0
+CropState_timeseries,False,PASS,04_marts/ndvi_anomaly_2026_vs_baseline.csv,"rows(≤200)=19, cols=7",2.0
+Market_timeseries,False,PASS,03_clean/market/corn_price_weekly.csv,"rows(≤200)=200, cols=13",2.0

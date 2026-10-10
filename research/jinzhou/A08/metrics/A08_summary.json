@@ -1,0 +1,8 @@
+{
+ "city": "jinzhou",
+ "n_crops": 11,
+ "a01_loo_sign_consistency_median": 1.0,
+ "a02_sig_with_ar": 6,
+ "a02_sig_no_ar": 9,
+ "a04_placebo_p": 0.56120826709062
+}

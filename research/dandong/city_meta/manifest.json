@@ -1,0 +1,119 @@
+{
+ "city": "丹东",
+ "city_code": "dandong",
+ "generated_at": "2026-09-23T10:08:59",
+ "generated_by": "archive/migration/generate_manifests.py",
+ "note": "本清单仅为既有文件的索引（路径/大小/SHA256/行数），未重新生成或改动任何数据。",
+ "sections": [
+  "data",
+  "research",
+  "case_studies",
+  "assets",
+  "sources"
+ ],
+ "data_root": "data/research/dandong/data",
+ "n_datasets": 15,
+ "datasets": [
+  {
+   "path": "data/disaster_events_algorithm.csv",
+   "bytes": 5935,
+   "sha256": "c2bbe7c643fc9833b1bb8768053fe1492baaa9881aabc590dc648c159a5ec5e5",
+   "rows": 41
+  },
+  {
+   "path": "data/disaster_events_observed.csv",
+   "bytes": 10861,
+   "sha256": "a75ba95672057aaf8f0ae5b150bae4d29b4261525c827adfd263f90d875f14e1",
+   "rows": 9
+  },
+  {
+   "path": "data/input_cost_weekly.csv",
+   "bytes": 30134,
+   "sha256": "ffffdff6b4f779fc04af1baa4dc5d1a6a630e22e71e58fe39a3888593b278086",
+   "rows": 281
+  },
+  {
+   "path": "data/phenology_events.csv",
+   "bytes": 9578,
+   "sha256": "b589eda279a772f51fa5d412a3c3e77c41d896719265483b90f179b5dbf89696",
+   "rows": 24
+  },
+  {
+   "path": "data/policy_events.csv",
+   "bytes": 3428,
+   "sha256": "c0289baff8e5008f0a0286a8eac4dddac032958c93b328bd4bc43908e2219d45",
+   "rows": 5
+  },
+  {
+   "path": "data/price_observation.csv",
+   "bytes": 1981450,
+   "sha256": "a78ac3a8f454de3978e1d384749e553669fe5eada3ee5a87da0060d05a816efe",
+   "rows": 5116
+  },
+  {
+   "path": "data/production_yearly.csv",
+   "bytes": 30964,
+   "sha256": "6dfa4638b73cac2fa42a3cb6dfc5010be44c6af22c972906162956eadf597f03",
+   "rows": 145
+  },
+  {
+   "path": "data/soil_daily.csv",
+   "bytes": 331224,
+   "sha256": "b6d3966b5f1d83db445ac60a3d334fb164c6f0e829eb874d30bd3e42cb40cbc3",
+   "rows": 2083
+  },
+  {
+   "path": "data/volume_observations.csv",
+   "bytes": 10496,
+   "sha256": "a83e3508f16efa37bfcff5a2bb17d35b94b8977b6920792d75832e3d59825b6a",
+   "rows": 24
+  },
+  {
+   "path": "data/weather_daily.csv",
+   "bytes": 192747,
+   "sha256": "aedd70882f31e3a846bb52f4c089a2e19422a0b9225e108098715cb52c16137c",
+   "rows": 2083
+  },
+  {
+   "path": "data/weather_daily_era5.csv",
+   "bytes": 677318,
+   "sha256": "4cc419c74ca3cb5f2d43c074ce858d2d30e8150fa72101623aac7d36cbf84bc0",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_daily_era5land.csv",
+   "bytes": 674226,
+   "sha256": "cee8562afd750dac3c58fc760e625e29a02fc314cc869a747231fb52102aed76",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily.csv",
+   "bytes": 201959,
+   "sha256": "1a3ef30f1e0765605d0885e5b6178b3453ff19b2774814a37b96c0b2094bfaa9",
+   "rows": 2083
+  },
+  {
+   "path": "data/weather_extra_daily_era5.csv",
+   "bytes": 675659,
+   "sha256": "98678340e3449eff7459cd8146ee6cc67f96f61b936d1d39006824fc201d6abd",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily_era5land.csv",
+   "bytes": 659793,
+   "sha256": "0e62494ac3d403e40994febdc0484393930a67772e59090b4d7b7aff2ea1d611",
+   "rows": 6101
+  }
+ ],
+ "sources": [
+  "sources/MANIFEST.csv",
+  "sources/data_snapshot.json",
+  "sources/staged/price/cnhnb/dandong_price_cnhnb_county.csv",
+  "sources/staged/price/liaoning-agri-risk/dandong_price_articles.csv",
+  "sources/staged/price/liaoning-agri-risk/dandong_price_lnnync_nodes.csv",
+  "sources/staged/price/liaoning-agri-risk/dandong_price_monthly_fgw.csv",
+  "sources/staged/price/liaoning-agri-risk/dandong_price_search_evidence_20260922.csv",
+  "sources/staged/price/lnnync_grain/dandong_grain_county.csv",
+  "sources/staged/production/liaoning-agri-risk/dandong_production_2025.csv"
+ ]
+}

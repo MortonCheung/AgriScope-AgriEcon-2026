@@ -1,0 +1,29 @@
+{
+  "static_files_with_v1_refs_total": 34,
+  "static_legacy_files_with_v1_code_reads": 26,
+  "static_final_production_files_with_v1_code_reads": 0,
+  "static_final_production_offenders": [],
+  "static_final_production_hits": [],
+  "runtime": {
+    "n_files_accessed": 11,
+    "forbidden_accessed": [],
+    "final_production_v1_dependency": 0,
+    "pass": true,
+    "sample_accessed": [
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/data/snapshots/final_v1/model_ready/profit/cost_components.parquet",
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/data/snapshots/final_v1/model_ready/profit/crop_cost.parquet",
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/data/snapshots/final_v1/model_ready/shenyang_core/market_daily.parquet",
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/evaluation/final/price_predictions.parquet",
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/reports/final/tables/pareto_frontier.csv",
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/reports/final/tables/pareto_summary.csv",
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/reports/final/tables/portfolio_balanced.json",
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/reports/final/tables/price_model_selection.csv",
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/reports/final/tables/robustness_extensions.csv",
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/reports/final/tables/stress_regret_table.csv",
+      "/Users/morton_cheung/Desktop/比赛/大数据分析/models/reports/final/tables/window_area_report.csv"
+    ],
+    "ts": "2026-10-07 19:35:52"
+  },
+  "final_production_v1_dependency": 0,
+  "pass": true
+}

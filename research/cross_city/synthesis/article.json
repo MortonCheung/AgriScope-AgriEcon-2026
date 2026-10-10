@@ -1,0 +1,83 @@
+{
+ "id": "A11",
+ "city": "辽宁六城",
+ "slug": "liaoning-six-city-synthesis",
+ "title": "辽宁六城农业市场周期、气象响应与区域差异研究",
+ "abstract": "本研究在同一方法与统一口径下比较辽宁五城（朝阳、大连、丹东、锦州、铁岭）的农业市场价格结构、气象响应、极端事件表现、生产结构与区域联动。主要发现：（1）价格季节结构稳定而明显（季节指数极差中位 0.68–1.07），但长期趋势仅少数作物显著（42 项中 4 项 FDR 显著）；（2）气象对市场价格的直接解释能力有限——三城合计 210 项同期检验中仅 6 项显著且效应量普遍 ≤0.35 个标准差，极端天气事件后市场响应与随机日期不可分辨（安慰剂 p=0.56–0.86）；（3）区域市场季节同步性较强（同频率对相关 0.78–0.97），生产结构城市间集中度差异明显（HHI 0.48–0.72，均以玉米为主导）。据此不支持将「天气→价格」作为决策系统的主要价格信号，而支持以市场周期、生产结构与区域联动作为常规信号。丹东、铁岭市场类模块为 NOT_SUPPORTED_BY_CURRENT_DATA。",
+ "frontend_summary": "辽宁五城综合：价格季节结构稳定（极差中位 0.68–1.07）；天气对价格解释力弱（210 项仅 6 项显著、效应≤0.35SD）；极端事件响应与随机不可分辨（安慰剂 p 0.56–0.86）；市场季节同步性强（同频对 0.78–0.97）；生产集中度 HHI 0.48–0.72 均以玉米为主。丹东/铁岭市场类不成立。",
+ "keywords": ["辽宁六城", "市场价格周期", "气象响应", "极端事件", "区域同步性", "生产结构", "NOT_SUPPORTED"],
+ "research_questions": [
+  "五城农业市场价格的时间结构是否稳定？",
+  "气象条件能否解释市场价格的短期波动？",
+  "极端天气事件后市场是否出现可检出的稳定响应？",
+  "五城在市场周期与生产结构上是否存在可识别的区域差异与联动？"
+ ],
+ "data_scope": {
+  "summary": "### 2.1 数据层\n价格（朝阳/锦州日度、大连周度；丹东/铁岭不足）；气象与土壤（ERA5 再分析网格，五城各 6101 天）；NDVI（月度）；生产（辽宁统计年鉴城市级 2018–2024/2025）。\n\n### 2.2 核心限制\n六城唯一完全可比层为气象/土壤/NDVI；价格层级不同（市场均价/超市/产地），不可比水平；成交量仅沈阳有；五城无区县生产面板。"
+ },
+ "methods": [
+  {
+   "summary": "统一预注册口径：严格无未来信息去季节化（仅用严格更早年份，doy±5 环形中位数 + 1.4826×MAD，含稳健尺度下限）；主模型 z_t = α + φ·z_(t-1) + β·weather_z_t + ε_t（Newey-West/HAC(14)）；BH-FDR 家族=暴露；稳健性含 LOO、安慰剂、含/不含自回归对照；事件研究统一 10 天窗，安慰剂 999 次。"
+  }
+ ],
+ "key_findings": [
+  {"heading": "价格季节结构稳定，趋势有限"},
+  {"heading": "气象对市场价格的直接解释能力有限"},
+  {"heading": "极端天气事件后市场响应不稳定"},
+  {"heading": "作物异质性与恢复证据薄弱"},
+  {"heading": "生产结构城市间差异明显"},
+  {"heading": "市场季节同步性较强"},
+  {"heading": "部分城市同期/滞后联系（探索性）"},
+  {"heading": "城市气候背景（描述性）"}
+ ],
+ "sections": [
+  {"number": "1", "title": "研究问题", "content": "检验「气象冲击→农产品价格→决策」链条在辽宁五城、城市级、鲜活农产品层面是否成立，并识别更可靠的结构性信号。"},
+  {"number": "2", "title": "数据与方法", "content": "见数据层与统一方法；跨城仅做结构化/相对化比较。"},
+  {"number": "3", "title": "研究结果", "content": "见 key_findings 与 report.md 第 4 节（含各模块数值表）。"},
+  {"number": "4", "title": "讨论", "content": "气象效应弱的一个合理解释是市场的跨区调运与库存吸收，但本研究数据无法证实机制，故只陈述「未检出稳定关系」。更强且稳定的信号来自季节结构、区域同步性与生产结构差异。跟风种植在本数据上不可证明，仅可作为进一步研究依据。"},
+  {"number": "5", "title": "结论", "content": "不支持「天气→价格」作为主要价格信号；支持以市场周期、区域联动与生产结构为常规信号；丹东/铁岭市场类模块 NOT_SUPPORTED；成交量、区县面板、货源地/物流均为数据缺口。"},
+  {"number": "6", "title": "局限", "content": "价格层级不可比、粒度不一、再分析网格、研究级多重比较未校正、生产为城市级汇总、领先滞后为选择性最大化、降水偏多观察年数少。"},
+  {"number": "7", "title": "数据来源与可复现性", "content": "代码 AgriScope/pipelines/research/；来源登记与证据链见各城 sources/ 与 evidence/；审计见 archive/audits/。"}
+ ],
+ "limitations": [
+  "1. 价格层级跨城不可比，仅作结构化/相对化比较。",
+  "2. 粒度不一（朝阳/锦州日度，大连周度），跨城比较为定性。",
+  "3. 气象为 ERA5 再分析网格，非气象站实测，对极端值有平滑。",
+  "4. 全研究跨模块逾千项检验，仅模块内 BH-FDR，未做研究级校正。",
+  "5. 生产数据为城市级年鉴汇总，无区县细分。",
+  "6. 区域联动中领先/滞后为选择性最大化结果；季节同步可检验对极少。",
+  "7. 2021–2026 降水偏多观察样本年数少。"
+ ],
+ "conclusion": "本研究不支持将「天气→价格」作为辽宁五城农业决策的主要价格信号（210 项同期检验仅 6 项显著、效应≤0.35SD；事件响应与随机不可分辨）；支持以市场季节结构、区域同步性与生产结构差异作为常规决策信号。丹东、铁岭市场类研究为 NOT_SUPPORTED_BY_CURRENT_DATA；成交量、区县生产面板与货源地/物流流向为五城共同缺口。",
+ "figures": [
+  {"file": "cross_city_overview.png"}
+ ],
+ "tables": [
+  {"file": "cross_city_production_concentration.csv"},
+  {"file": "cross_city_seasonal_sync_by_crop.csv"},
+  {"file": "cross_city_resilience.csv"},
+  {"file": "cross_city_cross_city_lead_lag.csv"}
+ ],
+ "source_ids": [],
+ "status": "ACCEPTED_PENDING_EXTERNAL_REVIEW",
+ "explorer": {
+  "selectors": [
+   {"key": "city", "label": "城市", "options": ["朝阳", "大连", "丹东", "锦州", "铁岭"]},
+   {"key": "module", "label": "研究模块", "options": ["A01", "A02", "A03", "A04", "A05", "A06", "A07", "A08", "A09"]},
+   {"key": "crop", "label": "作物", "options": ["西红柿", "黄瓜", "青椒", "尖椒", "茄子", "芸豆", "土豆", "芹菜", "大白菜", "菜花", "胡萝卜"]}
+  ],
+  "metrics": ["n_tests", "n_fdr_sig", "median_seasonal_amplitude", "placebo_p", "HHI", "mean_corr"],
+  "series": [
+   {"id": "seasonal_sync", "table": "cross_city_seasonal_sync_by_crop.csv", "x": "crop", "y": "mean_corr"},
+   {"id": "resilience", "table": "cross_city_resilience.csv", "x": "city", "y": "placebo_p"},
+   {"id": "concentration", "table": "cross_city_production_concentration.csv", "x": "city", "y": "HHI"}
+  ],
+  "tables": ["cross_city_production_concentration.csv", "cross_city_seasonal_sync_by_crop.csv", "cross_city_resilience.csv", "cross_city_cross_city_lead_lag.csv"],
+  "figures": ["cross_city_overview.png"],
+  "sources": [],
+  "methodology": "严格无未来信息去季节化；z_t = α + φ·z_(t-1) + β·weather_z_t + ε_t（HAC(14)）；BH-FDR；LOO/安慰剂/含不含自回归；事件窗统一 10 天。",
+  "limitations": [
+   "价格层级不可比；粒度不一；再分析网格；研究级多重比较未校正；生产城市级汇总；领先滞后为选择性最大化；季节同步可检验对极少。"
+  ]
+ }
+}

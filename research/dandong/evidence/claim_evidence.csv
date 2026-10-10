@@ -1,0 +1,4 @@
+﻿claim_id,study_id,city,claim_text,claim_type,evidence_id,source_ids,table_id,figure_id,estimate,ci_low,ci_high,p_raw,p_adjusted,sample_size,method_id,status
+dandong-A09-C1,A09,丹东,年降水 957mm（生长季 83%）；玉米 65.2%、水稻 26.3%、大豆 4.8%,descriptive,,,A09_climatology.csv,,,,,,,,,SUPPORTED
+dandong-A09-C2,A09,丹东,特色农产品 6 类有观测（稀疏）；官方灾情 0 条,descriptive,,,A09_specialty_coverage.csv,,,,,,,,,PARTIAL
+dandong-A07-C1,A07,丹东,HHI=0.498、CR4=0.984；前三 玉米 65.2%；水稻 26.3%；大豆 4.8%,descriptive,,,A07_concentration.csv,,0.49773220712887495,,,,,8,,SUPPORTED

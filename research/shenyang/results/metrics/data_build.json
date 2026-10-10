@@ -1,0 +1,19 @@
+{
+ "market_rows": 14100,
+ "districts_rows": 1190,
+ "market_missing": {
+  "price_z": 4920,
+  "volume_z": 4920,
+  "precipitation": 0,
+  "temp_max": 0,
+  "vpd": 0,
+  "soil_moisture_0_7": 0
+ },
+ "price_z_ar1_sample": {
+  "土豆": 0.9835251466900405,
+  "尖椒": 0.9691471178057082,
+  "甘蓝": 0.967477371985445
+ },
+ "district_main_rows": 1179,
+ "method": "LOO(doy±5) median expected + 1.4826*MAD robust scale (leave-one-year-out)"
+}

@@ -1,0 +1,11 @@
+﻿variable,expected_direction,mean_near_flooded,mean_background,diff,z_diff,direction_consistent
+elevation,−,51.817,55.111,-3.2937639526259517,-0.189,True
+slope,−,0.628,0.927,-0.29895055567424544,-0.221,True
+local_relief,−,2.306,3.309,-1.0036950832236866,-0.217,True
+depression_depth,+,0.283,0.248,0.035222851328507526,0.08,True
+flow_accumulation,+,3.468,5.68,-2.2127019477808068,-0.126,False
+hand,−,0.018,0.101,-0.08302247418899208,-0.223,True
+twi,+,9.491,9.303,0.18839105444241255,0.206,True
+dist_mapped_water,+,4991.736,4036.262,955.47355240966,0.31,True
+dist_mapped_river,+,7493.37,6262.446,1230.9234238083927,0.406,True
+dist_mapped_drainage,+,7969.513,6678.24,1291.2723128627613,0.255,True

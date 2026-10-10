@@ -1,0 +1,14 @@
+﻿,value
+jul_daily_precip_p50,0.6
+jul_daily_precip_p90,20.0
+jul_daily_precip_p95,32.87499999999998
+jul_daily_precip_p99,74.14300000000011
+jul_daily_precip_p99.9,102.97630000000073
+jul_daily_precip_mean,6.364946236559139
+jul_daily_precip_std,13.60386576980989
+jul_daily_precip_max,107.9
+jul_monthly_total_mean,197.31333333333336
+jul_monthly_total_p90,290.3300000000001
+jul_monthly_total_p99,471.0590000000001
+jul_wetday_freq,0.6204301075268818
+annual_precip_mean_1991_2020,791.19

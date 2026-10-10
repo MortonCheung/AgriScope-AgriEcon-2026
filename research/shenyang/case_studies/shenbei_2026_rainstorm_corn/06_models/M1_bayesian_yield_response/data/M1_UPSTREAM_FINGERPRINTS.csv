@@ -1,0 +1,9 @@
+﻿file,sha256,rows,ymin,ymax,missing
+04_marts/corn_model_dataset_annual.csv,4c880135d04f94d4,8,2018,2025,0.0
+04_marts/corn_year_weather_features.csv,bd00ec543061475b,36,1991,2026,0.0475
+03_clean/agriculture/corn_history_extended.csv,c610b625d09536ac,8,2018,2025,0.0
+04_marts/literature_parameter_library.csv,bd4db93b9541df9f,7,,,0.0769
+03_clean/phenology/corn_phenology_reference.csv,977bd45edea326e5,8,,,0.0
+03_clean/intervention/intervention_quantified.csv,49881a7d3ba737fe,3,,,0.1944
+03_clean/disaster/disaster_outcomes_2026.csv,44d31b9cd018e37f,4,,,0.0
+01_sources/DATA_SOURCE_REGISTRY.csv,5bfcab626b9a26fe,30,,,0.0

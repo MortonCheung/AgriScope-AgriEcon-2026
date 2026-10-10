@@ -1,0 +1,29 @@
+# --- sensitive / credentials ---
+.env
+.env.*
+*.key
+*.pem
+*credential*
+*secret*
+id_rsa*
+# --- cache / runtime ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+# --- heavyweight / binary (should not be committed) ---
+*.zip
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.joblib
+*.npz
+*.pkl
+*.h5
+*.pt
+*.ckpt
+*.bin
+*.log

@@ -1,0 +1,8 @@
+{
+ "city": "jinzhou",
+ "freq": "D",
+ "n_crops": 10,
+ "median_rmse_gain_pct": -5.58350272703788,
+ "n_crops_positive_gain": 2,
+ "volume_price_relation": "NOT_SUPPORTED_BY_CURRENT_DATA"
+}

@@ -1,0 +1,9 @@
+﻿stage,stage_en,gdd_threshold,start_date_est,end_date_est,source_id,location_scope,confidence,notes
+播种期,sowing,0,2026-04-25,2026-05-10,SRC-SY-NYJ-2026-JSZ,沈阳市(官方适播期),official_window,官方：玉米适播期5-10cm地温稳定8-10℃，我市一般4月下旬至5月上旬
+出苗期,emergence,80,1991-04-23,2026-05-09,SRC-CROP-CALENDAR|GDD模型,"沈北新区(ERA5网格点, 由GDD推算)",model_estimate,GDD基温10℃/上限30℃，播种判定=4月15日后5日均温≥10℃；非田块实测物候
+拔节期,jointing,350,1991-06-14,2026-06-03,SRC-CROP-CALENDAR|GDD模型,"沈北新区(ERA5网格点, 由GDD推算)",model_estimate,GDD基温10℃/上限30℃，播种判定=4月15日后5日均温≥10℃；非田块实测物候
+大喇叭口期,bells,560,1991-07-04,2026-06-24,SRC-CROP-CALENDAR|GDD模型,"沈北新区(ERA5网格点, 由GDD推算)",model_estimate,GDD基温10℃/上限30℃，播种判定=4月15日后5日均温≥10℃；非田块实测物候
+抽雄期,tasseling,780,1991-07-21,2026-07-10,SRC-CROP-CALENDAR|GDD模型,"沈北新区(ERA5网格点, 由GDD推算)",model_estimate,GDD基温10℃/上限30℃，播种判定=4月15日后5日均温≥10℃；非田块实测物候
+吐丝期,silking,840,1991-07-25,2026-07-14,SRC-CROP-CALENDAR|GDD模型,"沈北新区(ERA5网格点, 由GDD推算)",model_estimate,GDD基温10℃/上限30℃，播种判定=4月15日后5日均温≥10℃；非田块实测物候
+灌浆期,grain_filling,1200,1991-08-18,2026-08-05,SRC-CROP-CALENDAR|GDD模型,"沈北新区(ERA5网格点, 由GDD推算)",model_estimate,GDD基温10℃/上限30℃，播种判定=4月15日后5日均温≥10℃；非田块实测物候
+成熟期,maturity,1700,1994-09-10,2026-09-12,SRC-CROP-CALENDAR|GDD模型,"沈北新区(ERA5网格点, 由GDD推算)",model_estimate,GDD基温10℃/上限30℃，播种判定=4月15日后5日均温≥10℃；非田块实测物候

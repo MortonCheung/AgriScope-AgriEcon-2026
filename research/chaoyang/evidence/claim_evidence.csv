@@ -1,0 +1,13 @@
+﻿claim_id,study_id,city,claim_text,claim_type,evidence_id,source_ids,table_id,figure_id,estimate,ci_low,ci_high,p_raw,p_adjusted,sample_size,method_id,status
+chaoyang-A09-C1,A09,朝阳,年降水 519mm（生长季 89%）；玉米 82.4%、谷子 8.2%、高粱 6.3%,descriptive,,,A09_climatology.csv,,,,,,,,,SUPPORTED
+chaoyang-A09-C2,A09,朝阳,"生长季降水占比 89%；价格季节峰值月集中于 1, 2, 8 月",descriptive,,,A09_seasonal_peak.csv,,,,,,,,,SUPPORTED
+chaoyang-A03-C1,A03,朝阳,滞后窗 252 项检验 0 项 FDR 显著,inferential,,,A03_lag_windows.csv,,0,,,,,980,,NOT_SUPPORTED
+chaoyang-A08-C1,A08,朝阳,A01 趋势 LOO 符号一致率中位 1.00；A02 含/不含 AR 显著 9/4,robustness,,,A08_robustness_summary.csv,,1.0,,,,,,,SUPPORTED
+chaoyang-A05-C1,A05,朝阳,异质性 0/5 显著；恢复删失率中位 0%,exploratory,,,A05_heterogeneity.csv,,0,,,,,13021,,NOT_SUPPORTED
+chaoyang-A01-C1,A01,朝阳,价格季节指数极差中位数 0.754（最强 菠菜 1.191）,descriptive,,,A01_seasonal_amplitude.csv,,0.7536329290381887,,,,,1250,,SUPPORTED
+chaoyang-A01-C2,A01,朝阳,14 项趋势检验中 1 项 FDR 显著,inferential,,,A01_trend.csv,,1,,,,,14,,PARTIAL
+chaoyang-A02-C1,A02,朝阳,70 项气象-价格检验中 0 项 FDR 显著,inferential,,,A02_response.csv,,0,,,,,977,,NOT_SUPPORTED
+chaoyang-A04-C1,A04,朝阳,事件后价格异常中位 0.108，安慰剂 p=0.859,inferential,,,A04_event_clusters.csv,,0.10760012351388987,,,,0.858739837398374,60,,NOT_SUPPORTED
+chaoyang-A06-C1,A06,朝阳,天气信息 RMSE 相对变化中位 -2.26%,inferential,,,A06_forecast_gain.csv,,-2.2580657461162414,,,,,8680,,NOT_SUPPORTED
+chaoyang-A06-C2,A06,朝阳,量价关系 NOT_SUPPORTED（无成交量数据）,limitation,,,,,,,,,,,,NOT_SUPPORTED
+chaoyang-A07-C1,A07,朝阳,HHI=0.691、CR4=0.983；前三 玉米 82.4%；谷子 8.2%；高粱 6.3%,descriptive,,,A07_concentration.csv,,0.6907355855478551,,,,,8,,SUPPORTED

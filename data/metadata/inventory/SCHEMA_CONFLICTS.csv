@@ -1,0 +1,277 @@
+﻿file_name,n_variants,n_files,layers,paths
+article_index.json,5,6,raw,data/raw/prices/lnnync_veg_weekly/article_index.json ; data/raw/prices/dalian_12316/article_index.json ; data/raw/prices/jinzhou_deep/article_index.json ; data/raw/prices/lnnync_grain_weekly/article_index.json ; data/raw/prices/dalian_dfgw_weekly/article_index.json ; data/raw/prices/chaoyang_deep/article_index.json
+probe_report.json,3,3,raw,data/raw/prices/ecommerce/probe_report.json ; data/raw/prices/moa_wholesale/probe_report.json ; data/raw/prices/mofcom/probe_report.json
+article_meta.json,4,6,raw,data/raw/prices/dalian_cif/article_meta.json ; data/raw/prices/lnfgw_朝阳/article_meta.json ; data/raw/prices/lnfgw_铁岭/article_meta.json ; data/raw/prices/dalian_dfgw_weekly/article_meta.json ; data/raw/prices/lnfgw_dalian/article_meta.json ; data/raw/prices/lnfgw_锦州/article_meta.json
+policy_events.csv,2,14,"legacy,model_workspace,raw",data/raw/retained_source/city_data/dandong/data/policy_events.csv ; data/raw/retained_source/city_data/jinzhou/data/policy_events.csv ; data/raw/retained_source/city_data/dalian/data/policy_events.csv ; data/raw/retained_source/city_data/chaoyang/data/policy_events.csv ; data/raw/retained_source/city_data/shenyang/data/policy_events.csv ; data/raw/retained_source/city_data/tieling/data/policy_events.csv
+production_yearly.csv,2,20,"legacy,model_workspace,raw",data/raw/retained_source/city_data/dandong/data/production_yearly.csv ; data/raw/retained_source/city_data/jinzhou/data/production_yearly.csv ; data/raw/retained_source/city_data/dalian/data/production_yearly.csv ; data/raw/retained_source/city_data/chaoyang/data/production_yearly.csv ; data/raw/retained_source/city_data/tieling/data/production_yearly.csv ; data/raw/retained_source/city_data/dandong/data/production_yearly.csv
+weather_extra_daily_era5.csv,2,13,"model_workspace,raw",data/raw/retained_source/city_data/dandong/data/weather_extra_daily_era5.csv ; data/raw/retained_source/city_data/jinzhou/data/weather_extra_daily_era5.csv ; data/raw/retained_source/city_data/dalian/data/weather_extra_daily_era5.csv ; data/raw/retained_source/city_data/chaoyang/data/weather_extra_daily_era5.csv ; data/raw/retained_source/city_data/shenyang/data/weather_extra_daily_era5.csv ; data/raw/retained_source/city_data/tieling/data/weather_extra_daily_era5.csv
+phenology_events.csv,2,16,"legacy,model_workspace,raw",data/raw/retained_source/city_data/dandong/data/phenology_events.csv ; data/raw/retained_source/city_data/jinzhou/data/phenology_events.csv ; data/raw/retained_source/city_data/dalian/data/phenology_events.csv ; data/raw/retained_source/city_data/chaoyang/data/phenology_events.csv ; data/raw/retained_source/city_data/shenyang/data/phenology_events.csv ; data/raw/retained_source/city_data/tieling/data/phenology_events.csv
+volume_observations.csv,2,14,"legacy,model_workspace,raw",data/raw/retained_source/city_data/dandong/data/volume_observations.csv ; data/raw/retained_source/city_data/jinzhou/data/volume_observations.csv ; data/raw/retained_source/city_data/dalian/data/volume_observations.csv ; data/raw/retained_source/city_data/chaoyang/data/volume_observations.csv ; data/raw/retained_source/city_data/shenyang/data/volume_observations.csv ; data/raw/retained_source/city_data/tieling/data/volume_observations.csv
+price_observation.csv,2,19,"legacy,model_workspace,raw",data/raw/retained_source/city_data/dandong/data/price_observation.csv ; data/raw/retained_source/city_data/jinzhou/data/price_observation.csv ; data/raw/retained_source/city_data/dalian/data/price_observation.csv ; data/raw/retained_source/city_data/chaoyang/data/price_observation.csv ; data/raw/retained_source/city_data/shenyang/data/price_observation.csv ; data/raw/retained_source/city_data/tieling/data/price_observation.csv
+source_registry.csv,5,13,"legacy,model_workspace,raw",data/raw/retained_source/city_data/reference/decision_engine_supplement_v3/source_registry.csv ; data/raw/retained_source/city_data/reference/decision_engine_supplement_v2/source_registry.csv ; data/raw/retained_source/city_data/reference/decision_engine_supplement/source_registry.csv ; data/raw/web_captures/shenyang/district_production/source_registry.csv ; data/raw/metadata/source_registry.csv ; data/raw/retained_source/city_data/reference/decision_engine_supplement_v3/source_registry.csv
+crop_calendar.csv,2,4,"model_workspace,raw",data/raw/retained_source/city_data/reference/decision_engine_supplement/crop_calendar.csv ; data/raw/metadata/crop_calendar.csv ; data/raw/retained_source/city_data/reference/decision_engine_supplement/crop_calendar.csv ; models/data/snapshots/v1/city_data/reference/decision_engine_supplement/crop_calendar.csv
+manifest.json,5,6,"frontend,legacy,raw",data/raw/production/manifest.json ; data/raw/weather/manifest.json ; archive/historical/research-reference-projects/gpt-researcher/frontend/nextjs/public/manifest.json ; archive/migration/agriscope_baseline/public_research_shenyang/manifest.json ; reference/design-references/impeccable/extension/manifest.json ; AgriScope/public/research/shenyang/manifest.json
+07-07.xls,2,3,raw,data/raw/production/yearbook_2019/07-07.xls ; data/raw/production/yearbook_2018/07-07.xls ; data/raw/production/yearbook_2020/07-07.xls
+21-03.xls,3,3,raw,data/raw/production/yearbook_2019/21-03.xls ; data/raw/production/yearbook_2018/21-03.xls ; data/raw/production/yearbook_2020/21-03.xls
+23-06.xls,3,3,raw,data/raw/production/yearbook_2019/23-06.xls ; data/raw/production/yearbook_2018/23-06.xls ; data/raw/production/yearbook_2020/23-06.xls
+15-13.xls,3,3,raw,data/raw/production/yearbook_2019/15-13.xls ; data/raw/production/yearbook_2018/15-13.xls ; data/raw/production/yearbook_2020/15-13.xls
+15-12.xls,2,3,raw,data/raw/production/yearbook_2019/15-12.xls ; data/raw/production/yearbook_2018/15-12.xls ; data/raw/production/yearbook_2020/15-12.xls
+23-07.xls,3,3,raw,data/raw/production/yearbook_2019/23-07.xls ; data/raw/production/yearbook_2018/23-07.xls ; data/raw/production/yearbook_2020/23-07.xls
+05-17.xls,2,3,raw,data/raw/production/yearbook_2019/05-17.xls ; data/raw/production/yearbook_2018/05-17.xls ; data/raw/production/yearbook_2020/05-17.xls
+21-02.xls,3,3,raw,data/raw/production/yearbook_2019/21-02.xls ; data/raw/production/yearbook_2018/21-02.xls ; data/raw/production/yearbook_2020/21-02.xls
+17-03.xls,2,3,raw,data/raw/production/yearbook_2019/17-03.xls ; data/raw/production/yearbook_2018/17-03.xls ; data/raw/production/yearbook_2020/17-03.xls
+17-01.xls,2,3,raw,data/raw/production/yearbook_2019/17-01.xls ; data/raw/production/yearbook_2018/17-01.xls ; data/raw/production/yearbook_2020/17-01.xls
+10-08.xls,2,3,raw,data/raw/production/yearbook_2019/10-08.xls ; data/raw/production/yearbook_2018/10-08.xls ; data/raw/production/yearbook_2020/10-08.xls
+19-04.xls,2,3,raw,data/raw/production/yearbook_2019/19-04.xls ; data/raw/production/yearbook_2018/19-04.xls ; data/raw/production/yearbook_2020/19-04.xls
+05-15.xls,2,3,raw,data/raw/production/yearbook_2019/05-15.xls ; data/raw/production/yearbook_2018/05-15.xls ; data/raw/production/yearbook_2020/05-15.xls
+05-01.xls,2,3,raw,data/raw/production/yearbook_2019/05-01.xls ; data/raw/production/yearbook_2018/05-01.xls ; data/raw/production/yearbook_2020/05-01.xls
+23-05.xls,3,3,raw,data/raw/production/yearbook_2019/23-05.xls ; data/raw/production/yearbook_2018/23-05.xls ; data/raw/production/yearbook_2020/23-05.xls
+15-11.xls,2,3,raw,data/raw/production/yearbook_2019/15-11.xls ; data/raw/production/yearbook_2018/15-11.xls ; data/raw/production/yearbook_2020/15-11.xls
+23-04.xls,3,3,raw,data/raw/production/yearbook_2019/23-04.xls ; data/raw/production/yearbook_2018/23-04.xls ; data/raw/production/yearbook_2020/23-04.xls
+23-10.xls,2,2,raw,data/raw/production/yearbook_2019/23-10.xls ; data/raw/production/yearbook_2018/23-10.xls
+21-01.xls,3,3,raw,data/raw/production/yearbook_2019/21-01.xls ; data/raw/production/yearbook_2018/21-01.xls ; data/raw/production/yearbook_2020/21-01.xls
+19-05.xls,3,3,raw,data/raw/production/yearbook_2019/19-05.xls ; data/raw/production/yearbook_2018/19-05.xls ; data/raw/production/yearbook_2020/19-05.xls
+10-09.xls,2,3,raw,data/raw/production/yearbook_2019/10-09.xls ; data/raw/production/yearbook_2018/10-09.xls ; data/raw/production/yearbook_2020/10-09.xls
+19-01.xls,2,3,raw,data/raw/production/yearbook_2019/19-01.xls ; data/raw/production/yearbook_2018/19-01.xls ; data/raw/production/yearbook_2020/19-01.xls
+17-04.xls,2,3,raw,data/raw/production/yearbook_2019/17-04.xls ; data/raw/production/yearbook_2018/17-04.xls ; data/raw/production/yearbook_2020/17-04.xls
+17-10.xls,3,3,raw,data/raw/production/yearbook_2019/17-10.xls ; data/raw/production/yearbook_2018/17-10.xls ; data/raw/production/yearbook_2020/17-10.xls
+07-01.xls,2,3,raw,data/raw/production/yearbook_2019/07-01.xls ; data/raw/production/yearbook_2018/07-01.xls ; data/raw/production/yearbook_2020/07-01.xls
+05-38.xls,3,3,raw,data/raw/production/yearbook_2019/05-38.xls ; data/raw/production/yearbook_2018/05-38.xls ; data/raw/production/yearbook_2020/05-38.xls
+05-10.xls,2,3,raw,data/raw/production/yearbook_2019/05-10.xls ; data/raw/production/yearbook_2018/05-10.xls ; data/raw/production/yearbook_2020/05-10.xls
+05-04.xls,2,3,raw,data/raw/production/yearbook_2019/05-04.xls ; data/raw/production/yearbook_2018/05-04.xls ; data/raw/production/yearbook_2020/05-04.xls
+24-09.xls,2,2,raw,data/raw/production/yearbook_2019/24-09.xls ; data/raw/production/yearbook_2018/24-09.xls
+15-15.xls,3,3,raw,data/raw/production/yearbook_2019/15-15.xls ; data/raw/production/yearbook_2018/15-15.xls ; data/raw/production/yearbook_2020/15-15.xls
+24-08.xls,2,3,raw,data/raw/production/yearbook_2019/24-08.xls ; data/raw/production/yearbook_2018/24-08.xls ; data/raw/production/yearbook_2020/24-08.xls
+23-01.xls,2,3,raw,data/raw/production/yearbook_2019/23-01.xls ; data/raw/production/yearbook_2018/23-01.xls ; data/raw/production/yearbook_2020/23-01.xls
+05-05.xls,2,3,raw,data/raw/production/yearbook_2019/05-05.xls ; data/raw/production/yearbook_2018/05-05.xls ; data/raw/production/yearbook_2020/05-05.xls
+05-39.xls,3,3,raw,data/raw/production/yearbook_2019/05-39.xls ; data/raw/production/yearbook_2018/05-39.xls ; data/raw/production/yearbook_2020/05-39.xls
+17-11.xls,3,3,raw,data/raw/production/yearbook_2019/17-11.xls ; data/raw/production/yearbook_2018/17-11.xls ; data/raw/production/yearbook_2020/17-11.xls
+17-05.xls,2,3,raw,data/raw/production/yearbook_2019/17-05.xls ; data/raw/production/yearbook_2018/17-05.xls ; data/raw/production/yearbook_2020/17-05.xls
+19-02.xls,3,3,raw,data/raw/production/yearbook_2019/19-02.xls ; data/raw/production/yearbook_2018/19-02.xls ; data/raw/production/yearbook_2020/19-02.xls
+17-13.xls,2,3,raw,data/raw/production/yearbook_2019/17-13.xls ; data/raw/production/yearbook_2018/17-13.xls ; data/raw/production/yearbook_2020/17-13.xls
+17-07.xls,2,3,raw,data/raw/production/yearbook_2019/17-07.xls ; data/raw/production/yearbook_2018/17-07.xls ; data/raw/production/yearbook_2020/17-07.xls
+13-08.xlsx,2,2,raw,data/raw/production/yearbook_2019/13-08.xlsx ; data/raw/production/yearbook_2020/13-08.xlsx
+05-07.xls,2,3,raw,data/raw/production/yearbook_2019/05-07.xls ; data/raw/production/yearbook_2018/05-07.xls ; data/raw/production/yearbook_2020/05-07.xls
+05-13.xls,2,3,raw,data/raw/production/yearbook_2019/05-13.xls ; data/raw/production/yearbook_2018/05-13.xls ; data/raw/production/yearbook_2020/05-13.xls
+23-03.xls,3,3,raw,data/raw/production/yearbook_2019/23-03.xls ; data/raw/production/yearbook_2018/23-03.xls ; data/raw/production/yearbook_2020/23-03.xls
+15-16.xls,2,3,raw,data/raw/production/yearbook_2019/15-16.xls ; data/raw/production/yearbook_2018/15-16.xls ; data/raw/production/yearbook_2020/15-16.xls
+15-02.xls,2,3,raw,data/raw/production/yearbook_2019/15-02.xls ; data/raw/production/yearbook_2018/15-02.xls ; data/raw/production/yearbook_2020/15-02.xls
+23-02.xls,3,3,raw,data/raw/production/yearbook_2019/23-02.xls ; data/raw/production/yearbook_2018/23-02.xls ; data/raw/production/yearbook_2020/23-02.xls
+05-06.xls,2,3,raw,data/raw/production/yearbook_2019/05-06.xls ; data/raw/production/yearbook_2018/05-06.xls ; data/raw/production/yearbook_2020/05-06.xls
+09-06.xls,3,3,raw,data/raw/production/yearbook_2019/09-06.xls ; data/raw/production/yearbook_2018/09-06.xls ; data/raw/production/yearbook_2020/09-06.xls
+17-06.xls,2,3,raw,data/raw/production/yearbook_2019/17-06.xls ; data/raw/production/yearbook_2018/17-06.xls ; data/raw/production/yearbook_2020/17-06.xls
+17-12.xls,2,3,raw,data/raw/production/yearbook_2019/17-12.xls ; data/raw/production/yearbook_2018/17-12.xls ; data/raw/production/yearbook_2020/17-12.xls
+19-03.xls,2,3,raw,data/raw/production/yearbook_2019/19-03.xls ; data/raw/production/yearbook_2018/19-03.xls ; data/raw/production/yearbook_2020/19-03.xls
+22-25.xls,2,3,raw,data/raw/production/yearbook_2019/22-25.xls ; data/raw/production/yearbook_2018/22-25.xls ; data/raw/production/yearbook_2020/22-25.xls
+13-11.xls,2,3,raw,data/raw/production/yearbook_2019/13-11.xls ; data/raw/production/yearbook_2018/13-11.xls ; data/raw/production/yearbook_2020/13-11.xls
+16-09.xls,2,3,raw,data/raw/production/yearbook_2019/16-09.xls ; data/raw/production/yearbook_2018/16-09.xls ; data/raw/production/yearbook_2020/16-09.xls
+06-18.xls,2,3,raw,data/raw/production/yearbook_2019/06-18.xls ; data/raw/production/yearbook_2018/06-18.xls ; data/raw/production/yearbook_2020/06-18.xls
+06-24.xls,3,3,raw,data/raw/production/yearbook_2019/06-24.xls ; data/raw/production/yearbook_2018/06-24.xls ; data/raw/production/yearbook_2020/06-24.xls
+06-25.xls,2,3,raw,data/raw/production/yearbook_2019/06-25.xls ; data/raw/production/yearbook_2018/06-25.xls ; data/raw/production/yearbook_2020/06-25.xls
+06-19.xls,2,3,raw,data/raw/production/yearbook_2019/06-19.xls ; data/raw/production/yearbook_2018/06-19.xls ; data/raw/production/yearbook_2020/06-19.xls
+16-20.xls,2,3,raw,data/raw/production/yearbook_2019/16-20.xls ; data/raw/production/yearbook_2018/16-20.xls ; data/raw/production/yearbook_2020/16-20.xls
+11-01.xls,2,3,raw,data/raw/production/yearbook_2019/11-01.xls ; data/raw/production/yearbook_2018/11-01.xls ; data/raw/production/yearbook_2020/11-01.xls
+16-08.xls,3,3,raw,data/raw/production/yearbook_2019/16-08.xls ; data/raw/production/yearbook_2018/16-08.xls ; data/raw/production/yearbook_2020/16-08.xls
+13-10.xls,3,3,raw,data/raw/production/yearbook_2019/13-10.xls ; data/raw/production/yearbook_2018/13-10.xls ; data/raw/production/yearbook_2020/13-10.xls
+22-24.xls,2,3,raw,data/raw/production/yearbook_2019/22-24.xls ; data/raw/production/yearbook_2018/22-24.xls ; data/raw/production/yearbook_2020/22-24.xls
+03-01.xls,2,3,raw,data/raw/production/yearbook_2019/03-01.xls ; data/raw/production/yearbook_2018/03-01.xls ; data/raw/production/yearbook_2020/03-01.xls
+03-03.xls,2,3,raw,data/raw/production/yearbook_2019/03-03.xls ; data/raw/production/yearbook_2018/03-03.xls ; data/raw/production/yearbook_2020/03-03.xls
+22-26.xls,2,3,raw,data/raw/production/yearbook_2019/22-26.xls ; data/raw/production/yearbook_2018/22-26.xls ; data/raw/production/yearbook_2020/22-26.xls
+13-06.xls,2,3,raw,data/raw/production/yearbook_2019/13-06.xls ; data/raw/production/yearbook_2018/13-06.xls ; data/raw/production/yearbook_2020/13-06.xls
+13-12.xls,2,3,raw,data/raw/production/yearbook_2019/13-12.xls ; data/raw/production/yearbook_2018/13-12.xls ; data/raw/production/yearbook_2020/13-12.xls
+06-27.xls,2,3,raw,data/raw/production/yearbook_2019/06-27.xls ; data/raw/production/yearbook_2018/06-27.xls ; data/raw/production/yearbook_2020/06-27.xls
+06-26.xls,2,3,raw,data/raw/production/yearbook_2019/06-26.xls ; data/raw/production/yearbook_2018/06-26.xls ; data/raw/production/yearbook_2020/06-26.xls
+13-13.xls,3,3,raw,data/raw/production/yearbook_2019/13-13.xls ; data/raw/production/yearbook_2018/13-13.xls ; data/raw/production/yearbook_2020/13-13.xls
+22-27.xls,2,2,raw,data/raw/production/yearbook_2019/22-27.xls ; data/raw/production/yearbook_2018/22-27.xls
+03-02.xls,2,3,raw,data/raw/production/yearbook_2019/03-02.xls ; data/raw/production/yearbook_2018/03-02.xls ; data/raw/production/yearbook_2020/03-02.xls
+22-23.xls,2,3,raw,data/raw/production/yearbook_2019/22-23.xls ; data/raw/production/yearbook_2018/22-23.xls ; data/raw/production/yearbook_2020/22-23.xls
+25-02.xls,2,2,raw,data/raw/production/yearbook_2019/25-02.xls ; data/raw/production/yearbook_2020/25-02.xls
+13-03.xls,2,3,raw,data/raw/production/yearbook_2019/13-03.xls ; data/raw/production/yearbook_2018/13-03.xls ; data/raw/production/yearbook_2020/13-03.xls
+13-17.xls,2,3,raw,data/raw/production/yearbook_2019/13-17.xls ; data/raw/production/yearbook_2018/13-17.xls ; data/raw/production/yearbook_2020/13-17.xls
+06-22.xls,2,3,raw,data/raw/production/yearbook_2019/06-22.xls ; data/raw/production/yearbook_2018/06-22.xls ; data/raw/production/yearbook_2020/06-22.xls
+01-03.xls,2,3,raw,data/raw/production/yearbook_2019/01-03.xls ; data/raw/production/yearbook_2018/01-03.xls ; data/raw/production/yearbook_2020/01-03.xls
+06-23.xls,2,3,raw,data/raw/production/yearbook_2019/06-23.xls ; data/raw/production/yearbook_2018/06-23.xls ; data/raw/production/yearbook_2020/06-23.xls
+13-16.xls,2,3,raw,data/raw/production/yearbook_2019/13-16.xls ; data/raw/production/yearbook_2018/13-16.xls ; data/raw/production/yearbook_2020/13-16.xls
+13-02.xls,2,3,raw,data/raw/production/yearbook_2019/13-02.xls ; data/raw/production/yearbook_2018/13-02.xls ; data/raw/production/yearbook_2020/13-02.xls
+22-22.xls,2,3,raw,data/raw/production/yearbook_2019/22-22.xls ; data/raw/production/yearbook_2018/22-22.xls ; data/raw/production/yearbook_2020/22-22.xls
+03-05.xls,2,3,raw,data/raw/production/yearbook_2019/03-05.xls ; data/raw/production/yearbook_2018/03-05.xls ; data/raw/production/yearbook_2020/03-05.xls
+22-20.xls,2,3,raw,data/raw/production/yearbook_2019/22-20.xls ; data/raw/production/yearbook_2018/22-20.xls ; data/raw/production/yearbook_2020/22-20.xls
+22-08.xls,3,3,raw,data/raw/production/yearbook_2019/22-08.xls ; data/raw/production/yearbook_2018/22-08.xls ; data/raw/production/yearbook_2020/22-08.xls
+25-01.xls,2,2,raw,data/raw/production/yearbook_2019/25-01.xls ; data/raw/production/yearbook_2020/25-01.xls
+13-28.xls,3,3,raw,data/raw/production/yearbook_2019/13-28.xls ; data/raw/production/yearbook_2018/13-28.xls ; data/raw/production/yearbook_2020/13-28.xls
+13-14.xls,3,3,raw,data/raw/production/yearbook_2019/13-14.xls ; data/raw/production/yearbook_2018/13-14.xls ; data/raw/production/yearbook_2020/13-14.xls
+14-09.xls,2,3,raw,data/raw/production/yearbook_2019/14-09.xls ; data/raw/production/yearbook_2018/14-09.xls ; data/raw/production/yearbook_2020/14-09.xls
+18-09.xls,2,3,raw,data/raw/production/yearbook_2019/18-09.xls ; data/raw/production/yearbook_2018/18-09.xls ; data/raw/production/yearbook_2020/18-09.xls
+06-21.xls,2,3,raw,data/raw/production/yearbook_2019/06-21.xls ; data/raw/production/yearbook_2018/06-21.xls ; data/raw/production/yearbook_2020/06-21.xls
+06-09.xls,2,3,raw,data/raw/production/yearbook_2019/06-09.xls ; data/raw/production/yearbook_2018/06-09.xls ; data/raw/production/yearbook_2020/06-09.xls
+06-08.xls,2,3,raw,data/raw/production/yearbook_2019/06-08.xls ; data/raw/production/yearbook_2018/06-08.xls ; data/raw/production/yearbook_2020/06-08.xls
+06-20.xls,2,3,raw,data/raw/production/yearbook_2019/06-20.xls ; data/raw/production/yearbook_2018/06-20.xls ; data/raw/production/yearbook_2020/06-20.xls
+13-01.xls,3,3,raw,data/raw/production/yearbook_2019/13-01.xls ; data/raw/production/yearbook_2018/13-01.xls ; data/raw/production/yearbook_2020/13-01.xls
+14-08.xls,2,3,raw,data/raw/production/yearbook_2019/14-08.xls ; data/raw/production/yearbook_2018/14-08.xls ; data/raw/production/yearbook_2020/14-08.xls
+13-15.xls,2,3,raw,data/raw/production/yearbook_2019/13-15.xls ; data/raw/production/yearbook_2018/13-15.xls ; data/raw/production/yearbook_2020/13-15.xls
+13-29.xls,2,3,raw,data/raw/production/yearbook_2019/13-29.xls ; data/raw/production/yearbook_2018/13-29.xls ; data/raw/production/yearbook_2020/13-29.xls
+22-09.xls,2,3,raw,data/raw/production/yearbook_2019/22-09.xls ; data/raw/production/yearbook_2018/22-09.xls ; data/raw/production/yearbook_2020/22-09.xls
+22-10.xls,3,3,raw,data/raw/production/yearbook_2019/22-10.xls ; data/raw/production/yearbook_2018/22-10.xls ; data/raw/production/yearbook_2020/22-10.xls
+22-04.xls,2,3,raw,data/raw/production/yearbook_2019/22-04.xls ; data/raw/production/yearbook_2018/22-04.xls ; data/raw/production/yearbook_2020/22-04.xls
+13-30.xls,2,3,raw,data/raw/production/yearbook_2019/13-30.xls ; data/raw/production/yearbook_2018/13-30.xls ; data/raw/production/yearbook_2020/13-30.xls
+13-24.xls,3,3,raw,data/raw/production/yearbook_2019/13-24.xls ; data/raw/production/yearbook_2018/13-24.xls ; data/raw/production/yearbook_2020/13-24.xls
+14-05.xls,2,3,raw,data/raw/production/yearbook_2019/14-05.xls ; data/raw/production/yearbook_2018/14-05.xls ; data/raw/production/yearbook_2020/14-05.xls
+14-11.xls,2,3,raw,data/raw/production/yearbook_2019/14-11.xls ; data/raw/production/yearbook_2018/14-11.xls ; data/raw/production/yearbook_2020/14-11.xls
+13-18.xls,2,3,raw,data/raw/production/yearbook_2019/13-18.xls ; data/raw/production/yearbook_2018/13-18.xls ; data/raw/production/yearbook_2020/13-18.xls
+18-11.xls,3,3,raw,data/raw/production/yearbook_2019/18-11.xls ; data/raw/production/yearbook_2018/18-11.xls ; data/raw/production/yearbook_2020/18-11.xls
+18-05.xls,2,3,raw,data/raw/production/yearbook_2019/18-05.xls ; data/raw/production/yearbook_2018/18-05.xls ; data/raw/production/yearbook_2020/18-05.xls
+16-14.xls,2,3,raw,data/raw/production/yearbook_2019/16-14.xls ; data/raw/production/yearbook_2018/16-14.xls ; data/raw/production/yearbook_2020/16-14.xls
+06-11.xls,2,3,raw,data/raw/production/yearbook_2019/06-11.xls ; data/raw/production/yearbook_2018/06-11.xls ; data/raw/production/yearbook_2020/06-11.xls
+06-05.xls,2,3,raw,data/raw/production/yearbook_2019/06-05.xls ; data/raw/production/yearbook_2018/06-05.xls ; data/raw/production/yearbook_2020/06-05.xls
+20-01.xls,2,3,raw,data/raw/production/yearbook_2019/20-01.xls ; data/raw/production/yearbook_2018/20-01.xls ; data/raw/production/yearbook_2020/20-01.xls
+06-04.xls,2,3,raw,data/raw/production/yearbook_2019/06-04.xls ; data/raw/production/yearbook_2018/06-04.xls ; data/raw/production/yearbook_2020/06-04.xls
+06-10.xls,2,3,raw,data/raw/production/yearbook_2019/06-10.xls ; data/raw/production/yearbook_2018/06-10.xls ; data/raw/production/yearbook_2020/06-10.xls
+08-01.xls,2,3,raw,data/raw/production/yearbook_2019/08-01.xls ; data/raw/production/yearbook_2018/08-01.xls ; data/raw/production/yearbook_2020/08-01.xls
+16-15.xls,2,3,raw,data/raw/production/yearbook_2019/16-15.xls ; data/raw/production/yearbook_2018/16-15.xls ; data/raw/production/yearbook_2020/16-15.xls
+16-01.xls,2,3,raw,data/raw/production/yearbook_2019/16-01.xls ; data/raw/production/yearbook_2018/16-01.xls ; data/raw/production/yearbook_2020/16-01.xls
+18-04.xls,2,3,raw,data/raw/production/yearbook_2019/18-04.xls ; data/raw/production/yearbook_2018/18-04.xls ; data/raw/production/yearbook_2020/18-04.xls
+18-10.xls,2,3,raw,data/raw/production/yearbook_2019/18-10.xls ; data/raw/production/yearbook_2018/18-10.xls ; data/raw/production/yearbook_2020/18-10.xls
+14-10.xls,2,3,raw,data/raw/production/yearbook_2019/14-10.xls ; data/raw/production/yearbook_2018/14-10.xls ; data/raw/production/yearbook_2020/14-10.xls
+13-19.xls,2,3,raw,data/raw/production/yearbook_2019/13-19.xls ; data/raw/production/yearbook_2018/13-19.xls ; data/raw/production/yearbook_2020/13-19.xls
+14-04.xls,2,3,raw,data/raw/production/yearbook_2019/14-04.xls ; data/raw/production/yearbook_2018/14-04.xls ; data/raw/production/yearbook_2020/14-04.xls
+13-25.xls,3,3,raw,data/raw/production/yearbook_2019/13-25.xls ; data/raw/production/yearbook_2018/13-25.xls ; data/raw/production/yearbook_2020/13-25.xls
+13-31.xls,3,3,raw,data/raw/production/yearbook_2019/13-31.xls ; data/raw/production/yearbook_2018/13-31.xls ; data/raw/production/yearbook_2020/13-31.xls
+22-05.xls,3,3,raw,data/raw/production/yearbook_2019/22-05.xls ; data/raw/production/yearbook_2018/22-05.xls ; data/raw/production/yearbook_2020/22-05.xls
+22-11.xls,2,3,raw,data/raw/production/yearbook_2019/22-11.xls ; data/raw/production/yearbook_2018/22-11.xls ; data/raw/production/yearbook_2020/22-11.xls
+03-08.xls,2,3,raw,data/raw/production/yearbook_2019/03-08.xls ; data/raw/production/yearbook_2018/03-08.xls ; data/raw/production/yearbook_2020/03-08.xls
+22-07.xls,2,3,raw,data/raw/production/yearbook_2019/22-07.xls ; data/raw/production/yearbook_2018/22-07.xls ; data/raw/production/yearbook_2020/22-07.xls
+22-13.xls,2,3,raw,data/raw/production/yearbook_2019/22-13.xls ; data/raw/production/yearbook_2018/22-13.xls ; data/raw/production/yearbook_2020/22-13.xls
+13-27.xls,2,3,raw,data/raw/production/yearbook_2019/13-27.xls ; data/raw/production/yearbook_2018/13-27.xls ; data/raw/production/yearbook_2020/13-27.xls
+13-33.xls,2,2,raw,data/raw/production/yearbook_2019/13-33.xls ; data/raw/production/yearbook_2018/13-33.xls
+14-12.xls,2,3,raw,data/raw/production/yearbook_2019/14-12.xls ; data/raw/production/yearbook_2018/14-12.xls ; data/raw/production/yearbook_2020/14-12.xls
+14-06.xls,2,3,raw,data/raw/production/yearbook_2019/14-06.xls ; data/raw/production/yearbook_2018/14-06.xls ; data/raw/production/yearbook_2020/14-06.xls
+18-06.xls,2,3,raw,data/raw/production/yearbook_2019/18-06.xls ; data/raw/production/yearbook_2018/18-06.xls ; data/raw/production/yearbook_2020/18-06.xls
+18-12.xls,2,3,raw,data/raw/production/yearbook_2019/18-12.xls ; data/raw/production/yearbook_2018/18-12.xls ; data/raw/production/yearbook_2020/18-12.xls
+16-17.xls,2,3,raw,data/raw/production/yearbook_2019/16-17.xls ; data/raw/production/yearbook_2018/16-17.xls ; data/raw/production/yearbook_2020/16-17.xls
+08-03.xls,3,3,raw,data/raw/production/yearbook_2019/08-03.xls ; data/raw/production/yearbook_2018/08-03.xls ; data/raw/production/yearbook_2020/08-03.xls
+06-06.xls,2,3,raw,data/raw/production/yearbook_2019/06-06.xls ; data/raw/production/yearbook_2018/06-06.xls ; data/raw/production/yearbook_2020/06-06.xls
+06-12.xls,2,3,raw,data/raw/production/yearbook_2019/06-12.xls ; data/raw/production/yearbook_2018/06-12.xls ; data/raw/production/yearbook_2020/06-12.xls
+20-02.xls,3,3,raw,data/raw/production/yearbook_2019/20-02.xls ; data/raw/production/yearbook_2018/20-02.xls ; data/raw/production/yearbook_2020/20-02.xls
+06-13.xls,2,3,raw,data/raw/production/yearbook_2019/06-13.xls ; data/raw/production/yearbook_2018/06-13.xls ; data/raw/production/yearbook_2020/06-13.xls
+06-07.xls,2,3,raw,data/raw/production/yearbook_2019/06-07.xls ; data/raw/production/yearbook_2018/06-07.xls ; data/raw/production/yearbook_2020/06-07.xls
+08-02.xls,3,3,raw,data/raw/production/yearbook_2019/08-02.xls ; data/raw/production/yearbook_2018/08-02.xls ; data/raw/production/yearbook_2020/08-02.xls
+16-02.xls,2,3,raw,data/raw/production/yearbook_2019/16-02.xls ; data/raw/production/yearbook_2018/16-02.xls ; data/raw/production/yearbook_2020/16-02.xls
+16-16.xls,2,3,raw,data/raw/production/yearbook_2019/16-16.xls ; data/raw/production/yearbook_2018/16-16.xls ; data/raw/production/yearbook_2020/16-16.xls
+18-13.xls,2,3,raw,data/raw/production/yearbook_2019/18-13.xls ; data/raw/production/yearbook_2018/18-13.xls ; data/raw/production/yearbook_2020/18-13.xls
+18-07.xls,2,3,raw,data/raw/production/yearbook_2019/18-07.xls ; data/raw/production/yearbook_2018/18-07.xls ; data/raw/production/yearbook_2020/18-07.xls
+14-07.xls,2,3,raw,data/raw/production/yearbook_2019/14-07.xls ; data/raw/production/yearbook_2018/14-07.xls ; data/raw/production/yearbook_2020/14-07.xls
+14-13.xls,2,3,raw,data/raw/production/yearbook_2019/14-13.xls ; data/raw/production/yearbook_2018/14-13.xls ; data/raw/production/yearbook_2020/14-13.xls
+13-32.xls,2,3,raw,data/raw/production/yearbook_2019/13-32.xls ; data/raw/production/yearbook_2018/13-32.xls ; data/raw/production/yearbook_2020/13-32.xls
+13-26.xls,2,3,raw,data/raw/production/yearbook_2019/13-26.xls ; data/raw/production/yearbook_2018/13-26.xls ; data/raw/production/yearbook_2020/13-26.xls
+22-12.xls,3,3,raw,data/raw/production/yearbook_2019/22-12.xls ; data/raw/production/yearbook_2018/22-12.xls ; data/raw/production/yearbook_2020/22-12.xls
+22-06.xls,3,3,raw,data/raw/production/yearbook_2019/22-06.xls ; data/raw/production/yearbook_2018/22-06.xls ; data/raw/production/yearbook_2020/22-06.xls
+14-17.xls,2,3,raw,data/raw/production/yearbook_2019/14-17.xls ; data/raw/production/yearbook_2018/14-17.xls ; data/raw/production/yearbook_2020/14-17.xls
+13-22.xls,3,3,raw,data/raw/production/yearbook_2019/13-22.xls ; data/raw/production/yearbook_2018/13-22.xls ; data/raw/production/yearbook_2020/13-22.xls
+16-12.xls,2,3,raw,data/raw/production/yearbook_2019/16-12.xls ; data/raw/production/yearbook_2018/16-12.xls ; data/raw/production/yearbook_2020/16-12.xls
+18-03.xls,3,3,raw,data/raw/production/yearbook_2019/18-03.xls ; data/raw/production/yearbook_2018/18-03.xls ; data/raw/production/yearbook_2020/18-03.xls
+06-03.xls,3,3,raw,data/raw/production/yearbook_2019/06-03.xls ; data/raw/production/yearbook_2018/06-03.xls ; data/raw/production/yearbook_2020/06-03.xls
+06-17.xls,3,3,raw,data/raw/production/yearbook_2019/06-17.xls ; data/raw/production/yearbook_2018/06-17.xls ; data/raw/production/yearbook_2020/06-17.xls
+08-06.xls,2,3,raw,data/raw/production/yearbook_2019/08-06.xls ; data/raw/production/yearbook_2018/08-06.xls ; data/raw/production/yearbook_2020/08-06.xls
+06-16.xls,2,3,raw,data/raw/production/yearbook_2019/06-16.xls ; data/raw/production/yearbook_2018/06-16.xls ; data/raw/production/yearbook_2020/06-16.xls
+06-02.xls,3,3,raw,data/raw/production/yearbook_2019/06-02.xls ; data/raw/production/yearbook_2018/06-02.xls ; data/raw/production/yearbook_2020/06-02.xls
+16-07.xls,3,3,raw,data/raw/production/yearbook_2019/16-07.xls ; data/raw/production/yearbook_2018/16-07.xls ; data/raw/production/yearbook_2020/16-07.xls
+16-13.xls,2,3,raw,data/raw/production/yearbook_2019/16-13.xls ; data/raw/production/yearbook_2018/16-13.xls ; data/raw/production/yearbook_2020/16-13.xls
+13-23.xls,2,3,raw,data/raw/production/yearbook_2019/13-23.xls ; data/raw/production/yearbook_2018/13-23.xls ; data/raw/production/yearbook_2020/13-23.xls
+14-02.xls,2,3,raw,data/raw/production/yearbook_2019/14-02.xls ; data/raw/production/yearbook_2018/14-02.xls ; data/raw/production/yearbook_2020/14-02.xls
+04-05.xls,2,3,raw,data/raw/production/yearbook_2019/04-05.xls ; data/raw/production/yearbook_2018/04-05.xls ; data/raw/production/yearbook_2020/04-05.xls
+22-01.xls,2,3,raw,data/raw/production/yearbook_2019/22-01.xls ; data/raw/production/yearbook_2018/22-01.xls ; data/raw/production/yearbook_2020/22-01.xls
+14-14.xls,2,3,raw,data/raw/production/yearbook_2019/14-14.xls ; data/raw/production/yearbook_2018/14-14.xls ; data/raw/production/yearbook_2020/14-14.xls
+13-21.xls,3,3,raw,data/raw/production/yearbook_2019/13-21.xls ; data/raw/production/yearbook_2018/13-21.xls ; data/raw/production/yearbook_2020/13-21.xls
+18-14.xls,2,3,raw,data/raw/production/yearbook_2019/18-14.xls ; data/raw/production/yearbook_2018/18-14.xls ; data/raw/production/yearbook_2020/18-14.xls
+06-14.xls,2,3,raw,data/raw/production/yearbook_2019/06-14.xls ; data/raw/production/yearbook_2018/06-14.xls ; data/raw/production/yearbook_2020/06-14.xls
+06-28.xls,3,3,raw,data/raw/production/yearbook_2019/06-28.xls ; data/raw/production/yearbook_2018/06-28.xls ; data/raw/production/yearbook_2020/06-28.xls
+08-05.xls,3,3,raw,data/raw/production/yearbook_2019/08-05.xls ; data/raw/production/yearbook_2018/08-05.xls ; data/raw/production/yearbook_2020/08-05.xls
+08-04.xls,3,3,raw,data/raw/production/yearbook_2019/08-04.xls ; data/raw/production/yearbook_2018/08-04.xls ; data/raw/production/yearbook_2020/08-04.xls
+06-01.xls,3,3,raw,data/raw/production/yearbook_2019/06-01.xls ; data/raw/production/yearbook_2018/06-01.xls ; data/raw/production/yearbook_2020/06-01.xls
+06-15.xls,2,3,raw,data/raw/production/yearbook_2019/06-15.xls ; data/raw/production/yearbook_2018/06-15.xls ; data/raw/production/yearbook_2020/06-15.xls
+18-01.xls,2,3,raw,data/raw/production/yearbook_2019/18-01.xls ; data/raw/production/yearbook_2018/18-01.xls ; data/raw/production/yearbook_2020/18-01.xls
+13-20.xls,3,3,raw,data/raw/production/yearbook_2019/13-20.xls ; data/raw/production/yearbook_2018/13-20.xls ; data/raw/production/yearbook_2020/13-20.xls
+14-15.xls,2,3,raw,data/raw/production/yearbook_2019/14-15.xls ; data/raw/production/yearbook_2018/14-15.xls ; data/raw/production/yearbook_2020/14-15.xls
+14-01.xls,2,3,raw,data/raw/production/yearbook_2019/14-01.xls ; data/raw/production/yearbook_2018/14-01.xls ; data/raw/production/yearbook_2020/14-01.xls
+04-04.xls,2,3,raw,data/raw/production/yearbook_2019/04-04.xls ; data/raw/production/yearbook_2018/04-04.xls ; data/raw/production/yearbook_2020/04-04.xls
+10-02.xls,2,3,raw,data/raw/production/yearbook_2019/10-02.xls ; data/raw/production/yearbook_2018/10-02.xls ; data/raw/production/yearbook_2020/10-02.xls
+10-16.xls,2,3,raw,data/raw/production/yearbook_2019/10-16.xls ; data/raw/production/yearbook_2018/10-16.xls ; data/raw/production/yearbook_2020/10-16.xls
+05-37.xls,3,3,raw,data/raw/production/yearbook_2019/05-37.xls ; data/raw/production/yearbook_2018/05-37.xls ; data/raw/production/yearbook_2020/05-37.xls
+02-02.xls,2,3,raw,data/raw/production/yearbook_2019/02-02.xls ; data/raw/production/yearbook_2018/02-02.xls ; data/raw/production/yearbook_2020/02-02.xls
+24-06.xls,3,3,raw,data/raw/production/yearbook_2019/24-06.xls ; data/raw/production/yearbook_2018/24-06.xls ; data/raw/production/yearbook_2020/24-06.xls
+24-07.xls,3,3,raw,data/raw/production/yearbook_2019/24-07.xls ; data/raw/production/yearbook_2018/24-07.xls ; data/raw/production/yearbook_2020/24-07.xls
+02-03.xls,3,3,raw,data/raw/production/yearbook_2019/02-03.xls ; data/raw/production/yearbook_2018/02-03.xls ; data/raw/production/yearbook_2020/02-03.xls
+05-36.xls,3,3,raw,data/raw/production/yearbook_2019/05-36.xls ; data/raw/production/yearbook_2018/05-36.xls ; data/raw/production/yearbook_2020/05-36.xls
+10-17.xls,2,3,raw,data/raw/production/yearbook_2019/10-17.xls ; data/raw/production/yearbook_2018/10-17.xls ; data/raw/production/yearbook_2020/10-17.xls
+10-03.xls,2,3,raw,data/raw/production/yearbook_2019/10-03.xls ; data/raw/production/yearbook_2018/10-03.xls ; data/raw/production/yearbook_2020/10-03.xls
+10-15.xls,3,3,raw,data/raw/production/yearbook_2019/10-15.xls ; data/raw/production/yearbook_2018/10-15.xls ; data/raw/production/yearbook_2020/10-15.xls
+10-01.xls,3,3,raw,data/raw/production/yearbook_2019/10-01.xls ; data/raw/production/yearbook_2018/10-01.xls ; data/raw/production/yearbook_2020/10-01.xls
+17-08.xls,3,3,raw,data/raw/production/yearbook_2019/17-08.xls ; data/raw/production/yearbook_2018/17-08.xls ; data/raw/production/yearbook_2020/17-08.xls
+09-08.xls,3,3,raw,data/raw/production/yearbook_2019/09-08.xls ; data/raw/production/yearbook_2018/09-08.xls ; data/raw/production/yearbook_2020/09-08.xls
+05-34.xls,3,3,raw,data/raw/production/yearbook_2019/05-34.xls ; data/raw/production/yearbook_2018/05-34.xls ; data/raw/production/yearbook_2020/05-34.xls
+05-08.xls,2,3,raw,data/raw/production/yearbook_2019/05-08.xls ; data/raw/production/yearbook_2018/05-08.xls ; data/raw/production/yearbook_2020/05-08.xls
+02-01.xls,3,3,raw,data/raw/production/yearbook_2019/02-01.xls ; data/raw/production/yearbook_2018/02-01.xls ; data/raw/production/yearbook_2020/02-01.xls
+24-05.xls,3,3,raw,data/raw/production/yearbook_2019/24-05.xls ; data/raw/production/yearbook_2018/24-05.xls ; data/raw/production/yearbook_2020/24-05.xls
+15-19.xls,2,3,raw,data/raw/production/yearbook_2019/15-19.xls ; data/raw/production/yearbook_2018/15-19.xls ; data/raw/production/yearbook_2020/15-19.xls
+12-04.xls,2,3,raw,data/raw/production/yearbook_2019/12-04.xls ; data/raw/production/yearbook_2018/12-04.xls ; data/raw/production/yearbook_2020/12-04.xls
+24-04.xls,2,3,raw,data/raw/production/yearbook_2019/24-04.xls ; data/raw/production/yearbook_2018/24-04.xls ; data/raw/production/yearbook_2020/24-04.xls
+05-35.xls,3,3,raw,data/raw/production/yearbook_2019/05-35.xls ; data/raw/production/yearbook_2018/05-35.xls ; data/raw/production/yearbook_2020/05-35.xls
+09-09.xls,3,3,raw,data/raw/production/yearbook_2019/09-09.xls ; data/raw/production/yearbook_2018/09-09.xls ; data/raw/production/yearbook_2020/09-09.xls
+17-09.xls,2,3,raw,data/raw/production/yearbook_2019/17-09.xls ; data/raw/production/yearbook_2018/17-09.xls ; data/raw/production/yearbook_2020/17-09.xls
+10-14.xls,2,3,raw,data/raw/production/yearbook_2019/10-14.xls ; data/raw/production/yearbook_2018/10-14.xls ; data/raw/production/yearbook_2020/10-14.xls
+10-10.xls,2,3,raw,data/raw/production/yearbook_2019/10-10.xls ; data/raw/production/yearbook_2018/10-10.xls ; data/raw/production/yearbook_2020/10-10.xls
+10-04.xls,2,3,raw,data/raw/production/yearbook_2019/10-04.xls ; data/raw/production/yearbook_2018/10-04.xls ; data/raw/production/yearbook_2020/10-04.xls
+07-08.xls,2,3,raw,data/raw/production/yearbook_2019/07-08.xls ; data/raw/production/yearbook_2018/07-08.xls ; data/raw/production/yearbook_2020/07-08.xls
+02-04.xls,3,3,raw,data/raw/production/yearbook_2019/02-04.xls ; data/raw/production/yearbook_2018/02-04.xls ; data/raw/production/yearbook_2020/02-04.xls
+05-31.xls,3,3,raw,data/raw/production/yearbook_2019/05-31.xls ; data/raw/production/yearbook_2018/05-31.xls ; data/raw/production/yearbook_2020/05-31.xls
+23-09.xls,3,3,raw,data/raw/production/yearbook_2019/23-09.xls ; data/raw/production/yearbook_2018/23-09.xls ; data/raw/production/yearbook_2020/23-09.xls
+12-01.xls,3,3,raw,data/raw/production/yearbook_2019/12-01.xls ; data/raw/production/yearbook_2018/12-01.xls ; data/raw/production/yearbook_2020/12-01.xls
+15-20.xls,2,3,raw,data/raw/production/yearbook_2019/15-20.xls ; data/raw/production/yearbook_2018/15-20.xls ; data/raw/production/yearbook_2020/15-20.xls
+15-21.xls,2,3,raw,data/raw/production/yearbook_2019/15-21.xls ; data/raw/production/yearbook_2018/15-21.xls ; data/raw/production/yearbook_2020/15-21.xls
+23-08.xls,3,3,raw,data/raw/production/yearbook_2019/23-08.xls ; data/raw/production/yearbook_2018/23-08.xls ; data/raw/production/yearbook_2020/23-08.xls
+10-05.xls,3,3,raw,data/raw/production/yearbook_2019/10-05.xls ; data/raw/production/yearbook_2018/10-05.xls ; data/raw/production/yearbook_2020/10-05.xls
+10-11.xls,2,3,raw,data/raw/production/yearbook_2019/10-11.xls ; data/raw/production/yearbook_2018/10-11.xls ; data/raw/production/yearbook_2020/10-11.xls
+10-07.xls,3,3,raw,data/raw/production/yearbook_2019/10-07.xls ; data/raw/production/yearbook_2018/10-07.xls ; data/raw/production/yearbook_2020/10-07.xls
+10-13.xls,3,3,raw,data/raw/production/yearbook_2019/10-13.xls ; data/raw/production/yearbook_2018/10-13.xls ; data/raw/production/yearbook_2020/10-13.xls
+05-32.xls,3,3,raw,data/raw/production/yearbook_2019/05-32.xls ; data/raw/production/yearbook_2018/05-32.xls ; data/raw/production/yearbook_2020/05-32.xls
+24-03.xls,3,3,raw,data/raw/production/yearbook_2019/24-03.xls ; data/raw/production/yearbook_2018/24-03.xls ; data/raw/production/yearbook_2020/24-03.xls
+12-02.xls,2,3,raw,data/raw/production/yearbook_2019/12-02.xls ; data/raw/production/yearbook_2018/12-02.xls ; data/raw/production/yearbook_2020/12-02.xls
+15-22.xls,2,3,raw,data/raw/production/yearbook_2019/15-22.xls ; data/raw/production/yearbook_2018/15-22.xls ; data/raw/production/yearbook_2020/15-22.xls
+12-03.xls,3,3,raw,data/raw/production/yearbook_2019/12-03.xls ; data/raw/production/yearbook_2018/12-03.xls ; data/raw/production/yearbook_2020/12-03.xls
+05-33.xls,3,3,raw,data/raw/production/yearbook_2019/05-33.xls ; data/raw/production/yearbook_2018/05-33.xls ; data/raw/production/yearbook_2020/05-33.xls
+10-12.xls,2,3,raw,data/raw/production/yearbook_2019/10-12.xls ; data/raw/production/yearbook_2018/10-12.xls ; data/raw/production/yearbook_2020/10-12.xls
+10-06.xls,2,3,raw,data/raw/production/yearbook_2019/10-06.xls ; data/raw/production/yearbook_2018/10-06.xls ; data/raw/production/yearbook_2020/10-06.xls
+13-05.xls,2,2,raw,data/raw/production/yearbook_2018/13-05.xls ; data/raw/production/yearbook_2020/13-05.xls
+13-09.xls,2,2,raw,data/raw/production/yearbook_2018/13-09.xls ; data/raw/production/yearbook_2020/13-09.xls
+market_registry.csv,2,2,"legacy,raw",data/raw/metadata/market_registry.csv ; archive/data_reports/reference_reports/market_registry.csv
+data_snapshot.json,3,11,"legacy,raw",data/raw/city_sources/dandong/data_snapshot.json ; data/raw/city_sources/jinzhou/data_snapshot.json ; data/raw/city_sources/dalian/data_snapshot.json ; data/raw/city_sources/chaoyang/data_snapshot.json ; data/raw/city_sources/shenyang/data_snapshot.json ; data/raw/city_sources/tieling/data_snapshot.json
+dim_calendar.csv,2,2,"legacy,other",data/processed/dimensions/dim_calendar.csv ; archive/old_marts/marts/dim_calendar.csv
+SOURCE_REGISTRY.csv,2,2,"legacy,other",data/metadata/governance/SOURCE_REGISTRY.csv ; archive/migration/reference_registries/SOURCE_REGISTRY.csv
+.mcp.json,2,2,"frontend,legacy",archive/historical/research-reference-projects/gpt-researcher/.mcp.json ; reference/design-references/ui-ux-pro-max-skill/stack/.mcp.json
+package.json,23,53,"frontend,legacy",archive/historical/research-reference-projects/gpt-researcher/frontend/nextjs/package.json ; archive/historical/research-reference-projects/gpt-researcher/docs/package.json ; archive/historical/research-reference-projects/gpt-researcher/docs/discord-bot/package.json ; archive/historical/research-reference-projects/gpt-researcher/docs/npm/package.json ; archive/historical/research-reference-projects/gpt-researcher/multi_agents/package.json ; reference/design-references/impeccable/package.json
+tsconfig.json,4,11,"frontend,legacy",archive/historical/research-reference-projects/gpt-researcher/frontend/nextjs/tsconfig.json ; reference/design-references/impeccable/tests/framework-fixtures/vite8-react-tsx-repeated-aside/files/tsconfig.json ; reference/design-references/impeccable/tests/framework-fixtures/vite8-react-ts/files/tsconfig.json ; reference/design-references/inspira-ui/tsconfig.json ; reference/design-references/video-shotcraft/remotion/tsconfig.json ; reference/design-references/ui-ux-pro-max-skill/gallery/tsconfig.json
+task.json,3,3,legacy,archive/historical/research-reference-projects/gpt-researcher/multi_agents/task.json ; archive/historical/research-reference-projects/gpt-researcher/multi_agents/ag2/task.json ; archive/historical/research-reference-projects/gpt-researcher/deep_agents/task.json
+settings.json,4,4,"frontend,legacy",archive/historical/research-reference-projects/gpt-researcher/.vscode/settings.json ; reference/design-references/impeccable/.claude/settings.json ; reference/design-references/inspira-ui/.vscode/settings.json ; reference/design-references/ui-ux-pro-max-skill/stack/.claude/settings.json
+plugin.json,11,14,"frontend,legacy",archive/historical/research-reference-projects/gpt-researcher/.codex-plugin/plugin.json ; reference/design-references/impeccable/plugin/.claude-plugin/plugin.json ; reference/design-references/impeccable/plugin/.grok-plugin/plugin.json ; reference/design-references/impeccable/.claude-plugin/plugin.json ; reference/design-references/ponytail/plugin.json ; reference/design-references/ponytail/.qoder-plugin/plugin.json
+reporting_guidelines.json,2,2,legacy,archive/historical/research-reference-projects/scientific-agent-skills/skills/scientific-writing/assets/reporting_guidelines.json ; archive/historical/research-reference-projects/scientific-agent-skills/skills/peer-review/assets/reporting_guidelines.json
+volume_new.csv,2,6,legacy,archive/review/round3_deltas/dandong/volume_new.csv ; archive/review/round3_deltas/jinzhou/volume_new.csv ; archive/review/round3_deltas/dalian/volume_new.csv ; archive/review/round3_deltas/chaoyang/volume_new.csv ; archive/review/round3_deltas/shenyang/_round3/volume_new.csv ; archive/review/round3_deltas/tieling/volume_new.csv
+phenology_new.csv,2,6,legacy,archive/review/round3_deltas/dandong/phenology_new.csv ; archive/review/round3_deltas/jinzhou/phenology_new.csv ; archive/review/round3_deltas/dalian/phenology_new.csv ; archive/review/round3_deltas/chaoyang/phenology_new.csv ; archive/review/round3_deltas/shenyang/_round3/phenology_new.csv ; archive/review/round3_deltas/tieling/phenology_new.csv
+index.json,2,3,"frontend,legacy",archive/migration/agriscope_baseline/public_research_shenyang/index.json ; reference/design-references/lottie-web/docs/json/effects/index.json ; AgriScope/public/research/shenyang/index.json
+tieling__volume_observations.csv,2,2,legacy,archive/backups/volume_type_norm_20260923_125440/tieling__volume_observations.csv ; archive/backups/round3_merge_20260923_125411/tieling__volume_observations.csv
+dalian__volume_observations.csv,2,2,legacy,archive/backups/volume_type_norm_20260923_125440/dalian__volume_observations.csv ; archive/backups/round3_merge_20260923_125411/dalian__volume_observations.csv
+dandong__volume_observations.csv,2,2,legacy,archive/backups/volume_type_norm_20260923_125440/dandong__volume_observations.csv ; archive/backups/round3_merge_20260923_125411/dandong__volume_observations.csv
+chaoyang__volume_observations.csv,2,2,legacy,archive/backups/volume_type_norm_20260923_125440/chaoyang__volume_observations.csv ; archive/backups/round3_merge_20260923_125411/chaoyang__volume_observations.csv
+jinzhou__volume_observations.csv,2,2,legacy,archive/backups/volume_type_norm_20260923_125440/jinzhou__volume_observations.csv ; archive/backups/round3_merge_20260923_125411/jinzhou__volume_observations.csv
+hooks.json,2,3,frontend,reference/design-references/impeccable/.cursor/hooks.json ; reference/design-references/impeccable/plugin/hooks/hooks.json ; reference/design-references/impeccable/.codex/hooks.json
+impeccable.json,2,2,frontend,reference/design-references/impeccable/.grok/hooks/impeccable.json ; reference/design-references/impeccable/.github/hooks/impeccable.json
+fixture.json,5,36,frontend,reference/design-references/impeccable/tests/framework-fixtures/nuxt-vite7/fixture.json ; reference/design-references/impeccable/tests/framework-fixtures/astro-vite7/fixture.json ; reference/design-references/impeccable/tests/framework-fixtures/tanstack-router-vite/fixture.json ; reference/design-references/impeccable/tests/framework-fixtures/vite8-react-insert/fixture.json ; reference/design-references/impeccable/tests/framework-fixtures/sveltekit-csp/fixture.json ; reference/design-references/impeccable/tests/framework-fixtures/nextjs-app-router/fixture.json
+design.json,2,2,frontend,reference/design-references/impeccable/tests/framework-fixtures/vite8-sveltekit-stateful/files/.impeccable/design.json ; reference/design-references/impeccable/.impeccable/design.json
+marketplace.json,6,9,frontend,reference/design-references/impeccable/.claude-plugin/marketplace.json ; reference/design-references/ponytail/.agents/plugins/marketplace.json ; reference/design-references/ponytail/.claude-plugin/marketplace.json ; reference/design-references/ponytail/.github/plugin/marketplace.json ; reference/design-references/ponytail/.grok-plugin/marketplace.json ; reference/design-references/gsap-skills/.cursor-plugin/marketplace.json
+config.json,2,2,frontend,reference/design-references/impeccable/.impeccable/config.json ; reference/design-references/impeccable/.impeccable/live/config.json
+opencode.json,2,3,frontend,reference/design-references/ponytail/opencode.json ; reference/design-references/ui-ux-pro-max-skill/cli/assets/templates/platforms/opencode.json ; reference/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/templates/platforms/opencode.json
+live-layout.json,2,3,frontend,reference/design-references/video-shotcraft/remotion/demos/_textures/live-layout.json ; reference/design-references/video-shotcraft/remotion/src/live-layout.json ; reference/design-references/video-shotcraft/remotion/src/aifl/live-layout.json
+styles.csv,4,10,frontend,reference/design-references/ui-ux-pro-max-skill/gallery/data/styles.csv ; reference/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/data/styles.csv ; reference/design-references/ui-ux-pro-max-skill/.claude/skills/design/data/cip/styles.csv ; reference/design-references/ui-ux-pro-max-skill/.claude/skills/design/data/logo/styles.csv ; reference/design-references/ui-ux-pro-max-skill/.claude/skills/design/data/icon/styles.csv ; reference/design-references/ui-ux-pro-max-skill/cli/assets/skills/design/data/cip/styles.csv
+colors.csv,2,5,frontend,reference/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/data/colors.csv ; reference/design-references/ui-ux-pro-max-skill/.claude/skills/design/data/logo/colors.csv ; reference/design-references/ui-ux-pro-max-skill/cli/assets/skills/design/data/logo/colors.csv ; reference/design-references/ui-ux-pro-max-skill/cli/assets/data/colors.csv ; reference/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/colors.csv
+industries.csv,2,4,frontend,reference/design-references/ui-ux-pro-max-skill/.claude/skills/design/data/cip/industries.csv ; reference/design-references/ui-ux-pro-max-skill/.claude/skills/design/data/logo/industries.csv ; reference/design-references/ui-ux-pro-max-skill/cli/assets/skills/design/data/cip/industries.csv ; reference/design-references/ui-ux-pro-max-skill/cli/assets/skills/design/data/logo/industries.csv
+data.json,2,6,frontend,reference/design-references/lottie-web/demo/navidad/data.json ; reference/design-references/lottie-web/demo/gatin/data.json ; reference/design-references/lottie-web/demo/bodymovin/data.json ; reference/design-references/lottie-web/demo/happy2016/data.json ; reference/design-references/lottie-web/demo/adrock/data.json ; reference/design-references/lottie-web/test/animations/footage/data.json
+tsconfig.app.json,2,2,frontend,reference/iTeach/tsconfig.app.json ; AgriScope/tsconfig.app.json

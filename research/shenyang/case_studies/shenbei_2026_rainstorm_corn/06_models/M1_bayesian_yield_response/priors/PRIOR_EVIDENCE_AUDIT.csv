@@ -1,0 +1,5 @@
+﻿paper_id,crop,region,climate_similarity,maize_type,growth_stage,stress_type,exposure_definition,outcome_definition,effect_metric,sample_size,can_map_to_M1_exposure,transportability,use_for_numeric_prior,reason,prior_class,usable_for_M1_direction_only
+LIT-YU2014,夏玉米,黄淮,低（暖温带半湿润 vs 东北中温带）,夏玉米,拔节/抽雄期,人工淹水/渍水,淹水天数(d),产量损失率(%),拔节淹3d=-28.4%; 抽雄淹5d=-42.8%,田间试验(非样本数),NO,低,NO,处理=淹水天数，M1 变量=降雨量(mm)；单位不可映射；夏玉米≠春玉米,Class C（机制证据，用于 M3；不作为 M1 降雨斜率数值先验）,YES（仅方向：渍涝不利于单产）
+LIT-LIUZG2013,夏玉米,黄淮(新乡),低,夏玉米,苗/拔/抽雄吐丝/灌浆,测坑淹涝,淹涝天数(d),减产率(%),抽雄吐丝淹6d=-12.99%; 各期区间-2.58~28.63%,测坑试验,NO,低,NO,天数→减产，无法映射到 mm 降雨；仅提供方向与量级范围,Class C（机制证据，用于 M3；不作为 M1 降雨斜率数值先验）,YES（仅方向：渍涝不利于单产）
+LIT-LIUXF2021,夏玉米,黄淮(农科院灌溉所),低,夏玉米,苗/拔/抽雄吐丝/灌浆,桶栽淹涝,淹涝历时(d),减产率(%),减产<10%阈值 抽雄吐丝1.5d; >20% 4d,桶栽试验,NO,低,NO,同上；桶栽非田间，尺度差异大,Class C（机制证据，用于 M3；不作为 M1 降雨斜率数值先验）,YES（仅方向：渍涝不利于单产）
+LIT-FENG2013,夏玉米,黄淮(开封),低,夏玉米,抽雄期,测坑淹水,淹水天数(d),减产率(%),抽雄淹6-10d=-10.5~48.7%,测坑试验,NO,低,NO,天数→减产；仅提供方向（负）与不规则量级,Class C（机制证据，用于 M3；不作为 M1 降雨斜率数值先验）,YES（仅方向：渍涝不利于单产）

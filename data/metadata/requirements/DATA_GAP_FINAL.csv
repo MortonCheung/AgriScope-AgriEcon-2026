@@ -1,0 +1,21 @@
+﻿metric,city,crop,desired_granularity,status,searched_sources,search_attempts,evidence,impact,fallback
+耕地/土地覆盖,,,raster,PUBLICLY_UNAVAILABLE,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,见各专项 NOTES,空间基础,标记 NOT_PUBLIC
+县级价格,,,district×crop,PROXY_ONLY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,market/price_observation.parquet,市场价格,降权使用并标注 proxy
+全国价格,,,national,PUBLICLY_UNAVAILABLE,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,见各专项 NOTES,价格外部基准,标记 NOT_PUBLIC
+城市成交量,,,city×crop×daily,PROXY_ONLY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,market/market_volume.parquet,成交量/供应,降权使用并标注 proxy
+市场/冷库/粮食库存,,,city,PUBLICLY_UNAVAILABLE,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,见各专项 NOTES,库存,标记 NOT_PUBLIC
+单产(官方或派生),,,city×crop×year,PROXY_ONLY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,production/production_yearly.parquet,单产,降权使用并标注 proxy
+成本拆分(种苗/肥料/人工/棚膜…),,,city×crop,PROXY_ONLY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,cost/cost_components.parquet,种植成本,降权使用并标注 proxy
+化肥/农药/农膜/柴油价格,,,city×week,PROXY_ONLY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,cost/input_prices.parquet,农资价格,降权使用并标注 proxy
+土壤水分分位/干期/ET0 亏缺,,,city×daily,PROXY_ONLY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,见各专项 NOTES,干旱,降权使用并标注 proxy
+EVI,,,city×month,LOW_PRIORITY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,remote_sensing/evi.parquet,遥感,暂不处理
+LAI/FAPAR,,,city×month,PUBLICLY_UNAVAILABLE,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,见各专项 NOTES,遥感,标记 NOT_PUBLIC
+cropland/landcover,,,raster,PUBLICLY_UNAVAILABLE,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,见各专项 NOTES,耕地/土地覆盖,标记 NOT_PUBLIC
+受灾/成灾/绝收/经济损失,,,city×crop×event,PROXY_ONLY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,disaster/disaster_loss.parquet,灾害损失,降权使用并标注 proxy
+病虫害事件(作物/等级),,,city×crop×event,PROXY_ONLY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,bio_risk/pest_disease_events.parquet,病虫害,降权使用并标注 proxy
+元/吨公里/运价,,,city,PUBLICLY_UNAVAILABLE,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,见各专项 NOTES,运输成本,标记 NOT_PUBLIC
+蔬菜消费/人均食品支出,,,city×year,LOW_PRIORITY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,demand/consumption.parquet,消费,暂不处理
+扩种→滞销 事件链,,,city×crop×event,PROXY_ONLY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,evidence/herding_events.parquet,跟风案例,降权使用并标注 proxy
+滞销/抢购/集中上市事件,,,city×event,LOW_PRIORITY,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,evidence/case_events.parquet,市场异常,暂不处理
+进出口/省际调入,,,province,PUBLICLY_UNAVAILABLE,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,见各专项 NOTES,贸易,标记 NOT_PUBLIC
+种植日期/面积/成本/亩产(产品依赖),,,user,USER_INPUT_REQUIRED,data/raw/ + data/processed/ + data/model_ready/ + retained_source(supplement V1-V3),,见各专项 NOTES,用户输入,用户输入

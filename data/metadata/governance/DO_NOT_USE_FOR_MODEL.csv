@@ -1,0 +1,10 @@
+﻿path_or_pattern,reason,category
+02_standardized/market/price_observation_nonstandard.parquet,非作物/未知 token（苗木/观赏/加工/未知），不得作为作物特征,非作物
+archive/old_marts/**,旧 marts/curated/staging 聚合层，已被 data/ 取代,旧加工层
+archive/data_legacy/**,旧 supplement V1-V3 加工副本，正式数据请用 data/processed 与 data/model_ready（原始保留在 data/raw/retained_source）,旧加工层
+archive/data_reports/**,历史报告/清单，非数据表,历史报告
+city_data/reference/**,已清场，不再作为数据入口,废弃路径
+models/data/snapshots/**,建模侧冻结快照，与 foundation 可能不同步,快照
+02_standardized/demand/demand_proxy.parquet 中 model_value=UNUSABLE 行,NOT_FOUND 占位，无真实数值,占位
+*crop_standard ∈ {规格/品级/包装/第一列错位} 的行,v1.1 已修复；任何仍出现该模式的表视为污染，勿用,字段污染
+price_level 混用（wholesale 与 retail 合并计算）,8 个 price_level 必须严格分开,口径混用

@@ -1,0 +1,9 @@
+﻿horizon,best_method,best_method_WAPE,last_value_WAPE,same_season_median_WAPE,drift_trend90_WAPE,best_trained_WAPE,n_nonoverlap,exploratory,endpoint_best_WAPE,endpoint_last_value_WAPE,endpoint_same_season_median_WAPE
+7,b_last_value,5.331,5.331,19.392,6.236,6.582,201,False,8.254,8.254,20.036
+14,b_last_value,7.926,7.926,19.514,10.223,9.858,100,False,13.114,13.114,20.898
+30,b_last_value,12.015,12.015,19.809,18.94,13.135,68,False,20.438,20.438,23.65
+60,m_catboost,15.912,17.567,21.544,38.118,15.912,34,False,30.551,31.602,30.551
+90,m_catboost,16.522,22.882,23.948,62.55,16.522,22,False,36.341,42.079,37.823
+120,m_catboost,15.947,27.952,26.663,94.043,15.947,17,False,40.632,50.492,44.125
+150,m_catboost,15.558,32.144,28.838,137.236,15.558,13,True,42.32,54.925,46.547
+180,m_catboost,14.695,36.715,29.914,207.395,14.695,11,True,41.961,59.661,46.815

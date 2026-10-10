@@ -1,0 +1,123 @@
+{
+ "city": "锦州",
+ "city_code": "jinzhou",
+ "generated_at": "2026-09-23T10:08:59",
+ "generated_by": "archive/migration/generate_manifests.py",
+ "note": "本清单仅为既有文件的索引（路径/大小/SHA256/行数），未重新生成或改动任何数据。",
+ "sections": [
+  "data",
+  "research",
+  "case_studies",
+  "assets",
+  "sources"
+ ],
+ "data_root": "data/research/jinzhou/data",
+ "n_datasets": 16,
+ "datasets": [
+  {
+   "path": "data/disaster_events_algorithm.csv",
+   "bytes": 3523,
+   "sha256": "0c6cb32368dc9de39df6fda4e66f3b96c1f152f1b1da2549a96fea98ae7411d4",
+   "rows": 24
+  },
+  {
+   "path": "data/disaster_events_observed.csv",
+   "bytes": 15871,
+   "sha256": "048df27027b773f176fd17d26aaa56f0d3055a66f2c1ee90cd0d6c77850420e9",
+   "rows": 23
+  },
+  {
+   "path": "data/input_cost_weekly.csv",
+   "bytes": 89903,
+   "sha256": "0ca31dcad689ef3de9e7ad7cc2d0ddb5d805c700b804191ef46332e9ded01324",
+   "rows": 843
+  },
+  {
+   "path": "data/marts/fact_price_jinzhou_daily.parquet",
+   "bytes": 354495,
+   "sha256": "0475fe791d08612de05b97fc2ff9a50368c5aec2d1140e3d4b537ce0ab955a39",
+   "rows": null
+  },
+  {
+   "path": "data/phenology_events.csv",
+   "bytes": 10808,
+   "sha256": "7ae77dedf482bf7831ba6c3fdac6b55c8d692560360c4c7ead0ccf271bf8c78e",
+   "rows": 31
+  },
+  {
+   "path": "data/policy_events.csv",
+   "bytes": 8851,
+   "sha256": "7609bf3230bda4e177b72eb1032a0652134572c8c12e17417cfcd99a93080b06",
+   "rows": 21
+  },
+  {
+   "path": "data/price_observation.csv",
+   "bytes": 13958039,
+   "sha256": "2c54557baa715258a5356fe0fdd5c264c03b7d7b01fa51b18d6a6a84d3f65d3c",
+   "rows": 35335
+  },
+  {
+   "path": "data/production_yearly.csv",
+   "bytes": 23823,
+   "sha256": "e412fea93ac7c052efd904e860e7e2d2854366b37908d384d0f0990dc23693bb",
+   "rows": 133
+  },
+  {
+   "path": "data/soil_daily.csv",
+   "bytes": 327029,
+   "sha256": "b7645bfcfd0bd122be8f5062f728d6c5d923c77154b7132c84cb1fcf46fe7d5b",
+   "rows": 2083
+  },
+  {
+   "path": "data/volume_observations.csv",
+   "bytes": 11257,
+   "sha256": "85b44460e70de6ef831d911da4c8d3eede95baa986a81cf022e5647a6df3125f",
+   "rows": 29
+  },
+  {
+   "path": "data/weather_daily.csv",
+   "bytes": 193119,
+   "sha256": "a86efff828da52d50ca69faca268b3be60dea9bce6ab2748e98288fd830191fe",
+   "rows": 2083
+  },
+  {
+   "path": "data/weather_daily_era5.csv",
+   "bytes": 689631,
+   "sha256": "e34a9da62ca011442d16d7e4be888837673beda46a4977e32ee97a680ba46531",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_daily_era5land.csv",
+   "bytes": 680411,
+   "sha256": "86873d5324bc7ead07d57bde61a85c7a07b43be7523970cbc1e3838f1bd0aca8",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily.csv",
+   "bytes": 201803,
+   "sha256": "78cade37f6156b7fa309910d85830d33d61bd7f6393de2967f24690baa0d3bbf",
+   "rows": 2083
+  },
+  {
+   "path": "data/weather_extra_daily_era5.csv",
+   "bytes": 687136,
+   "sha256": "345f7bd15d1ef8d78f136b9b2eb11db0cdfda8c310e9695f8ba5a4ae6e4871dd",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily_era5land.csv",
+   "bytes": 665960,
+   "sha256": "4daaa4362034a0545fc13fa53c9ddc956c377e2a8a0fdf6765707349441c938a",
+   "rows": 6101
+  }
+ ],
+ "sources": [
+  "sources/MANIFEST.csv",
+  "sources/data_snapshot.json",
+  "sources/staged/price/liaoning-agri-risk/jinzhou_price_basket_weekly.csv",
+  "sources/staged/price/liaoning-agri-risk/jinzhou_price_ocr.csv",
+  "sources/staged/price/liaoning-agri-risk/jinzhou_price_ocr_unique.csv",
+  "sources/staged/price/liaoning-agri-risk/锦州_price_lnfgw.csv",
+  "sources/staged/production/liaoning-agri-risk/jinzhou_production_2025.csv"
+ ]
+}

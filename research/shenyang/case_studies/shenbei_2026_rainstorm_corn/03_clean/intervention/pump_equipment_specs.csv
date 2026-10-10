@@ -1,0 +1,11 @@
+﻿equip_id,equip_type,caliber_inch,caliber_mm,rated_flow_m3h,flow_range_m3h,head_m,power_kw,drive,weight_kg,manufacturer,model,price_yuan,application_note,source_type,source_id,source_url,quality,notes
+EQ-8IN-001,8寸自吸式排污泵,8,200,380,约380,15,15~40,电动/柴油机(25~40HP),380,山东正达农业机械制造有限公司,ZD-30-380-8,—,防汛排涝/农业灌溉/工程排污；免灌引水,manufacturer_catalog,SRC-PUMP-MFR-2026,https://m.jdzj.com/danxilixinbenga/2-4431067.html,C,"厂商资料，用于给沈北""8寸泵(未获铭牌)""定流量区间"
+EQ-8IN-002,8寸防汛排涝泵车,8,200,400,—,15,22,柴油机,—,程力专用汽车,8寸泵车,380000(起),城市内涝、小流域排涝；东风/福田底盘,manufacturer_catalog,SRC-PUMP-MFR-2026,https://www.chenglix.com/drainage-robot-news/3328042.html,C,
+EQ-8IN-003,8寸农田移动排水泵站,8,200,500,—,25(最大),37,电动380V(可选柴油机),780,程力专用汽车,8寸移动泵站,—,大型农场、水库调水、突发洪涝抢险；拖车式,manufacturer_catalog,SRC-PUMP-MFR-2026,https://www.chenglix.com/drainage-robot-news/3214026.html,C,
+EQ-8IN-004,8寸柴油机移动泵车,8,200,300,—,25,—,柴油机,—,山东海盛机械,8寸300立方泵车,29800,河道截流、大面积场地排水,manufacturer_catalog,SRC-PUMP-MFR-2026,https://m.jdzj.com/zixibengb/2-5995857.html,C,低价位段机型，流量300
+EQ-8IN-005,8寸柴油离心泵(低扬程大流量),8,200,650,500~800(高配可达1000+),20,25~35HP,柴油机(风冷/水冷),—,(多家),拖车式双缸泵,—,万亩果园/水稻田/牧场灌溉；洪涝快速排水,manufacturer_catalog,SRC-PUMP-MFR-2026,http://www.knfj.com/supplys/40_5_38228410.html,C,高配段机型，流量可到800~1000
+EQ-4IN-001,4寸移动泵站,4,100,150,—,30(最大),11,电动/柴油机(选配),320,程力专用汽车,4寸移动泵站,—,中小型地块、沟渠排水、低洼农田应急排涝,manufacturer_catalog,SRC-PUMP-MFR-2026,https://www.chenglix.com/drainage-robot-news/3214026.html,C,口径-流量下界参考
+EQ-6IN-001,6寸移动泵站,6,150,300,—,28(最大),22,电动/柴油机(选配),520,程力专用汽车,6寸移动泵站,—,500亩以下连片农田灌溉或排水,manufacturer_catalog,SRC-PUMP-MFR-2026,https://www.chenglix.com/drainage-robot-news/3214026.html,C,
+EQ-10IN-001,10寸防汛排涝泵车,10,250,800,—,18,37,柴油机,—,程力专用汽车,10寸泵车,650000~720000,中型河道、水库应急,manufacturer_catalog,SRC-PUMP-MFR-2026,https://www.chenglix.com/drainage-robot-news/3328042.html,C,
+EQ-12IN-001,12寸防汛排涝泵车,12,300,1200,—,20,55,柴油机,—,程力专用汽车,12寸泵车,900000(起),大型泵站、洪涝重灾区；可连续72h以上高强度排水,manufacturer_catalog,SRC-PUMP-MFR-2026,https://www.chenglix.com/drainage-robot-news/3328042.html,C,"用于校准""大功率泵车""的流量量级上限"
+EQ-AXIAL-001,轴流泵(规格未披露),,,,,,,,,—,—,—,"铁岭县阿吉镇内涝点：""两台高性能轴流泵昼夜不停运转，为数万亩泡水稻田减损保苗""",official,SRC-LN-GOV-2026-0717,https://www.ln.gov.cn/web/ywdt/tjdt/2026071708370154223/index.shtml,B,★官方明确提到的另一种排涝装备类型(轴流泵=大流量低扬程)，但未披露规格；轴流泵典型流量显著高于同口径离心泵

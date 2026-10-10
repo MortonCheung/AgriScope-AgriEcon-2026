@@ -1,0 +1,14 @@
+{
+ "city": "jinzhou",
+ "clim": {
+  "n_years": 17,
+  "precip_ann_mean": 587.3058823529412,
+  "precip_gs_mean": 507.24705882352936,
+  "tmean_ann_mean": 10.87586576727874,
+  "precip_ann_recent": 649.1999999999999,
+  "precip_ann_early": 553.5454545454546,
+  "gs_share": 0.8636846217022894
+ },
+ "prod_top": "玉米 74.0%、花生 14.4%、水稻 8.7%",
+ "prod_hhi": 0.5758342098566092
+}

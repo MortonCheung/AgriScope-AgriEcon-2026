@@ -1,0 +1,321 @@
+{
+  "tables": {
+    "data/processed/bio_risk/pest_disease_events.parquet": {
+      "rows": 37,
+      "cols": 21
+    },
+    "data/processed/climate/climatology.parquet": {
+      "rows": 371,
+      "cols": 12
+    },
+    "data/processed/climate/soil_daily.parquet": {
+      "rows": 10415,
+      "cols": 15
+    },
+    "data/processed/climate/weather_daily.parquet": {
+      "rows": 73212,
+      "cols": 30
+    },
+    "data/processed/climate/weather_district_shenyang.parquet": {
+      "rows": 32144,
+      "cols": 48
+    },
+    "data/processed/cost/cost_components.parquet": {
+      "rows": 13,
+      "cols": 34
+    },
+    "data/processed/cost/cost_proxy.parquet": {
+      "rows": 7,
+      "cols": 32
+    },
+    "data/processed/cost/crop_cost.parquet": {
+      "rows": 16,
+      "cols": 35
+    },
+    "data/processed/cost/input_prices.parquet": {
+      "rows": 4130,
+      "cols": 19
+    },
+    "data/processed/demand/consumption.parquet": {
+      "rows": 6,
+      "cols": 18
+    },
+    "data/processed/demand/cpi.parquet": {
+      "rows": 21,
+      "cols": 18
+    },
+    "data/processed/demand/demand_proxy.parquet": {
+      "rows": 103,
+      "cols": 18
+    },
+    "data/processed/demand/population.parquet": {
+      "rows": 42,
+      "cols": 18
+    },
+    "data/processed/demand/retail_catering.parquet": {
+      "rows": 27,
+      "cols": 18
+    },
+    "data/processed/disaster/disaster_events.parquet": {
+      "rows": 104,
+      "cols": 41
+    },
+    "data/processed/disaster/disaster_loss.parquet": {
+      "rows": 104,
+      "cols": 6
+    },
+    "data/processed/disaster/insurance_claims.parquet": {
+      "rows": 35,
+      "cols": 20
+    },
+    "data/processed/evidence/case_events.parquet": {
+      "rows": 104,
+      "cols": 41
+    },
+    "data/processed/evidence/herding_events.parquet": {
+      "rows": 18,
+      "cols": 25
+    },
+    "data/processed/infrastructure/cold_chain.parquet": {
+      "rows": 25,
+      "cols": 19
+    },
+    "data/processed/infrastructure/logistics_reference.parquet": {
+      "rows": 26,
+      "cols": 21
+    },
+    "data/processed/infrastructure/market_accessibility.parquet": {
+      "rows": 10,
+      "cols": 16
+    },
+    "data/processed/infrastructure/storage.parquet": {
+      "rows": 25,
+      "cols": 14
+    },
+    "data/processed/integrated/city_crop_monthly.parquet": {
+      "rows": 13492,
+      "cols": 12
+    },
+    "data/processed/integrated/city_crop_weekly.parquet": {
+      "rows": 39188,
+      "cols": 21
+    },
+    "data/processed/integrated/city_crop_yearly.parquet": {
+      "rows": 1424,
+      "cols": 55
+    },
+    "data/processed/integrated/city_daily_environment.parquet": {
+      "rows": 36606,
+      "cols": 31
+    },
+    "data/processed/integrated/city_structural_context.parquet": {
+      "rows": 808,
+      "cols": 83
+    },
+    "data/processed/market/market_registry.parquet": {
+      "rows": 32,
+      "cols": 22
+    },
+    "data/processed/market/market_volume.parquet": {
+      "rows": 14585,
+      "cols": 29
+    },
+    "data/processed/market/price_observation.parquet": {
+      "rows": 143030,
+      "cols": 44
+    },
+    "data/processed/market/price_observation_nonstandard.parquet": {
+      "rows": 4600,
+      "cols": 44
+    },
+    "data/processed/market/province_price_reference.parquet": {
+      "rows": 1052,
+      "cols": 28
+    },
+    "data/processed/market/supply_proxy.parquet": {
+      "rows": 54,
+      "cols": 19
+    },
+    "data/processed/policy/market_intervention.parquet": {
+      "rows": 103,
+      "cols": 21
+    },
+    "data/processed/policy/policy_events.parquet": {
+      "rows": 103,
+      "cols": 25
+    },
+    "data/processed/production/bulletin_shenyang_district.parquet": {
+      "rows": 104,
+      "cols": 17
+    },
+    "data/processed/production/crop_calendar.parquet": {
+      "rows": 478,
+      "cols": 34
+    },
+    "data/processed/production/crop_spatial_structure.parquet": {
+      "rows": 53,
+      "cols": 27
+    },
+    "data/processed/production/district_facility_vegetable.parquet": {
+      "rows": 14,
+      "cols": 16
+    },
+    "data/processed/production/district_facility_vegetable_liaozhong_rawgrid.parquet": {
+      "rows": 90,
+      "cols": 5
+    },
+    "data/processed/production/facility_agriculture.parquet": {
+      "rows": 45,
+      "cols": 23
+    },
+    "data/processed/production/facility_agriculture_city.parquet": {
+      "rows": 13,
+      "cols": 13
+    },
+    "data/processed/production/planting_area_yearly.parquet": {
+      "rows": 54,
+      "cols": 29
+    },
+    "data/processed/production/production_yearly.parquet": {
+      "rows": 1370,
+      "cols": 37
+    },
+    "data/processed/production/yearbook_shenyang_district_crop.parquet": {
+      "rows": 3519,
+      "cols": 20
+    },
+    "data/processed/remote_sensing/evi.parquet": {
+      "rows": 52,
+      "cols": 19
+    },
+    "data/processed/remote_sensing/ndvi.parquet": {
+      "rows": 403,
+      "cols": 21
+    },
+    "data/processed/remote_sensing/vegetation_anomaly.parquet": {
+      "rows": 403,
+      "cols": 14
+    },
+    "data/processed/water/irrigation_water.parquet": {
+      "rows": 622,
+      "cols": 19
+    },
+    "data/model_ready/chaoyang_extended/environment_daily.parquet": {
+      "rows": 6101,
+      "cols": 31
+    },
+    "data/model_ready/chaoyang_extended/market_daily.parquet": {
+      "rows": 37129,
+      "cols": 44
+    },
+    "data/model_ready/chaoyang_extended/phenology.parquet": {
+      "rows": 74,
+      "cols": 34
+    },
+    "data/model_ready/climate/climate_daily.parquet": {
+      "rows": 36606,
+      "cols": 31
+    },
+    "data/model_ready/climate/vegetation_anomaly.parquet": {
+      "rows": 403,
+      "cols": 14
+    },
+    "data/model_ready/hri/hri_inputs.parquet": {
+      "rows": 39188,
+      "cols": 23
+    },
+    "data/model_ready/jinzhou_extended/environment_daily.parquet": {
+      "rows": 6101,
+      "cols": 31
+    },
+    "data/model_ready/jinzhou_extended/market_daily.parquet": {
+      "rows": 35123,
+      "cols": 44
+    },
+    "data/model_ready/jinzhou_extended/phenology.parquet": {
+      "rows": 62,
+      "cols": 34
+    },
+    "data/model_ready/profit/cost_components.parquet": {
+      "rows": 13,
+      "cols": 34
+    },
+    "data/model_ready/profit/cost_proxy.parquet": {
+      "rows": 7,
+      "cols": 32
+    },
+    "data/model_ready/profit/crop_cost.parquet": {
+      "rows": 16,
+      "cols": 35
+    },
+    "data/model_ready/recommendation/market_nodes.parquet": {
+      "rows": 32,
+      "cols": 22
+    },
+    "data/model_ready/recommendation/structural_context.parquet": {
+      "rows": 808,
+      "cols": 83
+    },
+    "data/model_ready/shenyang_core/cost_reference.parquet": {
+      "rows": 13,
+      "cols": 34
+    },
+    "data/model_ready/shenyang_core/crop_context.parquet": {
+      "rows": 53,
+      "cols": 27
+    },
+    "data/model_ready/shenyang_core/environment_daily.parquet": {
+      "rows": 6101,
+      "cols": 31
+    },
+    "data/model_ready/shenyang_core/market_daily.parquet": {
+      "rows": 14100,
+      "cols": 44
+    },
+    "data/model_ready/shenyang_core/phenology.parquet": {
+      "rows": 95,
+      "cols": 34
+    }
+  },
+  "generated": "2026-10-04",
+  "n_tables": 69,
+  "n_time_coverage_rows": 15,
+  "low_coverage_tables": [
+    {
+      "table": "data/processed/bio_risk/pest_disease_events.parquet",
+      "time_col": "date",
+      "start": "2024-04-19",
+      "end": "2025-08-14",
+      "expected_days": 483,
+      "actual_days": 9,
+      "coverage": 0.0186
+    },
+    {
+      "table": "data/processed/market/market_volume.parquet",
+      "time_col": "date",
+      "start": "2015-12-14",
+      "end": "2026-09-22",
+      "expected_days": 3936,
+      "actual_days": 1516,
+      "coverage": 0.3852
+    },
+    {
+      "table": "data/processed/market/price_observation_nonstandard.parquet",
+      "time_col": "observation_date",
+      "start": "2018-04-09",
+      "end": "2026-09-22",
+      "expected_days": 3089,
+      "actual_days": 473,
+      "coverage": 0.1531
+    },
+    {
+      "table": "data/model_ready/jinzhou_extended/market_daily.parquet",
+      "time_col": "observation_date",
+      "start": "2020-01-01",
+      "end": "2026-09-22",
+      "expected_days": 2457,
+      "actual_days": 975,
+      "coverage": 0.3968
+    }
+  ]
+}

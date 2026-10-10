@@ -1,0 +1,5 @@
+file,status,note
+weather_district_shenyang,ADDED,src=openmeteo_best_match 区分县日频气象(遗留口径)
+soil_district_shenyang,ADDED,src=openmeteo 区县土壤
+shenyang_yearbook_pdf,IDENTIFIED,7册 沈阳统计年鉴 PDF(2018-2024数据) 需OCR
+district_bulletins,IDENTIFIED,166份区县公报(101 HTML为JS渲染/54 PDF) 需浏览器或OCR

@@ -1,0 +1,261 @@
+{
+ "city": "沈阳",
+ "city_code": "shenyang",
+ "generated_at": "2026-09-23T10:08:59",
+ "generated_by": "archive/migration/generate_manifests.py",
+ "note": "本清单仅为既有文件的索引（路径/大小/SHA256/行数），未重新生成或改动任何数据。",
+ "sections": [
+  "data",
+  "research",
+  "case_studies",
+  "assets",
+  "sources"
+ ],
+ "data_root": "data/research/shenyang/data",
+ "n_datasets": 38,
+ "datasets": [
+  {
+   "path": "data/disaster_events_observed.csv",
+   "bytes": 6865,
+   "sha256": "80bdba35d2c580a33f90ce58bff17d1c0075c7fa8fa27c1e5f3ddb0d6ab32891",
+   "rows": 11
+  },
+  {
+   "path": "data/input_cost_weekly.csv",
+   "bytes": 120922,
+   "sha256": "0c9bc3fac406bdaaa1cd77a5c63a45176acadf9f81651867681838b5c6c28fcb",
+   "rows": 1123
+  },
+  {
+   "path": "data/panels/shenyang_climatology_daily.parquet",
+   "bytes": 164031,
+   "sha256": "be032dfdf7e047e5ec57e34759f0e7e49d82f9c4157a38f30af913d7f70fc488",
+   "rows": null
+  },
+  {
+   "path": "data/panels/shenyang_daily_panel.parquet",
+   "bytes": 2557813,
+   "sha256": "633cb56b421215e183cebd75221e50f0b5b76d7ed6c6da57257573653d778c66",
+   "rows": null
+  },
+  {
+   "path": "data/panels/shenyang_market_daily.parquet",
+   "bytes": 133991,
+   "sha256": "e94326e7fa5dc14808efb5487e8c17b32ed028ed22e9c0ecdc92a1bc9f4a6033",
+   "rows": null
+  },
+  {
+   "path": "data/panels/shenyang_market_raw_wholesale.parquet",
+   "bytes": 234615,
+   "sha256": "02660aab013700889d5507838d1d2bacdfba2f4df9609c42206449db424bdd75",
+   "rows": null
+  },
+  {
+   "path": "data/panels/shenyang_weather_daily.parquet",
+   "bytes": 666319,
+   "sha256": "6b6a21fbe5db21625d0f0347aa4befd96fcb7964fd846d57fecd6edcf6f1b06b",
+   "rows": null
+  },
+  {
+   "path": "data/panels/shenyang_weekly_panel.parquet",
+   "bytes": 217492,
+   "sha256": "36af0df4dd70059366104e9f0630d8a63e9d816d0b491643a383779f7bf008c5",
+   "rows": null
+  },
+  {
+   "path": "data/phenology_events.csv",
+   "bytes": 8442,
+   "sha256": "4ba4481b69d613f22e55b225aa4d97b4b591ab2a5d6ebfebf6a153fab5ec5fee",
+   "rows": 28
+  },
+  {
+   "path": "data/policy_events.csv",
+   "bytes": 4315,
+   "sha256": "72ae43f4b1e8376858fb022a283ba4b3c0607b0c6cd44f8a93261adb8aa9ff73",
+   "rows": 8
+  },
+  {
+   "path": "data/price_observation.csv",
+   "bytes": 7325559,
+   "sha256": "8df5f91363f7ab4279cb905b2e963a78e39c99b93d5266a76741ebf344d84725",
+   "rows": 14100
+  },
+  {
+   "path": "data/processed/district_bulletin_crop.csv",
+   "bytes": 11246,
+   "sha256": "a5c99fd50e1597a23ddeef72010757422d15ae47c6ab118c4d2f7ad420514b2f",
+   "rows": 124
+  },
+  {
+   "path": "data/processed/district_bulletin_vs_yearbook.csv",
+   "bytes": 11942,
+   "sha256": "3c98b708926c187979d42706bc7e113c54aae401ddf98d382112ead6e1309c22",
+   "rows": 124
+  },
+  {
+   "path": "data/processed/district_coordinates.csv",
+   "bytes": 4527,
+   "sha256": "ce8db0ba881a03af43acbca8c9ff438602c5dd04b2e6a24567f3d41f1e82fc1c",
+   "rows": 14
+  },
+  {
+   "path": "data/processed/district_crop_area.csv",
+   "bytes": 224909,
+   "sha256": "67a679e5ffc74ec3136ab6db01e608d7f3a17df8518118a08d3fb2c35a1605b7",
+   "rows": 1164
+  },
+  {
+   "path": "data/processed/district_crop_area.parquet",
+   "bytes": 19684,
+   "sha256": "99cb7d5ecfedaf2a3447a072a132a10e054575d85d22834c7be59e9179cadcd9",
+   "rows": null
+  },
+  {
+   "path": "data/processed/district_crop_production.csv",
+   "bytes": 184109,
+   "sha256": "1158af13b7997eea17aaeae0b56fd8d730b385d6ac88f57a443ce03c48899914",
+   "rows": 1001
+  },
+  {
+   "path": "data/processed/district_crop_production.parquet",
+   "bytes": 20171,
+   "sha256": "ba4f75432cf8ab0344e8c3ba940ece065c876b6850299d5c480acdf22b70f729",
+   "rows": null
+  },
+  {
+   "path": "data/processed/district_crop_yield.csv",
+   "bytes": 194911,
+   "sha256": "b6b7b907870f0dcaef45b507eda3090cee0e0a62cf4fbdfec2fa0a24d199c6c7",
+   "rows": 991
+  },
+  {
+   "path": "data/processed/district_crop_yield.parquet",
+   "bytes": 20183,
+   "sha256": "4d0858d19dd6cc5576b804fb0b6e69b99384b585e02576edb09eaa47a9f56a58",
+   "rows": null
+  },
+  {
+   "path": "data/processed/district_early_years.csv",
+   "bytes": 2484,
+   "sha256": "0f94a4878517bc91b7b821961657aaf6fa9ce6038a2eddc6aa248e38a430e1ef",
+   "rows": 14
+  },
+  {
+   "path": "data/processed/district_weather_daily.parquet",
+   "bytes": 1179788,
+   "sha256": "7dc259933c5b4af72a96800a6e34ff74424c1b4501a23c7760006d4449da8d7a",
+   "rows": null
+  },
+  {
+   "path": "data/processed/district_weather_yearly.csv",
+   "bytes": 28615,
+   "sha256": "8d9c05653eb887a792beaffe6cdf1ae7e149e183000250c570138ad32d5623cb",
+   "rows": 88
+  },
+  {
+   "path": "data/processed/district_yearbook_city_total.csv",
+   "bytes": 20840,
+   "sha256": "93ae6cbc8d1dd5775fbc3c4fe4a64b3708194f8a642a5a2cd034728fc37665d4",
+   "rows": 492
+  },
+  {
+   "path": "data/processed/district_yearly_agri_weather_panel.csv",
+   "bytes": 607919,
+   "sha256": "8837a5fd95b8c27fd4c4674d37d1085c05175607ad97f6ee7356c731d4031c2e",
+   "rows": 1190
+  },
+  {
+   "path": "data/processed/district_yearly_agri_weather_panel.parquet",
+   "bytes": 57699,
+   "sha256": "7c20fe5ea643e6f2ac50f956f42737546932faba3fa6ca16d6be68ac1f2f52fb",
+   "rows": null
+  },
+  {
+   "path": "data/processed/model_predictions",
+   "bytes": 813187,
+   "sha256": "3cd36184d72927ffa63ac9aedbbc135f1209ca86d3f5933d8779a5b62ba8d689",
+   "rows": null
+  },
+  {
+   "path": "data/processed/shenyang_daily_panel_hist.parquet",
+   "bytes": 343518,
+   "sha256": "80e73bf5df3480cd949b98a769cbe821686f3f7236179bd7329c1e64cb79305f",
+   "rows": null
+  },
+  {
+   "path": "data/processed/shenyang_daily_panel_stl.parquet",
+   "bytes": 682207,
+   "sha256": "1a0dd4d4f9fb15fde85fbd0a342321b30823f195182e8fadc99524bde7ea6afd",
+   "rows": null
+  },
+  {
+   "path": "data/processed/shenyang_panel_final.parquet",
+   "bytes": 3465364,
+   "sha256": "5cb97a6c703eb4aad536c9257039e3fdfe1535d8e3955ee7b39b0c513e7bdc14",
+   "rows": null
+  },
+  {
+   "path": "data/processed/shenyang_yearly_panel.parquet",
+   "bytes": 15999,
+   "sha256": "77ce4344585273086ad2c1e98b27a607dc31d950734a440eb38f3494c58133db",
+   "rows": null
+  },
+  {
+   "path": "data/v2/v2_district_yearly.parquet",
+   "bytes": 67136,
+   "sha256": "3851d8539c764b9a9511376009f135df6a1e7784b7772a4734fad17151736c2a",
+   "rows": null
+  },
+  {
+   "path": "data/v2/v2_market_daily.parquet",
+   "bytes": 1144791,
+   "sha256": "6cca14bc2cfe0d09fe86e51c5bfc08562a36cf11282ae6c70dc3e3b73f6100a1",
+   "rows": null
+  },
+  {
+   "path": "data/volume_observations.csv",
+   "bytes": 5840360,
+   "sha256": "e5bc782535e1638844ecade9d0dff8338b88a1fea9e22f754826d52043a770e6",
+   "rows": 14108
+  },
+  {
+   "path": "data/weather_daily_era5.csv",
+   "bytes": 690999,
+   "sha256": "417a0e425b0e98205148f1dbf6b91efa4714bfa28650de9456af2dba56175967",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_daily_era5land.csv",
+   "bytes": 681847,
+   "sha256": "c111cb57996e93f287c1fac924b0a9a41d70f54b7019ebb61ab933bf3ae57625",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily_era5.csv",
+   "bytes": 681406,
+   "sha256": "d4566eb99ddf7d3edb19eb8c425c203e59c2ef4a68d38488d736e6b5be851e00",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily_era5land.csv",
+   "bytes": 666699,
+   "sha256": "58e48308d88217efac45a7c09169b7f1f7fc8fffc90aeb4e4fba82b0a6e7b5a8",
+   "rows": 6101
+  }
+ ],
+ "sources": [
+  "sources/MANIFEST.csv",
+  "sources/data_snapshot.json",
+  "sources/v1/01_沈阳研究总报告.md",
+  "sources/v1/02_沈阳最终总结.md",
+  "sources/v1/03_沈阳研究索引.json",
+  "sources/v1/04_沈阳区县农业生产与气象数据.md",
+  "sources/v1/README.md",
+  "sources/v1/SHENYANG_RESEARCH_SCAN.txt",
+  "sources/v1/workspace_README.md",
+  "sources/v1/workspace_REORGANIZATION_NOTE.md",
+  "sources/v1/workspace_SHENYANG_FINAL_REPORT.md",
+  "sources/v1/workspace_SHENYANG_RESEARCH.md",
+  "sources/v1/workspace_SHENYANG_RESEARCH_INDEX.json"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "city": "chaoyang",
+ "clim": {
+  "n_years": 17,
+  "precip_ann_mean": 518.7823529411764,
+  "precip_gs_mean": 461.79411764705884,
+  "tmean_ann_mean": 10.910793147373042,
+  "precip_ann_recent": 583.7666666666667,
+  "precip_ann_early": 483.3363636363637,
+  "gs_share": 0.8901500119057069
+ },
+ "prod_top": "玉米 82.4%、谷子 8.2%、高粱 6.3%",
+ "prod_hhi": 0.6907355855478551
+}

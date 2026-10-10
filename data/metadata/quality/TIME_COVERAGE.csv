@@ -1,0 +1,16 @@
+﻿table,time_col,start,end,expected_days,actual_days,coverage
+data/processed/bio_risk/pest_disease_events.parquet,date,2024-04-19,2025-08-14,483,9,0.0186
+data/processed/climate/soil_daily.parquet,date,2021-01-01,2026-09-14,2083,2083,1.0
+data/processed/climate/weather_daily.parquet,date,2010-01-01,2026-09-14,6101,6101,1.0
+data/processed/climate/weather_district_shenyang.parquet,date,2015-01-01,2025-12-31,4018,4018,1.0
+data/processed/integrated/city_daily_environment.parquet,date,2010-01-01,2026-09-14,6101,6101,1.0
+data/processed/market/market_volume.parquet,date,2015-12-14,2026-09-22,3936,1516,0.3852
+data/processed/market/price_observation.parquet,observation_date,2016-07-24,2026-09-22,3713,2191,0.5901
+data/processed/market/price_observation_nonstandard.parquet,observation_date,2018-04-09,2026-09-22,3089,473,0.1531
+data/model_ready/chaoyang_extended/environment_daily.parquet,date,2010-01-01,2026-09-14,6101,6101,1.0
+data/model_ready/chaoyang_extended/market_daily.parquet,observation_date,2020-01-01,2026-09-22,2457,1300,0.5291
+data/model_ready/climate/climate_daily.parquet,date,2010-01-01,2026-09-14,6101,6101,1.0
+data/model_ready/jinzhou_extended/environment_daily.parquet,date,2010-01-01,2026-09-14,6101,6101,1.0
+data/model_ready/jinzhou_extended/market_daily.parquet,observation_date,2020-01-01,2026-09-22,2457,975,0.3968
+data/model_ready/shenyang_core/environment_daily.parquet,date,2010-01-01,2026-09-14,6101,6101,1.0
+data/model_ready/shenyang_core/market_daily.parquet,observation_date,2021-01-01,2026-09-14,2083,1410,0.6769

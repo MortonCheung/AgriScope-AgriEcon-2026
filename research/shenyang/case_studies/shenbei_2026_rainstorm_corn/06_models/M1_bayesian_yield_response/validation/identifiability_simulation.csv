@@ -1,0 +1,5 @@
+﻿scenario,true_beta_R,detection_rate_95CrI_excl0,correct_direction_rate,CrI95_coverage_of_true,mean_P_betaR_lt0
+beta=0 (null),0.0,0.05,0.05,0.95,0.468
+beta=-0.03 (mild),-0.03,0.11,0.11,0.965,0.742
+beta=-0.06 (moderate),-0.06,0.34,0.34,0.955,0.899
+beta=-0.10 (strong),-0.1,0.75,0.75,0.92,0.973

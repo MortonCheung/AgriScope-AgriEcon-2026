@@ -1,0 +1,10 @@
+{
+  "method": "residual_expanding",
+  "coverage": 0.7452256269076546,
+  "mean_width": 2.868056695228797,
+  "label": "scenario_range",
+  "nominal": 0.8,
+  "calibrated": false,
+  "min_crop_coverage": 0.1532258064516129,
+  "ts": "2026-10-07 19:31:43"
+}

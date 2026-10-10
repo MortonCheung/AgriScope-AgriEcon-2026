@@ -1,0 +1,7 @@
+﻿issue,level,detail
+hri_inputs price_level 复合混用,P0_MITIGATED,34.4% 行 price_level 为多 level 拼接（如 farm_gate|wholesale）；沈阳全为 wholesale（干净），非沈阳城市被混用。→ Final HRI 仅使用单一 level（wholesale）价格序列，禁止使用混层聚合。
+price_per_kg dtype=object,P1,"['chaoyang_extended/market_daily.parquet', 'jinzhou_extended/market_daily.parquet', 'shenyang_core/market_daily.parquet'] 数值以字符串存储（内容为数值），Final 层统一 astype(float)。"
+shenyang_core/environment_daily 元数据列全空,P1,"全空列 ['soil_water_layer_1', 'soil_water_layer_2', 'soil_water_layer_3', 'soil_temperature', 'data_type', 'source', 'aggregation_method', 'source_id', 'geo_level', 'frequency', 'is_proxy', 'is_derived', 'access_date']；Final 气候特征统一改用 climate/climate_daily.parquet。"
+structural_context 存在完全重复行,P2,83 行重复；仅作解释性上下文，不进核心模型。
+crop_standard 污染 = 0（全部表）,OK,
+vegetation_anomaly frequency=monthly（尊重月度粒度，不伪装日频）,OK,

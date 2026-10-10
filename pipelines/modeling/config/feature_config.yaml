@@ -1,0 +1,69 @@
+# AgriScope Decision Engine — 特征配置
+# 所有特征严格 point-in-time（t 时刻仅允许使用 <= t 的信息）
+
+# 观测频率事实（已核实）：沈阳价格 1410 个"观测日"，非连续自然日；
+# 缺失主要为周末（周六/周日不发布）+ 部分节假日。
+# 因此 lag 语义 = 观测滞后（上一个有记录的观测日），并在 feature_dictionary 中注明。
+
+lag:
+  # 观测滞后（observation lag）: lag_k = 倒数第 k+1 个观测值
+  obs_lags: [1, 2, 3, 5, 7, 10, 14, 21, 30, 45, 60, 90]
+  # 日历滞后（calendar lag）: 使用 t - k 自然日内最近的观测值（<=t），无则 NA
+  calendar_lags: [7, 14, 30, 60, 90]
+
+rolling:
+  windows_obs: [7, 14, 30, 60, 90]   # 以观测数计
+  include_current: true               # 预测 t+h 时允许使用 t 本身
+
+momentum:
+  windows_obs: [7, 14, 30, 60, 90]
+
+trend:
+  slope_windows_obs: [7, 30, 60]
+
+volatility:
+  windows_obs: [7, 30, 60]
+  drawdown_windows_obs: [30, 90]
+
+calendar:
+  features: [year, month, week, day_of_year, quarter, season, sin_doy, cos_doy, sin_month, cos_month]
+
+percentile:
+  # past-only 分位
+  expanding: true
+  same_month: true      # 仅用历史年份的同月样本
+  same_season: true     # 季节窗口 ±15 天
+  min_samples: 30       # 不足则 NA
+
+seasonal_quantile:
+  months: [1..12]
+  quantiles: [0.1, 0.5, 0.9]
+  # 规则：对日期 t，仅使用 date < t 且同年份 < 当前年份 的同 crop 同月样本
+  same_month_only: true
+  min_samples: 20
+  min_years: 2
+
+volume:
+  features: [volume_raw, volume_change_1d, volume_change_7d, volume_ma7, volume_ma30, volume_zscore, volume_percentile]
+  semantics: relative_market_activity   # 单位未知，禁止解释为吨/绝对供应量
+
+weather:
+  # 天气特征用于气候暴露，默认不进入价格模型（须经 ablation 验证）
+  price_model_weather_ablation: true
+  features:
+    - tmax, tmin, tmean, precip
+    - precip_7d, precip_14d, precip_30d
+    - heavy_rain_flag, heavy_rain_days_30
+    - temp_anomaly, precip_anomaly
+    - soil_moisture_0_7, soil_moisture_7_28, soil_moisture_28_100
+    - soil_moisture_percentile, dry_spell_days
+    - temp_p90_flag, temp_p95_flag, rolling_heat_days_7
+
+forbidden_features:
+  # 明确禁止进入训练：
+  - STL_full_series           # A01 全序列分解，含未来
+  - any_loo_research_output   # A02 _loo 留一年法含未来年份
+  - fact_price_city_extremum_weekly  # 该周全省最高/最低地区，非连续序列
+  - future_policy_events
+  - future_disaster_events
+  - full_sample_rank          # 全样本 rank/percentile，泄漏未来

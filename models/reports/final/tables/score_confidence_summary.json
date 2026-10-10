@@ -1,0 +1,8 @@
+{
+  "climate_months": 72,
+  "profit_crops_with_reliable_cost": 5,
+  "profit_crops_not_found": 5,
+  "mean_price_confidence": 88.15,
+  "mean_profit_confidence": 13.75,
+  "ts": "2026-10-07 19:32:27"
+}

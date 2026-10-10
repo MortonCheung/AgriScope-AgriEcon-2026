@@ -1,0 +1,47 @@
+{
+  "status": "OK",
+  "generated_at": "2026-10-10 14:22:15",
+  "timezone": "Asia/Shanghai",
+  "rows_total": 17645,
+  "rows_accepted": 17567,
+  "by_status": {
+    "OK": 17523,
+    "REJECTED": 78,
+    "SUSPECT": 44
+  },
+  "by_level": {
+    "wholesale": 16670,
+    "retail_market": 546,
+    "supermarket": 429
+  },
+  "date_min": "2020-01-03",
+  "date_max": "2026-10-06",
+  "crops": [
+    "土豆",
+    "尖椒",
+    "甘蓝",
+    "芸豆",
+    "芹菜",
+    "茄子",
+    "西红柿",
+    "青椒",
+    "韭菜",
+    "黄瓜"
+  ],
+  "supported_crops": [
+    "土豆",
+    "尖椒",
+    "甘蓝",
+    "芸豆",
+    "芹菜",
+    "茄子",
+    "西红柿",
+    "青椒",
+    "韭菜",
+    "黄瓜"
+  ],
+  "qc_flagged": 122,
+  "volume_unit": "UNKNOWN",
+  "volume_unit_unverified": true,
+  "volume_note": "成交量单位来源未标注 → UNKNOWN，不参与模型/跨日比较/供应强度"
+}

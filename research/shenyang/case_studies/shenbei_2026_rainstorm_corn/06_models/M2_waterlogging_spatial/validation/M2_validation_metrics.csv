@@ -1,0 +1,6 @@
+﻿metric,value
+known_positive_recall(neighborhood>median),0.5
+mean_susceptibility_percentile_at_positives,0.59
+background_median_percentile,0.5
+spearman_susceptibility_vs_SAR_deltaVV,0.05
+spearman_p,0.0

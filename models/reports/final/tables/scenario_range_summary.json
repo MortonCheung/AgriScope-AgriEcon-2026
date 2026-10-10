@@ -1,0 +1,18 @@
+{
+  "city": "沈阳",
+  "n_crop_horizon": 50,
+  "status_counts": {
+    "scenario_range_widened": 35,
+    "scenario_range": 15
+  },
+  "worst_coverage": 0.5113122171945701,
+  "mean_coverage": 0.7095827270232232,
+  "horizons": [
+    7,
+    14,
+    30,
+    60,
+    90
+  ],
+  "ts": "2026-10-07 19:32:18"
+}

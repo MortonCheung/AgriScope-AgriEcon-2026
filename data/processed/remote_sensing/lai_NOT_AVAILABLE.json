@@ -1,0 +1,7 @@
+{
+  "table": "lai",
+  "status": "NOT_AVAILABLE",
+  "reason": "MODIS 通道受限，未取得（见 MODIS_EVI_ATTEMPT.md）",
+  "searched": "data/raw/ + city_data/ + supplements",
+  "access_date": "2026-10-04"
+}

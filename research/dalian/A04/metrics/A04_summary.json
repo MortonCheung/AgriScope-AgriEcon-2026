@@ -1,0 +1,10 @@
+{
+ "city": "dalian",
+ "freq": "W",
+ "n_event_days": 40,
+ "n_event_clusters": 25,
+ "n_official_disaster": 0,
+ "median_post_z": -0.14456625751607932,
+ "placebo_p": 0.7942196531791907,
+ "alpha": 0.05
+}

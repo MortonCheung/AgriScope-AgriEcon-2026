@@ -1,0 +1,8 @@
+﻿soil_id,soil_type,distribution_zone,land_use_note,applicability_to_flooded_zone,survey_basis,source_id,source_url,quality,notes
+SOIL-PNB-01,草甸土,西部辽河冲积平原,主要耕作土壤；西部为优质玉米生产基地,★HIGH —— 本次受淹区(新城子街道、兴隆台街道西部)位于辽河冲积平原，草甸土为最主要土类,第二次土壤普查；沈北新区耕地质量研究(CNKI NYGU201518031),SRC-PAPER-PNB-SOIL,https://x.cnki.net/web/trilalread/article/trialXmlRead.html?fileName=NYGU201518031,C,草甸土地下水位较高、有机质累积明显，排水条件依赖沟渠；辽河平原主要分布草甸土—潮土。⚠️文献为2015年前后发表、数据源为二普及2011年调查，需实地核验
+SOIL-PNB-02,水稻土,西部/中西部平原(水田区),"水稻种植区；八间房村南侧即""水田区""","★HIGH —— WL-2026-001内涝区明确为""水田区""",第二次土壤普查,SRC-PAPER-PNB-SOIL,https://x.cnki.net/web/trilalread/article/trialXmlRead.html?fileName=NYGU201518031,C,水稻土在长期淹水条件下形成，透水性弱于旱地土壤；M2建模时水田区应与旱地区分开
+SOIL-PNB-03,棕壤,东部低山丘陵及中部黄土堆积平原,旱作、果树、蔬菜,LOW —— 受淹区不在东部丘陵,第二次土壤普查,SRC-PAPER-PNB-SOIL,https://x.cnki.net/web/trilalread/article/trialXmlRead.html?fileName=NYGU201518031,C,
+SOIL-PNB-04,风沙土,(局部分布),—,LOW,第二次土壤普查,SRC-PAPER-PNB-SOIL,https://x.cnki.net/web/trilalread/article/trialXmlRead.html?fileName=NYGU201518031,C,
+SOIL-PNB-05,沼泽土,(低洼地带),—,POSSIBLE —— 沼泽土本就分布于低洼积水地带，可能对应常年易涝片,第二次土壤普查,SRC-PAPER-PNB-SOIL,https://x.cnki.net/web/trilalread/article/trialXmlRead.html?fileName=NYGU201518031,C,
+SOIL-PNB-06,土壤养分背景,全区耕地,—,—,86个耕层土样(新城子乡/马刚乡/财落镇/蒲河镇16村),SRC-PAPER-PNB-SOIL,https://x.cnki.net/web/trilalread/article/trialXmlRead.html?fileName=NYGU201518031,C,有机质25.4 g/kg(中等)、碱解氮151 mg/kg(很丰富)、有效磷77.4 mg/kg(很丰富)；说明土壤基础肥力较高，减产主要来自渍涝胁迫而非肥力
+SOIL-PNB-07,耕地总量口径,全区,—,—,文献(2011年变更调查),SRC-PAPER-PNB-SOIL,https://x.cnki.net/web/trilalread/article/trialXmlRead.html?fileName=NYGU201518031,C,★耕地面积3.65万hm²=54.75万亩；农用地3.75万hm²；全区总面积口径不一(文献892.60 km²/百科1098 km²/百科819 km²) → 面积分母需统一后再用

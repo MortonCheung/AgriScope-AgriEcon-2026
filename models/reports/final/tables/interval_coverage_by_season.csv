@@ -1,0 +1,17 @@
+﻿method,season,n,coverage
+quantile_regression,autumn,1260,0.3746031746031746
+quantile_regression,spring,1850,0.43135135135135133
+quantile_regression,summer,1800,0.33555555555555555
+quantile_regression,winter,1610,0.36832298136645963
+residual_expanding,autumn,882,0.5668934240362812
+residual_expanding,spring,1295,0.8517374517374517
+residual_expanding,summer,1260,0.7317460317460317
+residual_expanding,winter,1127,0.6645962732919255
+residual_recent,autumn,882,0.5668934240362812
+residual_recent,spring,1295,0.8416988416988417
+residual_recent,summer,1260,0.7317460317460317
+residual_recent,winter,1127,0.6672582076308784
+seasonal_window_quantile,autumn,1260,0.6619047619047619
+seasonal_window_quantile,spring,1850,0.7416216216216216
+seasonal_window_quantile,summer,1800,0.7705555555555555
+seasonal_window_quantile,winter,1610,0.5590062111801242

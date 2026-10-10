@@ -1,0 +1,55 @@
+﻿city,crop,horizon,algorithm,artifact,kind,n_train,sha256,trained_at
+沈阳,土豆,7,baseline_last_value,,rule_baseline,,,
+沈阳,尖椒,7,extra_trees_tuned,models/models/final/沈阳_尖椒_h7_extra_trees_tuned.pkl,ml,1403.0,1b54b22b43bd1cfdd7068927c8a17985ad5597cdd31e0822ed1a1b44b8fbd06c,2026-10-07 19:44:10
+沈阳,甘蓝,7,baseline_last_value,,rule_baseline,,,
+沈阳,芸豆,7,elasticnet,models/models/final/沈阳_芸豆_h7_elasticnet.pkl,ml,1403.0,f97dec596e6f038586fb45319870415d9f6ac9240e15a277de3fbf661654a6e5,2026-10-07 19:44:10
+沈阳,芹菜,7,baseline_last_value,,rule_baseline,,,
+沈阳,茄子,7,baseline_last_value,,rule_baseline,,,
+沈阳,西红柿,7,elasticnet,models/models/final/沈阳_西红柿_h7_elasticnet.pkl,ml,1403.0,c23e6d8c43d59a32f7c11c83321b737ea6a2fa64874cb7f237bcabaad960312f,2026-10-07 19:44:10
+沈阳,青椒,7,elasticnet,models/models/final/沈阳_青椒_h7_elasticnet.pkl,ml,1403.0,ab1f5ecc8342e834c839953d6ba2548c9f34cfa5368d947e24d81715c3cdd886,2026-10-07 19:44:10
+沈阳,韭菜,7,baseline_last_value,,rule_baseline,,,
+沈阳,黄瓜,7,elasticnet,models/models/final/沈阳_黄瓜_h7_elasticnet.pkl,ml,1403.0,caca80fcf5df1d0ce7f7a8742c0905f39421da100cf671bb48ff7452ba15eb75,2026-10-07 19:44:10
+沈阳,土豆,14,baseline_last_value,,rule_baseline,,,
+沈阳,尖椒,14,elasticnet,models/models/final/沈阳_尖椒_h14_elasticnet.pkl,ml,1400.0,0e5b9df82997251bd8a5a6d78b0aa3b643834818731374740606f4259f450e2b,2026-10-07 19:44:10
+沈阳,甘蓝,14,baseline_last_value,,rule_baseline,,,
+沈阳,芸豆,14,elasticnet,models/models/final/沈阳_芸豆_h14_elasticnet.pkl,ml,1400.0,695f902ea001ca24864646955f9e100577ad80a2f45e62b230423cde5fc7ed2b,2026-10-07 19:44:10
+沈阳,芹菜,14,baseline_last_value,,rule_baseline,,,
+沈阳,茄子,14,baseline_last_value,,rule_baseline,,,
+沈阳,西红柿,14,elasticnet_tuned,models/models/final/沈阳_西红柿_h14_elasticnet_tuned.pkl,ml,1400.0,1422d122f2f98e8905a285dbfb9f9cc8fd8247c4df2df9e0c57e9f07c968710c,2026-10-07 19:44:10
+沈阳,青椒,14,elasticnet,models/models/final/沈阳_青椒_h14_elasticnet.pkl,ml,1400.0,ae4ee8a30bb98c3ba6ac71cf384ebe0386067cf2cff48d54e0ca7bd4919da2c4,2026-10-07 19:44:10
+沈阳,韭菜,14,elasticnet_tuned,models/models/final/沈阳_韭菜_h14_elasticnet_tuned.pkl,ml,1400.0,182318c40e57d1c1ddb43677d46d24fa5e5486c57da182c7f97daace292a31e4,2026-10-07 19:44:10
+沈阳,黄瓜,14,elasticnet,models/models/final/沈阳_黄瓜_h14_elasticnet.pkl,ml,1400.0,42c2af14b0d9ca2f376706616817d603feb8dfaf1c10f952971a64abeb1a7fc4,2026-10-07 19:44:10
+沈阳,土豆,30,baseline_last_value,,rule_baseline,,,
+沈阳,尖椒,30,elasticnet,models/models/final/沈阳_尖椒_h30_elasticnet.pkl,ml,1389.0,98b1371c8ff753946aa066457ff9a0e7a478a30e7e6228459d2121d921f1fe8a,2026-10-07 19:44:10
+沈阳,甘蓝,30,baseline_last_value,,rule_baseline,,,
+沈阳,芸豆,30,elasticnet,models/models/final/沈阳_芸豆_h30_elasticnet.pkl,ml,1389.0,30da7e6791b333e8c831f96e4c88022188be80af9db0833cc9c5137ba66edd06,2026-10-07 19:44:10
+沈阳,芹菜,30,baseline_last_value,,rule_baseline,,,
+沈阳,茄子,30,elasticnet_tuned,models/models/final/沈阳_茄子_h30_elasticnet_tuned.pkl,ml,1389.0,cb5dbdd8275ade77c04fbd40f64598b280e0dae3e72b1c5cbcd0a7d660b39f68,2026-10-07 19:44:10
+沈阳,西红柿,30,elasticnet_tuned,models/models/final/沈阳_西红柿_h30_elasticnet_tuned.pkl,ml,1389.0,6a0e8f8fd1f8ec15022722a703ecbd44be01c90fa3b675f1ce1e7f8a9f0e29d2,2026-10-07 19:44:10
+沈阳,青椒,30,elasticnet_tuned,models/models/final/沈阳_青椒_h30_elasticnet_tuned.pkl,ml,1389.0,085fc8728ccfb72f6d44e52309ccbef190af9c96be0eb9d320304a0db699fc01,2026-10-07 19:44:10
+沈阳,韭菜,30,elasticnet_tuned,models/models/final/沈阳_韭菜_h30_elasticnet_tuned.pkl,ml,1389.0,462c4861c033c4e1432d8fedf128a75dd54d34de2d5fe4fd2022a6b2d4cdfbfc,2026-10-07 19:44:10
+沈阳,黄瓜,30,extra_trees,models/models/final/沈阳_黄瓜_h30_extra_trees.pkl,ml,1389.0,d9d3c61180e168b8c69a9c0ee13e244f7f6ac5396b2535e68c804baa76d71440,2026-10-07 19:44:11
+朝阳,土豆,7,baseline_last_value,,rule_baseline,,,
+朝阳,芸豆,7,baseline_last_value,,rule_baseline,,,
+朝阳,芹菜,7,baseline_last_value,,rule_baseline,,,
+朝阳,茄子,7,baseline_last_value,,rule_baseline,,,
+朝阳,西红柿,7,baseline_last_value,,rule_baseline,,,
+朝阳,青椒,7,baseline_last_value,,rule_baseline,,,
+朝阳,韭菜,7,elasticnet_tuned,models/models/final/朝阳_韭菜_h7_elasticnet_tuned.pkl,ml,1232.0,c8f1e7fefe1d54d24071735469f138595121c7c7c3464ec5d99d7c8ab55f1256,2026-10-07 19:44:11
+朝阳,黄瓜,7,extra_trees,models/models/final/朝阳_黄瓜_h7_extra_trees.pkl,ml,1232.0,d6345aaaceabc3422f61c01a6bb44e8eb0b7a6276bf755f9f745289e9fd2e46e,2026-10-07 19:44:11
+朝阳,土豆,14,baseline_last_value,,rule_baseline,,,
+朝阳,芸豆,14,extra_trees_tuned,models/models/final/朝阳_芸豆_h14_extra_trees_tuned.pkl,ml,1231.0,0a3ba739de0d0b6cef01edfae7dfe2fb167c7c78f912034a20dda17477686829,2026-10-07 19:44:12
+朝阳,芹菜,14,baseline_last_value,,rule_baseline,,,
+朝阳,茄子,14,baseline_last_value,,rule_baseline,,,
+朝阳,西红柿,14,extra_trees_tuned,models/models/final/朝阳_西红柿_h14_extra_trees_tuned.pkl,ml,1231.0,fdae27752a13ae968d4f351219ec53e6115f7da737f745a34cce8a167a5e707c,2026-10-07 19:44:12
+朝阳,青椒,14,extra_trees_tuned,models/models/final/朝阳_青椒_h14_extra_trees_tuned.pkl,ml,1231.0,e834dae41f1949a9e0a7cd808a339d2a34377adf8bd2b9229e2427677c9dc47a,2026-10-07 19:44:12
+朝阳,韭菜,14,elasticnet_tuned,models/models/final/朝阳_韭菜_h14_elasticnet_tuned.pkl,ml,1231.0,a0ec73fcf2d4aa22dc56398e3ae84d6848233e649a3c3cf27bcbdad357d6edda,2026-10-07 19:44:12
+朝阳,黄瓜,14,extra_trees_tuned,models/models/final/朝阳_黄瓜_h14_extra_trees_tuned.pkl,ml,1231.0,173410e91ac616a9df34b2f90536057be22cc4436c036c13be589e3fe88a4961,2026-10-07 19:44:12
+朝阳,土豆,30,catboost,models/models/final/朝阳_土豆_h30_catboost.pkl,ml,1230.0,d1795d436aae1f2e0b2bd1a5dbda01f33e9ac05b17a3e2bbc8e6fdfad401308e,2026-10-07 19:44:13
+朝阳,芸豆,30,catboost,models/models/final/朝阳_芸豆_h30_catboost.pkl,ml,1230.0,ac828353d2a00d574d43239bde79fd07a48242d713d52b606e1cb94dfcef6638,2026-10-07 19:44:13
+朝阳,芹菜,30,baseline_last_value,,rule_baseline,,,
+朝阳,茄子,30,elasticnet_tuned,models/models/final/朝阳_茄子_h30_elasticnet_tuned.pkl,ml,1230.0,473679e2cac8d2a63dcb48b0b1a5ee189b2f63150a545684487953abb3444c06,2026-10-07 19:44:13
+朝阳,西红柿,30,extra_trees_tuned,models/models/final/朝阳_西红柿_h30_extra_trees_tuned.pkl,ml,1230.0,22a51df320d8216c9a7db364ccfe6e307376656117169ab110bf739cc4eff46d,2026-10-07 19:44:14
+朝阳,青椒,30,catboost,models/models/final/朝阳_青椒_h30_catboost.pkl,ml,1230.0,47a886b7e9135f2dc2fe25a0bb4ccbb1eb2ac8d2d82f85f6c6891d8b3e797943,2026-10-07 19:44:14
+朝阳,韭菜,30,elasticnet_tuned,models/models/final/朝阳_韭菜_h30_elasticnet_tuned.pkl,ml,1230.0,dfecdb57321df5a60ae4b2214393cfb3d591f4961d785672111aafc0f24b78f8,2026-10-07 19:44:14
+朝阳,黄瓜,30,catboost,models/models/final/朝阳_黄瓜_h30_catboost.pkl,ml,1230.0,8953775befe1dc6a38426d7e44754d1c3b608cb5b3e315dcec9810f3803fa59c,2026-10-07 19:44:15

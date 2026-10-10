@@ -1,0 +1,109 @@
+{
+ "id": "A03",
+ "city": "丹东",
+ "slug": "weather-lag-accumulation-nonlinearity",
+ "title": "气象影响的滞后、累积与非线性特征",
+ "abstract": "无满足最小覆盖的价格序列，无法估计滞后/累积/非线性响应。",
+ "frontend_summary": "丹东：A03 数据不足，不成立。",
+ "keywords": [
+  "数据不足",
+  "丹东"
+ ],
+ "research_questions": [
+  "气象影响的滞后、累积与非线性特征"
+ ],
+ "data_scope": {
+  "summary": "见 sources/source_registry.csv"
+ },
+ "methods": [
+  {
+   "summary": "未执行"
+  }
+ ],
+ "key_findings": [
+  {
+   "heading": "研究问题与背景"
+  },
+  {
+   "heading": "数据与变量"
+  },
+  {
+   "heading": "研究方法"
+  },
+  {
+   "heading": "研究结果"
+  },
+  {
+   "heading": "讨论"
+  },
+  {
+   "heading": "研究局限"
+  },
+  {
+   "heading": "结论"
+  }
+ ],
+ "sections": [
+  {
+   "number": "1",
+   "title": "研究问题与背景",
+   "content": "拟研究丹东气象影响的滞后、累积与非线性特征。"
+  },
+  {
+   "number": "2",
+   "title": "数据与变量",
+   "content": "口径：第三方 B2B 产地行情（稀疏；质量 C）。"
+  },
+  {
+   "number": "3",
+   "title": "研究方法",
+   "content": "因数据不支持，未执行分析。"
+  },
+  {
+   "number": "4",
+   "title": "研究结果",
+   "content": "NOT_SUPPORTED_BY_CURRENT_DATA"
+  },
+  {
+   "number": "5",
+   "title": "讨论",
+   "content": "无满足最小覆盖的价格序列，无法估计滞后/累积/非线性响应。"
+  },
+  {
+   "number": "6",
+   "title": "研究局限",
+   "content": "当前城市数据不支持该研究模块"
+  },
+  {
+   "number": "7",
+   "title": "结论",
+   "content": "NOT_SUPPORTED_BY_CURRENT_DATA"
+  }
+ ],
+ "limitations": [
+  "当前城市数据不支持该研究模块"
+ ],
+ "conclusion": "NOT_SUPPORTED_BY_CURRENT_DATA",
+ "figures": [],
+ "tables": [],
+ "source_ids": [
+  "SRC-DA-01"
+ ],
+ "status": "NOT_SUPPORTED",
+ "explorer": {
+  "status": "NOT_SUPPORTED_BY_CURRENT_DATA",
+  "selectors": [],
+  "metrics": [],
+  "series": [],
+  "tables": [],
+  "figures": [],
+  "sources": [
+   "SRC-DA-01"
+  ],
+  "methodology": "数据不支持，未执行分析。",
+  "limitations": [
+   "当前城市数据不支持该研究模块"
+  ],
+  "reason": "无满足最小覆盖的价格序列，无法估计滞后/累积/非线性响应。"
+ }
+}

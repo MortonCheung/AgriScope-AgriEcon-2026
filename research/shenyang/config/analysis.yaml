@@ -1,0 +1,268 @@
+# =============================================================================
+# 沈阳农业气象风险研究 — 分析参数配置
+# 所有阈值必须写明来源；无可信来源的阈值一律不写。
+# =============================================================================
+
+project:
+  name: shenyang
+  city: 沈阳
+  random_seed: 20260714          # 固定随机种子（2026-07-14 = 2026 暴雨应急响应日）
+
+# -----------------------------------------------------------------------------
+# 时间边界
+# -----------------------------------------------------------------------------
+time:
+  # 市场（价格 / 成交量）自身研究：使用全部可得观测
+  market_start: 2020-01-03
+  market_end: 2026-09-21
+  # 天气 / 土壤可得范围（Open-Meteo ERA5/ERA5-Land）
+  weather_start: 2021-01-01
+  weather_end: 2026-09-14
+  # 核心「天气—成交量—价格」研究窗口 = 两源共同覆盖期（由 01_build_panel 自动裁剪取交集）
+  core_start_planned: 2021-01-01
+  core_end_planned: 2026-09-21
+  # 气候基线
+  climatology_period: 1991-2020
+  # 生长季定义（用于年度生产层的季内气象聚合）
+  growing_season_months: [5, 6, 7, 8, 9]
+
+# -----------------------------------------------------------------------------
+# 成交量单位红线
+# -----------------------------------------------------------------------------
+volume:
+  unit: unknown                  # 官方未公开单位，禁止写成吨
+  forbidden_units: [吨, t, ton]
+  note: 官方接口未标注 volume 单位；仅允许相对变化 / 比率 / 标准化 / z-score / log 变化
+
+# -----------------------------------------------------------------------------
+# 累积天气特征窗口
+# -----------------------------------------------------------------------------
+cumulative:
+  precip_windows_days: [1, 3, 5, 7, 14]
+  hot_day_windows_days: [3, 5, 7]
+  vpd_windows_days: [3, 7]
+  soil_moisture_windows_days: [3, 7]
+  soil_moisture_layers: [soil_moisture_0_7, soil_moisture_7_28, soil_moisture_28_100]
+
+# -----------------------------------------------------------------------------
+# 极端天气识别阈值
+#   采用数据仓库既有定义（city_data/reference/marts/fact_disaster_events.csv 生成规则），保持一致。
+#   来源：/transformers/build_events.py 与 DATA_DICTIONARY.md §9
+# -----------------------------------------------------------------------------
+hazard_thresholds:
+  rainstorm_daily_mm: 50.0          # 单日降水 ≥50mm
+  rainstorm_continuation_mm: 25.0   # 过程内后续日 ≥25mm 视为同一次过程
+  heavy_rain_3d_mm: 100.0           # 3 日滑动累计 ≥100mm
+  heat_tmax_c: 35.0                 # 日最高温 ≥35℃
+  heat_min_consecutive_days: 2      # 连续 ≥2 日
+  drought_max_daily_mm: 1.0         # 生长季连续 ≥20 日降水 <1mm
+  drought_min_consecutive_days: 20
+  frost_tmin_c: 0.0                 # 日最低温 ≤0℃（霜冻日）
+  dry_spell_min_days: 5             # 连续无有效降水日数（探索性）
+
+# 分箱（仅用于解释性图表，禁止据此判定临界点）
+precip_bins_mm: [0, 10, 25, 50, 100, 100000]
+precip_bin_labels: ["0-10", "10-25", "25-50", "50-100", "100+"]
+
+# -----------------------------------------------------------------------------
+# 农学阈值（来源：raw_data/metadata/crop_agronomy.csv，reference_technical，参考资料）
+#   仅用于「机制解释层」，不得当作观测数据
+# -----------------------------------------------------------------------------
+agronomy_thresholds:
+  source: raw_data/metadata/crop_agronomy.csv (data_type=reference_technical)
+  by_crop:
+    土豆:
+      optimum_soil_temp_c: [16, 18]
+      soil_temp_stop_growth_c: 25
+      daily_mean_temp_stress_c: [25, 27]
+      waterlogging_risk: 忌渍涝
+    甘蓝:
+      optimum_temp_c: [15, 20]
+      heat_risk_threshold_c: 35
+      bolting_risk: 苗期 0-10℃ 春化 70-100 天
+    芹菜:
+      optimum_temp_c: [15, 20]
+      heat_risk_threshold_c: 25
+      waterlogging_risk: 积水易烂根
+    韭菜:
+      optimum_temp_c: [13, 22]
+      growth_stop_c: 30
+    黄瓜:
+      optimum_temp_c: [20, 30]
+      waterlogging_risk: 高
+    西红柿:
+      optimum_temp_c: [20, 28]
+      heat_risk_threshold_c: 35
+    茄子:
+      optimum_temp_c: [22, 30]
+      heat_risk_threshold_c: 35
+    青椒:
+      optimum_temp_c: [20, 28]
+      heat_risk_threshold_c: 35
+    尖椒:
+      optimum_temp_c: [20, 28]
+      heat_risk_threshold_c: 35
+    芸豆:
+      optimum_temp_c: [18, 25]
+      heat_risk_threshold_c: 32
+    玉米:
+      optimum_temp_c: [25, 28]
+      heat_risk_threshold_c: 35
+    水稻:
+      optimum_temp_c: [25, 30]
+      cold_damage_c: 17
+
+# -----------------------------------------------------------------------------
+# 去季节化（Phase 2）
+# -----------------------------------------------------------------------------
+seasonal_baseline:
+  primary: leave_one_year_out_hist_median     # 主方法：留一年法的历史同期中位数
+  alternative: stl                            # 备选：STL 稳健分解（周序列）
+  hist_window_days: 11                        # 历史同期窗口：doy ± 5 天
+  hist_stat: median                           # 优先 median，降低极端值影响
+  leave_one_year_out: true                    # 计算某年基线时不得使用该年自身
+  stl_period: 52                              # 周序列年周期
+  stl_robust: true
+  min_obs_for_baseline: 8                     # 窗口内至少 8 个有效观测才输出基线
+
+# -----------------------------------------------------------------------------
+# 滞后分析（Phase 3，§二十二~§二十五）
+# -----------------------------------------------------------------------------
+lag:
+  max_lag_days: 30                # 计算 0-30 个 calendar day（自然日差，不跳过非交易日）
+  focus_max_lag_days: 14          # 重点展示 0-14
+  hac_maxlags: 14                 # Newey-West / HAC 滞后阶数
+  min_obs: 300                    # 单个回归最少有效观测，低于则跳过（不输出结论）
+  # 主响应（稳健 z，无量纲、跨品种可比）与次响应（异常%，§二十 定义的相对口径）
+  responses:
+    primary_suffix: anomaly_z
+    secondary_suffix: anomaly_pct
+  # 分布滞后模型的窗聚合结构（避免 30 个高度共线 lag 同时入场）
+  lag_windows:
+    - [0, 2]
+    - [3, 6]
+    - [7, 13]
+    - [14, 30]
+  # 天气冲击变量（hazard）；col 必须存在于日度气象面板
+  hazards:
+    - {key: precip_1d, col: precip_1d,  label: "当日降水",      unit: mm}
+    - {key: precip_3d, col: precip_3d,  label: "3日累计降水",    unit: mm}
+    - {key: precip_7d, col: precip_7d,  label: "7日累计降水",    unit: mm}
+    - {key: temp_max,  col: temp_max,   label: "日最高气温",     unit: ℃}
+    - {key: temp_min,  col: temp_min,   label: "日最低气温",     unit: ℃}
+    - {key: vpd,       col: vpd,        label: "饱和水汽压差VPD", unit: kPa}
+    - {key: soil_z,    col: soil_moisture_z, label: "土壤水分异常", unit: "稳健z"}
+
+# -----------------------------------------------------------------------------
+# 非线性 / 临界点（Phase 4，§二十六~§二十八）
+# -----------------------------------------------------------------------------
+threshold:
+  gam_spline_df: 8                # GAM 样条自由度
+  wald_spline_df: 7               # 自相关稳健非线性检验：自然三次样条基总维度
+                                  # （线性空间 ⊂ 自然样条空间，实际检验自由度 = 7-2 = 5）
+  segmented_grid_points: 120      # 断点搜索网格
+  n_boot: 500                     # Bootstrap 置信区间次数
+  min_segment_frac: 0.10          # 断点两侧最小样本比例
+  # 非线性扫描的暴露变量（当日值），来源同 lag.hazards
+  gam_hazards:
+    - {key: precip_3d, col: precip_3d,      label: "3日累计降水",     unit: mm}
+    - {key: temp_max,  col: temp_max,       label: "日最高气温",      unit: ℃}
+    - {key: vpd,       col: vpd,            label: "饱和水汽压差VPD",  unit: kPa}
+    - {key: soil_z,    col: soil_moisture_z, label: "土壤水分异常",     unit: "稳健z"}
+  # 断点检验：候选 = GAM 平滑项 FDR 显著者；块长用于移动块 Bootstrap（天）
+  block_days: 30
+  smooth_grid_points: 200         # 偏依赖曲线网格点数
+
+# -----------------------------------------------------------------------------
+# 传导机制（Phase 7，§三十五~§四十）
+# -----------------------------------------------------------------------------
+transmission:
+  # 天气解释变量（col = 气象日面板 weather_daily 的列名；全部按全序列 sd 标准化为 z 后入模）
+  hazards:
+    - {key: precip_3d, col: precip_3d,         label: "3日累计降水",    unit: mm}
+    - {key: temp_max,  col: temp_max,          label: "日最高气温",     unit: ℃}
+    - {key: vpd,       col: vpd,               label: "饱和水汽压差VPD", unit: kPa}
+    - {key: soil_z,    col: soil_moisture_0_7_z, label: "土壤水分异常",  unit: "稳健z"}
+    - {key: wind,      col: wind_speed,        label: "风速",          unit: "m/s"}
+  # 滞后窗口（窗口内 z 取均值；避免 30 个共线 lag）
+  windows: [[0, 2], [3, 14]]
+  # 第二阶段模型的价格滞后（上一交易日观测，非自然日）
+  price_lag: prev_obs_1
+  # 中介效应 Bootstrap（块长同 threshold.block_days；按日期块重抽）
+  n_boot: 500
+  block_days: 30
+
+# -----------------------------------------------------------------------------
+# Event Study（Phase 5）
+# -----------------------------------------------------------------------------
+event_study:
+  window_pre: 14                  # T-14
+  window_post: 21                 # T+21
+  min_pre_obs: 5                  # 事件前窗口最少观测数
+  overlap_gap_days: 3             # 两事件间隔 ≤3 天 → 标记同一复合事件
+  n_boot: 1000
+  placebo_draws: 500
+  response_curve_window: [-7, 14] # 冲击指纹标准响应曲线窗口
+
+# -----------------------------------------------------------------------------
+# 韧性（Phase 9）
+# -----------------------------------------------------------------------------
+resilience:
+  recovery_fraction: 0.9          # 恢复至事件前水平 90% 视为恢复
+  trough_search_window: [0, 21]
+  min_abs_shock_for_recovery: 1e-9
+
+# -----------------------------------------------------------------------------
+# 预测模型（Phase 12）
+# -----------------------------------------------------------------------------
+modeling:
+  # 时间切分（严禁随机 shuffle）
+  train_end: 2024-12-31
+  valid_end: 2025-12-31
+  # 测试 = valid_end 之后
+  rolling_origin_folds: 4
+  rolling_origin_min_train_years: 3
+  models: [baseline_mean, baseline_seasonal_naive, elasticnet, gam, lightgbm]
+  lgbm_params:
+    n_estimators: 600
+    learning_rate: 0.03
+    num_leaves: 15
+    min_child_samples: 20
+    subsample: 0.8
+    subsample_freq: 1
+    colsample_bytree: 0.7
+    reg_lambda: 1.0
+    random_state: 20260714
+    verbose: -1
+  elasticnet_params:
+    alpha: 0.01
+    l1_ratio: 0.5
+    max_iter: 20000
+  gam_spline_df: 6
+  # 评价必须分层：总体 / 作物 / 季节 / 灾害期 / 正常期
+  stratification: [overall, crop, season, extreme_period, normal_period]
+
+# -----------------------------------------------------------------------------
+# 反事实（Phase 14）
+# -----------------------------------------------------------------------------
+counterfactual:
+  event_start: 2026-07-12
+  event_end: 2026-07-17
+  # 方法A：1991-2020 同期气候正常值
+  method_a: climatology_1991_2020
+  # 方法B：历史相似日期 Analog（同季节、无极端事件日）
+  method_b: historical_analog
+  analog_window_days: 15
+  severity_multipliers: [0.5, 1.0, 1.2, 1.5]
+  supply_buffer_scenarios: [0.10, 0.20, 0.30]
+  # 现实世界复现门槛：模型对现实的解释力低于此值则停止反事实外推论证
+  world0_min_r2: 0.10
+
+# -----------------------------------------------------------------------------
+# 稳健性（Phase 15）
+# -----------------------------------------------------------------------------
+robustness:
+  seasonal_baselines: [stl, leave_one_year_out_hist_median]
+  event_windows: [[-7, 14], [-14, 21]]
+  hazard_measures: [precip_1d, precip_3d, precip_7d]
+  models: [elasticnet, gam, lightgbm]

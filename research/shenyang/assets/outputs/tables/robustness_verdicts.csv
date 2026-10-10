@@ -1,0 +1,7 @@
+﻿conclusion,dimension,result,judgement
+C1 天气→成交量在日度/事件尺度不可分辨于噪声,placebo,不可分辨于 placebo,Stable
+C2 成交量→价格同日系数极小、中介≈0（STEP 15-17）,跨模型/缓冲,STEP 26：供应缓冲对价格缺口影响≈0（LightGBM）,Stable
+C3 2026-07 事件量价响应,基线方法(hist vs stl),跨品种 Spearman 见 robustness_baseline_methods.csv,Sensitive
+C3 2026-07 事件量价响应,事件窗(-7/+14 vs -14/+21),方向一致品种数见 robustness_event_windows.csv,Stable
+C4a 反事实缺口方向：价格（灾害→价格↑，模型口径 Level D）,模型族(lightgbm/elasticnet/gam),三模型族价格缺口符号：{np.float64(-1.0)}（全同号）,Stable
+C4b 反事实缺口方向：成交量（模型口径 Level D）,模型族(lightgbm/elasticnet/gam),"三模型族成交量缺口符号：{np.float64(1.0), np.float64(-1.0)}（存在异号）",Sensitive

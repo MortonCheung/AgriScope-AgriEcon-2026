@@ -1,0 +1,32 @@
+﻿metric,recommended_table,source,supersedes,source_quality,coverage,version
+daily price,02_standardized/market/price_observation.parquet,六城 canonical（污染已恢复）,archive/old_marts/marts/fact_price_*（已归档，勿用）,A,2020-2026,v1.1
+province price,02_standardized/market/province_price_reference.parquet,retained_source supplement V1+V3,—,A,2019-2026,v1.1
+market volume,02_standardized/market/market_volume.parquet,六城 canonical volume,—,C,2015-2026,v1.1
+market supply proxy,02_standardized/market/supply_proxy.parquet,retained_source V3,—,B,2019-2026,v1.1
+market registry,02_standardized/market/market_registry.parquet,retained_source V2+V3,—,B,static,v1.1
+daily weather,02_standardized/climate/weather_daily.parquet,ERA5 / ERA5-Land,旧 marts/fact_weather_daily（已归档）,A,2010-2026,v1.1
+soil moisture,02_standardized/climate/soil_daily.parquet,ERA5-Land soil,—,A,2010-2026,v1.1
+climatology,02_standardized/climate/climatology.parquet,retained_source curated 1991-2020,—,A,1991-2020,v1.1
+NDVI,02_standardized/remote_sensing/ndvi.parquet,Sentinel-2 城市×月,—,A,2021-2026,v1.1
+NDVI anomaly,02_standardized/remote_sensing/vegetation_anomaly.parquet,Sentinel-2 派生,—,A,2021-2026,v1.1
+EVI,02_standardized/remote_sensing/evi.parquet,Sentinel-2（覆盖不足，CONTEXT_ONLY）,—,C,2021-2026,v1.1
+production yearly,02_standardized/production/production_yearly.parquet,五城 + retained_source V2,—,B,2017-2025,v1.1
+planting area yearly,02_standardized/production/planting_area_yearly.parquet,辽宁统计年鉴 XLS,—,S,2017-2019,v1.1
+district crop (yearbook),02_standardized/production/yearbook_shenyang_district_crop.parquet,沈阳统计年鉴 7 册（新增解析）,—,A,2018-2024,v1.1
+district production (bulletin),02_standardized/production/bulletin_shenyang_district.parquet,沈阳区县公报（新增解析）,—,B,2016-2025,v1.1
+crop spatial structure,02_standardized/production/crop_spatial_structure.parquet,retained_source V3,—,B,cross_section,v1.1
+facility vegetable (district),02_standardized/production/district_facility_vegetable.parquet,辽中区 2023 统计资料汇编（新增解析）,—,A,district×crop,v1.1
+facility agriculture (city),02_standardized/production/facility_agriculture_city.parquet,沈阳市统计局公开报道+公报（定点补数）,—,B,city×year,v1.1
+crop calendar,02_standardized/production/crop_calendar.parquet,五城 + retained_source V2,—,B,2013-2025,v1.1
+crop cost,02_standardized/cost/crop_cost.parquet,retained_source V2（LOCAL+proxy 已标注）,—,B,2000-2025,v1.1
+cost components,02_standardized/cost/cost_components.parquet,retained_source V3（RESEARCH_REFERENCE）,—,C,2000-2025,v1.1
+input prices,02_standardized/cost/input_prices.parquet,辽宁省农业农村厅周报,—,B,2021-2026,v1.1
+disaster events,02_standardized/disaster/disaster_events.parquet,六城 observed,—,B,2010-2026,v1.1
+insurance claims,02_standardized/disaster/insurance_claims.parquet,retained_source V2+V3,—,B,2023-2025,v1.1
+pest disease events,02_standardized/bio_risk/pest_disease_events.parquet,retained_source V3,—,C,event,v1.1
+irrigation water,02_standardized/water/irrigation_water.parquet,retained_source V2+V3,—,B,2017-2025,v1.1
+cold chain,02_standardized/infrastructure/cold_chain.parquet,retained_source V3,—,B,cross_section,v1.1
+market accessibility,02_standardized/infrastructure/market_accessibility.parquet,OSRM 派生,—,A,static,v1.1
+demand,02_standardized/demand/*.parquet,retained_source V2+V3 统计公报,—,A,2019-2025,v1.1
+policy events,02_standardized/policy/policy_events.parquet,六城 + province retained,—,B,2015-2026,v1.1
+herding events,02_standardized/evidence/herding_events.parquet,retained_source V2+V3,—,C,2011-2026,v1.1

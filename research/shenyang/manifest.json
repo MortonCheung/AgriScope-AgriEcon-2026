@@ -1,0 +1,92 @@
+{
+ "city": "沈阳",
+ "project": "shenyang_research_v2",
+ "n_articles": 9,
+ "articles": [
+  {
+   "id": "A01",
+   "slug": "market-time-seasonality",
+   "title": "沈阳市主要蔬菜批发市场的时间结构与季节性特征",
+   "file": "articles/A01.json",
+   "n_sections": 7,
+   "n_sources": 1,
+   "status": "ACCEPTED"
+  },
+  {
+   "id": "A02",
+   "slug": "weather-market-daily-response",
+   "title": "气象条件与沈阳市主要蔬菜批发市场日度响应",
+   "file": "articles/A02.json",
+   "n_sections": 7,
+   "n_sources": 3,
+   "status": "ACCEPTED"
+  },
+  {
+   "id": "A03",
+   "slug": "weather-lag-accumulation-nonlinearity",
+   "title": "气象影响的滞后累积与非线性特征",
+   "file": "articles/A03.json",
+   "n_sections": 7,
+   "n_sources": 2,
+   "status": "ACCEPTED"
+  },
+  {
+   "id": "A04",
+   "slug": "extreme-weather-events-case-2026",
+   "title": "极端天气事件下沈阳市蔬菜批发市场响应及 2026 年强降雨案例",
+   "file": "articles/A04.json",
+   "n_sections": 7,
+   "n_sources": 4,
+   "status": "ACCEPTED"
+  },
+  {
+   "id": "A05",
+   "slug": "crop-heterogeneity-recovery",
+   "title": "沈阳市不同蔬菜的气象响应差异与市场恢复特征",
+   "file": "articles/A05.json",
+   "n_sections": 7,
+   "n_sources": 3,
+   "status": "ACCEPTED"
+  },
+  {
+   "id": "A06",
+   "slug": "price-volume-transmission-forecast",
+   "title": "沈阳市蔬菜市场量价关系风险传导与天气信息预测增量",
+   "file": "articles/A06.json",
+   "n_sections": 7,
+   "n_sources": 2,
+   "status": "ACCEPTED"
+  },
+  {
+   "id": "A07",
+   "slug": "district-production-structure",
+   "title": "沈阳市农业生产的区县格局与作物结构（2018-2024）",
+   "file": "articles/A07.json",
+   "n_sections": 7,
+   "n_sources": 11,
+   "status": "ACCEPTED"
+  },
+  {
+   "id": "A08",
+   "slug": "district-yield-weather-panel",
+   "title": "气象条件与沈阳市农业单产变化的区县面板研究",
+   "file": "articles/A08.json",
+   "n_sections": 7,
+   "n_sources": 3,
+   "status": "ACCEPTED"
+  },
+  {
+   "id": "A09",
+   "slug": "synthesis-agrometeorological-risk",
+   "title": "沈阳市农业气象风险、生产响应与农产品市场表现综合研究",
+   "file": "articles/A09.json",
+   "n_sections": 7,
+   "n_sources": 16,
+   "status": "ACCEPTED"
+  }
+ ],
+ "n_sources": 16,
+ "generated_by": "30_export_frontend.py",
+ "article_end_marker_required": true,
+ "no_substring_summary": true
+}

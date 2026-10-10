@@ -1,0 +1,11 @@
+﻿crop,cost_available,n_refs,best_class,cost_reliability,cost_range
+土豆,True,2,RESEARCH_REFERENCE,0.55,580.0~1550.0
+西红柿,True,1,RESEARCH_REFERENCE,0.55,2200.0~2200.0
+黄瓜,True,4,RESEARCH_REFERENCE,0.55,700.0~23840.0
+韭菜,True,2,RESEARCH_REFERENCE,0.55,5000.0~12920.0
+青椒,False,0,NOT_FOUND,0.0,NA
+尖椒,False,0,NOT_FOUND,0.0,NA
+茄子,False,0,NOT_FOUND,0.0,NA
+芹菜,False,0,NOT_FOUND,0.0,NA
+芸豆,True,1,RESEARCH_REFERENCE,0.55,560.0~560.0
+甘蓝,False,0,NOT_FOUND,0.0,NA

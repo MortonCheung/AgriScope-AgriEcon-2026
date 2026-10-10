@@ -1,0 +1,9 @@
+﻿paper_id,region,maize_type,growth_stage,waterlogging_duration_d,water_depth,soil_condition,temperature,yield_control,yield_treated,relative_yield,yield_loss,sample_size,replicates,variance_available,experiment_type,field_or_pot,applicability_to_shenbei,quality,M3_class,notes,lnRR
+LIT-YU2014,黄淮平原(河南/安徽),夏玉米(浚单20),拔节期,3,持续淹水,田间,暖温带,,,0.716,0.284,田间试验(未报n),,NO,field,field,PARAMETER_PRIOR_ONLY,C,M3-B,地区/玉米类型不同；无方差,-0.334
+LIT-YU2014,黄淮平原,夏玉米,抽雄期,5,持续淹水,田间,暖温带,,,0.572,0.428,田间试验,,NO,field,field,PARAMETER_PRIOR_ONLY,C,M3-B,抽雄淹水5d → −42.8%,-0.559
+LIT-LIUZG2013,黄淮(新乡),夏玉米,抽雄吐丝期,6,测坑淹涝,测坑,暖温带,,,0.87,0.1299,测坑试验,,NO,pot,pot,PARAMETER_PRIOR_ONLY,C,M3-B,显著减产阈值：苗期2/拔节4/抽雄吐丝6/灌浆4 d,-0.139
+LIT-LIUZG2013,黄淮(新乡),夏玉米,抽雄吐丝期(区间),2~10,测坑淹涝,测坑,暖温带,,,,0.0258~0.2863,测坑试验,,NO,pot,pot,PARAMETER_PRIOR_ONLY,C,M3-B,抽雄吐丝期减产区间 −2.58%~−28.63%,
+LIT-LIUXF2021,黄淮(中国农科院灌溉所),夏玉米,抽雄吐丝期,1/3/5/7/9,桶栽淹涝,桶栽,暖温带,,,,<10% 阈值1.5d; >20% 阈值4d,桶栽试验,,NO,pot,pot,PARAMETER_PRIOR_ONLY,C,M3-B,桶栽尺度差异大；给出 10%/20% 减产阈值,
+LIT-FENG2013,黄淮(开封),夏玉米(郑单958),抽雄期,6~10,测坑淹水,测坑,暖温带,,,,0.105~0.487,测坑试验,,NO,pot,pot,PARAMETER_PRIOR_ONLY,C,M3-B,每增1天约−10%（原文表述）,
+LIT-BILL2026RICE,泰国/缅甸(水稻),水稻(非玉米),多生育期,varies,有,田间调查,热带,,,,stage-damage 函数,20 个损失模型综述+野外调查,,PARTIAL,meta_review+survey,field,METHOD_ONLY,B,M3-C,NHESS 2026;提供 Bayesian 回归(水深×历时×生育期)+跨区迁移误差的**方法学**范式;作物不同→不作玉米参数,
+LIT-TIAN2021META,全球(115 研究/2419 比较),多作物(含玉米),多生育期,0-3/3-6/6-9/9-15/15-28(分组),部分,田间为主,多气候带,,,,平均 −32.9%(全作物),2419 comparisons / 115 studies,—,NO(本研究仅取汇总值),global_meta_analysis,field,HIERARCHICAL_PRIOR_SOURCE,A,M3-B,Front Plant Sci 2021;提供**按积水历时分组**的全局剂量-响应结构 → M3-B 的层次先验来源,

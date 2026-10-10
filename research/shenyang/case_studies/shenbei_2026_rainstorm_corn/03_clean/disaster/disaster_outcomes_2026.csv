@@ -1,0 +1,6 @@
+﻿location,date,crop,affected_area_mu,damaged_area_mu,destroyed_area_mu,waterlogged_area_mu,yield_loss_pct,economic_loss_yuan,evidence_type,source_id,quality_level,notes
+沈北新区（全区）,2026-07,玉米/水稻,not_available,not_available,not_available,not_available,not_available,not_available,未公开,无,missing,官方未按区公开沈北农业受灾/成灾/绝收/经济损失；需政府信息公开申请
+沈阳市沈北新区兴隆台街道,2026-07-14,玉米/水稻,not_available,not_available,not_available,10000,not_available,not_available,官方综述转述,SRC-LN-GOV-2026-0717,E,‘万亩农田受淹’为量级表述，非精确统计
+沈阳市沈北新区新城子街道八间房村,2026-07-14,玉米/水稻,8000,not_available,not_available,8000,not_available,not_available,权威媒体,SRC-SYD-2026-0814,E,‘8000余亩’媒体量级；最深>1米
+辽宁省（口径，非沈北）,2026-07-15,玉米/水稻,2900000,not_available,not_available,532700,not_available,not_available,官方,SRC-LN-GOV-2026-0717,A,全省受影响约290万亩；排空积水53.27万亩；严禁按比例拆分到沈北
+抚顺市清原满族自治县（辽宁省内重灾对照区，非沈北）,2026-07-25,玉米/水稻/中药材,646000,284000,55000,not_available,not_available,2160000000,权威媒体转述官方统计,SRC-PEOPLE-LN-20260728,B,"★同为""7.13""雨带、同为辽宁省内；受影响64.6万亩/受灾28.4万亩/绝收5.5万亩、直接经济损失21.6亿元、受灾人口68671人；已农田排涝12.8万亩。用途：作为""地形/排水条件差异""对照 —— 清原为辽东山区县，受灾比例远高于沈北平原区，反证沈北灾损的局地低洼汇水特征"

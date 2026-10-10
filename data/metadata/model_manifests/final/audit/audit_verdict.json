@@ -1,0 +1,11 @@
+{
+  "verdict":"DATA_AUDIT_PASS",
+  "n_tables":19,
+  "total_rows":182025,
+  "p0_blocking":0,
+  "p0_mitigated":1,
+  "p1":2,
+  "p2":1,
+  "reason":"无阻断性 P0；P0_MITIGATED 缺陷通过 Final 层规避策略处理（1 项：hri_inputs 混层 → Final HRI 仅用单一 wholesale；price_per_kg dtype → 强转 float；气候 → 统一用 climate_daily）",
+  "ts":"2026-10-07 19:20:08"
+}

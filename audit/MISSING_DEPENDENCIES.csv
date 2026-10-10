@@ -1,0 +1,21 @@
+﻿excluded_path,description,source_size,copied,reason,remediation
+data/raw/web_captures,批量网页抓取缓存(按城市),407M,否,论文仅引用其中被 SOURCE_REGISTRY 登记的具体条目，未整目录复制,需要时按 SOURCE_REGISTRY 逐条回源
+data/raw/prices/jinzhou_deep,价格深度抓取缓存,450M,否,深度爬取缓存，非研究直接依赖,按需回源
+data/raw/prices/dalian_12316,价格深度抓取缓存,330M,否,深度爬取缓存，非研究直接依赖,按需回源
+data/model_ready/snapshots,旧模型输入快照,78M,否,历史快照，与正式版本重复,按模型清单定位权威版本
+data/metadata/snapshots,旧元数据快照,24K,否,历史快照,可回源
+data/processed/long_horizon,长期预测派生数据,1.3M,否,本次经济建模非直接依赖,可回源
+AgriScope/backend,后端服务代码,372K,否,与研究方法/数据真实性无关,可回源
+AgriScope/frontend,前端应用与美术素材,333M,否,无关前端素材,可回源
+AgriScope/output,"构建产物(rc2/rc3 tar.gz, playwright)",510M,否,构建/测试产物,可回源
+AgriScope/runtime,运行时产物(模型/缓存),350M,否,运行时快照,可回源
+AgriScope/deploy,部署脚本,36K,否,与论文无关,可回源
+AgriScope/llm/cache,LLM 调用缓存,<1M,否,明确排除项,不可公开
+AgriScope/docs/archive,旧文档归档,小,否,旧归档,可回源
+models/short_term,短期价格模型权重(joblib),554M,否,大型模型权重，明确排除,如复算需重新训练
+models/long_horizon,长期模型权重/产物,14M,否,大型模型权重,如复算需重新训练
+case_studies/*.tif (ESA_WorldCover 10m),土地覆盖栅格,77M,否,大型栅格数据，明确暂不复制,本地/回源
+case_studies/*.tif (Copernicus DSM 30m),地形栅格,43M,否,大型 DEM，明确暂不复制,本地/回源
+case_studies/*.gpkg (M2空间/网格/边界),矢量空间数据,约42M,否,GPKG 矢量，明确暂不复制,本地/回源
+case_studies 其余 *.tif (土壤/水文/DEM派生),栅格派生,约25M,否,栅格数据,本地/回源
+data/raw/phenology,空目录,0B,无关,源侧为空,无

@@ -1,0 +1,115 @@
+{
+ "city": "朝阳",
+ "city_code": "chaoyang",
+ "generated_at": "2026-09-23T10:08:59",
+ "generated_by": "archive/migration/generate_manifests.py",
+ "note": "本清单仅为既有文件的索引（路径/大小/SHA256/行数），未重新生成或改动任何数据。",
+ "sections": [
+  "data",
+  "research",
+  "case_studies",
+  "assets",
+  "sources"
+ ],
+ "data_root": "data/research/chaoyang/data",
+ "n_datasets": 15,
+ "datasets": [
+  {
+   "path": "data/disaster_events_algorithm.csv",
+   "bytes": 3622,
+   "sha256": "c119b956fe8aa233a08508bc46b733a4f27bda1f8c066cfbde754c2bceda3f8b",
+   "rows": 26
+  },
+  {
+   "path": "data/disaster_events_observed.csv",
+   "bytes": 13869,
+   "sha256": "42da1c4f5e1c69e6df9b77889b4b6d14023e2e0ed7fa2f5cca338bedc34a02f3",
+   "rows": 13
+  },
+  {
+   "path": "data/input_cost_weekly.csv",
+   "bytes": 51676,
+   "sha256": "03faf013d70099c424cbe88e515c359f9a0506eb8ae72534f08db20a78fd8489",
+   "rows": 479
+  },
+  {
+   "path": "data/phenology_events.csv",
+   "bytes": 14086,
+   "sha256": "e0e41294f38cbf4f9206f723f07e2bd859b46c855fa04f0f357e3e3cd4326945",
+   "rows": 37
+  },
+  {
+   "path": "data/policy_events.csv",
+   "bytes": 11039,
+   "sha256": "3f949de730740ed1053ca5eeee2d82dd3140519953439d07b9b3be87253ed8ff",
+   "rows": 19
+  },
+  {
+   "path": "data/price_observation.csv",
+   "bytes": 12221485,
+   "sha256": "8a4de3b1bb8511077b657bc9d0f2c859d5a310657f18198c0a0af8ee25593e83",
+   "rows": 37260
+  },
+  {
+   "path": "data/production_yearly.csv",
+   "bytes": 25422,
+   "sha256": "c6b8306bef0d778945f317c541e545a9822e5556ca3e7a1ba2adc6d9b2f813e6",
+   "rows": 136
+  },
+  {
+   "path": "data/soil_daily.csv",
+   "bytes": 328720,
+   "sha256": "63cad1419607a37b86c2d407228767b7f2de0ee09def60cea0594b0b62f28edd",
+   "rows": 2083
+  },
+  {
+   "path": "data/volume_observations.csv",
+   "bytes": 7992,
+   "sha256": "bf3f1ecb8682088293f476f62f592cd9815163da2352d9b89ebb3fa949825a06",
+   "rows": 19
+  },
+  {
+   "path": "data/weather_daily.csv",
+   "bytes": 193432,
+   "sha256": "027a454fd3abb97df04e28077b8110fee7e4b9290ced38df28a4f3b9390916ab",
+   "rows": 2083
+  },
+  {
+   "path": "data/weather_daily_era5.csv",
+   "bytes": 690467,
+   "sha256": "00b1303fb2e18dcf64820057bd79f12ffcb1d97f2f19a6fc03dd994143185501",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_daily_era5land.csv",
+   "bytes": 656703,
+   "sha256": "bff009b7d4b1b57c6d81def0e2e5224805e0261485ba97b258403f932a1e9120",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily.csv",
+   "bytes": 200802,
+   "sha256": "ffdcfb1438cb6b1429b449fbda2a59712204c43eb144d620eb3872ce52bd3a6f",
+   "rows": 2083
+  },
+  {
+   "path": "data/weather_extra_daily_era5.csv",
+   "bytes": 684739,
+   "sha256": "f593fc273a57dd6a8544bbb9df2fcd12813a263644c2e7471a14f9b89ddadb47",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily_era5land.csv",
+   "bytes": 642225,
+   "sha256": "13486cb727ed77b2edfad170a3be95766650e2fd887931b46d38eccd37defe6f",
+   "rows": 6101
+  }
+ ],
+ "sources": [
+  "sources/MANIFEST.csv",
+  "sources/data_snapshot.json",
+  "sources/staged/price/liaoning-agri-risk/chaoyang_price_daily.csv",
+  "sources/staged/price/liaoning-agri-risk/朝阳_price_lnfgw.csv",
+  "sources/staged/production/liaoning-agri-risk/chaoyang_production_2025.csv"
+ ]
+}

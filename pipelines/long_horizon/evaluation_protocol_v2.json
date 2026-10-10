@@ -1,0 +1,128 @@
+{
+  "config_hash": "3259aaad287e25b757c62e9bb293aaf0471a0bca34ffb5fae5a82f1ef8d7affe",
+  "config": {
+    "schema_version": "2.0.1",
+    "model_version": "long_horizon_v2_rc2",
+    "random_seed": 17,
+    "phases": [
+      {
+        "name": "development",
+        "start": "2023-01-01",
+        "end": "2023-12-31",
+        "train_end": "2022-12-31"
+      },
+      {
+        "name": "tuning",
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "train_end": "2023-12-31"
+      },
+      {
+        "name": "calibration",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "train_end": "2024-12-31"
+      },
+      {
+        "name": "retrospective_audit_reused",
+        "start": "2026-01-01",
+        "end": "2026-09-14",
+        "train_end": "2025-12-31"
+      }
+    ],
+    "horizons": [
+      30,
+      60,
+      90,
+      120,
+      150,
+      180
+    ],
+    "features": [
+      "price_per_kg",
+      "sin_doy",
+      "cos_doy",
+      "future_sin_doy",
+      "future_cos_doy",
+      "lag7",
+      "lag14",
+      "lag30",
+      "lag60",
+      "lag90",
+      "lag365",
+      "ma7_obs",
+      "ma14_obs",
+      "ma30_obs",
+      "ma60_obs",
+      "std30_obs",
+      "return30",
+      "return90",
+      "seasonal_naive",
+      "same_season_mean",
+      "same_season_median"
+    ],
+    "history_status": "EVALUATION_CONTAMINATED_BY_PRIOR_SELECTION",
+    "untouched_period": null,
+    "prospective_origin_not_before": "2026-10-08",
+    "target_candidates": [
+      "endpoint",
+      "harvest_centered_7",
+      "harvest_centered_14",
+      "harvest_centered_30",
+      "harvest_post_7",
+      "harvest_post_14",
+      "harvest_post_30",
+      "cycle_market_average"
+    ],
+    "harvest_admissible": [
+      "harvest_centered_7",
+      "harvest_centered_14",
+      "harvest_post_7",
+      "harvest_post_14"
+    ],
+    "target_selection_rule": "development+tuning baseline mean WAPE; best within 2% tie: post14, centered14, post7, centered7",
+    "business_constraint": "7/14-day sales windows are operational default; 30-day sales duration is not confirmed and is study-only",
+    "min_target_observed_fraction": 0.5,
+    "max_internal_target_gap_days": 10,
+    "endpoint_max_backward_gap_days": 3,
+    "min_training_rows": 200,
+    "models": {
+      "linear": {},
+      "elasticnet": {
+        "alpha": 0.02,
+        "l1_ratio": 0.5,
+        "max_iter": 4000
+      },
+      "extra_trees": {
+        "n_estimators": 64,
+        "max_depth": 10,
+        "min_samples_leaf": 10
+      },
+      "catboost": {
+        "iterations": 80,
+        "depth": 4,
+        "loss_function": "MAE",
+        "thread_count": 2
+      }
+    },
+    "practical_gate": {
+      "absolute_gain_pp": 1.0,
+      "relative_gain_fraction": 0.05,
+      "winning_period_fraction": 0.75,
+      "min_periods": 3,
+      "worst_period_degradation_pp": 2.0,
+      "min_final_exposure_blocks": 12,
+      "paired_gain_ci_lower_gt": 0.0,
+      "bootstrap_repetitions": 1000,
+      "calibration_exposure_blocks": 20,
+      "nominal_coverage": 0.8,
+      "coverage_min": 0.7,
+      "coverage_max": 0.9
+    },
+    "refit_policy": "selection frozen, then refit matured historical labels; refit model is not re-evaluated on history",
+    "selection_score": "tuning WAPE + 0.5*abs(tuning WAPE-development WAPE); baseline simplicity tie within 0.05pp",
+    "decision_outcome": "relative harvest price return, equal allocation, no profit claim",
+    "invalid_forecast_policy": "nonfinite/nonpositive candidate and inference output visibly fallback to PIT last_value; no arbitrary price floor",
+    "decision_comparison_pool": "all compared policies share complete crop/date availability"
+  }
+}

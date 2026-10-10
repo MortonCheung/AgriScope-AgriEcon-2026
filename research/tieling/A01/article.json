@@ -1,0 +1,115 @@
+{
+ "id": "A01",
+ "city": "铁岭",
+ "slug": "market-time-seasonality",
+ "title": "铁岭市主要农产品价格的时间结构与季节性特征",
+ "abstract": "本城主价格来源在观测期内**没有**满足最小覆盖阈值的蔬菜类日度/周度序列，无法进行价格时间结构与季节性分析。",
+ "frontend_summary": "铁岭：数据不足，A01 不成立。",
+ "keywords": [
+  "数据不足",
+  "铁岭"
+ ],
+ "research_questions": [
+  "价格时间结构与季节性"
+ ],
+ "data_scope": {
+  "summary": "见 sources/source_registry.csv"
+ },
+ "methods": [
+  {
+   "summary": "未执行"
+  }
+ ],
+ "key_findings": [
+  {
+   "heading": "研究问题与背景"
+  },
+  {
+   "heading": "数据与变量"
+  },
+  {
+   "heading": "研究方法"
+  },
+  {
+   "heading": "研究结果"
+  },
+  {
+   "heading": "讨论"
+  },
+  {
+   "heading": "研究局限"
+  },
+  {
+   "heading": "结论"
+  }
+ ],
+ "sections": [
+  {
+   "number": "1",
+   "title": "研究问题与背景",
+   "content": "拟研究铁岭主要农产品价格的时间结构与季节性。"
+  },
+  {
+   "number": "2",
+   "title": "数据与变量",
+   "content": "主源：第三方 B2B 产地行情（稀疏；质量 C）；观测 3263 条。"
+  },
+  {
+   "number": "3",
+   "title": "研究方法",
+   "content": "因可用序列不足，未执行季节性/趋势分析。"
+  },
+  {
+   "number": "4",
+   "title": "研究结果",
+   "content": "NOT_SUPPORTED_BY_CURRENT_DATA"
+  },
+  {
+   "number": "5",
+   "title": "讨论",
+   "content": "本城主价格来源在观测期内**没有**满足最小覆盖阈值的蔬菜类日度/周度序列，无法进行价格时间结构与季节性分析。"
+  },
+  {
+   "number": "6",
+   "title": "研究局限",
+   "content": "主源为第三方产地行情，覆盖稀疏、作物词表碎片化。"
+  },
+  {
+   "number": "7",
+   "title": "结论",
+   "content": "NOT_SUPPORTED_BY_CURRENT_DATA"
+  }
+ ],
+ "limitations": [
+  "覆盖稀疏",
+  "作物词表碎片化"
+ ],
+ "conclusion": "NOT_SUPPORTED_BY_CURRENT_DATA",
+ "figures": [],
+ "tables": [],
+ "source_ids": [
+  "SRC-TI-01",
+  "SRC-TI-102",
+  "SRC-TI-103"
+ ],
+ "status": "NOT_SUPPORTED",
+ "explorer": {
+  "status": "NOT_SUPPORTED_BY_CURRENT_DATA",
+  "selectors": [],
+  "metrics": [],
+  "series": [],
+  "tables": [],
+  "figures": [],
+  "sources": [
+   "SRC-TI-01",
+   "SRC-TI-102",
+   "SRC-TI-103"
+  ],
+  "methodology": "数据不支持，未执行分析。",
+  "limitations": [
+   "覆盖稀疏",
+   "作物词表碎片化"
+  ],
+  "reason": "本城主价格来源在观测期内**没有**满足最小覆盖阈值的蔬菜类日度/周度序列，无法进行价格时间结构与季节性分析。"
+ }
+}

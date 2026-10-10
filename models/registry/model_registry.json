@@ -1,0 +1,1762 @@
+{
+  "price_models": [
+    {
+      "model_id": "price_土豆_baseline_last_value",
+      "city": "沈阳",
+      "crop": "土豆",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "train_start": "2021-01-01",
+      "train_end": "2026-08-14",
+      "validation_period": "expanding folds: train<=2023->test2024; <=2024->test2025; <=2025->test2026(1-9月)",
+      "features": [],
+      "metrics": {
+        "mean_WAPE": 4.844876438714091,
+        "mean_MAE": 0.09922383280222195,
+        "mean_RMSE": 0.12392530798467405,
+        "mean_sMAPE": 4.939020416070855
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 4.844876438714091,
+        "mean_MAE": 0.09922383280222195
+      },
+      "beats_baseline": false,
+      "artifact_path": null,
+      "created_at": "2026-10-04T19:59:24",
+      "data_snapshot": "models/data/snapshots/v1",
+      "n_train_rows": 13890
+    },
+    {
+      "model_id": "price_尖椒_elasticnet",
+      "city": "沈阳",
+      "crop": "尖椒",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "elasticnet",
+      "route": "pooled",
+      "train_start": "2021-01-01",
+      "train_end": "2026-08-14",
+      "validation_period": "expanding folds: train<=2023->test2024; <=2024->test2025; <=2025->test2026(1-9月)",
+      "features": [
+        "price_per_kg",
+        "year",
+        "month",
+        "week",
+        "day_of_year",
+        "quarter",
+        "sin_doy",
+        "cos_doy",
+        "sin_month",
+        "cos_month",
+        "price_lag_obs_1",
+        "price_lag_obs_2",
+        "price_lag_obs_3",
+        "price_lag_obs_5",
+        "price_lag_obs_7",
+        "price_lag_obs_10",
+        "price_lag_obs_14",
+        "price_lag_obs_21",
+        "price_lag_obs_30",
+        "price_lag_obs_45",
+        "price_lag_obs_60",
+        "price_lag_obs_90",
+        "price_lag_cal_7",
+        "price_lag_cal_14",
+        "price_lag_cal_30",
+        "price_lag_cal_60",
+        "price_lag_cal_90",
+        "price_ma7",
+        "price_ma14",
+        "price_ma30",
+        "price_ma60",
+        "price_ma90",
+        "price_median7",
+        "price_median30",
+        "price_std7",
+        "price_std30",
+        "price_std60",
+        "price_std90",
+        "price_return_7",
+        "price_return_14",
+        "price_return_30",
+        "price_return_60",
+        "price_return_90",
+        "price_momentum_30",
+        "price_momentum_60",
+        "price_momentum_90",
+        "continuous_rise_days",
+        "continuous_fall_days",
+        "rolling_slope_7",
+        "rolling_slope_30",
+        "rolling_slope_60",
+        "volatility_7",
+        "volatility_30",
+        "volatility_60",
+        "rolling_max_30",
+        "drawdown_30",
+        "max_drawdown_90",
+        "expanding_price_percentile",
+        "same_month_price_percentile",
+        "same_season_price_percentile",
+        "seasonal_p10",
+        "seasonal_p50",
+        "seasonal_p90",
+        "price_vs_seasonal_p50",
+        "seasonal_sample_count",
+        "seasonal_year_count",
+        "seasonal_feature_available",
+        "volume_ma7",
+        "volume_ma30",
+        "volume_zscore",
+        "volume_percentile",
+        "volume_change_1d",
+        "volume_change_7d"
+      ],
+      "metrics": {
+        "mean_WAPE": 11.846321531010263,
+        "mean_MAE": 0.6713475439211747,
+        "mean_RMSE": 0.8930655888405049,
+        "mean_sMAPE": 11.318113135651991
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 13.109148998679506,
+        "mean_MAE": 0.7474742037316798
+      },
+      "beats_baseline": true,
+      "artifact_path": "models/price/尖椒_elasticnet_pooled.joblib",
+      "created_at": "2026-10-04T19:59:24",
+      "data_snapshot": "models/data/snapshots/v1",
+      "n_train_rows": 13890,
+      "artifact_size_mb": 0.0073
+    },
+    {
+      "model_id": "price_甘蓝_baseline_last_value",
+      "city": "沈阳",
+      "crop": "甘蓝",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "train_start": "2021-01-01",
+      "train_end": "2026-08-14",
+      "validation_period": "expanding folds: train<=2023->test2024; <=2024->test2025; <=2025->test2026(1-9月)",
+      "features": [],
+      "metrics": {
+        "mean_WAPE": 13.761708877343105,
+        "mean_MAE": 0.27958249044253586,
+        "mean_RMSE": 0.37415835571594663,
+        "mean_sMAPE": 14.09159984468018
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 13.761708877343105,
+        "mean_MAE": 0.27958249044253586
+      },
+      "beats_baseline": false,
+      "artifact_path": null,
+      "created_at": "2026-10-04T19:59:24",
+      "data_snapshot": "models/data/snapshots/v1",
+      "n_train_rows": 13890
+    },
+    {
+      "model_id": "price_芸豆_catboost",
+      "city": "沈阳",
+      "crop": "芸豆",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "catboost",
+      "route": "per_crop",
+      "train_start": "2021-01-01",
+      "train_end": "2026-08-14",
+      "validation_period": "expanding folds: train<=2023->test2024; <=2024->test2025; <=2025->test2026(1-9月)",
+      "features": [
+        "price_per_kg",
+        "year",
+        "month",
+        "week",
+        "day_of_year",
+        "quarter",
+        "sin_doy",
+        "cos_doy",
+        "sin_month",
+        "cos_month",
+        "price_lag_obs_1",
+        "price_lag_obs_2",
+        "price_lag_obs_3",
+        "price_lag_obs_5",
+        "price_lag_obs_7",
+        "price_lag_obs_10",
+        "price_lag_obs_14",
+        "price_lag_obs_21",
+        "price_lag_obs_30",
+        "price_lag_obs_45",
+        "price_lag_obs_60",
+        "price_lag_obs_90",
+        "price_lag_cal_7",
+        "price_lag_cal_14",
+        "price_lag_cal_30",
+        "price_lag_cal_60",
+        "price_lag_cal_90",
+        "price_ma7",
+        "price_ma14",
+        "price_ma30",
+        "price_ma60",
+        "price_ma90",
+        "price_median7",
+        "price_median30",
+        "price_std7",
+        "price_std30",
+        "price_std60",
+        "price_std90",
+        "price_return_7",
+        "price_return_14",
+        "price_return_30",
+        "price_return_60",
+        "price_return_90",
+        "price_momentum_30",
+        "price_momentum_60",
+        "price_momentum_90",
+        "continuous_rise_days",
+        "continuous_fall_days",
+        "rolling_slope_7",
+        "rolling_slope_30",
+        "rolling_slope_60",
+        "volatility_7",
+        "volatility_30",
+        "volatility_60",
+        "rolling_max_30",
+        "drawdown_30",
+        "max_drawdown_90",
+        "expanding_price_percentile",
+        "same_month_price_percentile",
+        "same_season_price_percentile",
+        "seasonal_p10",
+        "seasonal_p50",
+        "seasonal_p90",
+        "price_vs_seasonal_p50",
+        "seasonal_sample_count",
+        "seasonal_year_count",
+        "seasonal_feature_available",
+        "volume_ma7",
+        "volume_ma30",
+        "volume_zscore",
+        "volume_percentile",
+        "volume_change_1d",
+        "volume_change_7d"
+      ],
+      "metrics": {
+        "mean_WAPE": 9.255627095659115,
+        "mean_MAE": 0.7968398162600652,
+        "mean_RMSE": 0.9706725326401663,
+        "mean_sMAPE": 9.11777284453713
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 10.603510155373234,
+        "mean_MAE": 0.9147900342619296
+      },
+      "beats_baseline": true,
+      "artifact_path": "models/price/芸豆_catboost_per_crop.joblib",
+      "created_at": "2026-10-04T19:59:24",
+      "data_snapshot": "models/data/snapshots/v1",
+      "n_train_rows": 1389,
+      "artifact_size_mb": 0.4631
+    },
+    {
+      "model_id": "price_芹菜_baseline_last_value",
+      "city": "沈阳",
+      "crop": "芹菜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "train_start": "2021-01-01",
+      "train_end": "2026-08-14",
+      "validation_period": "expanding folds: train<=2023->test2024; <=2024->test2025; <=2025->test2026(1-9月)",
+      "features": [],
+      "metrics": {
+        "mean_WAPE": 10.842512282890278,
+        "mean_MAE": 0.4330944470078626,
+        "mean_RMSE": 0.6059911840089766,
+        "mean_sMAPE": 10.594345663883935
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 10.842512282890278,
+        "mean_MAE": 0.4330944470078626
+      },
+      "beats_baseline": false,
+      "artifact_path": null,
+      "created_at": "2026-10-04T19:59:24",
+      "data_snapshot": "models/data/snapshots/v1",
+      "n_train_rows": 13890
+    },
+    {
+      "model_id": "price_茄子_elasticnet_tuned",
+      "city": "沈阳",
+      "crop": "茄子",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "elasticnet_tuned",
+      "route": "pooled",
+      "train_start": "2021-01-01",
+      "train_end": "2026-08-14",
+      "validation_period": "expanding folds: train<=2023->test2024; <=2024->test2025; <=2025->test2026(1-9月)",
+      "features": [
+        "price_per_kg",
+        "year",
+        "month",
+        "week",
+        "day_of_year",
+        "quarter",
+        "sin_doy",
+        "cos_doy",
+        "sin_month",
+        "cos_month",
+        "price_lag_obs_1",
+        "price_lag_obs_2",
+        "price_lag_obs_3",
+        "price_lag_obs_5",
+        "price_lag_obs_7",
+        "price_lag_obs_10",
+        "price_lag_obs_14",
+        "price_lag_obs_21",
+        "price_lag_obs_30",
+        "price_lag_obs_45",
+        "price_lag_obs_60",
+        "price_lag_obs_90",
+        "price_lag_cal_7",
+        "price_lag_cal_14",
+        "price_lag_cal_30",
+        "price_lag_cal_60",
+        "price_lag_cal_90",
+        "price_ma7",
+        "price_ma14",
+        "price_ma30",
+        "price_ma60",
+        "price_ma90",
+        "price_median7",
+        "price_median30",
+        "price_std7",
+        "price_std30",
+        "price_std60",
+        "price_std90",
+        "price_return_7",
+        "price_return_14",
+        "price_return_30",
+        "price_return_60",
+        "price_return_90",
+        "price_momentum_30",
+        "price_momentum_60",
+        "price_momentum_90",
+        "continuous_rise_days",
+        "continuous_fall_days",
+        "rolling_slope_7",
+        "rolling_slope_30",
+        "rolling_slope_60",
+        "volatility_7",
+        "volatility_30",
+        "volatility_60",
+        "rolling_max_30",
+        "drawdown_30",
+        "max_drawdown_90",
+        "expanding_price_percentile",
+        "same_month_price_percentile",
+        "same_season_price_percentile",
+        "seasonal_p10",
+        "seasonal_p50",
+        "seasonal_p90",
+        "price_vs_seasonal_p50",
+        "seasonal_sample_count",
+        "seasonal_year_count",
+        "seasonal_feature_available",
+        "volume_ma7",
+        "volume_ma30",
+        "volume_zscore",
+        "volume_percentile",
+        "volume_change_1d",
+        "volume_change_7d"
+      ],
+      "metrics": {
+        "mean_WAPE": 11.818468254373238,
+        "mean_MAE": 0.46892690241014795,
+        "mean_RMSE": 0.6255686610234107,
+        "mean_sMAPE": 11.894579264351544
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 12.209435376438556,
+        "mean_MAE": 0.4852708980563632
+      },
+      "beats_baseline": true,
+      "artifact_path": "models/price/茄子_elasticnet_tuned_pooled.joblib",
+      "created_at": "2026-10-04T19:59:24",
+      "data_snapshot": "models/data/snapshots/v1",
+      "n_train_rows": 13890,
+      "artifact_size_mb": 0.0073
+    },
+    {
+      "model_id": "price_西红柿_elasticnet_tuned",
+      "city": "沈阳",
+      "crop": "西红柿",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "elasticnet_tuned",
+      "route": "pooled",
+      "train_start": "2021-01-01",
+      "train_end": "2026-08-14",
+      "validation_period": "expanding folds: train<=2023->test2024; <=2024->test2025; <=2025->test2026(1-9月)",
+      "features": [
+        "price_per_kg",
+        "year",
+        "month",
+        "week",
+        "day_of_year",
+        "quarter",
+        "sin_doy",
+        "cos_doy",
+        "sin_month",
+        "cos_month",
+        "price_lag_obs_1",
+        "price_lag_obs_2",
+        "price_lag_obs_3",
+        "price_lag_obs_5",
+        "price_lag_obs_7",
+        "price_lag_obs_10",
+        "price_lag_obs_14",
+        "price_lag_obs_21",
+        "price_lag_obs_30",
+        "price_lag_obs_45",
+        "price_lag_obs_60",
+        "price_lag_obs_90",
+        "price_lag_cal_7",
+        "price_lag_cal_14",
+        "price_lag_cal_30",
+        "price_lag_cal_60",
+        "price_lag_cal_90",
+        "price_ma7",
+        "price_ma14",
+        "price_ma30",
+        "price_ma60",
+        "price_ma90",
+        "price_median7",
+        "price_median30",
+        "price_std7",
+        "price_std30",
+        "price_std60",
+        "price_std90",
+        "price_return_7",
+        "price_return_14",
+        "price_return_30",
+        "price_return_60",
+        "price_return_90",
+        "price_momentum_30",
+        "price_momentum_60",
+        "price_momentum_90",
+        "continuous_rise_days",
+        "continuous_fall_days",
+        "rolling_slope_7",
+        "rolling_slope_30",
+        "rolling_slope_60",
+        "volatility_7",
+        "volatility_30",
+        "volatility_60",
+        "rolling_max_30",
+        "drawdown_30",
+        "max_drawdown_90",
+        "expanding_price_percentile",
+        "same_month_price_percentile",
+        "same_season_price_percentile",
+        "seasonal_p10",
+        "seasonal_p50",
+        "seasonal_p90",
+        "price_vs_seasonal_p50",
+        "seasonal_sample_count",
+        "seasonal_year_count",
+        "seasonal_feature_available",
+        "volume_ma7",
+        "volume_ma30",
+        "volume_zscore",
+        "volume_percentile",
+        "volume_change_1d",
+        "volume_change_7d"
+      ],
+      "metrics": {
+        "mean_WAPE": 8.807971334264733,
+        "mean_MAE": 0.47181910316791426,
+        "mean_RMSE": 0.6138438568265582,
+        "mean_sMAPE": 8.484652680364485
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 9.80058986563179,
+        "mean_MAE": 0.5249634213571578
+      },
+      "beats_baseline": true,
+      "artifact_path": "models/price/西红柿_elasticnet_tuned_pooled.joblib",
+      "created_at": "2026-10-04T19:59:24",
+      "data_snapshot": "models/data/snapshots/v1",
+      "n_train_rows": 13890,
+      "artifact_size_mb": 0.0073
+    },
+    {
+      "model_id": "price_青椒_elasticnet_tuned",
+      "city": "沈阳",
+      "crop": "青椒",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "elasticnet_tuned",
+      "route": "pooled",
+      "train_start": "2021-01-01",
+      "train_end": "2026-08-14",
+      "validation_period": "expanding folds: train<=2023->test2024; <=2024->test2025; <=2025->test2026(1-9月)",
+      "features": [
+        "price_per_kg",
+        "year",
+        "month",
+        "week",
+        "day_of_year",
+        "quarter",
+        "sin_doy",
+        "cos_doy",
+        "sin_month",
+        "cos_month",
+        "price_lag_obs_1",
+        "price_lag_obs_2",
+        "price_lag_obs_3",
+        "price_lag_obs_5",
+        "price_lag_obs_7",
+        "price_lag_obs_10",
+        "price_lag_obs_14",
+        "price_lag_obs_21",
+        "price_lag_obs_30",
+        "price_lag_obs_45",
+        "price_lag_obs_60",
+        "price_lag_obs_90",
+        "price_lag_cal_7",
+        "price_lag_cal_14",
+        "price_lag_cal_30",
+        "price_lag_cal_60",
+        "price_lag_cal_90",
+        "price_ma7",
+        "price_ma14",
+        "price_ma30",
+        "price_ma60",
+        "price_ma90",
+        "price_median7",
+        "price_median30",
+        "price_std7",
+        "price_std30",
+        "price_std60",
+        "price_std90",
+        "price_return_7",
+        "price_return_14",
+        "price_return_30",
+        "price_return_60",
+        "price_return_90",
+        "price_momentum_30",
+        "price_momentum_60",
+        "price_momentum_90",
+        "continuous_rise_days",
+        "continuous_fall_days",
+        "rolling_slope_7",
+        "rolling_slope_30",
+        "rolling_slope_60",
+        "volatility_7",
+        "volatility_30",
+        "volatility_60",
+        "rolling_max_30",
+        "drawdown_30",
+        "max_drawdown_90",
+        "expanding_price_percentile",
+        "same_month_price_percentile",
+        "same_season_price_percentile",
+        "seasonal_p10",
+        "seasonal_p50",
+        "seasonal_p90",
+        "price_vs_seasonal_p50",
+        "seasonal_sample_count",
+        "seasonal_year_count",
+        "seasonal_feature_available",
+        "volume_ma7",
+        "volume_ma30",
+        "volume_zscore",
+        "volume_percentile",
+        "volume_change_1d",
+        "volume_change_7d"
+      ],
+      "metrics": {
+        "mean_WAPE": 11.779360952340673,
+        "mean_MAE": 0.7056449495024119,
+        "mean_RMSE": 0.9751346814597261,
+        "mean_sMAPE": 10.847228357322473
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 13.050085638502074,
+        "mean_MAE": 0.7813625535584144
+      },
+      "beats_baseline": true,
+      "artifact_path": "models/price/青椒_elasticnet_tuned_pooled.joblib",
+      "created_at": "2026-10-04T19:59:24",
+      "data_snapshot": "models/data/snapshots/v1",
+      "n_train_rows": 13890,
+      "artifact_size_mb": 0.0073
+    },
+    {
+      "model_id": "price_韭菜_extra_trees_tuned",
+      "city": "沈阳",
+      "crop": "韭菜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "extra_trees_tuned",
+      "route": "pooled",
+      "train_start": "2021-01-01",
+      "train_end": "2026-08-14",
+      "validation_period": "expanding folds: train<=2023->test2024; <=2024->test2025; <=2025->test2026(1-9月)",
+      "features": [
+        "price_per_kg",
+        "year",
+        "month",
+        "week",
+        "day_of_year",
+        "quarter",
+        "sin_doy",
+        "cos_doy",
+        "sin_month",
+        "cos_month",
+        "price_lag_obs_1",
+        "price_lag_obs_2",
+        "price_lag_obs_3",
+        "price_lag_obs_5",
+        "price_lag_obs_7",
+        "price_lag_obs_10",
+        "price_lag_obs_14",
+        "price_lag_obs_21",
+        "price_lag_obs_30",
+        "price_lag_obs_45",
+        "price_lag_obs_60",
+        "price_lag_obs_90",
+        "price_lag_cal_7",
+        "price_lag_cal_14",
+        "price_lag_cal_30",
+        "price_lag_cal_60",
+        "price_lag_cal_90",
+        "price_ma7",
+        "price_ma14",
+        "price_ma30",
+        "price_ma60",
+        "price_ma90",
+        "price_median7",
+        "price_median30",
+        "price_std7",
+        "price_std30",
+        "price_std60",
+        "price_std90",
+        "price_return_7",
+        "price_return_14",
+        "price_return_30",
+        "price_return_60",
+        "price_return_90",
+        "price_momentum_30",
+        "price_momentum_60",
+        "price_momentum_90",
+        "continuous_rise_days",
+        "continuous_fall_days",
+        "rolling_slope_7",
+        "rolling_slope_30",
+        "rolling_slope_60",
+        "volatility_7",
+        "volatility_30",
+        "volatility_60",
+        "rolling_max_30",
+        "drawdown_30",
+        "max_drawdown_90",
+        "expanding_price_percentile",
+        "same_month_price_percentile",
+        "same_season_price_percentile",
+        "seasonal_p10",
+        "seasonal_p50",
+        "seasonal_p90",
+        "price_vs_seasonal_p50",
+        "seasonal_sample_count",
+        "seasonal_year_count",
+        "seasonal_feature_available",
+        "volume_ma7",
+        "volume_ma30",
+        "volume_zscore",
+        "volume_percentile",
+        "volume_change_1d",
+        "volume_change_7d"
+      ],
+      "metrics": {
+        "mean_WAPE": 11.04355530757953,
+        "mean_MAE": 0.604989912269957,
+        "mean_RMSE": 0.8720534739355649,
+        "mean_sMAPE": 10.986426084585133
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 13.353541019480893,
+        "mean_MAE": 0.7315796875788404
+      },
+      "beats_baseline": true,
+      "artifact_path": "models/price/韭菜_extra_trees_tuned_pooled.joblib",
+      "created_at": "2026-10-04T19:59:24",
+      "data_snapshot": "models/data/snapshots/v1",
+      "n_train_rows": 13890,
+      "artifact_size_mb": 61.4614
+    },
+    {
+      "model_id": "price_黄瓜_extra_trees",
+      "city": "沈阳",
+      "crop": "黄瓜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "extra_trees",
+      "route": "pooled",
+      "train_start": "2021-01-01",
+      "train_end": "2026-08-14",
+      "validation_period": "expanding folds: train<=2023->test2024; <=2024->test2025; <=2025->test2026(1-9月)",
+      "features": [
+        "price_per_kg",
+        "year",
+        "month",
+        "week",
+        "day_of_year",
+        "quarter",
+        "sin_doy",
+        "cos_doy",
+        "sin_month",
+        "cos_month",
+        "price_lag_obs_1",
+        "price_lag_obs_2",
+        "price_lag_obs_3",
+        "price_lag_obs_5",
+        "price_lag_obs_7",
+        "price_lag_obs_10",
+        "price_lag_obs_14",
+        "price_lag_obs_21",
+        "price_lag_obs_30",
+        "price_lag_obs_45",
+        "price_lag_obs_60",
+        "price_lag_obs_90",
+        "price_lag_cal_7",
+        "price_lag_cal_14",
+        "price_lag_cal_30",
+        "price_lag_cal_60",
+        "price_lag_cal_90",
+        "price_ma7",
+        "price_ma14",
+        "price_ma30",
+        "price_ma60",
+        "price_ma90",
+        "price_median7",
+        "price_median30",
+        "price_std7",
+        "price_std30",
+        "price_std60",
+        "price_std90",
+        "price_return_7",
+        "price_return_14",
+        "price_return_30",
+        "price_return_60",
+        "price_return_90",
+        "price_momentum_30",
+        "price_momentum_60",
+        "price_momentum_90",
+        "continuous_rise_days",
+        "continuous_fall_days",
+        "rolling_slope_7",
+        "rolling_slope_30",
+        "rolling_slope_60",
+        "volatility_7",
+        "volatility_30",
+        "volatility_60",
+        "rolling_max_30",
+        "drawdown_30",
+        "max_drawdown_90",
+        "expanding_price_percentile",
+        "same_month_price_percentile",
+        "same_season_price_percentile",
+        "seasonal_p10",
+        "seasonal_p50",
+        "seasonal_p90",
+        "price_vs_seasonal_p50",
+        "seasonal_sample_count",
+        "seasonal_year_count",
+        "seasonal_feature_available",
+        "volume_ma7",
+        "volume_ma30",
+        "volume_zscore",
+        "volume_percentile",
+        "volume_change_1d",
+        "volume_change_7d"
+      ],
+      "metrics": {
+        "mean_WAPE": 14.650710216263183,
+        "mean_MAE": 0.7252884016993844,
+        "mean_RMSE": 1.0321311019272417,
+        "mean_sMAPE": 14.545326249745491
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 18.57409850016897,
+        "mean_MAE": 0.9188365629011601
+      },
+      "beats_baseline": true,
+      "artifact_path": "models/price/黄瓜_extra_trees_pooled.joblib",
+      "created_at": "2026-10-04T19:59:24",
+      "data_snapshot": "models/data/snapshots/v1",
+      "n_train_rows": 13890,
+      "artifact_size_mb": 220.4382
+    }
+  ],
+  "updated_at": "2026-10-04T22:45:59",
+  "regional_models": [
+    {
+      "model_id": "price_仔猪_baseline_last_value",
+      "city": "",
+      "crop": "仔猪",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 3.2965839663407372,
+        "mean_MAE": 1.09531901378287
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 3.2965839663407372
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_圆葱_baseline_last_value",
+      "city": "",
+      "crop": "圆葱",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 3.913952111284259,
+        "mean_MAE": 0.10955111365414742
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 3.913952111284259
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_土豆_baseline_last_value",
+      "city": "",
+      "crop": "土豆",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 5.253533314495308,
+        "mean_MAE": 0.15539441443563076
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 5.253533314495308
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_大白菜_baseline_last_value",
+      "city": "",
+      "crop": "大白菜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 10.837710640669018,
+        "mean_MAE": 0.23599931329680876
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 10.837710640669018
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_大米_baseline_last_value",
+      "city": "",
+      "crop": "大米",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 0.03683766731727598,
+        "mean_MAE": 0.002120571873673294
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 0.03683766731727598
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_大豆_baseline_last_value",
+      "city": "",
+      "crop": "大豆",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 0.264056679870513,
+        "mean_MAE": 0.01978750768665547
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 0.264056679870513
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_油菜_regional_extra_trees",
+      "city": "",
+      "crop": "油菜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_extra_trees",
+      "route": "regional_朝阳",
+      "metrics": {
+        "mean_WAPE": 14.61494876838755,
+        "mean_MAE": 0.8136931294625173
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 17.445939532629378
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_牛肉_baseline_last_value",
+      "city": "",
+      "crop": "牛肉",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 0.7960740922558928,
+        "mean_MAE": 0.4933499384810009
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 0.7960740922558928
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_玉米_baseline_last_value",
+      "city": "",
+      "crop": "玉米",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 0.9954505775823989,
+        "mean_MAE": 0.022652622615960072
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 0.9954505775823989
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_生猪_baseline_last_value",
+      "city": "",
+      "crop": "生猪",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 4.1479845927336605,
+        "mean_MAE": 0.5379220982164735
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 4.1479845927336605
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_白萝卜_baseline_last_value",
+      "city": "",
+      "crop": "白萝卜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 7.157929513036897,
+        "mean_MAE": 0.189160725203807
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 7.157929513036897
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_羊肉_baseline_last_value",
+      "city": "",
+      "crop": "羊肉",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 0.6755044235986322,
+        "mean_MAE": 0.4735864315358668
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 0.6755044235986322
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_胡萝卜_baseline_last_value",
+      "city": "",
+      "crop": "胡萝卜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 3.2930449691180943,
+        "mean_MAE": 0.1372864869324029
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 3.2930449691180943
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_芸豆_regional_extra_trees",
+      "city": "",
+      "crop": "芸豆",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_extra_trees",
+      "route": "regional_朝阳",
+      "metrics": {
+        "mean_WAPE": 12.808219559018701,
+        "mean_MAE": 1.3525518197431026
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 12.947710767910962
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_芹菜_baseline_last_value",
+      "city": "",
+      "crop": "芹菜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 10.880008238211916,
+        "mean_MAE": 0.5254560697771335
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 10.880008238211916
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_茄子_baseline_last_value",
+      "city": "",
+      "crop": "茄子",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 11.765751503861685,
+        "mean_MAE": 0.6336564533888255
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 11.765751503861685
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_菜花_baseline_last_value",
+      "city": "",
+      "crop": "菜花",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 12.043765941526106,
+        "mean_MAE": 0.8108654408164703
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 12.043765941526106
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_菠菜_regional_extra_trees",
+      "city": "",
+      "crop": "菠菜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_extra_trees",
+      "route": "regional_朝阳",
+      "metrics": {
+        "mean_WAPE": 15.491211969631365,
+        "mean_MAE": 1.0662787804931761
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 20.494530939836526
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_蒜苔_baseline_last_value",
+      "city": "",
+      "crop": "蒜苔",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 3.10902460773325,
+        "mean_MAE": 0.4578379503969023
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 3.10902460773325
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_西红柿_baseline_last_value",
+      "city": "",
+      "crop": "西红柿",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 10.844762207303296,
+        "mean_MAE": 0.7868867299033875
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 10.844762207303296
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_青椒_regional_histgb",
+      "city": "",
+      "crop": "青椒",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_histgb",
+      "route": "regional_朝阳",
+      "metrics": {
+        "mean_WAPE": 13.890262603748385,
+        "mean_MAE": 0.938219597625834
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 14.179266352382337
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_面粉_baseline_last_value",
+      "city": "",
+      "crop": "面粉",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 0.23515687478607547,
+        "mean_MAE": 0.01254783305195223
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 0.23515687478607547
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_韭菜_regional_extra_trees",
+      "city": "",
+      "crop": "韭菜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_extra_trees",
+      "route": "regional_朝阳",
+      "metrics": {
+        "mean_WAPE": 11.130621871765014,
+        "mean_MAE": 0.6643478415830721
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 13.650538054954218
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_鲜猪肉_baseline_last_value",
+      "city": "",
+      "crop": "鲜猪肉",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 2.767528336116449,
+        "mean_MAE": 0.5859586548123933
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 2.767528336116449
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_鸡肉_baseline_last_value",
+      "city": "",
+      "crop": "鸡肉",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 0.33645252553253807,
+        "mean_MAE": 0.06712618865080315
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 0.33645252553253807
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_鸡蛋_baseline_last_value",
+      "city": "",
+      "crop": "鸡蛋",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 5.750472714290907,
+        "mean_MAE": 0.500337431264826
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 5.750472714290907
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_黄瓜_regional_histgb",
+      "city": "",
+      "crop": "黄瓜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_histgb",
+      "route": "regional_朝阳",
+      "metrics": {
+        "mean_WAPE": 15.523200529791096,
+        "mean_MAE": 0.9399164517492521
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 17.5533665623098
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_五花猪肉_baseline_rolling_mean_7",
+      "city": "",
+      "crop": "五花猪肉",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_rolling_mean_7",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 4.156109369368475,
+        "mean_MAE": 1.076164716818299
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_rolling_mean_7",
+        "mean_WAPE": 4.156109369368475
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_土豆_baseline_last_value",
+      "city": "",
+      "crop": "土豆",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 12.300022725264547,
+        "mean_MAE": 0.3413324124152755
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 12.300022725264547
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_大白菜_baseline_last_value",
+      "city": "",
+      "crop": "大白菜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 16.369143121032838,
+        "mean_MAE": 0.33751539983653805
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 16.369143121032838
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_大葱_regional_extra_trees",
+      "city": "",
+      "crop": "大葱",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_extra_trees",
+      "route": "regional_锦州",
+      "metrics": {
+        "mean_WAPE": 14.058157393736353,
+        "mean_MAE": 0.617290855198684
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 13.700246733850541
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_尖椒_baseline_last_value",
+      "city": "",
+      "crop": "尖椒",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 16.604046555722345,
+        "mean_MAE": 1.1858610073109015
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 16.604046555722345
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_带鱼_regional_histgb",
+      "city": "",
+      "crop": "带鱼",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_histgb",
+      "route": "regional_锦州",
+      "metrics": {
+        "mean_WAPE": 2.766170404801642,
+        "mean_MAE": 1.0416523400765174
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 4.00779207048742
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_架豆王_regional_extra_trees",
+      "city": "",
+      "crop": "架豆王",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_extra_trees",
+      "route": "regional_锦州",
+      "metrics": {
+        "mean_WAPE": 12.830105113587507,
+        "mean_MAE": 1.6024159505921596
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 16.529378470909187
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_柑橘_baseline_last_value",
+      "city": "",
+      "crop": "柑橘",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 8.681336686671957,
+        "mean_MAE": 1.0076751818339311
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 8.681336686671957
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_梨_baseline_last_value",
+      "city": "",
+      "crop": "梨",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 4.934613289142294,
+        "mean_MAE": 0.3960763289063969
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 4.934613289142294
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_牛奶_baseline_seasonal_median",
+      "city": "",
+      "crop": "牛奶",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_seasonal_median",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 0.0,
+        "mean_MAE": 0.0
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_rolling_mean_30",
+        "mean_WAPE": 0.0
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_牛肉_baseline_last_value",
+      "city": "",
+      "crop": "牛肉",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 1.7075760283703652,
+        "mean_MAE": 1.0700578140907075
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 1.7075760283703652
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_紫茄子_regional_extra_trees",
+      "city": "",
+      "crop": "紫茄子",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_extra_trees",
+      "route": "regional_锦州",
+      "metrics": {
+        "mean_WAPE": 14.021231570904863,
+        "mean_MAE": 0.9564488189137124
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 16.219361599726437
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_羊肉_baseline_last_value",
+      "city": "",
+      "crop": "羊肉",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 1.7208815949037488,
+        "mean_MAE": 1.1276368330680668
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 1.7208815949037488
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_胡萝卜_baseline_last_value",
+      "city": "",
+      "crop": "胡萝卜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 8.888266966935348,
+        "mean_MAE": 0.3576966148095501
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 8.888266966935348
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_芹菜_baseline_last_value",
+      "city": "",
+      "crop": "芹菜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 13.985292662031192,
+        "mean_MAE": 0.9369293808520096
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 13.985292662031192
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_苹果_baseline_last_value",
+      "city": "",
+      "crop": "苹果",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 2.319194543374568,
+        "mean_MAE": 0.2855716651610964
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 2.319194543374568
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_菜花_baseline_last_value",
+      "city": "",
+      "crop": "菜花",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 19.423272649676907,
+        "mean_MAE": 1.2329823532785593
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 19.423272649676907
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_西红柿_regional_extra_trees",
+      "city": "",
+      "crop": "西红柿",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_extra_trees",
+      "route": "regional_锦州",
+      "metrics": {
+        "mean_WAPE": 10.585404109586412,
+        "mean_MAE": 0.8300464374718564
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 12.757931562566382
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_香蕉_baseline_last_value",
+      "city": "",
+      "crop": "香蕉",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 5.888714949578872,
+        "mean_MAE": 0.4979131231262796
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 5.888714949578872
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_鲤鱼_baseline_last_value",
+      "city": "",
+      "crop": "鲤鱼",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 1.261729685404545,
+        "mean_MAE": 0.21505670086462783
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 1.261729685404545
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_鸡胸肉_baseline_rolling_mean_30",
+      "city": "",
+      "crop": "鸡胸肉",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_rolling_mean_30",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 4.715391248604301,
+        "mean_MAE": 0.5684415116466642
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_rolling_mean_30",
+        "mean_WAPE": 4.715391248604301
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_鸡蛋_baseline_last_value",
+      "city": "",
+      "crop": "鸡蛋",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "baseline_last_value",
+      "route": "baseline",
+      "metrics": {
+        "mean_WAPE": 6.468225627355309,
+        "mean_MAE": 0.5531985102916506
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_last_value",
+        "mean_WAPE": 6.468225627355309
+      },
+      "beats_baseline": false,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    },
+    {
+      "model_id": "price_黄瓜_regional_extra_trees",
+      "city": "",
+      "crop": "黄瓜",
+      "target": "target_mean_price_next_30d",
+      "algorithm": "regional_extra_trees",
+      "route": "regional_锦州",
+      "metrics": {
+        "mean_WAPE": 17.041694411960055,
+        "mean_MAE": 1.1882871368990813
+      },
+      "baseline_metrics": {
+        "best_baseline": "baseline_seasonal_median",
+        "mean_WAPE": 18.002537325117995
+      },
+      "beats_baseline": true,
+      "data_snapshot": "models/data/snapshots/v1",
+      "note": "简化模块：market_average（朝阳）/单一价格层级（锦州），无成交量"
+    }
+  ]
+}

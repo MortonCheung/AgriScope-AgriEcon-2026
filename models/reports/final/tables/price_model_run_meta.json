@@ -1,0 +1,26 @@
+{
+  "model_version": "final_v1",
+  "data_version": "final_v1",
+  "features": 67,
+  "horizons": [
+    7,
+    14,
+    30,
+    60,
+    90
+  ],
+  "folds": [
+    "fold1_test2024",
+    "fold2_test2025",
+    "fold3_test2026"
+  ],
+  "models": [
+    "elasticnet",
+    "extra_trees",
+    "catboost",
+    "elasticnet_tuned",
+    "extra_trees_tuned"
+  ],
+  "git_fingerprint": "d8e3bbd42d83211c",
+  "ts": "2026-10-07 19:30:39"
+}

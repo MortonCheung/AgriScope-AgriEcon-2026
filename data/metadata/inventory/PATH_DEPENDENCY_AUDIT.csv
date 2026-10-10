@@ -1,0 +1,1061 @@
+﻿source_file,line_no,pattern,line
+AgriScope/dist/research/shenyang/sync-report.json,4,city_data,"""sourceRoot"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research"","
+AgriScope/dist/research/shenyang/integrity.json,15,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/manifest.json"","
+AgriScope/dist/research/shenyang/integrity.json,22,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/sources.json"","
+AgriScope/dist/research/shenyang/integrity.json,29,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/article.json"","
+AgriScope/dist/research/shenyang/integrity.json,36,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A02/article.json"","
+AgriScope/dist/research/shenyang/integrity.json,43,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A03/article.json"","
+AgriScope/dist/research/shenyang/integrity.json,50,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A04/article.json"","
+AgriScope/dist/research/shenyang/integrity.json,57,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A05/article.json"","
+AgriScope/dist/research/shenyang/integrity.json,64,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A06/article.json"","
+AgriScope/dist/research/shenyang/integrity.json,71,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A07/article.json"","
+AgriScope/dist/research/shenyang/integrity.json,78,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A08/article.json"","
+AgriScope/dist/research/shenyang/integrity.json,85,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A09/article.json"","
+AgriScope/dist/research/shenyang/integrity.json,92,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/tables/A01_monthly.csv"","
+AgriScope/dist/research/shenyang/integrity.json,110,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/tables/A01_seasonal_amplitude.csv"","
+AgriScope/dist/research/shenyang/integrity.json,124,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/tables/A01_seasonal_index.csv"","
+AgriScope/dist/research/shenyang/integrity.json,140,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/tables/A01_stl_strength.csv"","
+AgriScope/dist/research/shenyang/integrity.json,155,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/tables/A01_trend.csv"","
+AgriScope/dist/research/shenyang/integrity.json,179,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A02/tables/A02_daily_response.csv"","
+AgriScope/dist/research/shenyang/integrity.json,206,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A02/tables/A02_daily_response_Fwx.csv"","
+AgriScope/dist/research/shenyang/integrity.json,224,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A03/tables/A03_accumulation.csv"","
+AgriScope/dist/research/shenyang/integrity.json,245,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A03/tables/A03_lag_windows.csv"","
+AgriScope/dist/research/shenyang/integrity.json,267,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A03/tables/A03_nonlinearity.csv"","
+AgriScope/dist/research/shenyang/integrity.json,287,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A04/tables/A04_event_clusters.csv"","
+AgriScope/dist/research/shenyang/integrity.json,304,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A04/tables/A04_event_responses.csv"","
+AgriScope/dist/research/shenyang/integrity.json,322,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A04/tables/A04_event_summary.csv"","
+AgriScope/dist/research/shenyang/integrity.json,343,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A05/tables/A05_heterogeneity.csv"","
+AgriScope/dist/research/shenyang/integrity.json,361,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A05/tables/A05_recovery.csv"","
+AgriScope/dist/research/shenyang/integrity.json,379,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A05/tables/A05_recovery_by_crop.csv"","
+AgriScope/dist/research/shenyang/integrity.json,395,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A06/tables/A06_forecast_gain.csv"","
+AgriScope/dist/research/shenyang/integrity.json,412,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A06/tables/A06_forecast_rolling.csv"","
+AgriScope/dist/research/shenyang/integrity.json,429,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A06/tables/A06_price_volume.csv"","
+AgriScope/dist/research/shenyang/integrity.json,450,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A07/tables/A07_change_2018_2024.csv"","
+AgriScope/dist/research/shenyang/integrity.json,469,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A07/tables/A07_district_crop_structure.csv"","
+AgriScope/dist/research/shenyang/integrity.json,486,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A07/tables/A07_district_grain.csv"","
+AgriScope/dist/research/shenyang/integrity.json,502,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A08/tables/A08_panel_results.csv"","
+AgriScope/dist/research/shenyang/integrity.json,526,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A08/tables/A08_robustness_loo.csv"","
+AgriScope/dist/research/shenyang/integrity.json,545,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A08/tables/A08_wild_bootstrap.csv"","
+AgriScope/dist/research/shenyang/integrity.json,561,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/figures/A01_seasonal_amplitude.png"","
+AgriScope/dist/research/shenyang/integrity.json,568,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A07/figures/A07_district_structure.png"","
+AgriScope/dist/research/shenyang/integrity.json,575,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/references.md"","
+AgriScope/dist/research/shenyang/integrity.json,582,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/assets/tables/counterfactual_gate.csv"","
+AgriScope/dist/research/shenyang/integrity.json,598,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/assets/tables/counterfactual_severity.csv"","
+AgriScope/dist/research/shenyang/integrity.json,615,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/assets/tables/counterfactual_buffer.csv"","
+AgriScope/docs/SHENYANG_V2_FRONTEND_AUDIT.md,11,city_data,V5 手册给出的路径**缺少一层 `city_data/`**，实际不存在：
+AgriScope/docs/SHENYANG_V2_FRONTEND_AUDIT.md,17,city_data,| `大数据分析/city_data/shenyang/workspace/research_v2/exports/frontend` | ✅ 真实位置 |
+AgriScope/docs/SHENYANG_V2_FRONTEND_AUDIT.md,18,city_data,| `大数据分析/city_data/shenyang/reports/v2` | ✅ 真实位置 |
+AgriScope/docs/SHENYANG_V2_FRONTEND_AUDIT.md,20,city_data,本审计后续一律使用 `city_data/shenyang/`。
+AgriScope/docs/SHENYANG_V2_FRONTEND_AUDIT.md,226,city_data,1. **路径**：`city_data/shenyang/…`。
+AgriScope/public/research/shenyang/sync-report.json,4,city_data,"""sourceRoot"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research"","
+AgriScope/public/research/shenyang/integrity.json,15,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/manifest.json"","
+AgriScope/public/research/shenyang/integrity.json,22,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/sources.json"","
+AgriScope/public/research/shenyang/integrity.json,29,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/article.json"","
+AgriScope/public/research/shenyang/integrity.json,36,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A02/article.json"","
+AgriScope/public/research/shenyang/integrity.json,43,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A03/article.json"","
+AgriScope/public/research/shenyang/integrity.json,50,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A04/article.json"","
+AgriScope/public/research/shenyang/integrity.json,57,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A05/article.json"","
+AgriScope/public/research/shenyang/integrity.json,64,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A06/article.json"","
+AgriScope/public/research/shenyang/integrity.json,71,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A07/article.json"","
+AgriScope/public/research/shenyang/integrity.json,78,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A08/article.json"","
+AgriScope/public/research/shenyang/integrity.json,85,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A09/article.json"","
+AgriScope/public/research/shenyang/integrity.json,92,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/tables/A01_monthly.csv"","
+AgriScope/public/research/shenyang/integrity.json,110,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/tables/A01_seasonal_amplitude.csv"","
+AgriScope/public/research/shenyang/integrity.json,124,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/tables/A01_seasonal_index.csv"","
+AgriScope/public/research/shenyang/integrity.json,140,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/tables/A01_stl_strength.csv"","
+AgriScope/public/research/shenyang/integrity.json,155,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/tables/A01_trend.csv"","
+AgriScope/public/research/shenyang/integrity.json,179,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A02/tables/A02_daily_response.csv"","
+AgriScope/public/research/shenyang/integrity.json,206,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A02/tables/A02_daily_response_Fwx.csv"","
+AgriScope/public/research/shenyang/integrity.json,224,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A03/tables/A03_accumulation.csv"","
+AgriScope/public/research/shenyang/integrity.json,245,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A03/tables/A03_lag_windows.csv"","
+AgriScope/public/research/shenyang/integrity.json,267,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A03/tables/A03_nonlinearity.csv"","
+AgriScope/public/research/shenyang/integrity.json,287,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A04/tables/A04_event_clusters.csv"","
+AgriScope/public/research/shenyang/integrity.json,304,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A04/tables/A04_event_responses.csv"","
+AgriScope/public/research/shenyang/integrity.json,322,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A04/tables/A04_event_summary.csv"","
+AgriScope/public/research/shenyang/integrity.json,343,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A05/tables/A05_heterogeneity.csv"","
+AgriScope/public/research/shenyang/integrity.json,361,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A05/tables/A05_recovery.csv"","
+AgriScope/public/research/shenyang/integrity.json,379,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A05/tables/A05_recovery_by_crop.csv"","
+AgriScope/public/research/shenyang/integrity.json,395,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A06/tables/A06_forecast_gain.csv"","
+AgriScope/public/research/shenyang/integrity.json,412,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A06/tables/A06_forecast_rolling.csv"","
+AgriScope/public/research/shenyang/integrity.json,429,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A06/tables/A06_price_volume.csv"","
+AgriScope/public/research/shenyang/integrity.json,450,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A07/tables/A07_change_2018_2024.csv"","
+AgriScope/public/research/shenyang/integrity.json,469,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A07/tables/A07_district_crop_structure.csv"","
+AgriScope/public/research/shenyang/integrity.json,486,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A07/tables/A07_district_grain.csv"","
+AgriScope/public/research/shenyang/integrity.json,502,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A08/tables/A08_panel_results.csv"","
+AgriScope/public/research/shenyang/integrity.json,526,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A08/tables/A08_robustness_loo.csv"","
+AgriScope/public/research/shenyang/integrity.json,545,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A08/tables/A08_wild_bootstrap.csv"","
+AgriScope/public/research/shenyang/integrity.json,561,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A01/figures/A01_seasonal_amplitude.png"","
+AgriScope/public/research/shenyang/integrity.json,568,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/A07/figures/A07_district_structure.png"","
+AgriScope/public/research/shenyang/integrity.json,575,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/research/references.md"","
+AgriScope/public/research/shenyang/integrity.json,582,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/assets/tables/counterfactual_gate.csv"","
+AgriScope/public/research/shenyang/integrity.json,598,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/assets/tables/counterfactual_severity.csv"","
+AgriScope/public/research/shenyang/integrity.json,615,city_data,"""source"": ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/shenyang/assets/tables/counterfactual_buffer.csv"","
+AgriScope/scripts/legacy/README.md,10,city_data,- 唯一的研究来源是 `city_data/shenyang/workspace/research_v2/exports/frontend/` 与
+AgriScope/scripts/legacy/README.md,11,city_data,`city_data/shenyang/reports/v2/`，由 `scripts/sync-shenyang-v2.mjs` 同步。
+tools/pipeline/run_pipeline.py,108,city_data,"print(""\n交付物 : city_data/reference/reports/deliverables/"")"
+tools/pipeline/run_pipeline.py,109,city_data,"print(""审阅包 : city_data/reference/reports/review_bundle.zip"")"
+tools/pipeline/run_pipeline.py,110,city_data,"print(""报告   : city_data/reference/reports/FINAL_REPORT.md"")"
+tools/pipeline/city_data_ops/parse_tieling_gov_price.py,23,city_data,"STAGING = Path(""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/tieling/sources/staged/price/gov"")"
+tools/pipeline/city_data_ops/audit_v2.py,3,city_data,输入：city_data/<city>/workspace/data/interim/*.csv
+tools/pipeline/city_data_ops/audit_v2.py,4,city_data,输出（写入 city_data/_gap_analysis_20260922/）：
+tools/pipeline/city_data_ops/audit_v2.py,18,city_data,"ROOT = Path(__file__).resolve().parents[3] / ""city_data""          # city_data/"
+tools/pipeline/city_data_ops/build_event_interims.py,4,city_data,city_data/reference/staging/phenology_events.csv             物候（县域农时）
+tools/pipeline/city_data_ops/build_event_interims.py,5,city_data,city_data/reference/marts/fact_disaster_event_observed.csv   真实灾害（官方口径）
+tools/pipeline/city_data_ops/build_event_interims.py,5,marts,city_data/reference/marts/fact_disaster_event_observed.csv   真实灾害（官方口径）
+tools/pipeline/city_data_ops/build_event_interims.py,6,city_data,city_data/reference/marts/fact_policy_event.csv              政策/保供
+tools/pipeline/city_data_ops/build_event_interims.py,6,marts,city_data/reference/marts/fact_policy_event.csv              政策/保供
+tools/pipeline/city_data_ops/build_event_interims.py,9,city_data,city_data/<city>/workspace/data/interim/phenology_events.csv          本市物候（14 列规范）
+tools/pipeline/city_data_ops/build_event_interims.py,10,city_data,city_data/<city>/workspace/data/interim/disaster_events_observed.csv  本市真实灾害（主表 schema）
+tools/pipeline/city_data_ops/build_event_interims.py,11,city_data,city_data/<city>/workspace/data/interim/policy_events.csv             本市政策（主表 schema）
+tools/pipeline/city_data_ops/build_event_interims.py,12,city_data,"city_data/reference/{disaster_events_observed_province,policy_events_province}.csv"
+tools/pipeline/city_data_ops/build_event_interims.py,117,city_data,"phen = read_csv(PROJ / ""city_data/reference/staging"" / ""phenology_events.csv"")"
+tools/pipeline/city_data_ops/build_event_interims.py,118,city_data,"dis = read_csv(PROJ / ""city_data/reference/marts"" / ""fact_disaster_event_observed.csv"")"
+tools/pipeline/city_data_ops/build_event_interims.py,118,marts,"dis = read_csv(PROJ / ""city_data/reference/marts"" / ""fact_disaster_event_observed.csv"")"
+tools/pipeline/city_data_ops/build_event_interims.py,119,city_data,"pol = read_csv(PROJ / ""city_data/reference/marts"" / ""fact_policy_event.csv"")"
+tools/pipeline/city_data_ops/build_event_interims.py,119,marts,"pol = read_csv(PROJ / ""city_data/reference/marts"" / ""fact_policy_event.csv"")"
+tools/pipeline/city_data_ops/merge_round3_deltas.py,5,city_data,在 QC 通过后合并进正式城市数据 `city_data/<city>/data/`。
+tools/pipeline/city_data_ops/collect_dandong_county_price.py,51,city_data,"BASE = Path(""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/dandong/data"")"
+tools/pipeline/city_data_ops/append_dandong_price_round2.py,15,city_data,"BASE = Path(""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/dandong/data"")"
+tools/pipeline/city_data_ops/append_phenology_round2.py,4,city_data,- 原始证据落盘：city_data/<city>/workspace/data/raw/phenology/<slug>/<hash>.html
+tools/pipeline/city_data_ops/append_phenology_round2.py,5,city_data,- 规范化追加：city_data/<city>/workspace/data/interim/phenology_events.csv（14 列）
+tools/pipeline/city_data_ops/append_phenology_round2.py,6,city_data,- 省级（不可拆分为城市事实）单独落：city_data/reference/phenology_events_province.csv
+tools/pipeline/city_data_ops/refresh_metadata.py,1,city_data,"""""""刷新元数据：各城 data_snapshot.json / MANIFEST.csv，并新建 city_data/SOURCE_REGISTRY.csv。"""""""
+tools/pipeline/city_data_ops/refresh_metadata.py,64,city_data,"fp = ROOT.parent / tp if tp.startswith(""city_data/"") else (ROOT / tp)"
+tools/pipeline/city_data_ops/refresh_metadata.py,70,city_data,"tp = f""city_data/{code}/data/{f.name}"""
+tools/pipeline/city_data_ops/collect_tieling_county_price.py,52,city_data,"BASE = Path(""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/tieling/data"")"
+tools/pipeline/city_data_ops/collect_dandong_grain_weekly.py,15,city_data,标准化落盘：city_data/dandong/sources/staged/price/lnnync_grain/
+tools/pipeline/city_data_ops/collect_dandong_grain_weekly.py,39,city_data,"BASE = Path(""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/dandong/data"")"
+tools/pipeline/final_foundation/build_weather_history.py,11,city_data,city_data/<city>/workspace/data/raw/weather/era5_land/2010_2026/*.json
+tools/pipeline/final_foundation/build_weather_history.py,12,city_data,city_data/<city>/workspace/data/interim/_final/weather_daily_era5land.csv
+tools/pipeline/final_foundation/build_weather_history.py,13,city_data,city_data/<city>/workspace/data/interim/_final/weather_extra_daily_era5land.csv
+tools/pipeline/final_foundation/build_weather_history.py,29,city_data,"ROOT = Path(__file__).resolve().parents[3] / ""city_data""           # city_data/"
+tools/pipeline/final_foundation/build_weather_history.py,155,city_data,"print(f""\n[OK] 下载完成 {len(log)} 项 → 详见 city_data/reference/final_foundation/logs/weather_download_log.json"")"
+tools/pipeline/final_foundation/recompute_windows.py,3,city_data,"输入：city_data/<slug>/workspace/data/interim/{price_observation,production_yearly,volume_observations,phenology_events}.csv"
+tools/pipeline/final_foundation/recompute_windows.py,4,city_data,+ city_data/reference/final_foundation/02_production_qc/production_yearly_clean.csv
+tools/pipeline/final_foundation/freeze_v3.py,31,city_data,# 六城正式数据表（city_data/<city>/data/*.csv）
+tools/pipeline/final_foundation/freeze_v3.py,156,city_data,"""structure_note"": ""路径已对齐冻结后的项目结构：city_data/<city>/data/"","
+tools/pipeline/final_foundation/audit_weather.py,11,city_data,"ROOT = Path(__file__).resolve().parents[3] / ""city_data""          # city_data/"
+tools/parsers/dalian_12316_parser.py,38,city_data,【产出】city_data/reference/staging/dalian_12316_prices.csv
+tools/parsers/dalian_12316_parser.py,57,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/parsers/city_price_parser.py,22,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/parsers/city_price_parser.py,23,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/city_price_parser.py,23,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/dalian_mofcom_parser.py,22,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/parsers/chaoyang_parser.py,23,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/parsers/extract_yearbook_wide.py,26,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/parsers/extract_yearbook_wide.py,27,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/extract_yearbook_wide.py,27,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/extract_agri_conditions.py,20,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/parsers/extract_agri_conditions.py,21,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/extract_agri_conditions.py,21,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/fuel_price_parser.py,20,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/fuel_price_parser.py,20,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/fuel_price_parser.py,21,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/parsers/market_supply_parser.py,21,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/market_supply_parser.py,21,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/extract_production.py,22,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/parsers/extract_production.py,23,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/extract_production.py,23,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/jinzhou_ocr_parser.py,42,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/parsers/jinzhou_ocr_parser.py,43,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/jinzhou_ocr_parser.py,43,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/pest_parser.py,17,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/pest_parser.py,17,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/parsers/yearbook_parser.py,21,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/v2_build_C.py,16,city_data,"V1 = ROOT / ""city_data/reference/decision_engine_supplement"""
+tools/collectors/v2_build_C.py,16,supplement,"V1 = ROOT / ""city_data/reference/decision_engine_supplement"""
+tools/collectors/v2_build_C.py,17,city_data,"OUT = ROOT / ""city_data/reference/decision_engine_supplement_v2"""
+tools/collectors/v2_build_C.py,17,supplement,"OUT = ROOT / ""city_data/reference/decision_engine_supplement_v2"""
+tools/collectors/events_policy.py,5,city_data,产出：city_data/reference/marts/fact_policy_event.csv
+tools/collectors/events_policy.py,5,marts,产出：city_data/reference/marts/fact_policy_event.csv
+tools/collectors/events_policy.py,201,city_data,"out = ROOT / ""city_data/reference/marts"" / ""fact_policy_event.csv"""
+tools/collectors/events_policy.py,201,marts,"out = ROOT / ""city_data/reference/marts"" / ""fact_policy_event.csv"""
+tools/collectors/v3_qc.py,5,city_data,- 对 city_data/reference/decision_engine_supplement_v3/*.csv 做 source/unit/geo/time/crop/dup/missing/range 检查
+tools/collectors/v3_qc.py,5,supplement,- 对 city_data/reference/decision_engine_supplement_v3/*.csv 做 source/unit/geo/time/crop/dup/missing/range 检查
+tools/collectors/v3_qc.py,15,supplement,"RAW = ROOT / ""raw_data"" / ""decision_engine_supplement_v3"""
+tools/collectors/v3_qc.py,16,supplement,"REF = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement_v3"""
+tools/collectors/city_bulletin.py,28,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/collect_retail_snapshot.py,26,city_data,city_data/reference/staging/ecommerce_price_snapshot.csv            统一 schema 快照（price_level=instant_retail|ecommerce）
+tools/collectors/collect_retail_snapshot.py,56,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/v2_build_B.py,17,city_data,"V1 = ROOT / ""city_data/reference/decision_engine_supplement"""
+tools/collectors/v2_build_B.py,17,supplement,"V1 = ROOT / ""city_data/reference/decision_engine_supplement"""
+tools/collectors/v2_build_B.py,18,city_data,"OUT = ROOT / ""city_data/reference/decision_engine_supplement_v2"""
+tools/collectors/v2_build_B.py,18,supplement,"OUT = ROOT / ""city_data/reference/decision_engine_supplement_v2"""
+tools/collectors/v2_build_B.py,155,marts,"value_A=""14100 (city_data canonical)"", value_B=""143494 (reference/marts/fact_price_city)"","
+tools/collectors/v2_build_B.py,156,city_data,"source_A=""city_data/shenyang/data/price_observation.csv"", source_B=""city_data/reference/marts/fact_price_city.csv"","
+tools/collectors/v2_build_B.py,156,marts,"source_A=""city_data/shenyang/data/price_observation.csv"", source_B=""city_data/reference/marts/fact_price_city.csv"","
+tools/collectors/v3_model_value.py,8,city_data,"REF = Path(""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/reference/decision_engine_supplement_v3"")"
+tools/collectors/v3_model_value.py,8,supplement,"REF = Path(""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/reference/decision_engine_supplement_v3"")"
+tools/collectors/v3_modis_ndvi_evi.py,27,supplement,"RAW = ROOT / ""raw_data"" / ""decision_engine_supplement_v3"" / ""remote_sensing"""
+tools/collectors/v3_modis_ndvi_evi.py,28,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement_v3"""
+tools/collectors/events_disaster.py,7,city_data,产出：city_data/reference/marts/fact_disaster_event_observed.csv
+tools/collectors/events_disaster.py,7,marts,产出：city_data/reference/marts/fact_disaster_event_observed.csv
+tools/collectors/events_disaster.py,308,city_data,"out = ROOT / ""city_data/reference/marts"" / ""fact_disaster_event_observed.csv"""
+tools/collectors/events_disaster.py,308,marts,"out = ROOT / ""city_data/reference/marts"" / ""fact_disaster_event_observed.csv"""
+tools/collectors/lnnync_grain_weekly.py,36,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/v3_remote_sensing_ndvi.py,27,supplement,"RAW = ROOT / ""raw_data"" / ""decision_engine_supplement_v3"" / ""remote_sensing"""
+tools/collectors/v3_remote_sensing_ndvi.py,28,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement_v3"""
+tools/collectors/hnwb_hangqing_collect.py,37,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/hnwb_hangqing_collect.py,288,city_data,"""""""只读 raw_data/prices/hnwb/*.html，重建 city_data/reference/staging/hnwb_prices.csv。"""""""
+tools/collectors/hnwb_hangqing_collect.py,340,city_data,"print(f""[rebuild] 页面 ok={pages_ok} empty={pages_bad} -> 去重后 {len(rows)} 行 -> city_data/reference/staging/hnwb_prices.csv"")"
+tools/collectors/v3_price_history_extend.py,31,supplement,"RAW = ROOT / ""raw_data"" / ""decision_engine_supplement_v3"" / ""price"""
+tools/collectors/v3_price_history_extend.py,33,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement_v3"""
+tools/collectors/supplement_qc.py,4,supplement,对 decision_engine_supplement 全部新增表做自动质量检查：
+tools/collectors/supplement_qc.py,6,supplement,产出：QC_REPORT_supplement.md + qc_summary.json
+tools/collectors/supplement_qc.py,14,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement"""
+tools/collectors/supplement_qc.py,108,supplement,"(OUT / ""QC_REPORT_supplement.md"").write_text(""\n"".join(lines), encoding=""utf-8"")"
+tools/collectors/supplement_build_evidence_tables.py,7,city_data,city_data/reference/decision_engine_supplement/crop_cost_yearly.csv
+tools/collectors/supplement_build_evidence_tables.py,7,supplement,city_data/reference/decision_engine_supplement/crop_cost_yearly.csv
+tools/collectors/supplement_build_evidence_tables.py,8,city_data,city_data/reference/decision_engine_supplement/cost_proxy_insurance.csv
+tools/collectors/supplement_build_evidence_tables.py,8,supplement,city_data/reference/decision_engine_supplement/cost_proxy_insurance.csv
+tools/collectors/supplement_build_evidence_tables.py,9,city_data,city_data/reference/decision_engine_supplement/disaster_loss_events.csv
+tools/collectors/supplement_build_evidence_tables.py,9,supplement,city_data/reference/decision_engine_supplement/disaster_loss_events.csv
+tools/collectors/supplement_build_evidence_tables.py,10,city_data,city_data/reference/decision_engine_supplement/herding_events.csv
+tools/collectors/supplement_build_evidence_tables.py,10,supplement,city_data/reference/decision_engine_supplement/herding_events.csv
+tools/collectors/supplement_build_evidence_tables.py,11,supplement,raw_data/decision_engine_supplement/*/EVIDENCE_*.md
+tools/collectors/supplement_build_evidence_tables.py,18,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement"""
+tools/collectors/supplement_build_evidence_tables.py,19,supplement,"RAWC = ROOT / ""raw_data"" / ""decision_engine_supplement"""
+tools/collectors/v2_extract_yearbook_crop.py,18,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement_v2"""
+tools/collectors/v2_extract_yearbook_crop.py,19,supplement,"RAWOUT = ROOT / ""raw_data"" / ""decision_engine_supplement_v2"""
+tools/collectors/supplement_soil_shenyang.py,19,supplement,"OUT_DIR = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement"""
+tools/collectors/supplement_soil_shenyang.py,104,supplement,"(ROOT / ""raw_data"" / ""decision_engine_supplement"" / ""soil"" / ""SOIL_SHENYANG_EVIDENCE.md"").write_text("
+tools/collectors/supplement_soil_shenyang.py,113,city_data,"""- 产出：`city_data/reference/decision_engine_supplement/soil_moisture_daily_extended.csv`\n"","
+tools/collectors/supplement_soil_shenyang.py,113,supplement,"""- 产出：`city_data/reference/decision_engine_supplement/soil_moisture_daily_extended.csv`\n"","
+tools/collectors/supplement_soil_shenyang.py,115,supplement,"print(""[OK] 证据文件已写入 raw_data/decision_engine_supplement/soil/"")"
+tools/collectors/chaoyang_basket_price.py,7,city_data,city_data/reference/staging/chaoyang_price_basket.csv        （解析后的价格观测）
+tools/collectors/chaoyang_basket_price.py,27,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/v3_s2_evi_backfill.py,21,supplement,"RS = ROOT / ""raw_data"" / ""decision_engine_supplement_v3"" / ""remote_sensing"""
+tools/collectors/v3_s2_evi_backfill.py,24,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement_v3"""
+tools/collectors/v2_parse_yearbook_ocr.py,17,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement_v2"""
+tools/collectors/v2_parse_yearbook_ocr.py,18,supplement,"OCR = ROOT / ""raw_data"" / ""decision_engine_supplement_v2"" / ""production"""
+tools/collectors/supplement_lnnync_veg_weekly.py,22,supplement,"RAW = ROOT / ""raw_data"" / ""decision_engine_supplement"" / ""price"" / ""lnnync_veg_weekly"""
+tools/collectors/supplement_lnnync_veg_weekly.py,23,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement"""
+tools/collectors/dalian_cif_collect.py,12,city_data,city_data/reference/staging/dalian_cif_prices.csv
+tools/collectors/dalian_cif_collect.py,31,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/lnnync_veg_market_nodes.py,18,city_data,写入 city_data/reference/staging/lnnync_veg_market_nodes.csv。
+tools/collectors/lnnync_veg_market_nodes.py,40,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/dalian_price_download_parse.py,7,city_data,city_data/reference/staging/dalian_price_weekly.csv                    结构化周度价格观测
+tools/collectors/dalian_price_download_parse.py,26,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/dalian_price_download_parse.py,161,city_data,"print(f""\n[OK] 解析观测 {len(all_obs)} 条 → city_data/reference/staging/dalian_price_weekly.csv"")"
+tools/collectors/lnfgw_city_price.py,7,city_data,city_data/reference/staging/{city}_price_lnfgw.csv
+tools/collectors/lnfgw_city_price.py,24,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/lnfgw_dalian_monthly.py,9,city_data,city_data/reference/staging/dalian_price_monthly.csv（解析的月度价格观测）
+tools/collectors/lnfgw_dalian_monthly.py,28,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/lnfgw_dalian_monthly.py,181,city_data,"print(f""\n[OK] 解析观测 {len(all_obs)} 条 → city_data/reference/staging/dalian_price_monthly.csv"")"
+tools/collectors/supplement_build_production_registry.py,18,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement"""
+tools/collectors/supplement_build_production_registry.py,169,supplement,"raw_file=""raw_data/decision_engine_supplement/price/lnnync_veg_weekly/"", notes=""周度批发价，含最高/最低地区""),"
+tools/collectors/supplement_build_production_registry.py,174,supplement,"raw_file=""raw_data/decision_engine_supplement/cost/"", notes=""含辽阳(邻市)与沈阳""),"
+tools/collectors/supplement_build_production_registry.py,179,supplement,"raw_file=""raw_data/decision_engine_supplement/cost/"", notes=""玉米/粳稻""),"
+tools/collectors/supplement_build_production_registry.py,187,supplement,"date_range=""2024"", license_or_usage_note=""政府公开发布"", raw_file=""raw_data/decision_engine_supplement/disaster_loss/"","
+tools/collectors/supplement_build_production_registry.py,192,supplement,"date_range=""2024"", license_or_usage_note=""公开发布"", raw_file=""raw_data/decision_engine_supplement/disaster_loss/"", notes=""""),"
+tools/collectors/supplement_build_production_registry.py,196,supplement,"date_range=""2023"", license_or_usage_note=""公开发布"", raw_file=""raw_data/decision_engine_supplement/herding_events/"", notes=""""),"
+tools/collectors/jinzhou_bulletin_production.py,1,city_data,"""""""从已落盘的锦州统计公报 HTML 提取农业指标 → city_data/reference/staging/jinzhou_production_2025.csv。"
+tools/collectors/jinzhou_bulletin_production.py,18,city_data,"OUT = ROOT / ""city_data/reference/staging"" / ""jinzhou_production_2025.csv"""
+tools/collectors/supplement_calendar_and_gaps.py,14,supplement,"OUT = CD / ""reference"" / ""decision_engine_supplement"""
+tools/collectors/events_phenology.py,9,city_data,产出：city_data/reference/staging/phenology_events.csv
+tools/collectors/events_phenology.py,231,city_data,"out = ROOT / ""city_data/reference/staging"" / ""phenology_events.csv"""
+tools/collectors/mofcom_cif_full.py,8,city_data,parse   解析已下载原始 HTML → city_data/reference/staging/mofcom_prices.csv / mofcom_volumes.csv
+tools/collectors/mofcom_cif_full.py,15,city_data,city_data/reference/staging/mofcom_prices.csv                     结构化历史价格
+tools/collectors/mofcom_cif_full.py,16,city_data,city_data/reference/staging/mofcom_volumes.csv                    成交量/上市量观测
+tools/collectors/mofcom_cif_full.py,41,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/v3_rs_merge_anomaly.py,15,supplement,"CACHE = ROOT / ""raw_data"" / ""decision_engine_supplement_v3"" / ""remote_sensing"" / ""cache"""
+tools/collectors/v3_rs_merge_anomaly.py,16,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement_v3"""
+tools/collectors/v2_build_A.py,21,supplement,"V1 = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement"""
+tools/collectors/v2_build_A.py,22,supplement,"OUT = ROOT / ""city_data"" / ""reference"" / ""decision_engine_supplement_v2"""
+tools/collectors/v2_build_A.py,23,supplement,"RAW2 = ROOT / ""raw_data"" / ""decision_engine_supplement_v2"""
+tools/collectors/lnnync_veg_weekly.py,36,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/bulletin_production.py,4,city_data,"输出：city_data/reference/staging/{city}_production_bulletin.csv（year, city, crop, planting_area, production, unit...）"
+tools/collectors/bulletin_production.py,17,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/collect_moa_wholesale.py,6,city_data,1) 落盘辽宁批发市场目录（含 marketCode / 经纬度 / 地址 / 区县），供建 city_data/reference/reports/market_registry.csv；
+tools/collectors/collect_moa_wholesale.py,50,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/collect_moa_wholesale.py,51,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/collectors/collect_moa_wholesale.py,297,city_data,"print(""[注册表] 写出 %d 行 -> city_data/reference/reports/market_registry.csv"" % n)"
+tools/collectors/collect_moa_wholesale.py,347,city_data,"print(""[价格表] 写出 %d 行 -> city_data/reference/staging/moa_wholesale_prices.csv"" % len(rows))"
+tools/collectors/jinzhou_basket_price.py,12,city_data,city_data/reference/staging/jinzhou_price_basket_weekly.csv           解析后的周价格观测
+tools/collectors/jinzhou_basket_price.py,31,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/collectors/v2_build_D.py,10,city_data,"V1 = ROOT / ""city_data/reference/decision_engine_supplement"""
+tools/collectors/v2_build_D.py,10,supplement,"V1 = ROOT / ""city_data/reference/decision_engine_supplement"""
+tools/collectors/v2_build_D.py,11,city_data,"OUT = ROOT / ""city_data/reference/decision_engine_supplement_v2"""
+tools/collectors/v2_build_D.py,11,supplement,"OUT = ROOT / ""city_data/reference/decision_engine_supplement_v2"""
+tools/collectors/events_volume.py,9,city_data,产出：city_data/reference/staging/volume_observations.csv
+tools/collectors/events_volume.py,292,city_data,"out = ROOT / ""city_data/reference/staging"" / ""volume_observations.csv"""
+tools/data_foundation/build_standardized.py,4,supplement,把 canonical / supplement V2 / V3 / curated / marts 整理为统一标准表（parquet），写入 02_standardized/。
+tools/data_foundation/build_standardized.py,48,city_data,"""searched"": ""raw_data/ + city_data/ + supplements"", ""access_date"": AD},"
+tools/data_foundation/build_standardized.py,48,supplement,"""searched"": ""raw_data/ + city_data/ + supplements"", ""access_date"": AD},"
+tools/data_foundation/build_standardized.py,183,city_data,"p = f""city_data/{d}/data/price_observation.csv"""
+tools/data_foundation/build_standardized.py,216,city_data,"df = rd(f""city_data/{d}/data/volume_observations.csv"")"
+tools/data_foundation/build_standardized.py,228,city_data,"df = rd(""city_data/reference/decision_engine_supplement_v3/market_supply_proxy.csv"")"
+tools/data_foundation/build_standardized.py,228,supplement,"df = rd(""city_data/reference/decision_engine_supplement_v3/market_supply_proxy.csv"")"
+tools/data_foundation/build_standardized.py,234,city_data,"a = rd(""city_data/reference/decision_engine_supplement_v3/market_registry_v3.csv"")"
+tools/data_foundation/build_standardized.py,234,supplement,"a = rd(""city_data/reference/decision_engine_supplement_v3/market_registry_v3.csv"")"
+tools/data_foundation/build_standardized.py,235,city_data,"b = rd(""city_data/reference/decision_engine_supplement_v2/market_registry_extended.csv"")"
+tools/data_foundation/build_standardized.py,235,supplement,"b = rd(""city_data/reference/decision_engine_supplement_v2/market_registry_extended.csv"")"
+tools/data_foundation/build_standardized.py,242,city_data,"a = rd(""city_data/reference/decision_engine_supplement_v3/price_lnnync_veg_weekly_historical.csv"")"
+tools/data_foundation/build_standardized.py,242,supplement,"a = rd(""city_data/reference/decision_engine_supplement_v3/price_lnnync_veg_weekly_historical.csv"")"
+tools/data_foundation/build_standardized.py,243,city_data,"b = rd(""city_data/reference/decision_engine_supplement/price_lnnync_veg_weekly_extended.csv"")"
+tools/data_foundation/build_standardized.py,243,supplement,"b = rd(""city_data/reference/decision_engine_supplement/price_lnnync_veg_weekly_extended.csv"")"
+tools/data_foundation/build_standardized.py,256,city_data,"a = rd(""city_data/reference/decision_engine_supplement_v2/planting_area_crop_yearly.csv"")"
+tools/data_foundation/build_standardized.py,256,supplement,"a = rd(""city_data/reference/decision_engine_supplement_v2/planting_area_crop_yearly.csv"")"
+tools/data_foundation/build_standardized.py,264,city_data,"df = rd(f""city_data/{d}/data/production_yearly.csv"")"
+tools/data_foundation/build_standardized.py,268,city_data,"b = rd(""city_data/reference/decision_engine_supplement_v2/production_crop_yearly.csv"")"
+tools/data_foundation/build_standardized.py,268,supplement,"b = rd(""city_data/reference/decision_engine_supplement_v2/production_crop_yearly.csv"")"
+tools/data_foundation/build_standardized.py,277,city_data,"c = rd(""city_data/reference/decision_engine_supplement_v3/crop_spatial_structure.csv"")"
+tools/data_foundation/build_standardized.py,277,supplement,"c = rd(""city_data/reference/decision_engine_supplement_v3/crop_spatial_structure.csv"")"
+tools/data_foundation/build_standardized.py,290,city_data,"df = rd(f""city_data/{d}/data/phenology_events.csv"")"
+tools/data_foundation/build_standardized.py,294,city_data,"e = rd(""city_data/reference/decision_engine_supplement_v2/crop_calendar_detailed.csv"")"
+tools/data_foundation/build_standardized.py,294,supplement,"e = rd(""city_data/reference/decision_engine_supplement_v2/crop_calendar_detailed.csv"")"
+tools/data_foundation/build_standardized.py,310,city_data,"a = rd(""city_data/reference/decision_engine_supplement_v2/crop_cost_yearly_extended.csv"")"
+tools/data_foundation/build_standardized.py,310,supplement,"a = rd(""city_data/reference/decision_engine_supplement_v2/crop_cost_yearly_extended.csv"")"
+tools/data_foundation/build_standardized.py,315,city_data,"b = rd(""city_data/reference/decision_engine_supplement_v3/crop_cost_components.csv"")"
+tools/data_foundation/build_standardized.py,315,supplement,"b = rd(""city_data/reference/decision_engine_supplement_v3/crop_cost_components.csv"")"
+tools/data_foundation/build_standardized.py,326,city_data,"df = rd(f""city_data/{d}/data/input_cost_weekly.csv"")"
+tools/data_foundation/build_standardized.py,342,city_data,"df = rd(f""city_data/{d}/data/{suffix}"")"
+tools/data_foundation/build_standardized.py,352,city_data,"cl = rd(""city_data/reference/curated/weekly_climatology_1991_2020.csv"")"
+tools/data_foundation/build_standardized.py,360,city_data,"df = rd(f""city_data/{d}/data/soil_daily.csv"")"
+tools/data_foundation/build_standardized.py,373,city_data,"v3 = ""city_data/reference/decision_engine_supplement_v3/"""
+tools/data_foundation/build_standardized.py,373,supplement,"v3 = ""city_data/reference/decision_engine_supplement_v3/"""
+tools/data_foundation/build_standardized.py,398,city_data,"df = rd(f""city_data/{d}/data/disaster_events_observed.csv"")"
+tools/data_foundation/build_standardized.py,411,city_data,"a = rd(""city_data/reference/decision_engine_supplement_v2/agri_insurance_claims.csv"")"
+tools/data_foundation/build_standardized.py,411,supplement,"a = rd(""city_data/reference/decision_engine_supplement_v2/agri_insurance_claims.csv"")"
+tools/data_foundation/build_standardized.py,412,city_data,"b = rd(""city_data/reference/decision_engine_supplement_v3/agri_insurance_claims_v3.csv"")"
+tools/data_foundation/build_standardized.py,412,supplement,"b = rd(""city_data/reference/decision_engine_supplement_v3/agri_insurance_claims_v3.csv"")"
+tools/data_foundation/build_standardized.py,421,city_data,"p = rd(""city_data/reference/decision_engine_supplement_v3/pest_events.csv"")"
+tools/data_foundation/build_standardized.py,421,supplement,"p = rd(""city_data/reference/decision_engine_supplement_v3/pest_events.csv"")"
+tools/data_foundation/build_standardized.py,427,city_data,"a = rd(""city_data/reference/decision_engine_supplement_v2/irrigation_yearly.csv"")"
+tools/data_foundation/build_standardized.py,427,supplement,"a = rd(""city_data/reference/decision_engine_supplement_v2/irrigation_yearly.csv"")"
+tools/data_foundation/build_standardized.py,428,city_data,"b = rd(""city_data/reference/decision_engine_supplement_v3/irrigation_yearly_extended.csv"")"
+tools/data_foundation/build_standardized.py,428,supplement,"b = rd(""city_data/reference/decision_engine_supplement_v3/irrigation_yearly_extended.csv"")"
+tools/data_foundation/build_standardized.py,438,city_data,"a = rd(""city_data/reference/decision_engine_supplement_v3/cold_chain_capacity_v3.csv"")"
+tools/data_foundation/build_standardized.py,438,supplement,"a = rd(""city_data/reference/decision_engine_supplement_v3/cold_chain_capacity_v3.csv"")"
+tools/data_foundation/build_standardized.py,444,city_data,"b = rd(""city_data/reference/decision_engine_supplement_v3/market_accessibility.csv"")"
+tools/data_foundation/build_standardized.py,444,supplement,"b = rd(""city_data/reference/decision_engine_supplement_v3/market_accessibility.csv"")"
+tools/data_foundation/build_standardized.py,449,city_data,"reg = rd(""city_data/reference/decision_engine_supplement_v3/market_registry_v3.csv"")"
+tools/data_foundation/build_standardized.py,449,supplement,"reg = rd(""city_data/reference/decision_engine_supplement_v3/market_registry_v3.csv"")"
+tools/data_foundation/build_standardized.py,458,city_data,"a = rd(""city_data/reference/decision_engine_supplement_v3/demand_yearly_v3.csv"")"
+tools/data_foundation/build_standardized.py,458,supplement,"a = rd(""city_data/reference/decision_engine_supplement_v3/demand_yearly_v3.csv"")"
+tools/data_foundation/build_standardized.py,459,city_data,"b = rd(""city_data/reference/decision_engine_supplement_v2/demand_yearly.csv"")"
+tools/data_foundation/build_standardized.py,459,supplement,"b = rd(""city_data/reference/decision_engine_supplement_v2/demand_yearly.csv"")"
+tools/data_foundation/build_standardized.py,487,city_data,"df = rd(f""city_data/{d}/data/policy_events.csv"")"
+tools/data_foundation/build_standardized.py,498,city_data,"a = rd(""city_data/reference/decision_engine_supplement_v2/herding_events_extended.csv"")"
+tools/data_foundation/build_standardized.py,498,supplement,"a = rd(""city_data/reference/decision_engine_supplement_v2/herding_events_extended.csv"")"
+tools/data_foundation/build_standardized.py,499,city_data,"b = rd(""city_data/reference/decision_engine_supplement_v3/herding_events_v3.csv"")"
+tools/data_foundation/build_standardized.py,499,supplement,"b = rd(""city_data/reference/decision_engine_supplement_v3/herding_events_v3.csv"")"
+tools/data_foundation/build_gapfill.py,81,supplement,"parsed_hints = [""raw_data/production/yearbook"", ""raw_data/decision_engine_supplement_v3"","
+tools/data_foundation/audit_path_dependency.py,4,city_data,扫描活跃代码/文档中对旧路径的引用：city_data/ 、reference/marts 、supplement
+tools/data_foundation/audit_path_dependency.py,4,marts,扫描活跃代码/文档中对旧路径的引用：city_data/ 、reference/marts 、supplement
+tools/data_foundation/audit_path_dependency.py,4,supplement,扫描活跃代码/文档中对旧路径的引用：city_data/ 、reference/marts 、supplement
+tools/data_foundation/audit_path_dependency.py,17,city_data,"""city_data"": re.compile(r""city_data/""),"
+tools/data_foundation/audit_path_dependency.py,18,marts,"""marts"": re.compile(r""reference/marts""),"
+tools/data_foundation/audit_path_dependency.py,19,supplement,"""supplement"": re.compile(r""supplement(_v\d)?""),"
+tools/data_foundation/build_requirements.py,114,city_data,"""searched_sources"": ""raw_data/ + city_data/ + supplements V1-V3"","
+tools/data_foundation/build_requirements.py,114,supplement,"""searched_sources"": ""raw_data/ + city_data/ + supplements V1-V3"","
+tools/data_foundation/build_requirements.py,157,supplement,"(""province_price_reference"", ""02_standardized/market/province_price_reference.parquet"", ""supplement_v3 历史 + supplement 现价"", ""—"", ""A"", ""2019-2026"", ""v1""),"
+tools/data_foundation/build_requirements.py,160,supplement,"(""ndvi"", ""02_standardized/remote_sensing/ndvi.parquet"", ""supplement_v3 Sentinel-2"", ""—"", ""A"", ""2021-2026"", ""v1""),"
+tools/data_foundation/build_requirements.py,161,supplement,"(""production_yearly"", ""02_standardized/production/production_yearly.parquet"", ""canonical 五城 + supplement_v2"", ""—"", ""B"", ""2017-2024"", ""v1""),"
+tools/data_foundation/build_requirements.py,163,supplement,"(""crop_cost / cost_components"", ""02_standardized/cost/*.parquet"", ""supplement_v2/v3"", ""—"", ""C"", ""2000-2025"", ""v1""),"
+tools/data_foundation/build_requirements.py,177,city_data,"(""city_data/reference/marts/fact_price_city.csv"", ""与 canonical 口径重叠且为聚合层，价格建模请用 02_standardized/market/price_observation"", ""重复口径""),"
+tools/data_foundation/build_requirements.py,177,marts,"(""city_data/reference/marts/fact_price_city.csv"", ""与 canonical 口径重叠且为聚合层，价格建模请用 02_standardized/market/price_observation"", ""重复口径""),"
+tools/data_foundation/build_requirements.py,180,city_data,"(""city_data/<city>/workspace/**"", ""工作区中间产物，未冻结"", ""非正式层""),"
+tools/data_foundation/audit_legacy_layers.py,4,city_data,对 marts / curated / staging / final_foundation / supplement V1-V3 / city_data/<city>/data
+tools/data_foundation/audit_legacy_layers.py,4,supplement,对 marts / curated / staging / final_foundation / supplement V1-V3 / city_data/<city>/data
+tools/data_foundation/audit_legacy_layers.py,20,city_data,"""city_data/*/data/price_observation.csv"": ""market/price_observation"","
+tools/data_foundation/audit_legacy_layers.py,21,city_data,"""city_data/*/data/volume_observations.csv"": ""market/market_volume"","
+tools/data_foundation/audit_legacy_layers.py,22,city_data,"""city_data/*/data/production_yearly.csv"": ""production/production_yearly"","
+tools/data_foundation/audit_legacy_layers.py,23,city_data,"""city_data/*/data/phenology_events.csv"": ""production/crop_calendar"","
+tools/data_foundation/audit_legacy_layers.py,24,city_data,"""city_data/*/data/input_cost_weekly.csv"": ""cost/input_prices"","
+tools/data_foundation/audit_legacy_layers.py,25,city_data,"""city_data/*/data/weather_daily_era5.csv"": ""climate/weather_daily"","
+tools/data_foundation/audit_legacy_layers.py,26,city_data,"""city_data/*/data/weather_extra_daily_era5.csv"": ""climate/weather_daily"","
+tools/data_foundation/audit_legacy_layers.py,27,city_data,"""city_data/*/data/soil_daily.csv"": ""climate/soil_daily"","
+tools/data_foundation/audit_legacy_layers.py,28,city_data,"""city_data/*/data/disaster_events_observed.csv"": ""disaster/disaster_events"","
+tools/data_foundation/audit_legacy_layers.py,29,city_data,"""city_data/*/data/policy_events.csv"": ""policy/policy_events"","
+tools/data_foundation/audit_legacy_layers.py,30,supplement,"""decision_engine_supplement/market_supply_proxy.csv"": ""market/supply_proxy"","
+tools/data_foundation/audit_legacy_layers.py,31,supplement,"""decision_engine_supplement_v2/market_registry_extended.csv"": ""market/market_registry"","
+tools/data_foundation/audit_legacy_layers.py,32,supplement,"""decision_engine_supplement_v3/market_registry_v3.csv"": ""market/market_registry"","
+tools/data_foundation/audit_legacy_layers.py,33,supplement,"""decision_engine_supplement/price_lnnync_veg_weekly_extended.csv"": ""market/province_price_reference"","
+tools/data_foundation/audit_legacy_layers.py,34,supplement,"""decision_engine_supplement_v3/price_lnnync_veg_weekly_historical.csv"": ""market/province_price_reference"","
+tools/data_foundation/audit_legacy_layers.py,35,supplement,"""decision_engine_supplement_v2/planting_area_crop_yearly.csv"": ""production/planting_area_yearly"","
+tools/data_foundation/audit_legacy_layers.py,36,supplement,"""decision_engine_supplement_v2/production_crop_yearly.csv"": ""production/production_yearly"","
+tools/data_foundation/audit_legacy_layers.py,37,supplement,"""decision_engine_supplement_v3/crop_spatial_structure.csv"": ""production/crop_spatial_structure"","
+tools/data_foundation/audit_legacy_layers.py,38,supplement,"""decision_engine_supplement_v2/crop_calendar_detailed.csv"": ""production/crop_calendar"","
+tools/data_foundation/audit_legacy_layers.py,39,supplement,"""decision_engine_supplement_v2/crop_cost_yearly_extended.csv"": ""cost/crop_cost"","
+tools/data_foundation/audit_legacy_layers.py,40,supplement,"""decision_engine_supplement_v3/crop_cost_components.csv"": ""cost/cost_components"","
+tools/data_foundation/audit_legacy_layers.py,41,supplement,"""decision_engine_supplement_v3/remote_sensing_ndvi_city_monthly.csv"": ""remote_sensing/ndvi"","
+tools/data_foundation/audit_legacy_layers.py,42,supplement,"""decision_engine_supplement_v3/remote_sensing_ndvi_derived.csv"": ""remote_sensing/vegetation_anomaly"","
+tools/data_foundation/audit_legacy_layers.py,43,supplement,"""decision_engine_supplement_v3/remote_sensing_evi_city_monthly.csv"": ""remote_sensing/evi"","
+tools/data_foundation/audit_legacy_layers.py,44,supplement,"""decision_engine_supplement_v2/agri_insurance_claims.csv"": ""disaster/insurance_claims"","
+tools/data_foundation/audit_legacy_layers.py,45,supplement,"""decision_engine_supplement_v3/agri_insurance_claims_v3.csv"": ""disaster/insurance_claims"","
+tools/data_foundation/audit_legacy_layers.py,46,supplement,"""decision_engine_supplement_v3/pest_events.csv"": ""bio_risk/pest_disease_events"","
+tools/data_foundation/audit_legacy_layers.py,47,supplement,"""decision_engine_supplement_v2/irrigation_yearly.csv"": ""water/irrigation_water"","
+tools/data_foundation/audit_legacy_layers.py,48,supplement,"""decision_engine_supplement_v3/irrigation_yearly_extended.csv"": ""water/irrigation_water"","
+tools/data_foundation/audit_legacy_layers.py,49,supplement,"""decision_engine_supplement_v3/cold_chain_capacity_v3.csv"": ""infrastructure/cold_chain"","
+tools/data_foundation/audit_legacy_layers.py,50,supplement,"""decision_engine_supplement_v3/market_accessibility.csv"": ""infrastructure/market_accessibility"","
+tools/data_foundation/audit_legacy_layers.py,51,supplement,"""decision_engine_supplement_v3/demand_yearly_v3.csv"": ""demand/demand_proxy"","
+tools/data_foundation/audit_legacy_layers.py,52,supplement,"""decision_engine_supplement_v2/demand_yearly.csv"": ""demand/demand_proxy"","
+tools/data_foundation/audit_legacy_layers.py,53,supplement,"""decision_engine_supplement_v2/herding_events_extended.csv"": ""evidence/herding_events"","
+tools/data_foundation/audit_legacy_layers.py,54,supplement,"""decision_engine_supplement_v3/herding_events_v3.csv"": ""evidence/herding_events"","
+tools/data_foundation/audit_legacy_layers.py,57,supplement,"""reference/decision_engine_supplement/crop_cost_yearly.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,58,supplement,"""reference/decision_engine_supplement/planting_area_yearly.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,59,supplement,"""reference/decision_engine_supplement/production_yearly_extended.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,60,supplement,"""reference/decision_engine_supplement/supply_demand_yearly.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,61,supplement,"""reference/decision_engine_supplement_disaster"": None,"
+tools/data_foundation/audit_legacy_layers.py,62,supplement,"""reference/decision_engine_supplement/cost_proxy_insurance.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,63,supplement,"""reference/decision_engine_supplement/crop_calendar.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,64,supplement,"""reference/decision_engine_supplement/soil_moisture_daily_extended.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,65,supplement,"""reference/decision_engine_supplement/disaster_loss_events.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,66,supplement,"""reference/decision_engine_supplement/herding_events.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,67,supplement,"""reference/decision_engine_supplement_v2/crop_yield_by_city.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,68,supplement,"""reference/decision_engine_supplement_v2/disaster_loss_crop_events.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,69,supplement,"""reference/decision_engine_supplement_v2/cold_chain_capacity.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,70,supplement,"""reference/decision_engine_supplement_v2/planting_area_crop_yearly_ocr.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,71,supplement,"""reference/decision_engine_supplement_v2/price_city_comparable.csv"": None,"
+tools/data_foundation/audit_legacy_layers.py,74,marts,"LAYERS = [""reference/marts"", ""reference/curated"", ""reference/staging"", ""reference/final_foundation"","
+tools/data_foundation/audit_legacy_layers.py,75,supplement,"""reference/decision_engine_supplement"", ""reference/decision_engine_supplement_v2"","
+tools/data_foundation/audit_legacy_layers.py,76,supplement,"""reference/decision_engine_supplement_v3""]"
+tools/data_foundation/audit_legacy_layers.py,81,city_data,"if s.startswith(""city_data/""):"
+tools/data_foundation/audit_legacy_layers.py,84,city_data,"return ""city_data/*/data/"" + parts[-1]"
+tools/data_foundation/audit_legacy_layers.py,86,city_data,"return s.split(""city_data/"", 1)[1] if False else s.replace(parts[1] + ""/"", """") if False else s"
+tools/data_foundation/audit_legacy_layers.py,96,city_data,"cands.append(""city_data/*/data/"" + parts[-1])"
+tools/data_foundation/audit_legacy_layers.py,97,supplement,"cands.append(f""reference/decision_engine_supplement/{parts[-1]}"")"
+tools/data_foundation/audit_legacy_layers.py,146,marts,"elif layer == ""reference/marts"":"
+tools/data_foundation/audit_legacy_layers.py,160,city_data,# city_data/*/data 六城 canonical
+tools/data_foundation/audit_legacy_layers.py,175,city_data,"rows.append({""legacy_path"": rel, ""layer"": ""city_data/<city>/data"", ""file_type"": p.suffix.lstrip("".""),"
+tools/data_foundation/build_source_conflicts.py,38,city_data,"marts_p = ROOT / ""city_data/reference/marts/fact_price_observation.csv"""
+tools/data_foundation/build_source_conflicts.py,38,marts,"marts_p = ROOT / ""city_data/reference/marts/fact_price_observation.csv"""
+tools/data_foundation/build_source_conflicts.py,41,city_data,"for cf in glob.glob(str(ROOT / ""city_data/*/data/price_observation.csv"")):"
+tools/data_foundation/build_dimensions.py,68,city_data,"for f in glob.glob(str(ROOT / ""city_data/*/data/price_observation.csv"")):"
+tools/data_foundation/build_dimensions.py,82,city_data,"for f in glob.glob(str(ROOT / ""city_data/*/data/volume_observations.csv"")):"
+tools/data_foundation/build_dimensions.py,151,city_data,"for extra in [""city_data/reference/decision_engine_supplement_v3/market_registry_v3.csv"","
+tools/data_foundation/build_dimensions.py,151,supplement,"for extra in [""city_data/reference/decision_engine_supplement_v3/market_registry_v3.csv"","
+tools/data_foundation/build_dimensions.py,152,city_data,"""city_data/reference/decision_engine_supplement_v2/market_registry_extended.csv""]:"
+tools/data_foundation/build_dimensions.py,152,supplement,"""city_data/reference/decision_engine_supplement_v2/market_registry_extended.csv""]:"
+tools/data_foundation/build_dimensions.py,221,city_data,"for f in list(ROOT.glob(""city_data/reference/**/source_registry*.csv"")) + list(ROOT.glob(""city_data/*/data/*source*.csv"")):"
+tools/data_foundation/build_inventory.py,60,city_data,"if p.startswith(""city_data/""):"
+tools/data_foundation/build_inventory.py,64,supplement,"if ""decision_engine_supplement_v3"" in p:"
+tools/data_foundation/build_inventory.py,65,supplement,"return ""supplement_v3"""
+tools/data_foundation/build_inventory.py,66,supplement,"if ""decision_engine_supplement_v2"" in p:"
+tools/data_foundation/build_inventory.py,67,supplement,"return ""supplement_v2"""
+tools/data_foundation/build_inventory.py,68,supplement,"if ""decision_engine_supplement/"" in p:"
+tools/data_foundation/build_inventory.py,69,supplement,"return ""supplement_v1"""
+tools/transformers/unify_price_observations.py,11,city_data,输入（city_data/reference/staging + city_data/reference/marts 现有）：
+tools/transformers/unify_price_observations.py,11,marts,输入（city_data/reference/staging + city_data/reference/marts 现有）：
+tools/transformers/unify_price_observations.py,12,city_data,city_data/reference/marts/fact_price_city.csv        沈阳/朝阳/锦州/铁岭/大连/丹东（基础，已含多源）
+tools/transformers/unify_price_observations.py,12,marts,city_data/reference/marts/fact_price_city.csv        沈阳/朝阳/锦州/铁岭/大连/丹东（基础，已含多源）
+tools/transformers/unify_price_observations.py,13,city_data,city_data/reference/staging/jinzhou_price_ocr_unique.csv   锦州菜篮子 OCR（每唯一图一条）
+tools/transformers/unify_price_observations.py,14,city_data,city_data/reference/staging/lnnync_grain_weekly.csv / lnnync_veg_weekly.csv   省农业农村厅 省级+区县极值
+tools/transformers/unify_price_observations.py,15,city_data,city_data/reference/staging/lnnync_veg_market_nodes.csv   省农业农村厅 市场级极值节点（含大连果菜/南关岭）
+tools/transformers/unify_price_observations.py,16,city_data,city_data/reference/staging/铁岭_price_tielingxian.csv、tieling_price_county_nodes.csv
+tools/transformers/unify_price_observations.py,17,city_data,city_data/reference/staging/dandong_price_monthly_fgw.csv、dandong_price_articles.csv、dandong_price_lnnync_nodes.csv
+tools/transformers/unify_price_observations.py,18,city_data,city_data/reference/staging/dalian_price_weekly.csv、dalian_price_monthly.csv、dalian_mofcom_price.csv、dalian_nanguanling_wholesale.csv
+tools/transformers/unify_price_observations.py,19,city_data,city_data/reference/staging/chaoyang_price_daily.csv、朝阳_price_lnfgw.csv、锦州_price_lnfgw.csv、铁岭_price_lnfgw.csv、铁岭_price_lnnync.csv
+tools/transformers/unify_price_observations.py,20,city_data,city_data/reference/staging/moa_wholesale_prices.csv
+tools/transformers/unify_price_observations.py,21,city_data,city_data/reference/staging/jinzhou_price_basket_weekly.csv
+tools/transformers/unify_price_observations.py,24,city_data,输出：city_data/reference/marts/fact_price_observation.csv / .parquet
+tools/transformers/unify_price_observations.py,24,marts,输出：city_data/reference/marts/fact_price_observation.csv / .parquet
+tools/transformers/unify_price_observations.py,36,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/transformers/unify_price_observations.py,37,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/unify_price_observations.py,37,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/unify_price_observations.py,382,city_data,"print(f""[OK] 统一价格观测 {len(df)} 行 → city_data/reference/marts/fact_price_observation.csv"")"
+tools/transformers/unify_price_observations.py,382,marts,"print(f""[OK] 统一价格观测 {len(df)} 行 → city_data/reference/marts/fact_price_observation.csv"")"
+tools/transformers/build_source_registry.py,17,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/build_gap_matrix.py,4,city_data,- **已入库** = city_data/reference/marts/ 统一事实表（fact_price_city / fact_production_yearly / ...）
+tools/transformers/build_gap_matrix.py,4,marts,- **已入库** = city_data/reference/marts/ 统一事实表（fact_price_city / fact_production_yearly / ...）
+tools/transformers/build_gap_matrix.py,5,city_data,- **已发现未入库** = city_data/reference/staging/（已采集但尚未进入统一事实表）
+tools/transformers/build_gap_matrix.py,19,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_gap_matrix.py,19,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_gap_matrix.py,20,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/transformers/build_gap_matrix.py,21,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/build_static.py,23,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_static.py,23,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/coverage_v2_report.py,4,city_data,- 价格：来自 city_data/reference/marts/fact_price_observation.csv（统一观测层）
+tools/transformers/coverage_v2_report.py,4,marts,- 价格：来自 city_data/reference/marts/fact_price_observation.csv（统一观测层）
+tools/transformers/coverage_v2_report.py,5,city_data,- 成交量：city_data/reference/staging/volume_observations.csv（market 级）
+tools/transformers/coverage_v2_report.py,6,city_data,- 生产：city_data/reference/staging/{city}*_production*.csv + city_data/reference/staging/city_bulletin_production.csv + 铁岭/锦州/朝阳 2025
+tools/transformers/coverage_v2_report.py,7,city_data,- 天气/土壤：city_data/reference/marts/fact_weather_daily / fact_soil_daily
+tools/transformers/coverage_v2_report.py,7,marts,- 天气/土壤：city_data/reference/marts/fact_weather_daily / fact_soil_daily
+tools/transformers/coverage_v2_report.py,8,city_data,- 物候：city_data/reference/staging/phenology_events.csv + raw_data/metadata/crop_calendar.csv
+tools/transformers/coverage_v2_report.py,9,city_data,- 真实灾害：city_data/reference/marts/fact_disaster_event_observed.csv
+tools/transformers/coverage_v2_report.py,9,marts,- 真实灾害：city_data/reference/marts/fact_disaster_event_observed.csv
+tools/transformers/coverage_v2_report.py,10,city_data,- 政策：city_data/reference/marts/fact_policy_event.csv
+tools/transformers/coverage_v2_report.py,10,marts,- 政策：city_data/reference/marts/fact_policy_event.csv
+tools/transformers/coverage_v2_report.py,21,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/coverage_v2_report.py,21,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/coverage_v2_report.py,22,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/transformers/coverage_v2_report.py,23,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/coverage_v2_report.py,82,city_data,"vol = safe(""city_data/reference/staging/volume_observations.csv"")"
+tools/transformers/coverage_v2_report.py,83,city_data,"phen = safe(""city_data/reference/staging/phenology_events.csv"")"
+tools/transformers/coverage_v2_report.py,84,city_data,"dis = safe(""city_data/reference/marts/fact_disaster_event_observed.csv"")"
+tools/transformers/coverage_v2_report.py,84,marts,"dis = safe(""city_data/reference/marts/fact_disaster_event_observed.csv"")"
+tools/transformers/coverage_v2_report.py,85,city_data,"pol = safe(""city_data/reference/marts/fact_policy_event.csv"")"
+tools/transformers/coverage_v2_report.py,85,marts,"pol = safe(""city_data/reference/marts/fact_policy_event.csv"")"
+tools/transformers/coverage_v2_report.py,86,city_data,"weather = safe(""city_data/reference/marts/fact_weather_daily.csv"")"
+tools/transformers/coverage_v2_report.py,86,marts,"weather = safe(""city_data/reference/marts/fact_weather_daily.csv"")"
+tools/transformers/coverage_v2_report.py,87,city_data,"soil = safe(""city_data/reference/marts/fact_soil_daily.csv"")"
+tools/transformers/coverage_v2_report.py,87,marts,"soil = safe(""city_data/reference/marts/fact_soil_daily.csv"")"
+tools/transformers/coverage_v2_report.py,136,city_data,"L.append(""> 口径：价格来自统一观测层 `city_data/reference/marts/fact_price_observation.csv`；未获得者如实标注 NOT_PUBLIC/PARTIAL，无任何补造。"")"
+tools/transformers/coverage_v2_report.py,136,marts,"L.append(""> 口径：价格来自统一观测层 `city_data/reference/marts/fact_price_observation.csv`；未获得者如实标注 NOT_PUBLIC/PARTIAL，无任何补造。"")"
+tools/transformers/coverage_v2_report.py,180,city_data,"print(""  city_data/reference/reports/FIVE_CITY_DATA_COVERAGE_V2.md"")"
+tools/transformers/coverage_v2_report.py,181,city_data,"print(""  city_data/reference/reports/CITY_PRICE_STATS_V2.csv"")"
+tools/transformers/coverage_v2_report.py,182,city_data,"print(""  city_data/reference/reports/FIVE_CITY_DATA_MATRIX_V2.csv"")"
+tools/transformers/build_review_bundle.py,15,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_review_bundle.py,15,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_review_bundle.py,16,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/transformers/build_review_bundle.py,18,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/build_review_bundle_audit.py,1,city_data,"""""""生成外部审计用数据快照包 city_data/reference/reports/REVIEW_BUNDLE/。"
+tools/transformers/build_review_bundle_audit.py,18,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_review_bundle_audit.py,18,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_review_bundle_audit.py,19,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/transformers/build_review_bundle_audit.py,21,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/build_coverage.py,12,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_coverage.py,12,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_coverage.py,13,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/transformers/build_coverage.py,15,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/final_deliverables.py,1,city_data,"""""""汇总最终交付物（手册第 41 节的 18 项），统一输出到 city_data/reference/reports/deliverables/。"""""""
+tools/transformers/final_deliverables.py,11,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/final_deliverables.py,11,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/final_deliverables.py,12,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/transformers/final_deliverables.py,14,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/build_panels.py,22,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/transformers/build_panels.py,23,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_panels.py,23,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_panels.py,25,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/merge_staging_price.py,1,city_data,"""""""把 city_data/reference/staging/ 中已采集但未入库的五城价格数据，按沈阳标准统一并入 fact_price_city。"
+tools/transformers/merge_staging_price.py,20,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/transformers/merge_staging_price.py,21,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/merge_staging_price.py,21,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_registry.py,16,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_registry.py,16,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_registry.py,17,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/liaoning_agri_transform.py,22,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/transformers/liaoning_agri_transform.py,23,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/liaoning_agri_transform.py,23,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/weather_transform.py,20,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/transformers/weather_transform.py,21,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/weather_transform.py,21,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/dalian_price_merge.py,4,city_data,city_data/reference/staging/dalian_price_weekly.csv   （发改委周报，2023-2026）
+tools/transformers/dalian_price_merge.py,5,city_data,city_data/reference/staging/dalian_price_monthly.csv  （辽宁发改委月度综述，2021-2024）
+tools/transformers/dalian_price_merge.py,8,city_data,city_data/reference/curated/dalian_price_series.csv
+tools/transformers/dalian_price_merge.py,9,city_data,city_data/reference/marts/fact_price_dalian.csv
+tools/transformers/dalian_price_merge.py,9,marts,city_data/reference/marts/fact_price_dalian.csv
+tools/transformers/dalian_price_merge.py,10,city_data,city_data/reference/reports/dalian_price_coverage.md
+tools/transformers/dalian_price_merge.py,21,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/transformers/dalian_price_merge.py,22,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/transformers/dalian_price_merge.py,23,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/dalian_price_merge.py,23,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/dalian_price_merge.py,24,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/merge_staging_production.py,19,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/transformers/merge_staging_production.py,20,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/merge_staging_production.py,20,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_events.py,19,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_events.py,19,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_events.py,20,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/transformers/build_readiness.py,13,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_readiness.py,13,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_readiness.py,14,city_data,"STAGING = ROOT / ""city_data/reference/staging"""
+tools/transformers/build_readiness.py,15,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/weather_soil_transform.py,17,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/weather_soil_transform.py,17,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_selection.py,18,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_selection.py,18,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_selection.py,19,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/transformers/build_selection.py,21,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/transformers/build_dimensions.py,19,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_dimensions.py,19,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_shenyang_weekly.py,14,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/transformers/build_shenyang_weekly.py,14,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/validators/quality_check.py,14,city_data,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/validators/quality_check.py,14,marts,"MARTS = ROOT / ""city_data/reference/marts"""
+tools/validators/quality_check.py,15,city_data,"CURATED = ROOT / ""city_data/reference/curated"""
+tools/validators/quality_check.py,16,city_data,"REPORTS = ROOT / ""city_data/reference/reports"""
+tools/validators/audit_shadow_merge.py,2,city_data,"""""""影子合并审计：对比 city_data/ 与影子目录，验证合并只做「加法」且无重复（AgriScope）"
+tools/validators/audit_main_tables.py,4,city_data,目的：在合并 round3 增量之前，先证明 city_data/<city>/data/ 现有主表本身是否干净。
+tools/validators/audit_main_tables.py,15,city_data,city_data/reference/final_foundation/MAIN_TABLE_INTEGRITY_AUDIT_V3.csv
+data_foundation/CHANGELOG.md,6,city_data,- `city_data/<city>/data/`（canonical 六城）
+data_foundation/CHANGELOG.md,7,city_data,- `city_data/reference/`：`curated/`、`staging/`、`marts/`、`registries/`、`reports/`
+data_foundation/CHANGELOG.md,8,supplement,- `decision_engine_supplement/`(V1)、`decision_engine_supplement_v2/`、`decision_engine_supplement_v3/`
+data_foundation/CHANGELOG.md,9,city_data,- `city_data/reference/final_foundation/`（上一代基座，2026-09-22/23，早于 V3）
+data_foundation/README.md,20,supplement,| `02_standardized/` | 从 raw/canonical/supplement 整理出的**统一标准表**（按主题 13 类） |
+data_foundation/README.md,40,city_data,- 本目录**不修改** `raw_data/`、`city_data/<city>/data/`、`decision_engine/`、`AgriScope/`；旧数据保持可读。
+data_foundation/README.md,41,supplement,- 所有新增数据**只进 `data_foundation/`**，不再创建 `supplement_v4/v5/...`。
+data_foundation/09_reports/DATA_FOUNDATION_FINAL_REPORT.md,14,city_data,"| `city_data/`（canonical 等） | ~1,300 | 六城 canonical + reference(marts/curated/supplements) |"
+data_foundation/09_reports/DATA_FOUNDATION_FINAL_REPORT.md,14,supplement,"| `city_data/`（canonical 等） | ~1,300 | 六城 canonical + reference(marts/curated/supplements) |"
+data_foundation/09_reports/DATA_FOUNDATION_FINAL_REPORT.md,131,supplement,12. **应升级为推荐源的 supplement**：V3 的 `price_lnnync_veg_weekly_historical`、`remote_sensing_ndvi`、`crop_cost_components`、`market_supply_proxy`。
+data_foundation/02_standardized/evidence/case_events_NOT_AVAILABLE.json,5,city_data,"""searched"": ""raw_data/ + city_data/ + supplements"","
+data_foundation/02_standardized/evidence/case_events_NOT_AVAILABLE.json,5,supplement,"""searched"": ""raw_data/ + city_data/ + supplements"","
+data_foundation/02_standardized/remote_sensing/cropland_landcover_NOT_AVAILABLE.json,5,city_data,"""searched"": ""raw_data/ + city_data/ + supplements"","
+data_foundation/02_standardized/remote_sensing/cropland_landcover_NOT_AVAILABLE.json,5,supplement,"""searched"": ""raw_data/ + city_data/ + supplements"","
+data_foundation/02_standardized/remote_sensing/lai_NOT_AVAILABLE.json,5,city_data,"""searched"": ""raw_data/ + city_data/ + supplements"","
+data_foundation/02_standardized/remote_sensing/lai_NOT_AVAILABLE.json,5,supplement,"""searched"": ""raw_data/ + city_data/ + supplements"","
+data_foundation/02_standardized/remote_sensing/fapar_NOT_AVAILABLE.json,5,city_data,"""searched"": ""raw_data/ + city_data/ + supplements"","
+data_foundation/02_standardized/remote_sensing/fapar_NOT_AVAILABLE.json,5,supplement,"""searched"": ""raw_data/ + city_data/ + supplements"","
+data_foundation/02_standardized/production/yield_yearly_NOT_AVAILABLE.json,5,city_data,"""searched"": ""raw_data/ + city_data/ + supplements"","
+data_foundation/02_standardized/production/yield_yearly_NOT_AVAILABLE.json,5,supplement,"""searched"": ""raw_data/ + city_data/ + supplements"","
+city_data/dandong/manifest.json,14,city_data,"""data_root"": ""city_data/dandong/data"","
+city_data/jinzhou/manifest.json,14,city_data,"""data_root"": ""city_data/jinzhou/data"","
+city_data/dalian/manifest.json,14,city_data,"""data_root"": ""city_data/dalian/data"","
+city_data/chaoyang/manifest.json,14,city_data,"""data_root"": ""city_data/chaoyang/data"","
+city_data/shenyang/manifest.json,14,city_data,"""data_root"": ""city_data/shenyang/data"","
+city_data/shenyang/research/config/events.yaml,12,city_data,table: city_data/reference/marts/fact_disaster_events.csv
+city_data/shenyang/research/config/events.yaml,12,marts,table: city_data/reference/marts/fact_disaster_events.csv
+city_data/shenyang/research/config/events.yaml,18,city_data,table: city_data/reference/marts/fact_disaster_events_shenyang_2026_official.csv
+city_data/shenyang/research/config/events.yaml,18,marts,table: city_data/reference/marts/fact_disaster_events_shenyang_2026_official.csv
+city_data/shenyang/research/config/paths.yaml,11,city_data,staging: city_data/reference/staging
+city_data/shenyang/research/config/paths.yaml,12,city_data,curated: city_data/reference/curated
+city_data/shenyang/research/config/paths.yaml,13,city_data,marts: city_data/reference/marts
+city_data/shenyang/research/config/paths.yaml,13,marts,marts: city_data/reference/marts
+city_data/shenyang/research/config/paths.yaml,14,city_data,reports: city_data/reference/reports
+city_data/shenyang/research/config/paths.yaml,19,city_data,fact_price_city: city_data/reference/marts/fact_price_city.csv
+city_data/shenyang/research/config/paths.yaml,19,marts,fact_price_city: city_data/reference/marts/fact_price_city.csv
+city_data/shenyang/research/config/paths.yaml,20,city_data,fact_market_supply: city_data/reference/marts/fact_market_supply.csv
+city_data/shenyang/research/config/paths.yaml,20,marts,fact_market_supply: city_data/reference/marts/fact_market_supply.csv
+city_data/shenyang/research/config/paths.yaml,21,city_data,fact_price_weekly: city_data/reference/marts/fact_price_weekly.csv
+city_data/shenyang/research/config/paths.yaml,21,marts,fact_price_weekly: city_data/reference/marts/fact_price_weekly.csv
+city_data/shenyang/research/config/paths.yaml,23,city_data,fact_weather_daily: city_data/reference/marts/fact_weather_daily.csv
+city_data/shenyang/research/config/paths.yaml,23,marts,fact_weather_daily: city_data/reference/marts/fact_weather_daily.csv
+city_data/shenyang/research/config/paths.yaml,24,city_data,fact_weather_extra_daily: city_data/reference/marts/fact_weather_extra_daily.csv
+city_data/shenyang/research/config/paths.yaml,24,marts,fact_weather_extra_daily: city_data/reference/marts/fact_weather_extra_daily.csv
+city_data/shenyang/research/config/paths.yaml,25,city_data,fact_soil_daily: city_data/reference/marts/fact_soil_daily.csv
+city_data/shenyang/research/config/paths.yaml,25,marts,fact_soil_daily: city_data/reference/marts/fact_soil_daily.csv
+city_data/shenyang/research/config/paths.yaml,26,city_data,fact_city_climate_official: city_data/reference/marts/fact_city_climate_official.csv
+city_data/shenyang/research/config/paths.yaml,26,marts,fact_city_climate_official: city_data/reference/marts/fact_city_climate_official.csv
+city_data/shenyang/research/config/paths.yaml,29,city_data,weekly_climatology: city_data/reference/curated/weekly_climatology_1991_2020.csv
+city_data/shenyang/research/config/paths.yaml,31,city_data,fact_disaster_events: city_data/reference/marts/fact_disaster_events.csv
+city_data/shenyang/research/config/paths.yaml,31,marts,fact_disaster_events: city_data/reference/marts/fact_disaster_events.csv
+city_data/shenyang/research/config/paths.yaml,32,city_data,fact_disaster_events_shenyang_2026_official: city_data/reference/marts/fact_disaster_events_shenyang_2026_official.csv
+city_data/shenyang/research/config/paths.yaml,32,marts,fact_disaster_events_shenyang_2026_official: city_data/reference/marts/fact_disaster_events_shenyang_2026_official.csv
+city_data/shenyang/research/config/paths.yaml,33,city_data,fact_disaster_reports: city_data/reference/marts/fact_disaster_reports.csv
+city_data/shenyang/research/config/paths.yaml,33,marts,fact_disaster_reports: city_data/reference/marts/fact_disaster_reports.csv
+city_data/shenyang/research/config/paths.yaml,34,city_data,weekly_disaster_exposure: city_data/reference/marts/weekly_disaster_exposure.csv
+city_data/shenyang/research/config/paths.yaml,34,marts,weekly_disaster_exposure: city_data/reference/marts/weekly_disaster_exposure.csv
+city_data/shenyang/research/config/paths.yaml,36,city_data,fact_production_yearly: city_data/reference/marts/fact_production_yearly.csv
+city_data/shenyang/research/config/paths.yaml,36,marts,fact_production_yearly: city_data/reference/marts/fact_production_yearly.csv
+city_data/shenyang/research/config/paths.yaml,37,city_data,fact_production_yearly_2020_2024: city_data/reference/marts/fact_production_yearly_2020_2024.csv
+city_data/shenyang/research/config/paths.yaml,37,marts,fact_production_yearly_2020_2024: city_data/reference/marts/fact_production_yearly_2020_2024.csv
+city_data/shenyang/research/config/paths.yaml,38,city_data,fact_production_yearly_2025_shenyang: city_data/reference/marts/fact_production_yearly_2025_shenyang.csv
+city_data/shenyang/research/config/paths.yaml,38,marts,fact_production_yearly_2025_shenyang: city_data/reference/marts/fact_production_yearly_2025_shenyang.csv
+city_data/shenyang/research/config/paths.yaml,40,city_data,dim_calendar: city_data/reference/marts/dim_calendar.csv
+city_data/shenyang/research/config/paths.yaml,40,marts,dim_calendar: city_data/reference/marts/dim_calendar.csv
+city_data/shenyang/research/config/crops.yaml,3,city_data,# 依据：city_data/reference/marts/fact_market_supply.csv（批发 marketType=1）+ fact_price_city（wholesale）
+city_data/shenyang/research/config/crops.yaml,3,marts,# 依据：city_data/reference/marts/fact_market_supply.csv（批发 marketType=1）+ fact_price_city（wholesale）
+city_data/shenyang/research/config/analysis.yaml,49,city_data,#   采用数据仓库既有定义（city_data/reference/marts/fact_disaster_events.csv 生成规则），保持一致。
+city_data/shenyang/research/config/analysis.yaml,49,marts,#   采用数据仓库既有定义（city_data/reference/marts/fact_disaster_events.csv 生成规则），保持一致。
+city_data/shenyang/research/plan/analysis_plan.yaml,62,supplement,"supplement: {district: 康平县, years: [2015, 2016, 2017], exclude_from_main_panel: true}"
+city_data/shenyang/research/plan/analysis_plan.yaml,105,supplement,"exposures_supplementary: [pressure_msl, cloud_cover, radiation, dew_point, et0, humidity]"
+city_data/shenyang/research/plan/analysis_plan.yaml,126,supplement,lag_scan_supplementary:
+city_data/shenyang/research/qa/V1_AUDIT.md,57,supplement,| — | 补充扫描（R02 成交量趋势、R10 累积降雨窗口） | 面板；precip 1/3/5/7/14d | OLS+HAC；单 lag 分布滞后 + 独立家族 BH-FDR | （登记于 `results_registry.csv`；报告见 `src/18` docstring） | `18_research_supplement.py` | F52 | `trend_volume_by
+city_data/shenyang/research/qa/V1_AUDIT.md,58,supplement,| — | 补充扫描（逐年画像、扩展气象、土壤分层、极端日对比） | 面板；humidity/wind/radiation/et0/dew_point/pressure/cloud/temp_mean；土壤 7-28/28-100 | HAC(14)，独立家族 BH-FDR；土壤 z 用观测期 LOO；极端日对比（Welch SE） | （登记于 `results_registry.csv`） |
+city_data/shenyang/research/qa/V1_AUDIT.md,90,supplement,"| 3 | **部分结论未做多重校正却作显著性判定** | `src/03_descriptive.py:96-108` 价格年化趋势 10 品种无 FDR，正文按 `p<0.05` 判""显著""（`03:424-428`）；`src/18_research_supplement.py:78-89` 成交量趋势同样无 FDR 却登记 `evidence_level=""A""`（`18:103`） | "
+city_data/shenyang/research/qa/V1_AUDIT.md,93,supplement,| 6 | **Welch 近似忽略自相关** | `src/19_pairwise_supplement.py:238` `se=sqrt(var_a/n_a+var_b/n_b)`，其 p 值随后进入 FDR（`19:251-252`）；序列相关下 SE 偏小 | 中 |
+city_data/shenyang/research/qa/V1_AUDIT.md,100,supplement,"| 13 | **代码与文字不一致（可核查的诚实性问题）** | ①`src/05_lag_analysis.py:500-502` 报告称""只报通过 FDR 的结论""，但登记逻辑 `05:616` 为 `if not (peak_fdr_p<0.05 or peak_p<0.05)`——**未校正 p<0.05 也被登记**；②`src/19_pairwise_supplement.py:304"
+city_data/shenyang/research/qa/V1_AUDIT.md,122,supplement,"| 11 | **目录定位自相矛盾** | `reports/README.md#L3` 声明该目录只放""给人看的研究成果、普通阅读不需要进入 workspace""，但 `01` 正文反复指向 `outputs/results_registry.csv`、`src/18_research_supplement.py`（`01#L1224-L1239` 附录 B） |"
+city_data/shenyang/research/scripts/00_inventory.py,160,city_data,"""doc_claim"": ""city_data/reference/reports/FINAL_REPORT.md、AUDIT_REPORT.md、README 含历史结论"","
+city_data/shenyang/research/scripts/00_inventory.py,161,city_data,"""disk_fact"": ""本轮以 city_data/reference/marts 实际表体为准重新核对（见下表覆盖事实）"","
+city_data/shenyang/research/scripts/00_inventory.py,161,marts,"""disk_fact"": ""本轮以 city_data/reference/marts 实际表体为准重新核对（见下表覆盖事实）"","
+city_data/shenyang/research/scripts/00_inventory.py,162,city_data,"""resolution"": ""结论一律来自 city_data/reference/marts 实体读取，不引用历史报告数字"","
+city_data/shenyang/research/scripts/00_inventory.py,162,marts,"""resolution"": ""结论一律来自 city_data/reference/marts 实体读取，不引用历史报告数字"","
+city_data/shenyang/research/scripts/00_build_sources.py,93,city_data,"local_snapshot=f""city_data/reference/marts/fact_disaster_events.csv"","
+city_data/shenyang/research/scripts/00_build_sources.py,93,marts,"local_snapshot=f""city_data/reference/marts/fact_disaster_events.csv"","
+city_data/shenyang/research/scripts/00_build_sources.py,102,city_data,"local_snapshot=f""city_data/reference/marts/fact_disaster_events_shenyang_2026_official.csv"","
+city_data/shenyang/research/scripts/00_build_sources.py,102,marts,"local_snapshot=f""city_data/reference/marts/fact_disaster_events_shenyang_2026_official.csv"","
+city_data/shenyang/research/scripts/10_build_data.py,160,supplement,# A08 主要使用 2018-2024；2015-2017 仅康平 → 标记 supplement
+city_data/shenyang/research/scripts/10_build_data.py,161,supplement,"d[""is_supplement""] = d[""year""] < 2018"
+city_data/shenyang/research/scripts/10_build_data.py,174,supplement,"int((~d[""is_supplement""]).sum()))"
+city_data/shenyang/research/scripts/10_build_data.py,205,supplement,"""district_main_rows"": int((~d[""is_supplement""]).sum()),"
+city_data/shenyang/research/scripts/18_research_supplement.py,42,supplement,"LOG = get_logger(""18_research_supplement"")"
+city_data/shenyang/research/scripts/18_research_supplement.py,275,supplement,"with StepTimer(""18_research_supplement"", LOG):"
+city_data/shenyang/research/scripts/19_pairwise_supplement.py,52,supplement,"LOG = get_logger(""19_pairwise_supplement"")"
+city_data/shenyang/research/scripts/19_pairwise_supplement.py,318,supplement,"with StepTimer(""19_pairwise_supplement"", LOG):"
+city_data/shenyang/research/scripts/22_district_studies.py,30,supplement,"d = d[(~d[""is_supplement""]) & (d[""year""].between(2018, 2024))].copy()"
+city_data/shenyang/research/scripts/_v2.py,23,city_data,SHENYANG = V2.parent                                  # city_data/shenyang
+city_data/shenyang/sources/v1/01_沈阳研究总报告.md,1231,supplement,| `src/18_research_supplement.py` | 补充分析一：成交量长期趋势、降水累积窗口比较（1/3/5/7/14 天） |
+city_data/shenyang/sources/v1/01_沈阳研究总报告.md,1232,supplement,| `src/19_pairwise_supplement.py` | 补充分析二：逐年市场画像、扩展气象暴露扫描（8 变量）、土壤分层扫描（3 层）、极端日对比 |
+city_data/shenyang/sources/v1/workspace_SHENYANG_RESEARCH.md,1231,supplement,| `src/18_research_supplement.py` | 补充分析一：成交量长期趋势、降水累积窗口比较（1/3/5/7/14 天） |
+city_data/shenyang/sources/v1/workspace_SHENYANG_RESEARCH.md,1232,supplement,| `src/19_pairwise_supplement.py` | 补充分析二：逐年市场画像、扩展气象暴露扫描（8 变量）、土壤分层扫描（3 层）、极端日对比 |
+city_data/shenyang/case_studies/shenbei_2026_rainstorm_corn/00_AUDIT_EXISTING_DATA.md,4,city_data,> 审计对象：(1) 本案例库 `沈北新区 2026 暴雨—玉米案例库`；(2) AgriScope 原项目（`liaoning-agri-risk/`、`city_data/shenyang/`、`liaoning-agri-data/`）。
+city_data/shenyang/case_studies/shenbei_2026_rainstorm_corn/00_AUDIT_EXISTING_DATA.md,26,city_data,| 沈北玉米播种面积/总产量/单产（分区县） | `city_data/shenyang/workspace/data/processed/district_crop_area.csv`、`..._production.csv`、`..._yield.csv` | 区县（沈北单列） | 2018–2024 | 年 | 作物/面积/产量/单产/来源表 | 沈阳统计年鉴（市统计局）**A** | ✅ 
+city_data/shenyang/case_studies/shenbei_2026_rainstorm_corn/00_AUDIT_EXISTING_DATA.md,27,city_data,| 沈北官方作物数据（区级年鉴） | `city_data/.../bulletins/沈北新区/yearbook_2025_54515cb9b3.pdf`、`yearbook_2022_a670af99a3.pdf` | 区（全区） | 2021–2022、2024–2025 | 年 | 玉米面积/总产/单产；粮食/水稻/大豆 | 沈北新区统计局 **A**（扫描件转录） | ✅ 直接可用（补2
+city_data/shenyang/case_studies/shenbei_2026_rainstorm_corn/00_AUDIT_EXISTING_DATA.md,33,city_data,| 区县天气年值/农业气象面板 | `city_data/.../processed/district_weather_yearly.csv`、`district_yearly_agri_weather_panel.csv` | 区县 | 2015–2025 | 年 | 生育期温度/降水/极端指标/土壤湿度 | Open-Meteo ERA5 **D** | 🟡 背景 | 再分析；**非观测** 
+city_data/shenyang/case_studies/shenbei_2026_rainstorm_corn/00_AUDIT_EXISTING_DATA.md,39,city_data,| 沈北统计公报 | `city_data/.../bulletins/沈北新区/bulletin_YYYY_*.html/pdf` | 区 | 2022–2025 | 年 | 农林牧渔总产值分项 | 沈北区政府 **A** | ❌ 无作物面积/产量 | 公报只给总产值，**不含玉米** |
+city_data/shenyang/case_studies/shenbei_2026_rainstorm_corn/00_README/PROJECT_SCOPE.md,13,city_data,- **允许只读扫描** AgriScope 原项目（`liaoning-agri-risk/`、`city_data/shenyang/`、`liaoning-agri-data/`）中的已有数据。
+city_data/tieling/manifest.json,14,city_data,"""data_root"": ""city_data/tieling/data"","
+city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,5,city_data,> 产出目录：`raw_data/decision_engine_supplement_v3/`、`city_data/reference/decision_engine_supplement_v3/`
+city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,5,supplement,> 产出目录：`raw_data/decision_engine_supplement_v3/`、`city_data/reference/decision_engine_supplement_v3/`
+city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,56,supplement,"原始证据（HTML/JSON/PDF/TXT）分门别类保存在 `raw_data/decision_engine_supplement_v3/{production,cost,price,volume,market,logistics,cold_chain,insurance,pest,irrigation,demand,herding_events,remote_sensing}/`。"
+city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,173,city_data,本轮**未修改** `city_data/<city>/data/`、`decision_engine_supplement/`、`decision_engine_supplement_v2/`、`decision_engine/`。全部新增写入 `raw_data/decision_engine_supplement_v3/` 与 `city_data/reference/decision_en
+city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,173,supplement,本轮**未修改** `city_data/<city>/data/`、`decision_engine_supplement/`、`decision_engine_supplement_v2/`、`decision_engine/`。全部新增写入 `raw_data/decision_engine_supplement_v3/` 与 `city_data/reference/decision_en
+city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,184,supplement,- 证据缓存：`raw_data/decision_engine_supplement_v3/remote_sensing/cache/`（可断点续跑）；日志 `ndvi_*.log`。
+city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,194,supplement,"4. `price_lnnync_veg_weekly_historical.csv`（2019-2022）与既有 `decision_engine_supplement/price_lnnync_veg_weekly_extended.csv`（2022-12~2026-09）应**按 (year,week,crop_standard) 拼接去重**。"
+city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,5,city_data,- 产出目录：`city_data/reference/decision_engine_supplement_v2/`、`raw_data/decision_engine_supplement_v2/`
+city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,5,supplement,- 产出目录：`city_data/reference/decision_engine_supplement_v2/`、`raw_data/decision_engine_supplement_v2/`
+city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,7,supplement,- 本轮**未修改 canonical、未修改上一轮 supplement、未训练模型、未改前端、未 commit**
+city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,236,city_data,city_data/reference/decision_engine_supplement_v2/
+city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,236,supplement,city_data/reference/decision_engine_supplement_v2/
+city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,267,supplement,raw_data/decision_engine_supplement_v2/
+city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,318,supplement,- **canonical 与 V1 supplement 均 0 修改**（已核验）。
+city_data/reference/registries/RESEARCH_TREE_DATA_STATUS_V2.md,4,city_data,> 口径：基于 `city_data/<city>/workspace/data/interim/` 真实文件统计。
+city_data/reference/final_foundation/SIX_CITY_RESEARCH_TREE_FINAL.md,4,city_data,> 口径：全部基于 `city_data/<city>/workspace/data/interim/` 真实文件统计，不含任何估算/插值/邻市替代。
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_PLAN.md,13,city_data,"| 数据表 | `city_data/<city>/workspace/data/interim/{weather_daily,weather_extra_daily,soil_daily}.csv`，五城各 2083 行 |"
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_PLAN.md,48,city_data,city_data/<city>/workspace/data/raw/weather/era5_land/2010_2026/*.json   新原始
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_PLAN.md,49,city_data,city_data/<city>/workspace/data/interim/_final/weather_daily_era5land.csv
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_PLAN.md,50,city_data,city_data/_final_data_foundation/00_audit/WEATHER_EXISTING_AUDIT.csv
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_PLAN.md,51,city_data,"city_data/_final_data_foundation/01_weather/{WEATHER_EXTENSION_QC,WEATHER_OVERLAP_VALIDATION}.csv"
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_PLAN.md,52,city_data,city_data/_final_data_foundation/01_weather/dim_city_weather_anchor.csv
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_PLAN.md,53,city_data,"city_data/_final_data_foundation/02_production_qc/{PRODUCTION_QC_MASTER.csv,production_yearly_clean.csv,PRODUCTION_UNRESOLVED_REVIEW.md}"
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_PLAN.md,54,city_data,"city_data/_final_data_foundation/03_research_windows/{CORE_CROP_CANDIDATES_FINAL,COMMON_TIME_WINDOW_AUDIT_FINAL,RESEARCH_READINESS_MATRIX}.csv"
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_PLAN.md,55,city_data,"city_data/_final_data_foundation/04_final_assets/{RESEARCH_READY_ASSETS.md,DATA_FOUNDATION_MANIFEST.csv,DATA_FOUNDATION_SNAPSHOT.json}"
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_PLAN.md,56,city_data,city_data/_final_data_foundation/FINAL_DATA_FOUNDATION_REPORT.md
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_REPORT.md,47,city_data,- **Raw**：`city_data/<city>/workspace/data/raw/weather/era5/2010_2026/*.json`（含 request params / model / lat / lon / timezone / retrieval_date）
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_REPORT.md,118,city_data,- 天气：`city_data/<city>/workspace/data/interim/_final/weather_daily_era5.csv`
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_REPORT.md,119,city_data,- 生产：`city_data/_final_data_foundation/02_production_qc/production_yearly_clean.csv`
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_REPORT.md,120,city_data,- 价格：`city_data/<city>/workspace/data/interim/price_observation.csv`
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_REPORT.md,121,city_data,- 研究窗口：`city_data/_final_data_foundation/03_research_windows/*.csv`
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_REPORT.md,124,city_data,**Reference**（不可当城市观测）：`city_data/reference/*.csv`
+city_data/reference/final_foundation/FINAL_DATA_FOUNDATION_REPORT.md,156,city_data,## 交付物清单（`city_data/_final_data_foundation/`）
+city_data/reference/final_foundation/ROUND3_MERGE_FINAL_REPORT_V3.md,14,city_data,全部写入 `city_data/<city>/data/`；原有列的语义零改写，跨城 `volume_type` 已统一为 12 个规范值。
+city_data/reference/final_foundation/ROUND3_MERGE_FINAL_REPORT_V3.md,189,city_data,"cp ""$f"" ""city_data/$city/data/$tbl"""
+city_data/reference/final_foundation/DATA_FOUNDATION_SNAPSHOT_V3.json,13,city_data,"""structure_note"": ""路径已对齐冻结后的项目结构：city_data/<city>/data/"","
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,9,city_data,| weather_daily_era5land | 沈阳 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/shenyang/workspace/data/interim/_final/weather_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,10,city_data,| weather_daily_era5land | 铁岭 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/tieling/workspace/data/interim/_final/weather_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,11,city_data,| weather_daily_era5land | 锦州 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/jinzhou/workspace/data/interim/_final/weather_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,12,city_data,| weather_daily_era5land | 丹东 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/dandong/workspace/data/interim/_final/weather_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,13,city_data,| weather_daily_era5land | 大连 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/dalian/workspace/data/interim/_final/weather_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,14,city_data,| weather_daily_era5land | 朝阳 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/chaoyang/workspace/data/interim/_final/weather_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,15,city_data,| weather_extra_daily_era5 | 沈阳 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/shenyang/workspace/data/interim/_final/weather_extra_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,16,city_data,| weather_extra_daily_era5 | 铁岭 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/tieling/workspace/data/interim/_final/weather_extra_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,17,city_data,| weather_extra_daily_era5 | 锦州 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/jinzhou/workspace/data/interim/_final/weather_extra_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,18,city_data,| weather_extra_daily_era5 | 丹东 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/dandong/workspace/data/interim/_final/weather_extra_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,19,city_data,| weather_extra_daily_era5 | 大连 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/dalian/workspace/data/interim/_final/weather_extra_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,20,city_data,| weather_extra_daily_era5 | 朝阳 | 6101 | 2010-01-01~2026-09-14 | A_PASS | city_data/chaoyang/workspace/data/interim/_final/weather_extra_daily_era5.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,21,city_data,| production_yearly_clean | 六城 | 513 | 2017~2025 | A_QC_PASS | city_data/_final_data_foundation/02_production_qc/production_yearly_clean.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,22,city_data,| price_observation | 沈阳 | 0 | ~ | MISSING | city_data/shenyang/workspace/data/interim/price_observation.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,23,city_data,| price_observation | 铁岭 | 6226 | 2020-01-01~2026-09-22 | A_B_MIXED | city_data/tieling/workspace/data/interim/price_observation.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,24,city_data,| price_observation | 锦州 | 35335 | 2020-01-01~2026-09-22 | A_B_MIXED | city_data/jinzhou/workspace/data/interim/price_observation.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,25,city_data,| price_observation | 丹东 | 5094 | 2020-01-01~2026-09-22 | A_B_MIXED | city_data/dandong/workspace/data/interim/price_observation.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,26,city_data,| price_observation | 大连 | 48304 | 2016-07-24~2026-09-22 | A_B_MIXED | city_data/dalian/workspace/data/interim/price_observation.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,27,city_data,| price_observation | 朝阳 | 37260 | 2020-01-01~2026-09-22 | A_B_MIXED | city_data/chaoyang/workspace/data/interim/price_observation.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,28,city_data,| COMMON_TIME_WINDOW_AUDIT_FINAL | 六城 | 1772 | ~ | DERIVED | city_data/_final_data_foundation/03_research_windows/COMMON_TIME_WINDOW_AUDIT_FINAL.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,29,city_data,| COMMON_TIME_WINDOW_CROSS_CITY | 六城 | 131 | ~ | DERIVED | city_data/_final_data_foundation/03_research_windows/COMMON_TIME_WINDOW_CROSS_CITY.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,30,city_data,| CORE_CROP_CANDIDATES_FINAL | 六城 | 1205 | ~ | DERIVED | city_data/_final_data_foundation/03_research_windows/CORE_CROP_CANDIDATES_FINAL.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,31,city_data,| RESEARCH_READINESS_MATRIX | 六城 | 7 | ~ | DERIVED | city_data/_final_data_foundation/03_research_windows/RESEARCH_READINESS_MATRIX.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,48,city_data,| disaster_events_observed_province | 84 | city_data/reference/disaster_events_observed_province.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,49,city_data,| phenology_events_province | 4 | city_data/reference/phenology_events_province.csv |
+city_data/reference/final_foundation/04_final_assets/RESEARCH_READY_ASSETS.md,50,city_data,| policy_events_province | 100 | city_data/reference/policy_events_province.csv |
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,158,supplement,| QC 检查 | 🟢 | `QC_REPORT_supplement.md` + `qc_summary.json` |
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,167,supplement,raw_data/decision_engine_supplement/
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,176,city_data,city_data/reference/decision_engine_supplement/
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,176,supplement,city_data/reference/decision_engine_supplement/
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,188,supplement,├── QC_REPORT_supplement.md / qc_summary.json
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,192,supplement,├── supplement_lnnync_veg_weekly.py        省农业农村厅周度价格采集器
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,193,supplement,├── supplement_soil_shenyang.py            沈阳土壤补全（复用既有 raw）
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,194,supplement,├── supplement_build_evidence_tables.py    成本/灾害/跟风结构化
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,195,supplement,├── supplement_build_production_registry.py 面积/产量/供需/来源登记
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,196,supplement,├── supplement_calendar_and_gaps.py        农事历 + 缺口说明
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,197,supplement,└── supplement_qc.py                       自动质量检查
+city_data/reference/decision_engine_supplement/DECISION_ENGINE_DATA_SUPPLEMENT_REPORT.md,226,supplement,- 本轮**未修改 canonical 数据**，全部以 `supplement` 层新增。
+city_data/reference/reports/DATA_GAP_COLLECTION_REPORT.md,11,city_data,先重扫 `city_data/` 真实文件 → 对齐研究树 → 确认缺口 → 逐缺口多源调查 → 采集 → 落盘 Raw → 清洗标准化 → QC → 重新统计。
+city_data/reference/reports/DATA_GAP_COLLECTION_REPORT.md,110,city_data,"city_data/<city>/workspace/data/raw/{volume,price,phenology,disaster,policy}/   原始文件"
+city_data/reference/reports/DATA_GAP_COLLECTION_REPORT.md,111,city_data,city_data/<city>/workspace/data/interim/{...}.csv                              标准化
+city_data/reference/reports/DATA_GAP_COLLECTION_REPORT.md,112,city_data,"city_data/reference/{disaster_events_observed_province,policy_events_province}.csv  省级共享层"
+city_data/reference/reports/DATA_GAP_COLLECTION_REPORT.md,113,city_data,city_data/_gap_analysis_20260922/*.csv                                         审计与缺口产物
+city_data/reference/reports/DATA_GAP_COLLECTION_PLAN.md,10,city_data,"数据根：`city_data/<city>/workspace/data/{raw,interim,processed}/`"
+city_data/reference/reports/DATA_GAP_COLLECTION_PLAN.md,112,city_data,city_data/<city>/workspace/data/raw/<type>/      新抓原始文件（HTML/JSON/PDF/图片）
+city_data/reference/reports/DATA_GAP_COLLECTION_PLAN.md,113,city_data,city_data/<city>/workspace/data/interim/         标准化 CSV
+city_data/reference/reports/DATA_GAP_COLLECTION_PLAN.md,119,city_data,city_data/_gap_analysis_20260922/                本轮审计与缺口产物
+city_data/reference/reports/DATA_GAP_COLLECTION_PLAN.md,120,city_data,city_data/DATA_GAP_COLLECTION_REPORT.md          交付 A
+city_data/reference/reports/DATA_GAP_COLLECTION_PLAN.md,121,city_data,city_data/RESEARCH_TREE_DATA_STATUS_V2.md        交付 B
+city_data/reference/reports/DATA_GAP_COLLECTION_PLAN.md,122,city_data,city_data/reference/                             共享层（省级政策/省均价，不复制成城市事实）
+city_data/reference/reports/CITY_DATA_REPAIR_REPORT.md,37,city_data,- 自动备份目录：`/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/_repair_backup_20260922_205139`
+raw_data/decision_engine_supplement_v3/V3_CONVENTIONS.md,9,city_data,4. 不修改 `city_data/<city>/data/`、`decision_engine_supplement/`、`decision_engine_supplement_v2/`、`decision_engine/`。
+raw_data/decision_engine_supplement_v3/V3_CONVENTIONS.md,9,supplement,4. 不修改 `city_data/<city>/data/`、`decision_engine_supplement/`、`decision_engine_supplement_v2/`、`decision_engine/`。
+raw_data/decision_engine_supplement_v3/V3_CONVENTIONS.md,10,supplement,5. 原始证据（HTML/JSON/PDF/Excel）保存到 `raw_data/decision_engine_supplement_v3/<category>/`。
+raw_data/decision_engine_supplement_v3/V3_CONVENTIONS.md,11,city_data,6. 标准化 CSV 输出到 `city_data/reference/decision_engine_supplement_v3/`。
+raw_data/decision_engine_supplement_v3/V3_CONVENTIONS.md,11,supplement,6. 标准化 CSV 输出到 `city_data/reference/decision_engine_supplement_v3/`。
+raw_data/decision_engine_supplement_v3/V3_CONVENTIONS.md,27,supplement,`raw_data/decision_engine_supplement_v3/<category>/source_registry_<AGENT>.csv`
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,9,supplement,- `raw_data/decision_engine_supplement_v3/`
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,10,city_data,- `city_data/reference/decision_engine_supplement_v3/`
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,10,supplement,- `city_data/reference/decision_engine_supplement_v3/`
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,11,city_data,**禁止**修改 `city_data/<city>/data/`、`decision_engine_supplement/`、`decision_engine_supplement_v2/`。
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,11,supplement,**禁止**修改 `city_data/<city>/data/`、`decision_engine_supplement/`、`decision_engine_supplement_v2/`。
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,23,supplement,- **后台运行中**：`nohup python3 -u tools/collectors/v3_remote_sensing_ndvi.py > raw_data/decision_engine_supplement_v3/remote_sensing/ndvi_run.log 2>&1 &`
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,25,city_data,`city_data/reference/decision_engine_supplement_v3/remote_sensing_ndvi_city_monthly.csv`
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,25,supplement,`city_data/reference/decision_engine_supplement_v3/remote_sensing_ndvi_city_monthly.csv`
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,26,supplement,- 缓存：`raw_data/decision_engine_supplement_v3/remote_sensing/cache/{城市}_{YYYYMM}.json`（可断点续跑）
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,44,city_data,- 现有：`city_data/reference/decision_engine_supplement/price_lnnync_veg_weekly_extended.csv`（193 周，2022-12~2026-09）
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,44,supplement,- 现有：`city_data/reference/decision_engine_supplement/price_lnnync_veg_weekly_extended.csv`（193 周，2022-12~2026-09）
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,76,city_data,- `city_data/reference/decision_engine_supplement/`（V1，20 文件）
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,76,supplement,- `city_data/reference/decision_engine_supplement/`（V1，20 文件）
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,77,city_data,- `city_data/reference/decision_engine_supplement_v2/`（V2，35 文件，含 MODEL_READINESS_V2 / TOP_CITY_CROP_MODEL_COMBOS_V2 / FINAL_DATA_READINESS_MATRIX_V2）
+raw_data/decision_engine_supplement_v3/V3_PROGRESS_NOTES.md,77,supplement,- `city_data/reference/decision_engine_supplement_v2/`（V2，35 文件，含 MODEL_READINESS_V2 / TOP_CITY_CROP_MODEL_COMBOS_V2 / FINAL_DATA_READINESS_MATRIX_V2）
+raw_data/decision_engine_supplement_v3/herding_events/HERDING_NOTES.md,6,city_data,- `city_data/reference/decision_engine_supplement_v3/herding_events_v3.csv`（新增事件）
+raw_data/decision_engine_supplement_v3/herding_events/HERDING_NOTES.md,6,supplement,- `city_data/reference/decision_engine_supplement_v3/herding_events_v3.csv`（新增事件）
+raw_data/decision_engine_supplement_v3/herding_events/HERDING_NOTES.md,7,supplement,- `raw_data/decision_engine_supplement_v3/herding_events/evidence_herding_cases.txt`（原始证据摘录）
+raw_data/decision_engine_supplement_v3/pest/PEST_NOTES.md,5,city_data,> 产出：`city_data/reference/decision_engine_supplement_v3/pest_events.csv`
+raw_data/decision_engine_supplement_v3/pest/PEST_NOTES.md,5,supplement,> 产出：`city_data/reference/decision_engine_supplement_v3/pest_events.csv`
+raw_data/decision_engine_supplement_v3/pest/PEST_NOTES.md,6,supplement,> 证据：`raw_data/decision_engine_supplement_v3/pest/raw_snippets_pest.txt`
+raw_data/decision_engine_supplement_v3/pest/PEST_NOTES.md,7,supplement,> 登记：`raw_data/decision_engine_supplement_v3/insurance/source_registry_D.csv`（D13-D25）
+raw_data/decision_engine_supplement_v3/remote_sensing/MODIS_EVI_ATTEMPT.md,18,supplement,- 部分缓存（**仅 沈阳 2017 年 9 个 16 天合成**）：`raw_data/decision_engine_supplement_v3/remote_sensing/modis_cache/`（9 个 JSON，均为有效记录）
+raw_data/decision_engine_supplement_v3/cost/COST_NOTES.md,5,city_data,- 输出：`city_data/reference/decision_engine_supplement_v3/crop_cost_components.csv`（13 行数据）
+raw_data/decision_engine_supplement_v3/cost/COST_NOTES.md,5,supplement,- 输出：`city_data/reference/decision_engine_supplement_v3/crop_cost_components.csv`（13 行数据）
+raw_data/decision_engine_supplement_v3/cost/COST_NOTES.md,6,supplement,- 原始证据目录：`raw_data/decision_engine_supplement_v3/cost/`
+raw_data/decision_engine_supplement_v3/cost/COST_NOTES.md,7,supplement,- 来源登记：`raw_data/decision_engine_supplement_v3/cost/source_registry_A.csv`（10 条）
+raw_data/decision_engine_supplement_v3/price/PRICE_HISTORY_NOTES.md,6,city_data,把 `city_data/reference/decision_engine_supplement/price_lnnync_veg_weekly_extended.csv`
+raw_data/decision_engine_supplement_v3/price/PRICE_HISTORY_NOTES.md,6,supplement,把 `city_data/reference/decision_engine_supplement/price_lnnync_veg_weekly_extended.csv`
+raw_data/decision_engine_supplement_v3/price/PRICE_HISTORY_NOTES.md,31,city_data,- 标准化输出：`city_data/reference/decision_engine_supplement_v3/price_lnnync_veg_weekly_historical.csv`
+raw_data/decision_engine_supplement_v3/price/PRICE_HISTORY_NOTES.md,31,supplement,- 标准化输出：`city_data/reference/decision_engine_supplement_v3/price_lnnync_veg_weekly_historical.csv`
+raw_data/decision_engine_supplement_v3/price/PRICE_HISTORY_NOTES.md,32,supplement,- 解析副本：`raw_data/decision_engine_supplement_v3/price/price_history_parsed.csv`
+raw_data/decision_engine_supplement_v3/price/PRICE_HISTORY_NOTES.md,33,supplement,- 原始证据：`raw_data/decision_engine_supplement_v3/price/html/`（162 个 Wayback 快照 HTML）
+raw_data/decision_engine_supplement_v3/price/PRICE_HISTORY_NOTES.md,34,supplement,- 枚举清单：`raw_data/decision_engine_supplement_v3/price/_cdx_articles.json`
+raw_data/decision_engine_supplement_v3/price/PRICE_HISTORY_NOTES.md,35,supplement,- 来源登记：`raw_data/decision_engine_supplement_v3/price/source_registry_B.csv`
+raw_data/decision_engine_supplement_v3/production/PRODUCTION_STRUCTURE_NOTES.md,5,city_data,- 输出：`city_data/reference/decision_engine_supplement_v3/crop_spatial_structure.csv`（53 行数据）
+raw_data/decision_engine_supplement_v3/production/PRODUCTION_STRUCTURE_NOTES.md,5,supplement,- 输出：`city_data/reference/decision_engine_supplement_v3/crop_spatial_structure.csv`（53 行数据）
+raw_data/decision_engine_supplement_v3/production/PRODUCTION_STRUCTURE_NOTES.md,6,supplement,- 原始证据目录：`raw_data/decision_engine_supplement_v3/production/`
+raw_data/decision_engine_supplement_v3/production/PRODUCTION_STRUCTURE_NOTES.md,7,supplement,- 来源登记：`raw_data/decision_engine_supplement_v3/production/source_registry_A.csv`（25 条）
+raw_data/decision_engine_supplement_v3/irrigation/IRRIGATION_NOTES.md,5,city_data,> 产出：`city_data/reference/decision_engine_supplement_v3/irrigation_yearly_extended.csv`
+raw_data/decision_engine_supplement_v3/irrigation/IRRIGATION_NOTES.md,5,supplement,> 产出：`city_data/reference/decision_engine_supplement_v3/irrigation_yearly_extended.csv`
+raw_data/decision_engine_supplement_v3/irrigation/IRRIGATION_NOTES.md,6,supplement,> 证据：`raw_data/decision_engine_supplement_v3/irrigation/raw_snippets_irrigation.txt`
+raw_data/decision_engine_supplement_v3/irrigation/IRRIGATION_NOTES.md,7,supplement,"> 登记：`raw_data/decision_engine_supplement_v3/insurance/source_registry_D.csv`（D05,D06,D26-D38）"
+raw_data/decision_engine_supplement_v3/market/MARKET_LOGISTICS_NOTES.md,5,city_data,- 产出 CSV（`city_data/reference/decision_engine_supplement_v3/`）：
+raw_data/decision_engine_supplement_v3/market/MARKET_LOGISTICS_NOTES.md,5,supplement,- 产出 CSV（`city_data/reference/decision_engine_supplement_v3/`）：
+raw_data/decision_engine_supplement_v3/market/MARKET_LOGISTICS_NOTES.md,10,supplement,"- 原始证据 / 登记：`raw_data/decision_engine_supplement_v3/{volume,market,logistics,cold_chain}/`、`market/source_registry_C.csv`（41 条）"
+raw_data/decision_engine_supplement_v3/market/build_market_registry.py,44,city_data,"OUT = ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/reference/decision_engine_supplement_v3/market_registry_v3.csv"""
+raw_data/decision_engine_supplement_v3/market/build_market_registry.py,44,supplement,"OUT = ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/reference/decision_engine_supplement_v3/market_registry_v3.csv"""
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,9,supplement,"[""C001"",""元旦临近 沈阳“菜篮子”货足价稳"",""新华网辽宁频道"",""news"",""C"",""http://ln.news.cn/20241231/ab3f536f1fad4e0f86b4a241e4ce42de/c.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2024-12-29"",""公开新闻，引用注明来源"",""raw_data/de"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,10,supplement,"[""C002"",""保供稳价不放松 安心过节有保障"",""沈阳粮油集团"",""news"",""C"",""https://www.sylyjt.com.cn/news/47.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2024-02"",""公开新闻"",""raw_data/decision_engine_supplement_v3/volume/evide"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,11,supplement,"[""C003"",""沈阳三大批发市场“炊烟袅袅”"",""国际在线（转沈阳日报）"",""news"",""C"",""https://ln.cri.cn/2020-05-15/6c8deda7-f605-224c-1ad1-bb9becf18486.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2020-05-14"",""公开新闻"",""raw_data/dec"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,12,supplement,"[""C004"",""辽宁省农产品现代流通体系建设发展规划(2024-2030)"",""辽宁省商务厅（编制：沈阳大学）"",""gov_plan"",""S"",""https://swt.ln.gov.cn/swt/fwxx/yjzj/2024041210083480076/2024042209330027202.pdf"",A,""market_supply_proxy;market_registry_v3;col"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,13,supplement,"[""C005"",""全力保障春节期间“菜篮子”量足价稳"",""沈阳市人民政府"",""gov"",""S"",""https://www.shenyang.gov.cn/zt/jjlwlb/gzdt/202602/t20260213_4988514.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2026-02-13"",""政府公开信息"",""raw_data/d"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,14,supplement,"[""C006"",""沈城中秋节日市场显活力"",""沈阳市人民政府"",""gov"",""S"",""https://www.shenyang.gov.cn/zwgk/zwdt/bmdt/202409/t20240919_4733823.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2024-09"",""政府公开信息"",""raw_data/decision_e"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,15,supplement,"[""C007"",""沈阳市6家农产品批发市场被评为农业农村部定点市场"",""辽宁省农业农村厅"",""gov"",""S"",""https://nync.ln.gov.cn/nync/index/nyyw/zsqsnyxxlb/2024040310404091628/index.shtml"",A,""market_supply_proxy;market_registry_v3"",""沈阳"",""supply_prox"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,16,supplement,"[""C008"",""沈阳市重要生活必需品市场监测情况专报"",""沈阳市商务局"",""gov"",""S"",""https://swj.shenyang.gov.cn/ywdh/gnmy/202206/t20220614_3102777.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2020-09-24"",""政府公开信息"",""raw_data/decisi"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,17,supplement,"[""C009"",""辽宁生活必需品货源充足 价格略有上涨"",""人民网辽宁（转辽宁日报）"",""news"",""B"",""http://ln.people.com.cn/n2/2020/0130/c378318-33750299.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2020-01-29"",""公开新闻"",""raw_data/decision_e"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,18,supplement,"[""C010"",""沈阳保供稳价守护百姓“菜篮子”"",""人民网辽宁（转辽宁日报）"",""news"",""B"",""http://ln.people.com.cn/n2/2021/1103/c378317-34987630.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2021-11-01"",""公开新闻"",""raw_data/decision_engi"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,19,supplement,"[""C011"",""辽宁：肉、菜、蛋及粮油等重要生活必需品供应总体充足"",""辽宁日报（今日头条转载）"",""news"",""C"",""http://m.toutiao.com/group/7075522017780302366/"",A,""market_supply_proxy"",""沈阳/丹东"",""supply_proxy"",""2022-03-15"",""公开新闻"",""raw_data/decision_en"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,20,supplement,"[""C012"",""喜报！沈阳市新民市获批全国农产品骨干冷链物流重点县"",""沈阳市农业农村局"",""gov"",""S"",""https://nyncj.shenyang.gov.cn/fwzx/xdny/202407/t20240718_4703588.html"",A,""market_supply_proxy;cold_chain_capacity_v3;market_registry_v3"",""沈阳"","
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,21,supplement,"[""C013"",""筑牢粮仓 链通产销 数字赋能——解码“十四五”农业发展密码"",""新民市人民政府"",""gov"",""S"",""https://www.xinmin.gov.cn/gzyw/yw/202511/t20251113_4933902.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2025-11-14"",""政府公开信息"",""raw_dat"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,22,supplement,"[""C014"",""大民屯镇学习“六地”精神 创造现代化大农业现行地"",""新民市人民政府"",""gov"",""S"",""https://www.xinmin.gov.cn/gzyw/xzjxx/202401/t20240103_4583984.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2024-01-03"",""政府公开信息"",""raw_data/"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,23,supplement,"[""C015"",""各地果蔬年货市场货足价稳 “菜篮子”新春保供“不断档”"",""央视网"",""news"",""C"",""http://m.cnwest.com/szyw/a/2026/02/14/23298113.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2026-02"",""公开新闻"",""raw_data/decision_engine_supp"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,24,supplement,"[""C016"",""辽宁新民：全产业链条发展 助力提稳“菜篮子”"",""人民日报客户端"",""news"",""C"",""https://www.peopleapp.com/column/30035424832-500000476844"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2023-10-24"",""公开新闻"",""raw_data/decision_eng"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,25,supplement,"[""C017"",""解码沈阳好“丰”景丨从“好滋味”到“新宠儿”"",""新华网辽宁频道"",""news"",""C"",""http://ln.news.cn/20230829/ad6d9b93955441258a4b7ea6ef535cd8/c.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2022-2023"",""公开新闻"",""raw_data/deci"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,26,supplement,"[""C018"",""对县十九届人大三次会议《关于发展棚菜种植…的建议》答复"",""黑山县人民政府"",""gov"",""S"",""http://www.heishan.gov.cn/info/1883/39883.htm"",A,""market_supply_proxy;market_registry_v3"",""锦州"",""supply_proxy;market"",""2023-09-12"",""政府公开信息"",""r"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,27,supplement,"[""C019"",""四家子镇棚室西红柿抢“鲜”上市 产销两旺"",""黑山县人民政府"",""gov"",""S"",""http://www.heishan.gov.cn/info/1016/46574.htm"",A,""market_supply_proxy"",""锦州"",""supply_proxy"",""2025-11-17"",""政府公开信息"",""raw_data/decision_engine_supplemen"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,28,supplement,"[""C020"",""市政协十五届三次会议《关于升级打造锦州“土特产”产业的建议》答复"",""锦州市农业农村局"",""gov"",""S"",""http://nyncj.jz.gov.cn/info/1019/8169.htm"",A,""market_supply_proxy;market_registry_v3"",""锦州"",""supply_proxy;market"",""2024"",""政府公开信息"",""raw_d"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,29,supplement,"[""C021"",""从“靠天吃饭”到“靠棚致富”"",""央视网（转农民日报）"",""news"",""C"",""http://sannong.cntv.cn/2015/12/14/ARTI1450055915795793.shtml"",A,""market_supply_proxy"",""朝阳"",""supply_proxy"",""2015-12-14"",""公开新闻"",""raw_data/decision_engin"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,30,supplement,"[""C022"",""五间房镇越冬番茄即将大量上市"",""朝阳日报"",""news"",""C"",""http://newpaper.cynews.com.cn/cyrm/mepaper/content/202603/19/c87327.html"",A,""market_supply_proxy"",""朝阳"",""supply_proxy"",""2026-03-19"",""公开新闻"",""raw_data/decision"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,31,supplement,"[""C023"",""北票市设施蔬菜产业成乡村振兴强引擎"",""朝阳市农业农村局（转辽宁日报）"",""gov"",""S"",""https://nyncj.chaoyang.gov.cn/html/CYSNW/202602/0177086281714631.html"",A,""market_supply_proxy;market_registry_v3"",""朝阳"",""supply_proxy;market"",""2"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,32,supplement,"[""C024"",""全市农业农村经济高质量发展取得新成效"",""朝阳市人民政府"",""gov"",""S"",""https://chaoyang.gov.cn/html/CYSZF/202301/0167272154489240.html"",A,""cold_chain_capacity_v3"",""朝阳"",""cold_chain;production"",""2022"",""政府公开信息"",""raw_data/dec"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,33,supplement,"[""C025"",""假日经济提质增效 消费市场价稳人气旺"",""大连市人民政府"",""gov"",""S"",""https://www.dl.gov.cn/art/2026/5/9/art_1437_2511253.html"",A,""market_supply_proxy"",""大连"",""supply_proxy"",""2026-05"",""政府公开信息"",""raw_data/decision_engine_sup"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,34,supplement,"[""C026"",""126场促消费活动精彩纷呈 生活必需品市场供应充足价格稳定"",""大连市人民政府"",""gov"",""S"",""https://dldj.gov.cn/art/2026/2/24/art_1190_2500487.html"",A,""market_supply_proxy"",""大连"",""supply_proxy"",""2026-02-24"",""政府公开信息"",""raw_data/decisi"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,35,supplement,"[""C027"",""多措并举保障节日市场供应充足总体运行平稳"",""大连市人民政府"",""gov"",""S"",""https://zfxxgk.dl.gov.cn/art/2026/2/13/art_1190_2500005.html"",A,""market_supply_proxy"",""大连"",""supply_proxy"",""2026-02-13"",""政府公开信息"",""raw_data/decision_e"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,36,supplement,"[""C028"",""中秋、国庆“双节”市场供应充足 安全平稳有序"",""大连市商务局"",""gov"",""S"",""https://boc.dl.gov.cn/art/2025/9/29/art_1932_2464952.html"",A,""market_supply_proxy"",""大连"",""supply_proxy"",""2025-09-29"",""政府公开信息"",""raw_data/decision_eng"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,37,supplement,"[""C029"",""对政协市九届一次会议第912089号提案的答复"",""铁岭市人民政府"",""gov"",""S"",""http://www.tieling.gov.cn/tieling/zwgk/zfxxgk/fdzdgknr/jyta/szxta50/2022n/2023012213324035542/index.html"",A,""market_supply_proxy;cold_chain_capac"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,38,supplement,"[""C030"",""市政协十六届五次会议第396号提案的答复"",""沈阳市农业农村局"",""gov"",""S"",""https://nyncj.shenyang.gov.cn/zwgk/fdzdgknr/jyta/zxta/202606/t20260601_5034708.html"",A,""market_supply_proxy;cold_chain_capacity_v3"",""沈阳"",""supply_pr"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,39,supplement,"[""C031"",""搭起大棚稳菜价（政策聚焦）"",""人民日报（人民网）"",""news"",""C"",""http://politics.people.com.cn/n/2014/0223/c1001-24436822.html"",A,""market_supply_proxy"",""沈阳"",""supply_proxy"",""2014-02-23"",""公开新闻"",""raw_data/decision_engine"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,40,supplement,"[""C032"",""关于对省政协十三届三次会议第13030049号提案的答复"",""辽宁省农业农村厅"",""gov"",""S"",""https://nync.ln.gov.cn/nync/zfxxgk/fdzdgknr/jyta/szxta/szxssjschy2025n/2025082810291849003/index.shtml"",A,""cold_chain_capacity_v3"",""辽宁省"",""c"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,41,supplement,"[""C033"",""关于对省十四届人大三次会议第1431349号建议的答复"",""辽宁省农业农村厅"",""gov"",""S"",""https://nync.ln.gov.cn/nync/zfxxgk/fdzdgknr/jyta/srddbjy/sssjrdschy2025n/2025082014322777707/index.shtml"",A,""cold_chain_capacity_v3"",""辽宁省"","""
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,42,supplement,"[""C034"",""聚焦2023“成绩单” 辽宁农业全面发力"",""辽宁日报（辽宁省人民政府网）"",""news"",""S"",""https://www.ln.gov.cn/web/ywdt/tjdt/2024012311224648103/index.shtml"",A,""cold_chain_capacity_v3"",""辽宁省"",""cold_chain"",""2023"",""公开信息"",""raw_data/d"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,43,supplement,"[""C035"",""辽宁省冷链物流高质量发展实施方案(2022—2025年)"",""辽宁省人民政府办公厅"",""gov_plan"",""S"",""https://www.shenyang.gov.cn/zt/hqlmzc/lnszc/202301/t20230106_4362823.html"",A,""cold_chain_capacity_v3"",""辽宁省"",""cold_chain"",""2022-2025"""
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,44,supplement,"[""C036"",""市人大十七届三次会议第0568号建议的答复"",""沈阳市农业农村局"",""gov"",""S"",""https://nyncj.shenyang.gov.cn/zwgk/fdzdgknr/jyta/rdjy/202405/t20240523_4647544.html"",A,""cold_chain_capacity_v3"",""沈阳"",""cold_chain"",""2020-2023"",""政府公"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,45,supplement,"[""C037"",""东北冷鲜港8月底开业…落户浑南"",""指尖沈阳（今日头条转载）"",""news"",""C"",""http://m.toutiao.com/group/7400685389408305727/"",A,""cold_chain_capacity_v3;market_registry_v3"",""沈阳"",""cold_chain;market"",""2024-08"",""公开新闻"",""raw_data/"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,46,supplement,"[""C038"",""胡家镇建成3万吨“大冰箱”"",""盘锦日报（盘锦市人民政府网）"",""news"",""C"",""http://www.panjin.gov.cn/html/1738/2026-08-21/content-153085.html"",A,""cold_chain_capacity_v3"",""盘锦"",""cold_chain"",""2026-08-21"",""公开新闻"",""raw_data/decis"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,47,supplement,"[""C039"",""关于对省政协十三届三次会议第13030406号提案的答复"",""辽宁省农业农村厅"",""gov"",""S"",""https://nync.ln.gov.cn/nync/zfxxgk/fdzdgknr/jyta/szxta/szxssjschy2025n/2025091114561986426/index.shtml"",A,""cold_chain_capacity_v3"",""辽宁省/丹东"""
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,48,city_data,"[""C040"",""农业农村部菜篮子产品批发价格平台（市场目录）"",""农业农村部信息中心"",""platform"",""B"",""https://pfsc.agri.cn"",A,""market_registry_v3"",""辽宁省"",""market"",""2026-10"",""公开平台"",""city_data/reference/reports/market_registry.csv"",""沿用前置审计经纬度（十"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,49,supplement,"[""C041"",""东北冷鲜港/十二线国际冷&鲜肉品专区开业通稿"",""今日头条（副食集团）"",""news"",""D"",""http://m.toutiao.com/group/7046343340589335071/"",A,""market_registry_v3"",""沈阳"",""market"",""2021-12"",""公开新闻"",""raw_data/decision_engine_supplement_v3"
+raw_data/decision_engine_supplement_v3/market/build_source_registry_C.py,51,supplement,"OUT=""/Users/morton_cheung/Desktop/比赛/大数据分析/raw_data/decision_engine_supplement_v3/market/source_registry_C.csv"""
+raw_data/decision_engine_supplement_v3/market/evidence_market.md,18,city_data,- 已由前置审计保存于 city_data/reference/reports/market_registry.csv（本文件沿用其经纬度，属 B 级平台数据）
+raw_data/decision_engine_supplement_v3/demand/DEMAND_NOTES.md,6,city_data,- `city_data/reference/decision_engine_supplement_v3/demand_yearly_v3.csv`（需求端标准化数据）
+raw_data/decision_engine_supplement_v3/demand/DEMAND_NOTES.md,6,supplement,- `city_data/reference/decision_engine_supplement_v3/demand_yearly_v3.csv`（需求端标准化数据）
+raw_data/decision_engine_supplement_v3/demand/DEMAND_NOTES.md,7,supplement,- `raw_data/decision_engine_supplement_v3/demand/evidence_demand_bulletins.txt`（原始证据摘录）
+raw_data/decision_engine_supplement_v3/demand/DEMAND_NOTES.md,8,supplement,- `raw_data/decision_engine_supplement_v3/demand/source_registry_E.csv`（来源登记）
+raw_data/decision_engine_supplement_v3/cold_chain/build_cold_chain.py,38,city_data,"OUT = ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/reference/decision_engine_supplement_v3/cold_chain_capacity_v3.csv"""
+raw_data/decision_engine_supplement_v3/cold_chain/build_cold_chain.py,38,supplement,"OUT = ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/reference/decision_engine_supplement_v3/cold_chain_capacity_v3.csv"""
+raw_data/decision_engine_supplement_v3/insurance/INSURANCE_NOTES.md,5,city_data,> 产出：`city_data/reference/decision_engine_supplement_v3/agri_insurance_claims_v3.csv`
+raw_data/decision_engine_supplement_v3/insurance/INSURANCE_NOTES.md,5,supplement,> 产出：`city_data/reference/decision_engine_supplement_v3/agri_insurance_claims_v3.csv`
+raw_data/decision_engine_supplement_v3/insurance/INSURANCE_NOTES.md,6,supplement,> 证据：`raw_data/decision_engine_supplement_v3/insurance/raw_snippets_D.txt`
+raw_data/decision_engine_supplement_v3/insurance/INSURANCE_NOTES.md,7,supplement,> 登记：`raw_data/decision_engine_supplement_v3/insurance/source_registry_D.csv`
+raw_data/decision_engine_supplement_v3/logistics/v3_market_accessibility.py,7,city_data,"OUT = ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/reference/decision_engine_supplement_v3/market_accessibility.csv"""
+raw_data/decision_engine_supplement_v3/logistics/v3_market_accessibility.py,7,supplement,"OUT = ""/Users/morton_cheung/Desktop/比赛/大数据分析/city_data/reference/decision_engine_supplement_v3/market_accessibility.csv"""
+raw_data/web_captures/dandong/price/dandong_county_price_sources_manifest.json,23,city_data,"""raw_dir"": ""city_data/dandong/workspace/data/raw/price/cnhnb/"","
+raw_data/web_captures/dandong/price/dandong_county_price_sources_manifest.json,24,city_data,"""manifest"": ""city_data/dandong/workspace/data/raw/price/cnhnb/dandong_cnhnb_manifest.json"","
+raw_data/web_captures/dandong/price/dandong_county_price_sources_manifest.json,25,city_data,"""staging"": ""city_data/dandong/workspace/data/interim/_source_staging/price/cnhnb/dandong_price_cnhnb_county.csv"","
+raw_data/web_captures/dandong/price/dandong_county_price_sources_manifest.json,38,city_data,"""raw_dir"": ""city_data/dandong/workspace/data/raw/price/lnnync_grain/html/"","
+raw_data/web_captures/dandong/price/dandong_county_price_sources_manifest.json,39,city_data,"""manifest"": ""city_data/dandong/workspace/data/raw/price/lnnync_grain/dandong_grain_manifest.json"","
+raw_data/web_captures/dandong/price/dandong_county_price_sources_manifest.json,40,city_data,"""staging"": ""city_data/dandong/workspace/data/interim/_source_staging/price/lnnync_grain/dandong_grain_county.csv"","
+raw_data/web_captures/dandong/price/dandong_county_price_sources_manifest.json,53,city_data,"""search_evidence"": ""city_data/dandong/workspace/data/raw/price/dandong_price_source_search_evidence.csv"""
+raw_data/web_captures/tieling/price/tieling_county_price_sources_manifest.json,25,city_data,"""raw_dir"": ""city_data/tieling/workspace/data/raw/price/cnhnb/"","
+raw_data/web_captures/tieling/price/tieling_county_price_sources_manifest.json,26,city_data,"""manifest"": ""city_data/tieling/workspace/data/raw/price/cnhnb/tieling_cnhnb_manifest.json"","
+raw_data/web_captures/tieling/price/tieling_county_price_sources_manifest.json,27,city_data,"""staging"": ""city_data/tieling/workspace/data/interim/_source_staging/price/cnhnb/tieling_price_cnhnb_county.csv"","
+raw_data/web_captures/tieling/price/tieling_county_price_sources_manifest.json,40,city_data,"""raw_dir"": ""city_data/tieling/workspace/data/raw/price/diaobingshan_fgj/"","
+raw_data/web_captures/tieling/price/tieling_county_price_sources_manifest.json,41,city_data,"""staging"": ""city_data/tieling/workspace/data/interim/_source_staging/price/gov/tieling_price_gov_retail.csv"","
+raw_data/web_captures/tieling/price/tieling_county_price_sources_manifest.json,54,city_data,"""raw_dir"": ""city_data/tieling/workspace/data/raw/price/kaiyuan_fgj/"""
+raw_data/web_captures/tieling/price/tieling_county_price_sources_manifest.json,67,city_data,"""search_evidence"": ""city_data/tieling/workspace/data/raw/price/tieling_price_source_search_evidence.csv"""
+raw_data/decision_engine_supplement/soil/SOIL_SHENYANG_EVIDENCE.md,15,city_data,- 产出：`city_data/reference/decision_engine_supplement/soil_moisture_daily_extended.csv`
+raw_data/decision_engine_supplement/soil/SOIL_SHENYANG_EVIDENCE.md,15,supplement,- 产出：`city_data/reference/decision_engine_supplement/soil_moisture_daily_extended.csv`
+frontedpage/design-references/impeccable/PRODUCT.md,45,supplement,"- Semantic HTML first, ARIA as a supplement, never as a workaround."
+frontedpage/design-references/ponytail/benchmarks/agentic/README.md,147,supplement,"floor, not a proof of security. The over-engineering source-LOC proxy is supplemented by an"
+frontedpage/design-references/awesome-design-md/design-md/runwayml/DESIGN.md,42,supplement,- **Tailwind Gray** (`#6b7280`): Standard Tailwind neutral for supplementary text.
+frontedpage/design-references/ui-ux-pro-max-skill/README.md,196,supplement,"The active set covers 43 general visual families, 2 mobile-specific styles, 3 official platform/design systems, 1 platform material, and 1 core analytics style. Current official systems include Fluent"
+frontedpage/design-references/ui-ux-pro-max-skill/gallery/components/FilterBar.tsx,5,supplement,"const STATUS_OPTIONS = [""active"", ""supplemental"", ""deprecated""];"
+frontedpage/design-references/ui-ux-pro-max-skill/gallery/lib/parseStyles.test.ts,43,supplement,"row(""supplemental"", ""candidate-style""),"
+frontedpage/design-references/ui-ux-pro-max-skill/gallery/lib/parseStyles.test.ts,50,supplement,"filterStyles(styles, { ...DEFAULT_FILTERS, status: ""supplemental"" }).map("
+frontedpage/design-references/ui-ux-pro-max-skill/gallery/lib/types.ts,6,supplement,"status: ""active"" | ""supplemental"" | ""deprecated"";"
+frontedpage/design-references/ui-ux-pro-max-skill/gallery/lib/parseStyles.ts,83,supplement,"if (!([""active"", ""supplemental"", ""deprecated""] as string[]).includes(status)) {"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/SKILL.md,182,supplement,# Step 3: supplement
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/validate_data.py,38,supplement,"STYLE_STATUSES = {""active"", ""supplemental"", ""deprecated""}"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/validate_data.py,50,supplement,"r""supplementary|pattern|symbol|outline|direct (?:series |group )?label|"""
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/validate_data.py,86,supplement,"PROVENANCE_STATUSES = {""active"", ""supplemental"", ""deprecated""}"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/validate_data.py,248,supplement,"if status == ""supplemental"" and not parent:"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/validate_data.py,249,supplement,"problems.append(f""[style:{style_id}] supplemental rows require Parent Style ID"")"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/validate_data.py,645,supplement,"""supplemental"": sum(row.get(""Status"") == ""supplemental"" for row in styles),"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py,52,supplement,"self.assertIn(row[""Status""], {""active"", ""supplemental"", ""deprecated""})"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py,57,supplement,"if row[""Status""] == ""supplemental"":"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py,277,supplement,"self.assertIn(row[""Status""], {""active"", ""supplemental"", ""deprecated"", ""unverified""})"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py,33,supplement,"for status in (""active"", ""supplemental"", ""deprecated"")"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py,36,supplement,"{""active"": 50, ""supplemental"": 29, ""deprecated"": 9}, counts"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py,88,supplement,"self.assertIn(row[""Status""], {""supplemental"", ""deprecated""})"
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/data/data-provenance.json,901,supplement,"""status"": ""supplemental"","
+frontedpage/design-references/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/data/catalog-summary.json,9,supplement,"""supplemental"": 29,"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/validate_data.py,38,supplement,"STYLE_STATUSES = {""active"", ""supplemental"", ""deprecated""}"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/validate_data.py,50,supplement,"r""supplementary|pattern|symbol|outline|direct (?:series |group )?label|"""
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/validate_data.py,86,supplement,"PROVENANCE_STATUSES = {""active"", ""supplemental"", ""deprecated""}"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/validate_data.py,248,supplement,"if status == ""supplemental"" and not parent:"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/validate_data.py,249,supplement,"problems.append(f""[style:{style_id}] supplemental rows require Parent Style ID"")"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/validate_data.py,645,supplement,"""supplemental"": sum(row.get(""Status"") == ""supplemental"" for row in styles),"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/tests/test_data_contracts.py,52,supplement,"self.assertIn(row[""Status""], {""active"", ""supplemental"", ""deprecated""})"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/tests/test_data_contracts.py,57,supplement,"if row[""Status""] == ""supplemental"":"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/tests/test_data_contracts.py,277,supplement,"self.assertIn(row[""Status""], {""active"", ""supplemental"", ""deprecated"", ""unverified""})"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/tests/test_style_taxonomy.py,33,supplement,"for status in (""active"", ""supplemental"", ""deprecated"")"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/tests/test_style_taxonomy.py,36,supplement,"{""active"": 50, ""supplemental"": 29, ""deprecated"": 9}, counts"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/scripts/tests/test_style_taxonomy.py,88,supplement,"self.assertIn(row[""Status""], {""supplemental"", ""deprecated""})"
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/data/data-provenance.json,901,supplement,"""status"": ""supplemental"","
+frontedpage/design-references/ui-ux-pro-max-skill/cli/assets/data/catalog-summary.json,9,supplement,"""supplemental"": 29,"
+frontedpage/design-references/ui-ux-pro-max-skill/scripts/generate-catalog-summary.py,51,supplement,"""supplemental"": sum(row.get(""Status"") == ""supplemental"" for row in styles),"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/validate_data.py,38,supplement,"STYLE_STATUSES = {""active"", ""supplemental"", ""deprecated""}"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/validate_data.py,50,supplement,"r""supplementary|pattern|symbol|outline|direct (?:series |group )?label|"""
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/validate_data.py,86,supplement,"PROVENANCE_STATUSES = {""active"", ""supplemental"", ""deprecated""}"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/validate_data.py,248,supplement,"if status == ""supplemental"" and not parent:"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/validate_data.py,249,supplement,"problems.append(f""[style:{style_id}] supplemental rows require Parent Style ID"")"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/validate_data.py,645,supplement,"""supplemental"": sum(row.get(""Status"") == ""supplemental"" for row in styles),"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/tests/test_data_contracts.py,52,supplement,"self.assertIn(row[""Status""], {""active"", ""supplemental"", ""deprecated""})"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/tests/test_data_contracts.py,57,supplement,"if row[""Status""] == ""supplemental"":"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/tests/test_data_contracts.py,277,supplement,"self.assertIn(row[""Status""], {""active"", ""supplemental"", ""deprecated"", ""unverified""})"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py,33,supplement,"for status in (""active"", ""supplemental"", ""deprecated"")"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py,36,supplement,"{""active"": 50, ""supplemental"": 29, ""deprecated"": 9}, counts"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py,88,supplement,"self.assertIn(row[""Status""], {""supplemental"", ""deprecated""})"
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/data-provenance.json,901,supplement,"""status"": ""supplemental"","
+frontedpage/design-references/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/catalog-summary.json,9,supplement,"""supplemental"": 29,"
+frontedpage/design-references/archify/tool/SKILL.md,106,supplement,`visual-check` collects automated browser evidence from the exact delivered HTML without modifying or rerendering it. Its machine-readable measurements and screenshots do not approve perceptual polish
+frontedpage/design-references/archify/tool/SKILL.md,108,supplement,"Keep the three claims separate: `deliver` proves deterministic artifact checks, `visual-check` proves bounded behavior in a real browser, and perceptual visual review requires an actual human or image"
+frontedpage/design-references/archify/tool/references/delivery-contract.md,91,supplement,"A manual browser record is supplementary to the automated status. Reproducing the same coverage requires all four exact viewport measurements, both endpoint themes, and an artifact-bound record of the"
+decision_engine/config/paths.yaml,2,city_data,# 原则：canonical(city_data/<city>/data/*.csv) 为最高优先输入；
+decision_engine/config/paths.yaml,3,supplement,#       第二优先为 decision_engine_supplement；marts/curated 默认不读。
+decision_engine/config/paths.yaml,12,city_data,canonical: city_data/{city}/data
+decision_engine/config/paths.yaml,13,city_data,supplement: city_data/reference/decision_engine_supplement
+decision_engine/config/paths.yaml,13,supplement,supplement: city_data/reference/decision_engine_supplement
+decision_engine/config/paths.yaml,14,city_data,supplement_v2: city_data/reference/decision_engine_supplement_v2
+decision_engine/config/paths.yaml,14,supplement,supplement_v2: city_data/reference/decision_engine_supplement_v2
+decision_engine/config/paths.yaml,15,city_data,supplement_v3: city_data/reference/decision_engine_supplement_v3
+decision_engine/config/paths.yaml,15,supplement,supplement_v3: city_data/reference/decision_engine_supplement_v3
+decision_engine/config/paths.yaml,16,city_data,shenyang_research: city_data/shenyang/research
+decision_engine/config/paths.yaml,21,city_data,- city_data/reference/decision_engine_supplement_v2/*
+decision_engine/config/paths.yaml,21,supplement,- city_data/reference/decision_engine_supplement_v2/*
+decision_engine/config/paths.yaml,22,city_data,- city_data/reference/decision_engine_supplement_v3/*
+decision_engine/config/paths.yaml,22,supplement,- city_data/reference/decision_engine_supplement_v3/*
+decision_engine/config/paths.yaml,55,city_data,- city_data/shenyang/data/price_observation.csv
+decision_engine/config/paths.yaml,56,city_data,- city_data/shenyang/data/volume_observations.csv
+decision_engine/config/paths.yaml,57,city_data,- city_data/shenyang/data/weather_daily_era5.csv
+decision_engine/config/paths.yaml,58,city_data,- city_data/shenyang/data/weather_daily_era5land.csv
+decision_engine/config/paths.yaml,59,city_data,- city_data/shenyang/data/weather_extra_daily_era5.csv
+decision_engine/config/paths.yaml,60,city_data,- city_data/shenyang/data/weather_extra_daily_era5land.csv
+decision_engine/config/paths.yaml,61,city_data,- city_data/shenyang/data/disaster_events_observed.csv
+decision_engine/config/paths.yaml,62,city_data,- city_data/shenyang/data/policy_events.csv
+decision_engine/config/paths.yaml,63,city_data,- city_data/shenyang/data/phenology_events.csv
+decision_engine/config/paths.yaml,64,city_data,- city_data/shenyang/data/input_cost_weekly.csv
+decision_engine/config/paths.yaml,65,city_data,- city_data/chaoyang/data/price_observation.csv
+decision_engine/config/paths.yaml,66,city_data,- city_data/chaoyang/data/production_yearly.csv
+decision_engine/config/paths.yaml,67,city_data,- city_data/chaoyang/data/weather_daily_era5.csv
+decision_engine/config/paths.yaml,68,city_data,- city_data/chaoyang/data/soil_daily.csv
+decision_engine/config/paths.yaml,69,city_data,- city_data/chaoyang/data/disaster_events_observed.csv
+decision_engine/config/paths.yaml,70,city_data,- city_data/chaoyang/data/phenology_events.csv
+decision_engine/config/paths.yaml,71,city_data,- city_data/jinzhou/data/price_observation.csv
+decision_engine/config/paths.yaml,72,city_data,- city_data/jinzhou/data/production_yearly.csv
+decision_engine/config/paths.yaml,73,city_data,- city_data/jinzhou/data/weather_daily_era5.csv
+decision_engine/config/paths.yaml,74,city_data,- city_data/jinzhou/data/soil_daily.csv
+decision_engine/config/paths.yaml,75,city_data,- city_data/jinzhou/data/disaster_events_observed.csv
+decision_engine/config/paths.yaml,76,city_data,- city_data/jinzhou/data/phenology_events.csv
+decision_engine/config/paths.yaml,77,city_data,- city_data/dalian/data/price_observation.csv
+decision_engine/config/paths.yaml,78,city_data,- city_data/dalian/data/production_yearly.csv
+decision_engine/config/paths.yaml,79,city_data,- city_data/dalian/data/weather_daily_era5.csv
+decision_engine/config/paths.yaml,80,city_data,- city_data/dalian/data/soil_daily.csv
+decision_engine/config/paths.yaml,81,city_data,- city_data/tieling/data/price_observation.csv
+decision_engine/config/paths.yaml,82,city_data,- city_data/tieling/data/production_yearly.csv
+decision_engine/config/paths.yaml,83,city_data,- city_data/tieling/data/weather_daily_era5.csv
+decision_engine/config/paths.yaml,84,city_data,- city_data/tieling/data/soil_daily.csv
+decision_engine/config/paths.yaml,85,city_data,- city_data/dandong/data/price_observation.csv
+decision_engine/config/paths.yaml,86,city_data,- city_data/dandong/data/production_yearly.csv
+decision_engine/config/paths.yaml,87,city_data,- city_data/dandong/data/weather_daily_era5.csv
+decision_engine/config/paths.yaml,88,city_data,- city_data/dandong/data/soil_daily.csv
+decision_engine/config/paths.yaml,89,city_data,- city_data/reference/decision_engine_supplement/*.csv
+decision_engine/config/paths.yaml,89,supplement,- city_data/reference/decision_engine_supplement/*.csv
+decision_engine/docs/CLIMATE_RISK_REPORT.md,38,supplement,- 沈阳土壤来自 supplement（ERA5-Land，2021-2026），其余五城为原生 soil_daily.csv；口径已交叉验证一致。
+decision_engine/docs/V2_EXECUTION_PLAN.md,59,supplement,- `district calendar` 实测：`decision_engine_supplement/crop_calendar.csv`（沈阳 47 行）**只有粮食作物**；
+decision_engine/docs/V2_EXECUTION_PLAN.md,60,supplement,- `supplement_v2/crop_calendar_detailed.csv`（238 行，含 `production_system`/`season`）有 **番茄、马铃薯、黄瓜、设施蔬菜(番茄/茄子/辣椒/黄瓜)、设施蔬菜(辣椒/豆角/茄子/黄瓜等)、大白菜**，但**沈阳本地蔬菜条目稀少**（多为大连/铁岭/朝阳/锦州，且精度为月级/单日）；
+decision_engine/docs/V2_EXECUTION_PLAN.md,74,supplement,- `supplement_v3/crop_spatial_structure.csv`：沈阳设施蔬菜及部分作物 `yield_kg_per_mu`（含 `source_level`/`confidence`）；
+decision_engine/docs/V2_EXECUTION_PLAN.md,75,supplement,"- `supplement_v3/crop_cost_components.csv`：番茄/黄瓜 沈阳(东北8市加权, `regional_proxy`)、西红柿/黄瓜/芸豆 铁岭(`neighboring_city`, per_season)、番茄/黄瓜 朝阳北票；"
+decision_engine/docs/V2_EXECUTION_PLAN.md,76,supplement,- `supplement_v2/crop_cost_yearly_extended.csv`：粮食作物为主。
+decision_engine/docs/V2_EXECUTION_PLAN.md,80,supplement,### 阻塞 3：v1 快照未包含 supplement_v2 / v3
+decision_engine/scripts/make_reports.py,264,supplement,- 沈阳土壤来自 supplement（ERA5-Land，2021-2026），其余五城为原生 soil_daily.csv；口径已交叉验证一致。
+decision_engine/scripts/make_reports.py,456,city_data,"""city_data/reference/decision_engine_supplement/herding_events.csv""))"
+decision_engine/scripts/make_reports.py,456,supplement,"""city_data/reference/decision_engine_supplement/herding_events.csv""))"
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,5,city_data,> 产出目录：`raw_data/decision_engine_supplement_v3/`、`city_data/reference/decision_engine_supplement_v3/`
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,5,supplement,> 产出目录：`raw_data/decision_engine_supplement_v3/`、`city_data/reference/decision_engine_supplement_v3/`
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,56,supplement,"原始证据（HTML/JSON/PDF/TXT）分门别类保存在 `raw_data/decision_engine_supplement_v3/{production,cost,price,volume,market,logistics,cold_chain,insurance,pest,irrigation,demand,herding_events,remote_sensing}/`。"
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,173,city_data,本轮**未修改** `city_data/<city>/data/`、`decision_engine_supplement/`、`decision_engine_supplement_v2/`、`decision_engine/`。全部新增写入 `raw_data/decision_engine_supplement_v3/` 与 `city_data/reference/decision_en
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,173,supplement,本轮**未修改** `city_data/<city>/data/`、`decision_engine_supplement/`、`decision_engine_supplement_v2/`、`decision_engine/`。全部新增写入 `raw_data/decision_engine_supplement_v3/` 与 `city_data/reference/decision_en
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,184,supplement,- 证据缓存：`raw_data/decision_engine_supplement_v3/remote_sensing/cache/`（可断点续跑）；日志 `ndvi_*.log`。
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v3/DECISION_ENGINE_DATA_ENHANCEMENT_V3_REPORT.md,194,supplement,"4. `price_lnnync_veg_weekly_historical.csv`（2019-2022）与既有 `decision_engine_supplement/price_lnnync_veg_weekly_extended.csv`（2022-12~2026-09）应**按 (year,week,crop_standard) 拼接去重**。"
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,5,city_data,- 产出目录：`city_data/reference/decision_engine_supplement_v2/`、`raw_data/decision_engine_supplement_v2/`
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,5,supplement,- 产出目录：`city_data/reference/decision_engine_supplement_v2/`、`raw_data/decision_engine_supplement_v2/`
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,7,supplement,- 本轮**未修改 canonical、未修改上一轮 supplement、未训练模型、未改前端、未 commit**
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,236,city_data,city_data/reference/decision_engine_supplement_v2/
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,236,supplement,city_data/reference/decision_engine_supplement_v2/
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,267,supplement,raw_data/decision_engine_supplement_v2/
+decision_engine/data/snapshots/v2/city_data/reference/decision_engine_supplement_v2/DECISION_ENGINE_DATA_SUPPLEMENT_V2_REPORT.md,318,supplement,- **canonical 与 V1 supplement 均 0 修改**（已核验）。
+decision_engine/src/decision_engine/recommendation/reference_inputs.py,24,city_data,"V2_DIR = ""city_data/reference/decision_engine_supplement_v2"""
+decision_engine/src/decision_engine/recommendation/reference_inputs.py,24,supplement,"V2_DIR = ""city_data/reference/decision_engine_supplement_v2"""
+decision_engine/src/decision_engine/recommendation/reference_inputs.py,25,city_data,"V3_DIR = ""city_data/reference/decision_engine_supplement_v3"""
+decision_engine/src/decision_engine/recommendation/reference_inputs.py,25,supplement,"V3_DIR = ""city_data/reference/decision_engine_supplement_v3"""
+decision_engine/src/decision_engine/recommendation/reference_inputs.py,280,supplement,"""""""重扫 supplement_v2/v3（以及候选的 supplement_v3+），对比快照 manifest："
+decision_engine/src/decision_engine/recommendation/reference_inputs.py,303,city_data,"extra_dirs = sorted([p.name for p in (ROOT / ""city_data/reference"").glob(""decision_engine_supplement_v*"")])"
+decision_engine/src/decision_engine/recommendation/reference_inputs.py,303,supplement,"extra_dirs = sorted([p.name for p in (ROOT / ""city_data/reference"").glob(""decision_engine_supplement_v*"")])"
+decision_engine/src/decision_engine/recommendation/reference_inputs.py,306,supplement,"""new_files"": new_files, ""supplement_dirs"": extra_dirs,"
+decision_engine/src/decision_engine/recommendation/calendar.py,48,city_data,"(""city_data/reference/decision_engine_supplement_v2/crop_calendar_detailed.csv"", ""v2_detailed""),"
+decision_engine/src/decision_engine/recommendation/calendar.py,48,supplement,"(""city_data/reference/decision_engine_supplement_v2/crop_calendar_detailed.csv"", ""v2_detailed""),"
+decision_engine/src/decision_engine/recommendation/calendar.py,49,city_data,"(""city_data/reference/decision_engine_supplement/crop_calendar.csv"", ""v1_calendar""),"
+decision_engine/src/decision_engine/recommendation/calendar.py,49,supplement,"(""city_data/reference/decision_engine_supplement/crop_calendar.csv"", ""v1_calendar""),"
+decision_engine/src/decision_engine/features/weather_features.py,34,city_data,"w = pd.read_csv(SNAP / f""city_data/{slug}/data/weather_daily_era5.csv"", low_memory=False)"
+decision_engine/src/decision_engine/features/weather_features.py,73,supplement,# 土壤（沈阳来自 supplement；其余五城来自 soil_daily.csv）
+decision_engine/src/decision_engine/features/weather_features.py,75,city_data,"soil = pd.read_csv(SNAP / ""city_data/reference/decision_engine_supplement/soil_moisture_daily_extended.csv"","
+decision_engine/src/decision_engine/features/weather_features.py,75,supplement,"soil = pd.read_csv(SNAP / ""city_data/reference/decision_engine_supplement/soil_moisture_daily_extended.csv"","
+decision_engine/src/decision_engine/features/weather_features.py,78,city_data,"soil = pd.read_csv(SNAP / f""city_data/{slug}/data/soil_daily.csv"", low_memory=False)"
+decision_engine/src/decision_engine/models/regional.py,31,city_data,"p = pd.read_csv(de_path(""data"", ""snapshots"", ""v1"", ""city_data/chaoyang/data/price_observation.csv""),"
+decision_engine/src/decision_engine/models/regional.py,52,city_data,"p = pd.read_csv(de_path(""data"", ""snapshots"", ""v1"", ""city_data/jinzhou/data/price_observation.csv""),"
+decision_engine/src/decision_engine/data/build_dataset.py,26,city_data,"df = pd.read_csv(SNAP / ""city_data/shenyang/data/price_observation.csv"", low_memory=False)"
+decision_engine/src/decision_engine/data/build_dataset.py,46,city_data,"df = pd.read_csv(SNAP / ""city_data/shenyang/data/volume_observations.csv"", low_memory=False)"
+decision_engine/src/decision_engine/risk/production.py,5,city_data,- city_data/<city>/data/production_yearly.csv（五城，2017-2025）
+decision_engine/src/decision_engine/risk/production.py,6,city_data,- city_data/reference/decision_engine_supplement/planting_area_yearly.csv / production_yearly_extended.csv
+decision_engine/src/decision_engine/risk/production.py,6,supplement,- city_data/reference/decision_engine_supplement/planting_area_yearly.csv / production_yearly_extended.csv
+decision_engine/src/decision_engine/risk/production.py,26,city_data,"p = de_path(""data"", ""snapshots"", ""v1"", f""city_data/{slug}/data/production_yearly.csv"")"
+decision_engine/src/decision_engine/risk/production.py,60,supplement,# supplement 扩展（沈阳/朝阳/锦州等新增年度记录）
+decision_engine/src/decision_engine/risk/production.py,64,city_data,"""city_data/reference/decision_engine_supplement"", f), low_memory=False)"
+decision_engine/src/decision_engine/risk/production.py,64,supplement,"""city_data/reference/decision_engine_supplement"", f), low_memory=False)"
+decision_engine/src/decision_engine/risk/production.py,71,supplement,"""source"": f""supplement_{f}"", })"
+decision_engine/src/decision_engine/risk/production.py,80,supplement,"""source"": f""supplement_{f}"", })"
+decision_engine/src/decision_engine/risk/production.py,83,supplement,"print(f""[production] supplement {f} skipped: {e}"")"
+decision_audit/audit_data_assets.py,5,city_data,目标：不依赖任何旧报告，直接从 city_data/<city>/data/*.csv 重算真实统计。
+decision_audit/AgriScope_数据审计报告_DecisionEngine.md,4,city_data,> 审计方式：**只读**。全部结论基于对 `city_data/<city>/data/*.csv`、`city_data/reference/**`、`raw_data/**` 的实际读取与重算，不采信旧报告结论（旧报告仅作线索）。
+decision_audit/AgriScope_数据审计报告_DecisionEngine.md,29,city_data,| Canonical（冻结主表） | `city_data/<city>/data/*.csv` | 六城最终主表（V3，2026-09-23 冻结） | ✅ 唯一权威 |
+decision_audit/AgriScope_数据审计报告_DecisionEngine.md,30,city_data,| 特征面板 | `city_data/shenyang/data/panels/`、`v2/`、`processed/` | 沈阳已工程化特征（price_z、lag1 等） | ✅ 沈阳可用 |
+decision_audit/AgriScope_数据审计报告_DecisionEngine.md,31,city_data,"| 参考/派生 | `city_data/reference/{final_foundation,marts,curated,staging,reports}` | QC、研究窗口、主表快照 | ⚠️ 与 canonical 口径不一致，需甄别 |"
+decision_audit/AgriScope_数据审计报告_DecisionEngine.md,33,city_data,| 研究结果 | `city_data/shenyang/research/A01–A09` | 沈阳 76 研究点，54 ready | ✅ 结论可复用 |
+decision_audit/AgriScope_数据审计报告_DecisionEngine.md,231,city_data,"`city_data/<city>/data/price_observation.csv`（canonical）与 `city_data/reference/marts/fact_price_city.csv`（主表快照）对同一城市给出完全不同的行数：沈阳 14,100 vs 143,494；锦州 35,335 vs 1,896；丹东 5,130 vs 25。**建模前必须明确以哪一套为准**（本"
+decision_audit/AgriScope_数据审计报告_DecisionEngine.md,231,marts,"`city_data/<city>/data/price_observation.csv`（canonical）与 `city_data/reference/marts/fact_price_city.csv`（主表快照）对同一城市给出完全不同的行数：沈阳 14,100 vs 143,494；锦州 35,335 vs 1,896；丹东 5,130 vs 25。**建模前必须明确以哪一套为准**（本"
+decision_audit/AgriScope_数据审计报告_DecisionEngine.md,317,city_data,| A01 季节性/趋势 | `A01_seasonal_index.csv`、`A01_seasonal_amplitude.csv`、`A01_monthly.csv` | 季节分位特征、上市月价格基线 | `city_data/shenyang/research/A01/tables/` |

@@ -1,0 +1,7 @@
+﻿city,rows,veg10_rows,veg10_crops,levels
+沈阳,14100,14100,10,wholesale
+朝阳,37129,10405,10,farm_gate|market_average|wholesale
+锦州,35123,10279,8,farm_gate|market_average|retail_market|supermarket|wholesale
+大连,0,0,0,NO_MARKET_TABLE
+铁岭,0,0,0,NO_MARKET_TABLE
+丹东,0,0,0,NO_MARKET_TABLE

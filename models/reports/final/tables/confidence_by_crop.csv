@@ -1,0 +1,11 @@
+﻿crop,price_confidence,profit_confidence,risk_confidence,overall_confidence,sample_score,stability_score,calibration_score,cost_reliability,yield_reliability,proxy_share,model,route,beats_baseline
+土豆,80.5,27.5,85.5,68.5,1.0,0.684,0.726,0.55,0.0,0.45,baseline_last_value,baseline,False
+尖椒,93.0,0.0,90.9,69.2,1.0,0.955,0.726,0.0,0.0,1.0,elasticnet,pooled,True
+甘蓝,86.7,0.0,89.1,65.6,1.0,0.864,0.726,0.0,0.0,1.0,baseline_last_value,baseline,False
+芸豆,86.6,27.5,87.2,72.0,1.0,0.773,0.726,0.55,0.0,0.45,elasticnet,pooled,True
+芹菜,81.2,0.0,85.9,62.0,1.0,0.704,0.726,0.0,0.0,1.0,baseline_last_value,baseline,False
+茄子,89.6,0.0,89.0,67.1,1.0,0.861,0.726,0.0,0.0,1.0,elasticnet_tuned,pooled,True
+西红柿,90.9,27.5,89.7,74.8,1.0,0.897,0.726,0.55,0.0,0.45,elasticnet_tuned,pooled,True
+青椒,90.2,0.0,89.3,67.4,1.0,0.877,0.726,0.0,0.0,1.0,elasticnet_tuned,pooled,True
+韭菜,90.0,27.5,89.2,74.2,1.0,0.872,0.726,0.55,0.0,0.45,elasticnet_tuned,per_crop,True
+黄瓜,92.8,27.5,90.8,75.9,1.0,0.949,0.726,0.55,0.0,0.45,extra_trees,pooled,True

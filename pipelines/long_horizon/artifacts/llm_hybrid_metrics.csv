@@ -1,0 +1,10 @@
+﻿crop,horizon,n_oot,weight_w_on_baseline,dev_wape_at_w,max_adjustment_pct_dev,baseline_WAPE,llm_direct_WAPE,hybrid_B_WAPE,hybrid_A_unbounded_WAPE,hybrid_A_bounded_WAPE,hybrid_A_conf_gated_WAPE,n_residual,hybrid_C_regime_choices,hybrid_C_WAPE
+土豆,60,24,0.0,9.26,15.942,7.3,7.223,7.223,6.006,6.006,6.006,16,"{'low': 'llm', 'mid': 'baseline', 'high': 'baseline'}",7.206
+土豆,90,24,0.0,9.262,18.656,8.56,8.553,8.553,8.443,8.443,8.443,16,"{'low': 'llm', 'mid': 'baseline', 'high': 'baseline'}",8.529
+土豆,120,24,0.0,9.129,20.906,8.715,8.601,8.601,8.407,8.407,8.407,16,"{'low': 'llm', 'mid': 'baseline', 'high': 'baseline'}",8.707
+黄瓜,60,24,1.0,18.432,37.004,22.424,22.508,22.424,24.537,24.537,24.537,16,"{'low': 'baseline', 'mid': 'baseline', 'high': 'baseline'}",22.424
+黄瓜,90,24,1.0,21.397,44.778,25.845,26.069,25.845,28.318,28.318,28.318,16,"{'low': 'baseline', 'mid': 'baseline', 'high': 'baseline'}",25.845
+黄瓜,120,24,0.0,22.864,58.929,28.859,28.91,28.91,31.695,31.695,31.695,16,"{'low': 'baseline', 'mid': 'baseline', 'high': 'llm'}",29.037
+青椒,60,24,0.0,24.243,54.822,21.687,21.542,21.542,20.026,20.026,20.026,16,"{'low': 'baseline', 'mid': 'baseline', 'high': 'llm'}",21.583
+青椒,90,24,1.0,27.786,78.4,26.103,26.053,26.103,24.929,24.929,24.929,16,"{'low': 'baseline', 'mid': 'baseline', 'high': 'baseline'}",26.103
+青椒,120,24,0.0,28.931,59.825,37.413,37.489,37.489,42.114,42.114,42.114,16,"{'low': 'baseline', 'mid': 'llm', 'high': 'llm'}",37.573

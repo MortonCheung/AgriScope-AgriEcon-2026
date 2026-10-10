@@ -1,0 +1,13 @@
+﻿claim_id,study_id,city,claim_text,claim_type,evidence_id,source_ids,table_id,figure_id,estimate,ci_low,ci_high,p_raw,p_adjusted,sample_size,method_id,status
+dalian-A09-C1,A09,大连,年降水 613mm（生长季 83%）；玉米 66.8%、大豆 14.9%、花生 6.7%,descriptive,,,A09_climatology.csv,,,,,,,,,SUPPORTED
+dalian-A09-C2,A09,大连,登记市场/物流节点 3 条（市场层面参考）,descriptive,,,A09_market_nodes.csv,,,,,,,,,PARTIAL
+dalian-A03-C1,A03,大连,滞后窗 306 项检验 3 项 FDR 显著,inferential,,,A03_lag_windows.csv,,3,,,,,552,,PARTIAL
+dalian-A08-C1,A08,大连,A01 趋势 LOO 符号一致率中位 1.00；A02 含/不含 AR 显著 9/15,robustness,,,A08_robustness_summary.csv,,1.0,,,,,,,SUPPORTED
+dalian-A05-C1,A05,大连,异质性 1/5 显著；恢复删失率中位 0%,exploratory,,,A05_heterogeneity.csv,,1,,,,,6598,,PARTIAL
+dalian-A01-C1,A01,大连,价格季节指数极差中位数 1.066（最强 芸豆 3.801）,descriptive,,,A01_seasonal_amplitude.csv,,1.0655833090228557,,,,,550,,SUPPORTED
+dalian-A01-C2,A01,大连,17 项趋势检验中 1 项 FDR 显著,inferential,,,A01_trend.csv,,1,,,,,17,,PARTIAL
+dalian-A02-C1,A02,大连,85 项气象-价格检验中 3 项 FDR 显著,inferential,,,A02_response.csv,,3,,,,,551,,PARTIAL
+dalian-A04-C1,A04,大连,事件后价格异常中位 -0.145，安慰剂 p=0.794,inferential,,,A04_event_clusters.csv,,-0.14456625751607932,,,,0.7942196531791907,25,,NOT_SUPPORTED
+dalian-A06-C1,A06,大连,天气信息 RMSE 相对变化中位 +1.57%,inferential,,,A06_forecast_gain.csv,,1.5727216074419728,,,,,3429,,PARTIAL
+dalian-A06-C2,A06,大连,量价关系 NOT_SUPPORTED（无成交量数据）,limitation,,,,,,,,,,,,NOT_SUPPORTED
+dalian-A07-C1,A07,大连,HHI=0.480、CR4=0.950；前三 玉米 66.8%；大豆 14.9%；花生 6.7%,descriptive,,,A07_concentration.csv,,0.47981522174604513,,,,,8,,SUPPORTED

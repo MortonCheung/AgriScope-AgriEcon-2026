@@ -1,0 +1,304 @@
+# =============================================================================
+# analysis_plan.yaml — 沈阳研究 v2 分析计划（预注册）
+#
+# 纪律（P2）：本文件中所有主模型、稳健性模型、多重检验 family、阈值、窗口、样本区间
+#             必须在看到结果之前确定；结果出来后不得修改。
+# 若确需偏离，必须记录到 plan/DEVIATIONS.md 并说明原因（不得静默修改）。
+# =============================================================================
+
+meta:
+  project: shenyang_research_v2
+  created: "2026-09-22"
+  policy: preregistered
+  deviation_log: plan/DEVIATIONS.md
+
+# -----------------------------------------------------------------------------
+# 全局
+# -----------------------------------------------------------------------------
+global:
+  random_seed: 20260714          # 沿用 v1，保证可复现
+  alpha: 0.05
+  fdr_method: BH                 # Benjamini-Hochberg
+  report_always:                 # 任何回归必须报告（§A02）
+    - effect_size
+    - ci_95
+    - p_raw
+    - p_adjusted
+    - n
+    - ar1                          # 序列自相关
+    - standardized_unit            # 标准化单位（每 +1 SD 暴露）
+  forbidden:
+    - post_hoc_observed_power      # 禁止事后观测功效
+    - marginal_significance        # 禁止 "marginally significant"
+    - p_equals_zero                # 禁止写 p=.000
+    - random_train_test_split      # 禁止随机切分时间序列
+    - full_date_fixed_effects      # 禁止完整日期固定效应（会吸收天气）
+    - volume_unit_ton              # 成交量单位未知 → 禁止写"吨"
+    - era5_as_station_observation  # 禁止把 ERA5 称为气象站实测
+    - production_market_causal_chain # 禁止把生产端与市场端串成因果链（§25）
+
+# -----------------------------------------------------------------------------
+# 数据范围（写死，不得事后扩张）
+# -----------------------------------------------------------------------------
+data:
+  market:
+    start: "2021-01-01"
+    end: "2026-09-14"
+    crops: 10                    # 土豆/尖椒/甘蓝/芸豆/芹菜/茄子/西红柿/青椒/韭菜/黄瓜
+    unit_price: "元/500g"
+    unit_volume: "unknown"
+  weather:
+    source: open-meteo-era5-reanalysis
+    kind: reanalysis_grid        # 必须称"再分析/网格数据"
+    market_weather_start: "2021-01-01"
+    market_weather_end: "2026-09-14"
+    district_weather_start: "2015-01-01"
+    district_weather_end: "2025-12-31"
+    growing_season_months: [5, 6, 7, 8, 9]
+  production:
+    main_start: 2018
+    main_end: 2024
+    districts: [苏家屯区, 浑南区, 沈北新区, 于洪区, 辽中区, 康平县, 法库县, 新民市]
+    supplement: {district: 康平县, years: [2015, 2016, 2017], exclude_from_main_panel: true}
+    exclude: [2025]             # 未完整验证，不进主研究
+  events:
+    official_source: 官方通报（气象部门/政府/官方新闻）   # 与算法事件严格分开
+    algorithmic_source: fact_disaster_events（ERA5 阈值识别）
+    merge_across_sources: false
+
+# -----------------------------------------------------------------------------
+# A01 时间结构与季节性
+# -----------------------------------------------------------------------------
+A01:
+  hypothesis_type: descriptive
+  analyses: [monthly_median, monthly_distribution, seasonal_index, annual_level,
+             trend, stl_descriptive]
+  trend:
+    model: "log(price) ~ t  (OLS, HAC)"
+    hac_maxlags: 14               # 沿用 v1；A01 趋势用月度或日度需在脚本中写明
+    fdr_family: "A01_trend_by_crop_by_response"   # 10 品种 × 2 响应 = 20
+    # v1 问题：A01(旧 03_descriptive) 趋势未做 FDR 却判"显著" → v2 必须做
+  stl:
+    role: descriptive_only
+    period: 52
+    robust: true
+    warning: "STL 含目标年，仅作描述，不作为无泄漏口径"
+  reporting_rule: "禁止把机制性语言（如'价格承担供需调节功能'）写入结果段"
+
+# -----------------------------------------------------------------------------
+# A02 日度响应
+# -----------------------------------------------------------------------------
+A02:
+  hypothesis_type: confirmatory
+  unit: "crop × trading_day"
+  primary_outcomes: [price_anomaly_z_hist, volume_anomaly_z_hist]
+  secondary_outcomes: [price_anomaly_pct_hist, volume_anomaly_pct_hist]
+  model:
+    formula: "y_t = alpha + phi*y_(t-1) + beta*weather_t + calendar + epsilon"
+    ar_term: "y_(t-1)"           # 必须含 AR(1)：价格异常 AR(1)≈0.97
+    calendar: [is_public_holiday, month_fe, year_t]   # month_fe 视模型而定，须在脚本中写明
+    estimator: OLS
+    se: HAC
+    hac_maxlags: 14
+    cluster_alternative: "cluster by date（pooled 互验）"
+  exposures_primary: [precipitation, temp_max, vpd, wind_speed, soil_moisture_0_7]
+  exposures_supplementary: [pressure_msl, cloud_cover, radiation, dew_point, et0, humidity]
+  feature_sets:
+    F_wx: "仅天气滞后 + 日历 + 品种 FE（无自回归）——用于分离天气与持续性"
+    F_lag: "F_wx + 自回归项（主口径）"
+  fdr_family: "A02_{outcome}_{exposure}：逐品种 10 检验"   # 每个 (响应,暴露) 一个 family
+  lags: "预定义窗口（见 A03）；A02 主表用同期与 0-2 日窗"
+  placebo:
+    n_draws: 500
+    matching: [year, season, weekday_structure]
+  must_report: [beta, ci95, p_raw, q_fdr, n, ar1, n_eff]
+
+# -----------------------------------------------------------------------------
+# A03 滞后 / 累积 / 非线性
+# -----------------------------------------------------------------------------
+A03:
+  hypothesis_type: confirmatory
+  lag_windows_preregistered:     # 主分析只用这些窗口
+    - {label: "0日",   range: [0, 0]}
+    - {label: "1-3日", range: [1, 3]}
+    - {label: "4-7日", range: [4, 7]}
+    - {label: "8-14日", range: [8, 14]}
+  lag_scan_supplementary:
+    range: [0, 30]
+    role: "仅作补充诊断，不得据此挑选峰值并作为主结论"
+  accumulation_windows: [1, 3, 7, 14]
+  accumulation_rule: "必须区分'累积效应'与'标准化尺度变化'（同时报告原始尺度与标准化尺度结果）"
+  nonlinear:
+    engine: [pygam_gam, natural_cubic_spline]
+    spline_df: 7
+    rule: "只有整体非线性检验有证据（FDR 通过）时，才讨论阈值"
+    threshold_requirements: [统计支持, 样本支持, 稳健性, 可解释性]
+    forbidden: "GAM 不显著后继续搜索 breakpoint 并把某个数字称为阈值"
+  fdr_family: "A03_{outcome}_{exposure}（逐品种 10 检验）"
+
+# -----------------------------------------------------------------------------
+# A04 极端事件与 2026 案例
+# -----------------------------------------------------------------------------
+A04:
+  hypothesis_type: confirmatory
+  event_definitions:
+    official: "官方通报（与算法事件分开报告）"
+    algorithmic: "ERA5 阈值识别（沿用 config/analysis.yaml hazard_thresholds）"
+  clean_event_rules:
+    - "事件簇：间隔 ≤3 天合并"
+    - "排除与前一事件重叠的簇（前事件污染）"
+    - "标记事件后 42 天内再次受冲击的观察（后续再冲击）"
+  window:
+    main: [-14, 14]
+    baseline: [-14, -4]          # 避免临近天气变化
+  statistic: "mean(z_rel, T+1..T+14)"
+  placebo:
+    n_draws: 500
+    matching: [year, season, weekday_structure]
+    must_be_non_event: true
+  case_study_2026:
+    t0: "2026-07-13"
+    must_answer:
+      - "这次天气有多极端"
+      - "与历史事件相比排第几"
+      - "价格怎样变化"
+      - "成交量怎样变化"
+      - "是否超出普通日期波动范围"
+      - "是否超出历史极端事件范围"
+    writing_rule: "先展示证据，不得先写'暴雨没有影响'"
+  fdr_family: "A04_{response}（跨事件簇）"
+
+# -----------------------------------------------------------------------------
+# A05 品种异质性与恢复
+# -----------------------------------------------------------------------------
+A05:
+  hypothesis_type: exploratory
+  heterogeneity:
+    method: [crop_x_weather_interaction, coefficient_difference_test]
+    forbidden: "仅比较各品种 p 值是否 <0.05 来声称品种间不同"
+  recovery:
+    definition_frozen: true
+    definition: "异常值重新进入事件前基线区间（|z_rel| <= 阈值）并连续维持 K 日"
+    reentry_threshold: 0.5
+    consecutive_days_K: 3
+    censoring:
+      max_horizon_days: 42
+      right_censored_if: ["42 天内未恢复", "后续新事件截断观察"]
+    methods_descriptive: [kaplan_meier]
+    uncertainty: event_cluster_bootstrap
+    n_boot: 1000
+    forbidden: "构造没有统计依据的'韧性分数'"
+
+# -----------------------------------------------------------------------------
+# A06 量价关系 / 传导 / 预测增量
+# -----------------------------------------------------------------------------
+A06:
+  hypothesis_type: confirmatory
+  price_volume:
+    models:
+      - "price_t ~ volume_t + price_(t-1) + calendar + trend"
+      - "price_t ~ volume_(t-k) + price_(t-1) + calendar + trend  (k=1..14)"
+      - "volume_t ~ price_(t-k) + volume_(t-1) + calendar + trend  (k=1..14)"
+    controls: [own_lag, seasonality, time_trend]
+    se: HAC
+    hac_maxlags: 14
+  mediation:
+    rule: "仅当 weather->volume 与 volume->price 两步均有证据时才讨论"
+    if_not_supported: "正式结论写'当前数据未提供支持该链条的统计证据'"
+  predictive_value:
+    design: rolling_origin        # 必须
+    forbidden: random_split
+    baseline_features: [historical_price, historical_volume, calendar]
+    weather_features: "baseline + weather"
+    metrics: [RMSE, MAE, R2, delta_RMSE, delta_R2]
+    target_definition: "天气预测价值 = weather model 相对 baseline 的增量（非模型绝对 R²）"
+    explanation:
+      tools: [SHAP, ALE]
+      rule: "只解释模型，禁止写成因果"
+
+# -----------------------------------------------------------------------------
+# A07 区县生产结构
+# -----------------------------------------------------------------------------
+A07:
+  hypothesis_type: descriptive
+  panel: "year × district × crop"
+  years: [2018, 2019, 2020, 2021, 2022, 2023, 2024]
+  core_categories:              # 需 7年×8区县 同时具备面积/产量/单产
+    - 粮食
+    - 谷物
+    - 稻谷
+    - 玉米
+    - 豆类
+    - 大豆
+    - 蔬菜及食用菌
+    - 瓜果
+    - 甜瓜
+  hierarchy_warning: "粮食⊃谷物⊃{稻谷,玉米}；豆类⊃{大豆,…}：禁止相加"
+  qa_checks:
+    - unit_consistency          # 公顷 / 吨 / 公斤·公顷^-1
+    - area_x_yield_eq_production
+    - districts_sum_vs_city_total
+    - multi_source_crosscheck   # 区县公报 vs 年鉴
+  forbidden: "为复杂而建模"
+
+# -----------------------------------------------------------------------------
+# A08 区县面板（本轮最重要新实验）
+# -----------------------------------------------------------------------------
+A08:
+  hypothesis_type: confirmatory
+  unit: "district × year"
+  n_observations_per_crop: 56   # 8 区县 × 7 年
+  primary_outcome: yield_value          # log 或标准化异常
+  primary_outcome_transform: [log, standardized_anomaly]
+  secondary_outcome: production
+  structure_variables: [sown_area]
+  model:
+    formula: "Yield_d,t = beta*Weather_d,t + District FE + Year FE + epsilon_d,t"
+    fixed_effects: [district, year]
+    estimator: OLS
+    per_crop: true              # 逐核心作物单独建模
+  exposures_core:               # 每模型仅 1-2 个
+    temperature: [growing_season_temp_mean, temp_max_anomaly_or_percentile]
+    precipitation: [growing_season_precip, max_1d_precip, max_3d_precip, heavy_rain_days]
+    water: [soil_moisture, et0, vpd]
+  exposures_forbidden_primary:
+    - hot_days                  # ERA5 平滑：2020-2024 = 0，禁止作主暴露
+  hot_day_note: "主研究改用 Tmax anomaly / 同区县历史 percentile / 标准化温度异常；必须声明 ERA5 为网格再分析"
+  area_interpretation_rule: "不得写'当年夏季天气导致当年播种面积变化'（播种决定先于天气冲击）"
+  inference:
+    methods:
+      - district_cluster_robust_se
+      - leave_one_district_out
+      - leave_one_year_out
+      - wild_cluster_bootstrap     # 若环境不允许，必须明确说明而非假装
+    n_clusters: 8
+    warning: "不得假装 8 clusters 足够精确"
+  multiplicity:
+    family_definition: "crop × exposure"
+    example: "9 crops × 4 exposures = 36 检验"
+    method: BH
+    report: [p_raw, q_fdr]
+    forbidden: "从 36 个里挑 3 个 p<0.05 写成发现"
+
+# -----------------------------------------------------------------------------
+# 写作与导出约束（P6）
+# -----------------------------------------------------------------------------
+writing_export:
+  article_structure: [标题, 摘要, 关键词, "1 研究问题与背景", "2 数据与变量",
+                      "3 研究方法", "4 研究结果", "5 讨论", "6 研究局限", "7 结论",
+                      数据来源与参考文献]
+  article_end_marker: "<!-- ARTICLE_END:{study_id} -->"   # validator 必须校验
+  abstract_fields_separate: [abstract, frontend_summary]   # 两者独立，禁止 substring
+  forbidden_string_ops: ["text[:500]", "text[start:end]", "slice by char position"]
+  forbidden_in_article: ["前端一句话"]
+  exporter_reads: "逐篇文章文件（一篇一文件 → 一篇一 JSON）"
+  exporter_forbidden: "读取 MASTER.md 并按字符位置切分"
+  frontend_source_fields: [source_id, title, publisher, type, url, data_year, accessed_at]
+  frontend_internal_only: [local_snapshot, derived_from, processed_file]
+  validator_must_check:
+    - "article id 唯一"
+    - "文章不含下一篇标题、不含其他 ARTICLE_END"
+    - "所有 source_id 存在且 public_url 非空"
+    - "不允许出现 /Users/ 或 workspace/ 作为展示来源"
+    - "所有 figure 路径存在"
+    - "key findings 的数字可在 evidence registry 找到"

@@ -1,0 +1,7 @@
+﻿var,depth,unit,n_valid_100m_cells,mean,p10,median,p90,min,max,source_id,notes
+clay,0-5cm,%,87998,29.72,25.54,30.04,33.68,17.8,37.31,SRC-ISRIC-SOILGRIDS-WCS,SoilGrids 250m → 100m 网格（bilinear）；原始 g/kg ÷10 → %
+sand,0-5cm,%,87998,30.22,25.98,30.04,35.2,10.02,43.62,SRC-ISRIC-SOILGRIDS-WCS,SoilGrids 250m → 100m 网格（bilinear）；原始 g/kg ÷10 → %
+clay,5-15cm,%,87998,30.17,24.62,30.69,35.2,16.55,39.46,SRC-ISRIC-SOILGRIDS-WCS,SoilGrids 250m → 100m 网格（bilinear）；原始 g/kg ÷10 → %
+sand,5-15cm,%,87998,29.93,25.49,29.45,35.51,9.37,44.68,SRC-ISRIC-SOILGRIDS-WCS,SoilGrids 250m → 100m 网格（bilinear）；原始 g/kg ÷10 → %
+clay,15-30cm,%,87998,31.82,26.72,32.21,36.96,17.13,42.45,SRC-ISRIC-SOILGRIDS-WCS,SoilGrids 250m → 100m 网格（bilinear）；原始 g/kg ÷10 → %
+sand,15-30cm,%,87998,29.16,24.6,29.0,34.21,8.32,43.36,SRC-ISRIC-SOILGRIDS-WCS,SoilGrids 250m → 100m 网格（bilinear）；原始 g/kg ÷10 → %

@@ -1,0 +1,12 @@
+﻿table,key,dup_rows
+chaoyang_extended/environment_daily.parquet,city+date,0
+chaoyang_extended/market_daily.parquet,observation_date+crop_standard+price_level,1426
+chaoyang_extended/market_daily.parquet,observation_date+crop_standard,1622
+climate/climate_daily.parquet,city+date,0
+hri/hri_inputs.parquet,city+crop_standard+iso_year+iso_week,0
+jinzhou_extended/environment_daily.parquet,city+date,0
+jinzhou_extended/market_daily.parquet,observation_date+crop_standard+price_level,9584
+jinzhou_extended/market_daily.parquet,observation_date+crop_standard,19791
+shenyang_core/environment_daily.parquet,city+date,0
+shenyang_core/market_daily.parquet,observation_date+crop_standard+price_level,0
+shenyang_core/market_daily.parquet,observation_date+crop_standard,0

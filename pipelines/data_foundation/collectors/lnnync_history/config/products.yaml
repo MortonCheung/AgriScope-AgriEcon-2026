@@ -1,0 +1,205 @@
+# 产品标准化词典
+# 规则：只合并确实同义的别名（西红柿=番茄、土豆=马铃薯）；
+#      原文明确区分的品种（长粒水稻/短粒水稻、干玉米/湿玉米、花生/花生米）不合并，
+#      而是写入 product_variant 保留差异。
+
+categories:
+  grain_oil:
+    label: 粮油
+    products:
+      大米:
+        aliases: [大米, 粳米]
+        variants: []
+      面粉:
+        aliases: [面粉]
+        variants: []
+      豆油:
+        aliases: [豆油]
+        variants: []
+      高粱米:
+        aliases: [高粱米]
+        variants: []
+      玉米:
+        aliases: [玉米]
+        variants: [干玉米, 湿玉米]
+      水稻:
+        aliases: [水稻, 稻谷, 粳稻]
+        variants: [长粒水稻, 短粒水稻, 长粒, 短粒]
+      大豆:
+        aliases: [大豆]
+        variants: []
+      豆粕:
+        aliases: [豆粕]
+        variants: []
+      花生:
+        aliases: [花生]
+        variants: []
+      花生米:
+        aliases: [花生米]
+        variants: []
+      高粱:
+        aliases: [高粱]
+        variants: []
+      谷子:
+        aliases: [谷子]
+        variants: []
+      绿豆:
+        aliases: [绿豆]
+        variants: []
+      红小豆:
+        aliases: [红小豆, 小红豆]
+        variants: []
+      黑豆:
+        aliases: [黑豆]
+        variants: []
+      小米:
+        aliases: [小米]
+        variants: []
+      杂粮:
+        aliases: [杂粮]
+        variants: []
+
+  vegetable:
+    label: 蔬菜
+    products:
+      番茄:
+        aliases: [西红柿, 番茄]
+        variants: []
+      马铃薯:
+        aliases: [土豆, 马铃薯, 山药蛋]
+        variants: []
+      黄瓜:
+        aliases: [黄瓜]
+        variants: []
+      茄子:
+        aliases: [茄子]
+        variants: []
+      尖椒:
+        aliases: [尖椒, 辣椒]
+        variants: []
+      青椒:
+        aliases: [青椒]
+        variants: []
+      架豆王:
+        aliases: [架豆王, 架豆]
+        variants: []
+      豆角:
+        aliases: [豆角]
+        variants: []
+      胡萝卜:
+        aliases: [胡萝卜]
+        variants: []
+      白萝卜:
+        aliases: [白萝卜, 萝卜]
+        variants: []
+      大白菜:
+        aliases: [大白菜, 白菜]
+        variants: []
+      大葱:
+        aliases: [大葱, 葱]
+        variants: []
+      芹菜:
+        aliases: [芹菜]
+        variants: []
+      甘蓝:
+        aliases: [结球甘蓝, 圆白菜, 甘蓝, 大头菜]
+        variants: []
+      菠菜:
+        aliases: [菠菜]
+        variants: []
+      韭菜:
+        aliases: [韭菜]
+        variants: []
+      蒜薹:
+        aliases: [蒜薹, 蒜苔]
+        variants: []
+      西葫芦:
+        aliases: [西葫芦]
+        variants: []
+      菜花:
+        aliases: [菜花, 花椰菜]
+        variants: []
+      洋葱:
+        aliases: [洋葱]
+        variants: []
+      生姜:
+        aliases: [生姜, 姜]
+        variants: []
+      大蒜:
+        aliases: [大蒜, 蒜]
+        variants: []
+
+  fruit:
+    label: 水果
+    products:
+      苹果:
+        aliases: [苹果]
+        variants: []
+      香蕉:
+        aliases: [香蕉]
+        variants: []
+      橘子:
+        aliases: [橘子, 桔子, 柑橘]
+        variants: []
+      梨:
+        aliases: [梨]
+        variants: []
+      葡萄:
+        aliases: [葡萄]
+        variants: []
+      西瓜:
+        aliases: [西瓜]
+        variants: []
+      桃:
+        aliases: [桃, 桃子]
+        variants: []
+      草莓:
+        aliases: [草莓]
+        variants: []
+      山楂:
+        aliases: [山楂]
+        variants: []
+      樱桃:
+        aliases: [樱桃, 大樱桃]
+        variants: []
+
+  agri_input:
+    label: 农资
+    products:
+      尿素:
+        aliases: [尿素, 国产尿素, 国产含氮46%尿素]
+        variants: []
+      复合肥:
+        aliases: [复合肥, 国产复合肥]
+        variants: []
+      磷酸二铵:
+        aliases: [磷酸二铵, 二铵, 国产磷酸二铵]
+        variants: []
+      豆粕:
+        aliases: [豆粕, 国产豆粕]
+        variants: []
+      地膜:
+        aliases: [地膜]
+        variants: []
+      柴油:
+        aliases: [柴油, 农用柴油]
+        variants: []
+      农药:
+        aliases: [农药]
+        variants: []
+      种子:
+        aliases: [种子]
+        variants: []
+
+# 单位换算：统一到「元/公斤」作为 standard_unit
+# 原始值 original_price + original_unit 永久保留，standard_price 只是新增字段
+unit_conversion:
+  "元/公斤": 1.0
+  "元/kg": 1.0
+  "元/千克": 1.0
+  "元/吨": 0.001
+  "元/斤": 2.0
+  "元/500g": 2.0
+  "元/百公斤": 0.01
+  "元/袋": null      # 无法换算，保留原值，standard_price 置空
+  "元/亩": null

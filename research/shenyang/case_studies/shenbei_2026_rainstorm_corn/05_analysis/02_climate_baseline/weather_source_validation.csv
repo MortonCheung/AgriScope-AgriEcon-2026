@@ -1,0 +1,11 @@
+﻿metric,value
+overlap_days,2083.0
+precip_daily_corr,0.744
+precip_monthly_corr,0.938
+precip_monthly_bias_ERA5_minus_NASA_mm,-6.8
+extreme_rain_day_jaccard_ge25mm,0.391
+n_extreme_days_ERA5,52.0
+n_extreme_days_NASA,44.0
+tmean_MAE_C,1.45
+tmax_MAE_C,1.21
+tmin_MAE_C,2.16

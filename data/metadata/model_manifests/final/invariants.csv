@@ -1,0 +1,10 @@
+﻿invariant,pass,detail
+I1_user_input_overrides_source,True,proxy=local_reference user=user_input
+I1_user_input_weight_1,True,proxy_rel=None user_rel=1.0
+I1_user_input_changes_decision,True,profit_weight=1.0
+I2_missing_risk_not_zero,True,"hri_avail=True,mr_avail=True;hri_avail=True,mr_avail=True"
+I3_status_enum,True,"['INSUFFICIENT_MARKET_DATA', 'OK', 'SCENARIO_ONLY', 'USER_INPUT_REQUIRED']"
+I6_contract_fields,True,required=15
+I4_no_cross_city_fallback,True,status=INSUFFICIENT_MARKET_DATA price=None
+I7_horizon_capability,True,h30_scenario_only=False h90_scenario_only=True
+I5_profit_semantics,True,profit 不可用（符合诚实原则）

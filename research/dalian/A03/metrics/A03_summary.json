@@ -1,0 +1,10 @@
+{
+ "city": "dalian",
+ "freq": "W",
+ "n_crops": 17,
+ "n_lag_tests": 306,
+ "n_lag_sig": 3,
+ "n_nl_tests": 51,
+ "n_nl_sig": 2,
+ "alpha": 0.05
+}

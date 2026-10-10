@@ -1,0 +1,13 @@
+﻿claim_id,study_id,city,claim_text,claim_type,evidence_id,source_ids,table_id,figure_id,estimate,ci_low,ci_high,p_raw,p_adjusted,sample_size,method_id,status
+jinzhou-A09-C1,A09,锦州,年降水 587mm（生长季 86%）；玉米 74.0%、花生 14.4%、水稻 8.7%,descriptive,,,A09_climatology.csv,,,,,,,,,SUPPORTED
+jinzhou-A09-C2,A09,锦州,"生长季降水占比 86%；价格季节峰值月集中于 1, 2, 3, 9, 12 月",descriptive,,,A09_seasonal_peak.csv,,,,,,,,,SUPPORTED
+jinzhou-A03-C1,A03,锦州,滞后窗 198 项检验 6 项 FDR 显著,inferential,,,A03_lag_windows.csv,,6,,,,,343,,PARTIAL
+jinzhou-A08-C1,A08,锦州,A01 趋势 LOO 符号一致率中位 1.00；A02 含/不含 AR 显著 6/9,robustness,,,A08_robustness_summary.csv,,1.0,,,,,,,SUPPORTED
+jinzhou-A05-C1,A05,锦州,异质性 1/5 显著；恢复删失率中位 0%,exploratory,,,A05_heterogeneity.csv,,1,,,,,3109,,PARTIAL
+jinzhou-A01-C1,A01,锦州,价格季节指数极差中位数 0.682（最强 尖椒 0.915）,descriptive,,,A01_seasonal_amplitude.csv,,0.6823509245029825,,,,,584,,SUPPORTED
+jinzhou-A01-C2,A01,锦州,11 项趋势检验中 2 项 FDR 显著,inferential,,,A01_trend.csv,,2,,,,,11,,PARTIAL
+jinzhou-A02-C1,A02,锦州,55 项气象-价格检验中 3 项 FDR 显著,inferential,,,A02_response.csv,,3,,,,,342,,PARTIAL
+jinzhou-A04-C1,A04,锦州,事件后价格异常中位 -0.578，安慰剂 p=0.561,inferential,,,A04_event_clusters.csv,,-0.5784910467463373,,,,0.56120826709062,19,,NOT_SUPPORTED
+jinzhou-A06-C1,A06,锦州,天气信息 RMSE 相对变化中位 -5.58%,inferential,,,A06_forecast_gain.csv,,-5.58350272703788,,,,,1391,,NOT_SUPPORTED
+jinzhou-A06-C2,A06,锦州,量价关系 NOT_SUPPORTED（无成交量数据）,limitation,,,,,,,,,,,,NOT_SUPPORTED
+jinzhou-A07-C1,A07,锦州,HHI=0.576、CR4=0.985；前三 玉米 74.0%；花生 14.4%；水稻 8.7%,descriptive,,,A07_concentration.csv,,0.5758342098566092,,,,,8,,SUPPORTED

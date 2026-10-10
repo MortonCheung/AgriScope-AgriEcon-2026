@@ -1,0 +1,25 @@
+{
+ "n_tests": 54,
+ "n_fdr_sig": 4,
+ "exposures": [
+  "growing_season_temp_mean",
+  "growing_season_precip",
+  "max_1d_precip",
+  "heavy_rain_days",
+  "vpd_mean",
+  "et0_sum"
+ ],
+ "crops": [
+  "粮食",
+  "谷物",
+  "稻谷",
+  "玉米",
+  "豆类",
+  "大豆",
+  "蔬菜及食用菌",
+  "瓜果",
+  "甜瓜"
+ ],
+ "n_clusters": 8,
+ "note": "8 clusters：不得假装足够精确；wild bootstrap 已并列报告"
+}

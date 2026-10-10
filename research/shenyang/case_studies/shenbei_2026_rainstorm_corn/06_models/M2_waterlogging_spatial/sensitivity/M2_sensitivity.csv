@@ -1,0 +1,11 @@
+﻿factor,level,mean_pct_at_pos,frac_above_median,sar_anomaly_frac,overlap_with_top_quartile_susc
+grid_size_m,50,0.499,0.5,,
+grid_size_m,100,0.547,0.5,,
+grid_size_m,250,0.546,0.5,,
+sar_threshold_pct,5,,,0.0501,0.0104
+sar_threshold_pct,10,,,0.1,0.0221
+sar_threshold_pct,20,,,0.2,0.0451
+drainage_vars,with,0.547,,,
+drainage_vars,without,0.415,,,
+dem_res_m,30,0.536,,,
+dem_res_m,90,0.574,,,

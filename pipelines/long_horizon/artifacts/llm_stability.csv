@@ -1,0 +1,4 @@
+﻿repeats,n_ok,point_std,point_cv,direction_unique,range_std,crop,horizon,anchor
+4,4,0.0,0.0,['up'],0.0,土豆,60,2024-01-01
+4,4,0.0,0.0,['up'],0.0,黄瓜,60,2024-01-01
+4,4,0.0,0.0,['down'],0.0,青椒,60,2024-01-01

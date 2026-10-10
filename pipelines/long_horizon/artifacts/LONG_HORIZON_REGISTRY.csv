@@ -1,0 +1,61 @@
+﻿crop,horizon,method,metric,confidence,range_type,production_status,reason,baseline_last_value_WAPE,range_coverage_oot,n_nonoverlap
+土豆,30,b_last_value,mean_WAPE=4.845;std=1.529;worst=5.891,high,prediction_interval,SCENARIO_ONLY,未超越 baseline,4.845,0.842,68
+尖椒,30,b_last_value,mean_WAPE=13.109;std=1.194;worst=14.007,high,prediction_interval,SCENARIO_ONLY,未超越 baseline,13.109,0.832,68
+甘蓝,30,b_last_value,mean_WAPE=13.762;std=1.877;worst=15.847,high,prediction_interval,SCENARIO_ONLY,未超越 baseline,13.762,0.879,68
+芸豆,30,m_catboost,mean_WAPE=9.088;std=2.401;worst=10.839,high,prediction_interval,PRODUCTION_POINT,超越 last_value(10.6%→9.1%) 且稳定,10.604,0.894,68
+芹菜,30,b_last_value,mean_WAPE=10.843;std=3.210;worst=14.326,high,scenario_range,SCENARIO_ONLY,未超越 baseline,10.843,0.946,68
+茄子,30,b_last_value,mean_WAPE=12.209;std=1.207;worst=13.601,high,prediction_interval,SCENARIO_ONLY,未超越 baseline,12.209,0.743,68
+西红柿,30,b_last_value,mean_WAPE=9.801;std=0.633;worst=10.529,high,prediction_interval,SCENARIO_ONLY,未超越 baseline,9.801,0.844,68
+青椒,30,b_last_value,mean_WAPE=13.050;std=1.571;worst=14.359,high,prediction_interval,SCENARIO_ONLY,未超越 baseline,13.05,0.847,68
+韭菜,30,b_last_value,mean_WAPE=13.354;std=1.251;worst=14.524,high,scenario_range,SCENARIO_ONLY,未超越 baseline,13.354,0.624,68
+黄瓜,30,m_extra_trees,mean_WAPE=16.669;std=3.644;worst=19.450,high,scenario_range,PRODUCTION_POINT,超越 last_value(18.6%→16.7%) 且稳定,18.574,0.911,68
+土豆,60,b_last_value,mean_WAPE=7.080;std=2.703;worst=8.872,high,prediction_interval,SCENARIO_ONLY,未超越 baseline,7.08,0.817,34
+尖椒,60,m_catboost,mean_WAPE=16.326;std=2.465;worst=18.820,high,scenario_range,PRODUCTION_POINT,超越 last_value(19.8%→16.3%) 且稳定,19.823,0.486,34
+甘蓝,60,b_last_value,mean_WAPE=22.103;std=2.202;worst=24.211,high,prediction_interval,SCENARIO_ONLY,未超越 baseline,22.103,0.898,34
+芸豆,60,m_catboost,mean_WAPE=8.964;std=3.798;worst=11.430,high,scenario_range,PRODUCTION_POINT,超越 last_value(13.0%→9.0%) 且稳定,12.952,0.906,34
+芹菜,60,b_last_value,mean_WAPE=15.664;std=6.526;worst=22.827,high,scenario_range,SCENARIO_ONLY,未超越 baseline,15.664,0.974,34
+茄子,60,b_last_value,mean_WAPE=18.337;std=2.534;worst=20.338,high,prediction_interval,SCENARIO_ONLY,未超越 baseline,18.337,0.836,34
+西红柿,60,m_catboost,mean_WAPE=12.267;std=4.174;worst=14.708,high,prediction_interval,PRODUCTION_POINT,超越 last_value(15.2%→12.3%) 且稳定,15.17,0.708,34
+青椒,60,m_catboost,mean_WAPE=14.905;std=8.658;worst=20.392,high,scenario_range,PRODUCTION_POINT,超越 last_value(20.3%→14.9%) 且稳定,20.316,0.363,34
+韭菜,60,m_extra_trees,mean_WAPE=14.498;std=2.949;worst=17.749,high,scenario_range,PRODUCTION_POINT,超越 last_value(19.5%→14.5%) 且稳定,19.539,0.695,34
+黄瓜,60,m_extra_trees,mean_WAPE=16.725;std=5.844;worst=21.263,high,prediction_interval,PRODUCTION_POINT,超越 last_value(24.7%→16.7%) 且稳定,24.685,0.875,34
+土豆,90,m_catboost,mean_WAPE=8.377;std=1.522;worst=9.863,high,scenario_range,PRODUCTION_POINT,超越 last_value(8.4%→8.4%) 且稳定,8.38,0.552,22
+尖椒,90,m_catboost,mean_WAPE=18.212;std=5.822;worst=23.251,high,scenario_range,PRODUCTION_POINT,超越 last_value(26.5%→18.2%) 且稳定,26.53,0.37,22
+甘蓝,90,m_elasticnet,mean_WAPE=24.200;std=4.675;worst=26.976,high,scenario_range,PRODUCTION_POINT,超越 last_value(29.4%→24.2%) 且稳定,29.447,0.351,22
+芸豆,90,m_catboost,mean_WAPE=8.300;std=4.928;worst=11.259,high,prediction_interval,PRODUCTION_POINT,超越 last_value(15.5%→8.3%) 且稳定,15.548,0.898,22
+芹菜,90,b_same_season_mean,mean_WAPE=16.891;std=8.417;worst=22.262,high,scenario_range,PRODUCTION_POINT,超越 last_value(19.4%→16.9%) 且稳定,19.382,0.525,22
+茄子,90,m_elasticnet,mean_WAPE=17.863;std=8.666;worst=25.575,high,scenario_range,PRODUCTION_POINT,超越 last_value(24.9%→17.9%) 且稳定,24.872,0.53,22
+西红柿,90,m_catboost,mean_WAPE=14.160;std=4.895;worst=17.273,high,prediction_interval,PRODUCTION_POINT,超越 last_value(21.2%→14.2%) 且稳定,21.152,0.804,22
+青椒,90,m_catboost,mean_WAPE=14.952;std=8.649;worst=20.605,high,scenario_range,PRODUCTION_POINT,超越 last_value(27.2%→15.0%) 且稳定,27.18,0.42,22
+韭菜,90,m_catboost,mean_WAPE=13.747;std=4.295;worst=18.706,high,scenario_range,PRODUCTION_POINT,超越 last_value(26.7%→13.7%) 且稳定,26.74,0.682,22
+黄瓜,90,m_elasticnet,mean_WAPE=19.253;std=4.298;worst=22.604,high,prediction_interval,PRODUCTION_POINT,超越 last_value(29.6%→19.3%) 且稳定,29.585,0.773,22
+土豆,120,m_extra_trees,mean_WAPE=8.237;std=1.660;worst=9.452,medium,scenario_range,PRODUCTION_POINT,超越 last_value(9.2%→8.2%) 且稳定,9.205,0.532,17
+尖椒,120,m_catboost,mean_WAPE=17.526;std=6.740;worst=22.649,medium,scenario_range,PRODUCTION_POINT,超越 last_value(34.1%→17.5%) 且稳定,34.102,0.435,17
+甘蓝,120,m_elasticnet,mean_WAPE=25.081;std=8.463;worst=34.152,medium,scenario_range,PRODUCTION_POINT,超越 last_value(35.5%→25.1%) 且稳定,35.513,0.285,17
+芸豆,120,m_catboost,mean_WAPE=7.461;std=4.183;worst=10.094,medium,scenario_range,PRODUCTION_POINT,超越 last_value(18.0%→7.5%) 且稳定,17.963,0.938,17
+芹菜,120,b_same_season_mean,mean_WAPE=16.665;std=7.703;worst=21.202,medium,scenario_range,PRODUCTION_POINT,超越 last_value(22.2%→16.7%) 且稳定,22.179,0.529,17
+茄子,120,m_elasticnet,mean_WAPE=17.335;std=11.198;worst=26.087,medium,scenario_range,PRODUCTION_POINT,超越 last_value(31.9%→17.3%) 且稳定,31.926,0.429,17
+西红柿,120,m_catboost,mean_WAPE=14.405;std=4.011;worst=17.422,medium,scenario_range,PRODUCTION_POINT,超越 last_value(27.2%→14.4%) 且稳定,27.244,0.903,17
+青椒,120,m_catboost,mean_WAPE=16.488;std=8.008;worst=21.387,medium,scenario_range,PRODUCTION_POINT,超越 last_value(34.7%→16.5%) 且稳定,34.749,0.479,17
+韭菜,120,m_extra_trees,mean_WAPE=11.436;std=4.743;worst=16.100,medium,prediction_interval,PRODUCTION_POINT,超越 last_value(32.0%→11.4%) 且稳定,31.95,0.815,17
+黄瓜,120,m_elasticnet,mean_WAPE=18.303;std=5.497;worst=21.850,medium,prediction_interval,PRODUCTION_POINT,超越 last_value(34.7%→18.3%) 且稳定,34.694,0.821,17
+土豆,150,m_extra_trees,mean_WAPE=7.939;std=1.741;worst=9.213,medium,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 13（探索级）,9.82,0.506,13
+尖椒,150,m_catboost,mean_WAPE=19.040;std=9.169;worst=26.154,medium,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 13（探索级）,40.555,0.435,13
+甘蓝,150,m_catboost,mean_WAPE=25.718;std=6.361;worst=32.759,medium,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 13（探索级）,40.041,0.429,13
+芸豆,150,m_catboost,mean_WAPE=6.386;std=4.190;worst=8.957,medium,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 13（探索级）,19.676,0.907,13
+芹菜,150,b_same_season_mean,mean_WAPE=17.451;std=5.895;worst=20.910,medium,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 13（探索级）,24.581,0.531,13
+茄子,150,m_catboost,mean_WAPE=18.761;std=10.127;worst=28.763,medium,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 13（探索级）,37.565,0.615,13
+西红柿,150,m_catboost,mean_WAPE=13.607;std=4.442;worst=16.196,medium,prediction_interval,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 13（探索级）,32.039,0.702,13
+青椒,150,m_extra_trees,mean_WAPE=16.560;std=9.024;worst=24.853,medium,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 13（探索级）,41.508,0.634,13
+韭菜,150,m_extra_trees,mean_WAPE=10.726;std=2.672;worst=13.800,medium,prediction_interval,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 13（探索级）,36.676,0.72,13
+黄瓜,150,m_elasticnet,mean_WAPE=16.696;std=5.868;worst=20.478,medium,prediction_interval,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 13（探索级）,38.978,0.845,13
+土豆,180,m_extra_trees,mean_WAPE=7.974;std=2.127;worst=10.283,low,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 11（探索级）,10.498,0.587,11
+尖椒,180,m_catboost,mean_WAPE=18.366;std=7.427;worst=23.446,low,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 11（探索级）,46.789,0.467,11
+甘蓝,180,m_catboost,mean_WAPE=24.680;std=2.897;worst=27.885,low,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 11（探索级）,46.64,0.523,11
+芸豆,180,m_catboost,mean_WAPE=5.243;std=3.526;worst=7.864,low,prediction_interval,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 11（探索级）,19.368,0.7,11
+芹菜,180,b_same_season_mean,mean_WAPE=18.256;std=3.191;worst=20.612,low,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 11（探索级）,28.168,0.583,11
+茄子,180,m_catboost,mean_WAPE=18.009;std=9.472;worst=26.331,low,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 11（探索级）,43.515,0.6,11
+西红柿,180,m_catboost,mean_WAPE=12.106;std=4.123;worst=14.603,low,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 11（探索级）,37.969,0.663,11
+青椒,180,m_catboost,mean_WAPE=14.706;std=7.800;worst=21.559,low,scenario_range,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 11（探索级）,47.122,0.59,11
+韭菜,180,m_elasticnet,mean_WAPE=10.437;std=1.786;worst=12.463,low,prediction_interval,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 11（探索级）,41.94,0.74,11
+黄瓜,180,m_elasticnet,mean_WAPE=15.302;std=6.883;worst=19.410,low,prediction_interval,EXPLORATORY_SCENARIO_ONLY,OOT 非重叠样本仅 11（探索级）,45.142,0.88,11

@@ -1,0 +1,120 @@
+{
+ "city": "铁岭",
+ "city_code": "tieling",
+ "generated_at": "2026-09-23T10:08:59",
+ "generated_by": "archive/migration/generate_manifests.py",
+ "note": "本清单仅为既有文件的索引（路径/大小/SHA256/行数），未重新生成或改动任何数据。",
+ "sections": [
+  "data",
+  "research",
+  "case_studies",
+  "assets",
+  "sources"
+ ],
+ "data_root": "data/research/tieling/data",
+ "n_datasets": 15,
+ "datasets": [
+  {
+   "path": "data/disaster_events_algorithm.csv",
+   "bytes": 1756,
+   "sha256": "2671f95d22e91f659ca1e0b25224a142333e89f0d32c315cb9ecaa1a651ebe62",
+   "rows": 11
+  },
+  {
+   "path": "data/disaster_events_observed.csv",
+   "bytes": 8963,
+   "sha256": "98a99a4936a7126b4b93fa391a23afff4b0d803843e47b96184167750c729a5d",
+   "rows": 9
+  },
+  {
+   "path": "data/input_cost_weekly.csv",
+   "bytes": 94281,
+   "sha256": "8f518035b3936a4da034910eba0ecb0fb17a88d07e0f7ed726717cab4108d59e",
+   "rows": 842
+  },
+  {
+   "path": "data/phenology_events.csv",
+   "bytes": 11495,
+   "sha256": "9dcc9b7e1f24b2c2388c98e2d4e507de91a40dd3566a2cd7d8597cbac2ca9ffd",
+   "rows": 21
+  },
+  {
+   "path": "data/policy_events.csv",
+   "bytes": 5898,
+   "sha256": "5bb79c57d147077067ed4b73b3dfa6e9462cc31b4a552c2aa203ecaf0d360512",
+   "rows": 7
+  },
+  {
+   "path": "data/price_observation.csv",
+   "bytes": 2404283,
+   "sha256": "386529611fe241adac90899cdb13b4ddbcff731898afae1addd5edaa433e6f72",
+   "rows": 6316
+  },
+  {
+   "path": "data/production_yearly.csv",
+   "bytes": 24898,
+   "sha256": "08540cda67fe2c4b281ff4e9e2b56480b343710cb3af1d713924871392a877a4",
+   "rows": 130
+  },
+  {
+   "path": "data/soil_daily.csv",
+   "bytes": 329859,
+   "sha256": "d50bbd3e775593c2f931cf4bb31348d28883614bddce984eecbdecaf8739b605",
+   "rows": 2083
+  },
+  {
+   "path": "data/volume_observations.csv",
+   "bytes": 6246,
+   "sha256": "6e4f2322ee22d1cc7bde17627183baa6db4c7a98040527a0c202f410d6113663",
+   "rows": 14
+  },
+  {
+   "path": "data/weather_daily.csv",
+   "bytes": 193453,
+   "sha256": "0228611512473d40add2a21e851b48c9093a1d5abcefe3b8901a035ee789e3e2",
+   "rows": 2083
+  },
+  {
+   "path": "data/weather_daily_era5.csv",
+   "bytes": 697418,
+   "sha256": "1eec97440b11ae9c0ee12b55ea46c14049f087d65738a0614e66465a59a4127c",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_daily_era5land.csv",
+   "bytes": 676029,
+   "sha256": "7c594cb097af19a05d08ed2459ed46e5e4125d1b7a48041225e84b3bc732c7c3",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily.csv",
+   "bytes": 201857,
+   "sha256": "e8da0bf92182b433bd5540566ea65ba548ee59fc71f11451344019087a4c169d",
+   "rows": 2083
+  },
+  {
+   "path": "data/weather_extra_daily_era5.csv",
+   "bytes": 687163,
+   "sha256": "430c907e16c07c12089cafa93b44fad15c3d06502aceac2138b78528b59d9a3e",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily_era5land.csv",
+   "bytes": 660861,
+   "sha256": "6081b7db53a4a3229e40ea2eff5e341c34ff4c2a7268266c699f4c5d3615de66",
+   "rows": 6101
+  }
+ ],
+ "sources": [
+  "sources/MANIFEST.csv",
+  "sources/data_snapshot.json",
+  "sources/staged/price/cnhnb/tieling_price_cnhnb_county.csv",
+  "sources/staged/price/gov/tieling_price_gov_retail.csv",
+  "sources/staged/price/liaoning-agri-risk/tieling_price_county_nodes.csv",
+  "sources/staged/price/liaoning-agri-risk/铁岭_price_lnfgw.csv",
+  "sources/staged/price/liaoning-agri-risk/铁岭_price_lnnync.csv",
+  "sources/staged/price/liaoning-agri-risk/铁岭_price_tielingxian.csv",
+  "sources/staged/production/liaoning-agri-risk/tieling_production_2025.csv",
+  "sources/staged/production/liaoning-agri-risk/铁岭_production_bulletin.csv"
+ ]
+}

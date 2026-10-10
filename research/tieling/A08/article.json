@@ -1,0 +1,111 @@
+{
+ "id": "A08",
+ "city": "铁岭",
+ "slug": "robustness-credibility",
+ "title": "稳健性与可信度检验",
+ "abstract": "本城无市场类分析估计，稳健性检验不适用（NOT_SUPPORTED）。",
+ "frontend_summary": "铁岭：A08 数据不足，不成立。",
+ "keywords": [
+  "数据不足",
+  "铁岭"
+ ],
+ "research_questions": [
+  "稳健性与可信度检验"
+ ],
+ "data_scope": {
+  "summary": "见 sources/source_registry.csv"
+ },
+ "methods": [
+  {
+   "summary": "未执行"
+  }
+ ],
+ "key_findings": [
+  {
+   "heading": "研究问题与背景"
+  },
+  {
+   "heading": "数据与变量"
+  },
+  {
+   "heading": "研究方法"
+  },
+  {
+   "heading": "研究结果"
+  },
+  {
+   "heading": "讨论"
+  },
+  {
+   "heading": "研究局限"
+  },
+  {
+   "heading": "结论"
+  }
+ ],
+ "sections": [
+  {
+   "number": "1",
+   "title": "研究问题与背景",
+   "content": "拟研究铁岭稳健性与可信度检验。"
+  },
+  {
+   "number": "2",
+   "title": "数据与变量",
+   "content": "口径：第三方 B2B 产地行情（稀疏；质量 C）。"
+  },
+  {
+   "number": "3",
+   "title": "研究方法",
+   "content": "因数据不支持，未执行分析。"
+  },
+  {
+   "number": "4",
+   "title": "研究结果",
+   "content": "NOT_SUPPORTED_BY_CURRENT_DATA"
+  },
+  {
+   "number": "5",
+   "title": "讨论",
+   "content": "本城无市场类分析估计，稳健性检验不适用（NOT_SUPPORTED）。"
+  },
+  {
+   "number": "6",
+   "title": "研究局限",
+   "content": "丹东/铁岭无稳定蔬菜价格序列\nA08 依附 A01–A06 的成立度"
+  },
+  {
+   "number": "7",
+   "title": "结论",
+   "content": "NOT_SUPPORTED_BY_CURRENT_DATA"
+  }
+ ],
+ "limitations": [
+  "丹东/铁岭无稳定蔬菜价格序列",
+  "A08 依附 A01–A06 的成立度"
+ ],
+ "conclusion": "NOT_SUPPORTED_BY_CURRENT_DATA",
+ "figures": [],
+ "tables": [],
+ "source_ids": [
+  "SRC-TI-01"
+ ],
+ "status": "NOT_SUPPORTED",
+ "explorer": {
+  "status": "NOT_SUPPORTED_BY_CURRENT_DATA",
+  "selectors": [],
+  "metrics": [],
+  "series": [],
+  "tables": [],
+  "figures": [],
+  "sources": [
+   "SRC-TI-01"
+  ],
+  "methodology": "数据不支持，未执行分析。",
+  "limitations": [
+   "丹东/铁岭无稳定蔬菜价格序列",
+   "A08 依附 A01–A06 的成立度"
+  ],
+  "reason": "本城无市场类分析估计，稳健性检验不适用（NOT_SUPPORTED）。"
+ }
+}

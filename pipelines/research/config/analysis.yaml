@@ -1,0 +1,30 @@
+# 全局分析参数（预注册，与沈阳 v2 方法一致）
+
+global:
+  random_seed: 20261008
+  alpha: 0.05
+  n_boot: 999
+
+price:
+  # 主分析：单作物最少观测天数（不足则不计入该城 A01 作物池）
+  min_days_a01: 100
+  min_days_weather: 120      # A02/A03 时序建模最少有效观测
+  # 去季节化（严格无未来信息）
+  deseason:
+    doy_window: 5            # doy ±5 环形窗口
+    scale: mad_1.4826        # 稳健尺度
+    strict_no_future: true
+
+stats:
+  hac_lags: 14               # Newey-West 滞后
+  stl_period_weekly: 52
+  stl_robust: true
+
+events:
+  # 极端事件阈值（用于 A04 事件识别；沿用沈阳再分析口径）
+  precip_daily_mm: 50        # 单日强降水
+  precip_3d_mm: 100          # 3 日累计
+  temp_max_c: 35             # 高温（ERA5 平滑下常为 0，需报告）
+
+production:
+  years: [2017, 2025]        # 年鉴可用年段

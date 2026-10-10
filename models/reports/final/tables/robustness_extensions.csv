@@ -1,0 +1,9 @@
+﻿dim,value,top_crop,top_utility,top_HRI,top_market_risk,n_feasible,note
+risk_preference,conservative,青椒,0.2446777777777778,22.33266205479761,35.26665931586062,,
+risk_preference,balanced,青椒,0.2510166666666666,22.33266205479761,35.26665931586062,,
+risk_preference,aggressive,青椒,0.29024999999999995,22.33266205479761,35.26665931586062,,
+budget,100000,青椒,0.2095891304347826,,,69.0,
+budget,300000,青椒,0.23064999999999994,,,75.0,
+budget,600000,青椒,0.24945714285714282,,,84.0,
+proxy_availability,with_real_cost,,,,,0.0,蔬菜几乎无 user_input 成本 → 利润置信度受限
+proxy_availability,proxy_only,,,,,90.0,

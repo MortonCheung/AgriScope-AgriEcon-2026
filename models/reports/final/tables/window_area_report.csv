@@ -1,0 +1,11 @@
+﻿crop,window_status,harvest_window,n_equivalent_windows,is_merged_range,profit_threshold,area_status,recommended_area_mu,area_feasible,worst_case_loss_at_rec,loss_region_ratio,break_even_price,status,reason,assumptions
+土豆,ok,2025-06-12 ~ 2025-07-02,1.0,False,18270.03,ok,20.0,True,0.0,0.0,0.3043,,,
+尖椒,ok,2025-06-12 ~ 2025-08-01,1.0,False,72310.1,ok,20.0,True,0.0,0.0,0.4429,,,
+甘蓝,ok,2025-06-12 ~ 2025-08-31,1.0,False,33050.35,ok,20.0,True,0.0,0.0,0.4429,,,
+芸豆,ok,2025-06-12 ~ 2025-08-31,1.0,False,152368.66,ok,20.0,True,0.0,0.0,0.16,,,
+芹菜,ok,2025-06-12 ~ 2025-08-31,1.0,False,43914.53,ok,20.0,True,0.0,0.0,0.4429,,,
+茄子,ok,2025-06-12 ~ 2025-08-31,1.0,False,53454.87,ok,20.0,True,0.0,0.0,0.4429,,,
+西红柿,ok,2025-06-12 ~ 2025-07-02,1.0,False,59851.23,ok,20.0,True,0.0,0.0,0.6286,,,
+青椒,ok,2025-06-12 ~ 2025-08-31,1.0,False,85267.56,ok,20.0,True,0.0,0.0,0.4429,,,
+韭菜,ok,2025-06-12 ~ 2025-08-31,1.0,False,28380.02,ok,20.0,True,13501.449868865675,0.074,2.56,,,
+黄瓜,,,,,,,,,,,,NO_FEASIBLE_WINDOW,所有窗口悲观情景为负 / 无材料级差异窗口（IndexError）,area/yield 为情景假设，成本为参考口径

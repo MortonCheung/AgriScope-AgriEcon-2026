@@ -1,0 +1,35 @@
+﻿path_pattern,upload_category,reason
+source_snapshot/data/research/*/*/report.md,可公开上传,六城A01-A09正式研究报告(原创)
+source_snapshot/data/research/*/*/article.json,可公开上传,结构化文章(原创)
+source_snapshot/data/research/*/*/review.md,可公开上传,同行评审记录(原创)
+source_snapshot/data/research/*/*/tables/,可公开上传,结果表(原创计算)
+source_snapshot/data/research/*/*/metrics/,可公开上传,统计指标(原创计算)
+source_snapshot/data/research/*/*/figures/,可公开上传,研究图(原创)
+source_snapshot/data/research/shenyang/v1_reports/,可公开上传,v1 专题报告(原创)
+source_snapshot/data/research/shenyang/qa/,可公开上传,v1审计/对照/QA报告
+source_snapshot/models/reports/final/*.md,可公开上传,最终模型正式报告
+source_snapshot/models/reports/final/tables/*.csv,可公开上传,模型指标表
+source_snapshot/models/registry/,可公开上传,模型注册表(元数据)
+source_snapshot/AgriScope/docs/,可公开上传,方法/架构/来源审计文档
+source_snapshot/AgriScope/*.md,可公开上传,RC3/项目状态/研究资产报告
+source_snapshot/AgriScope/pipelines/,可公开上传,研究/建模/数据基础程序
+source_snapshot/migration_audit/,可公开上传,迁移审计报告
+migration_audit/SHA256_MANIFEST.csv,可公开上传,校验清单
+source_snapshot/data/metadata/,需要人工审核,含来源登记/血缘/单位表;核实无第三方版权内容后公开
+source_snapshot/data/research/shenyang/case_studies/01_sources/papers/,需要人工审核,外部学术论文 PDF;版权归属需确认
+source_snapshot/data/raw/agronomy/,需要人工审核,含期刊/成果评价报告 PDF;版权与分发许可待确认
+source_snapshot/data/raw/policy/,需要人工审核,政府公开公文 HTML;转载许可/二次分发待确认
+source_snapshot/data/raw/disaster/,需要人工审核,灾情通报 HTML/证据;来源合法性待确认
+source_snapshot/data/raw/city_sources/,需要人工审核,城市来源页面;许可待确认
+source_snapshot/data/raw/prices/ecommerce/,不应上传,"电商商业数据(美团/京东等),无再分发许可"
+source_snapshot/data/raw/prices/b2b/,不应上传,"B2B批发商业数据,无再分发许可"
+source_snapshot/data/raw/prices/hnwb/,需要人工审核,"惠农网等商户数据,许可待确认"
+source_snapshot/data/raw/retained_source/,仅供本地研究,"保留来源合集(109M),先本地"
+source_snapshot/data/processed/,仅供本地研究,"派生数据,体量大,按需公开"
+source_snapshot/data/model_ready/,仅供本地研究,"正式模型输入,按需公开"
+source_snapshot/data/raw/production/,需要人工审核,"统计年鉴源(含内部资料PDF),分发许可待确认"
+source_snapshot/data/raw/soil/,需要人工审核,"SoilGrids 等第三方栅格/JSON,许可待确认"
+source_snapshot/data/raw/weather/,需要人工审核,Open-Meteo/ERA5 派生;遵守 Copernicus 许可
+models/short_term/*.joblib (未复制),不应上传,"大型模型权重,无上传必要"
+任何 .env / token / 凭据 (已确认未复制),不应上传,"敏感信息,红线禁止"
+"data/research/shenyang/case_studies 栅格(*.tif/*.gpkg,未复制)",不应上传,"大型栅格/矢量,体积不适合公开仓库"

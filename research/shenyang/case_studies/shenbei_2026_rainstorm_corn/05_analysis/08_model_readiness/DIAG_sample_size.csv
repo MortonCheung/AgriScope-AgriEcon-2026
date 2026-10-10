@@ -1,0 +1,8 @@
+﻿,value
+n_years,8.0
+year_min,2018.0
+year_max,2025.0
+n_features_full,179.0
+n_features_core,12.0
+missing_rate_core,0.0
+df_predictor_only_naive,-5.0

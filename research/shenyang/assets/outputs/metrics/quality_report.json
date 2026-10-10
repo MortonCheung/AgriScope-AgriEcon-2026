@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-09-21T15:26:56",
+  "n_checks": 37,
+  "n_pass": 28,
+  "n_warn": 0,
+  "n_fail": 0,
+  "facts": {
+    "weather_days": 2083,
+    "weather_gaps": 0,
+    "market_days": 1655,
+    "market_invalid_dates": 0,
+    "market_weekend_days": 0,
+    "core_window": [
+      "2021-01-01",
+      "2026-09-14"
+    ],
+    "core_panel_rows": 14100,
+    "calendar_attribution": {
+      "published(已发布有观测)": 1655,
+      "collection_gap(采集缺口：未发起请求)": 702,
+      "not_published_holiday(已请求·法定节假日未发布)": 76,
+      "not_published_workday(已请求·工作日未发布)": 23,
+      "_total": 2456,
+      "_requested": 1754
+    },
+    "volume_zero_rows": 0,
+    "降水<0": 0,
+    "湿度越界": 0,
+    "temp_max<temp_min": 0,
+    "土壤含水量越界": 0,
+    "clim_doys": 366,
+    "clim_valid_years_min": 8,
+    "clim_valid_years_max": 38,
+    "precip_pct_coverage": 1.0,
+    "soil_z_baseline": "observation_period_loo",
+    "soil_z_coverage": 1.0,
+    "weekly_clim_crosscheck_max_diff": 4.036,
+    "event_counts": {
+      "derived_weather": 20,
+      "official": 6
+    },
+    "compound_clusters": 3
+  },
+  "checks": [
+    {
+      "check": "气象序列连续性",
+      "target": "weather_daily",
+      "value": "2083 天 / 断裂 0 处",
+      "status": "PASS",
+      "note": "2021-01-01 起完整日序列，无断裂"
+    },
+    {
+      "check": "市场观测日",
+      "target": "market_daily",
+      "value": "1655 个交易日",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "无效日期",
+      "target": "market_daily",
+      "value": 0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "市场观测日落在周末",
+      "target": "market_daily",
+      "value": 0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "三源共同覆盖期（核心研究窗口）",
+      "target": "weather ∩ market",
+      "value": "2021-01-01 ~ 2026-09-14",
+      "status": "PASS",
+      "note": "天气止于 2026-09-14（再分析滞后），核心窗口随之截止"
+    },
+    {
+      "check": "核心窗口面板行数",
+      "target": "daily_panel",
+      "value": 14100,
+      "status": "PASS",
+      "note": "= 1410 个交易日 × 10 品种"
+    },
+    {
+      "check": "原始批发层完全重复行",
+      "target": "market_raw",
+      "value": 0,
+      "status": "PASS",
+      "note": "Raw 保留，不删除"
+    },
+    {
+      "check": "原始批发层业务主键(date+crop)重复行",
+      "target": "market_raw",
+      "value": 0,
+      "status": "PASS",
+      "note": "Curated 层按记录序保留首条"
+    },
+    {
+      "check": "marts 批发层业务主键重复行",
+      "target": "fact_price_city(wholesale)",
+      "value": 0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "日历归因/published(已发布有观测)",
+      "target": "market_calendar",
+      "value": 1655,
+      "status": "PASS",
+      "note": "67.4% 的日历日"
+    },
+    {
+      "check": "日历归因/collection_gap(采集缺口：未发起请求)",
+      "target": "market_calendar",
+      "value": 702,
+      "status": "INFO",
+      "note": "28.6% 的日历日"
+    },
+    {
+      "check": "日历归因/not_published_holiday(已请求·法定节假日未发布)",
+      "target": "market_calendar",
+      "value": 76,
+      "status": "INFO",
+      "note": "3.1% 的日历日"
+    },
+    {
+      "check": "日历归因/not_published_workday(已请求·工作日未发布)",
+      "target": "market_calendar",
+      "value": 23,
+      "status": "INFO",
+      "note": "0.9% 的日历日"
+    },
+    {
+      "check": "缺失处理策略",
+      "target": "全项目",
+      "value": "留空(null)",
+      "status": "PASS",
+      "note": "禁止插值 / 禁止把缺失当 0"
+    },
+    {
+      "check": "10 种蔬菜覆盖天数（最小/最大）",
+      "target": "market_raw",
+      "value": "1655 / 1655",
+      "status": "PASS",
+      "note": "10 种全部 1655 天齐备"
+    },
+    {
+      "check": "marts 与 Raw 价格一致",
+      "target": "fact_price_city",
+      "value": "不一致 0 行",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "marts 与 Raw 成交量一致",
+      "target": "fact_market_supply",
+      "value": "不一致 0 行",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "派生极端天气事件（沈阳）",
+      "target": "fact_disaster_events",
+      "value": 20,
+      "status": "PASS",
+      "note": "event_source=derived_weather"
+    },
+    {
+      "check": "官方灾害通报事件（沈阳 2026）",
+      "target": "official",
+      "value": 6,
+      "status": "PASS",
+      "note": "event_source=official"
+    },
+    {
+      "check": "复合事件簇（簇内事件数>1）",
+      "target": "derived_weather",
+      "value": 3,
+      "status": "INFO",
+      "note": "间隔 ≤3 天合并；原始事件全部保留"
+    },
+    {
+      "check": "事件类型计数",
+      "target": "rainstorm",
+      "value": 11,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "check": "事件类型计数",
+      "target": "heavy_rain",
+      "value": 6,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "check": "事件类型计数",
+      "target": "heat",
+      "value": 3,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "check": "价格≤0 行数",
+      "target": "daily_panel",
+      "value": 0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "成交量<0 行数",
+      "target": "daily_panel",
+      "value": 0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "成交量=0 行数",
+      "target": "daily_panel",
+      "value": 0,
+      "status": "PASS",
+      "note": "批发口径 16550 条全部 >0（原始层已过滤）"
+    },
+    {
+      "check": "极端值（|MAD-z|>6）总计数",
+      "target": "daily_panel",
+      "value": 347,
+      "status": "INFO",
+      "note": "仅标记，不删除、不填补"
+    },
+    {
+      "check": "气象物理合理性：降水<0",
+      "target": "weather_daily",
+      "value": 0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "气象物理合理性：湿度越界",
+      "target": "weather_daily",
+      "value": 0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "气象物理合理性：temp_max<temp_min",
+      "target": "weather_daily",
+      "value": 0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "气象物理合理性：土壤含水量越界",
+      "target": "weather_daily",
+      "value": 0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "气候基线覆盖 doy",
+      "target": "climatology_daily",
+      "value": 366,
+      "status": "PASS",
+      "note": "1991-2020 共 30 年，2/29 归并入 doy=59"
+    },
+    {
+      "check": "基线每个 doy 有效年数（最小/最大）",
+      "target": "climatology_daily",
+      "value": "8 / 38",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "降水经验分位覆盖率",
+      "target": "weather_daily",
+      "value": "100.00%",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "土壤含水量异常 z 基线口径",
+      "target": "weather_daily",
+      "value": "observation_period_loo",
+      "status": "INFO",
+      "note": "1991-2020 基线 JSON 的 soil_moisture_0_to_10cm_mean 全为 null → 降级为观测期 leave-one-year-out 同期（doy±5）期望 + 1.4826×MAD 稳健尺度（见 BLOCKERS.md），证据等级 A→B"
+    },
+    {
+      "check": "土壤含水量异常 z 覆盖率",
+      "target": "weather_daily",
+      "value": "100.00%",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "check": "与仓库 1991-2020 周基线交叉核对（最大差值℃）",
+      "target": "weekly_climatology",
+      "value": 4.036,
+      "status": "PASS",
+      "note": "本研究用日值基线重建，两者应一致（差异来自聚合口径）"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+ "city": "chaoyang",
+ "freq": "D",
+ "n_crops": 14,
+ "n_het_tests": 5,
+ "n_het_sig": 0,
+ "median_censoring_rate": 0.0,
+ "median_recovery_periods": 9.75,
+ "alpha": 0.05
+}

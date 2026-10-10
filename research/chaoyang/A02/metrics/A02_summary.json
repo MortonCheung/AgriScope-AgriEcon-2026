@@ -1,0 +1,10 @@
+{
+ "city": "chaoyang",
+ "freq": "D",
+ "n_crops": 14,
+ "n_tests": 70,
+ "n_fdr_sig": 0,
+ "median_ar1": 0.9074127229483016,
+ "max_abs_effect_sig": NaN,
+ "alpha": 0.05
+}

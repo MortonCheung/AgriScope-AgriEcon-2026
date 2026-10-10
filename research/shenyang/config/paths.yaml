@@ -1,0 +1,88 @@
+# =============================================================================
+# 沈阳农业气象风险研究 — 路径配置（唯一路径来源）
+# 规则：代码中禁止散落绝对路径；所有输入/输出路径必须经此文件解析。
+# =============================================================================
+
+# 数据仓库（只读）—— 分析项目不得向此目录写入任何文件
+warehouse:
+  root: /Users/morton_cheung/Desktop/比赛/大数据分析
+  metadata: raw_data/metadata
+  raw: raw_data
+  staging: city_data/reference/staging
+  curated: city_data/reference/curated
+  marts: city_data/reference/marts
+  reports: city_data/reference/reports
+
+# 数据仓库内被本分析项目正式引用的输入表（相对 warehouse.root）
+inputs:
+  # --- 市场（价格 / 成交量）---
+  fact_price_city: city_data/reference/marts/fact_price_city.csv
+  fact_market_supply: city_data/reference/marts/fact_market_supply.csv
+  fact_price_weekly: city_data/reference/marts/fact_price_weekly.csv
+  # --- 气象 / 土壤 ---
+  fact_weather_daily: city_data/reference/marts/fact_weather_daily.csv
+  fact_weather_extra_daily: city_data/reference/marts/fact_weather_extra_daily.csv
+  fact_soil_daily: city_data/reference/marts/fact_soil_daily.csv
+  fact_city_climate_official: city_data/reference/marts/fact_city_climate_official.csv
+  # --- 气候基线（1991-2020 日值，逐城市 JSON）---
+  baseline_daily_json: raw_data/weather/openmeteo_沈阳_baseline_1991-01-01_2020-12-31.json
+  weekly_climatology: city_data/reference/curated/weekly_climatology_1991_2020.csv
+  # --- 灾害事件 ---
+  fact_disaster_events: city_data/reference/marts/fact_disaster_events.csv
+  fact_disaster_events_shenyang_2026_official: city_data/reference/marts/fact_disaster_events_shenyang_2026_official.csv
+  fact_disaster_reports: city_data/reference/marts/fact_disaster_reports.csv
+  weekly_disaster_exposure: city_data/reference/marts/weekly_disaster_exposure.csv
+  # --- 年尺度生产 ---
+  fact_production_yearly: city_data/reference/marts/fact_production_yearly.csv
+  fact_production_yearly_2020_2024: city_data/reference/marts/fact_production_yearly_2020_2024.csv
+  fact_production_yearly_2025_shenyang: city_data/reference/marts/fact_production_yearly_2025_shenyang.csv
+  # --- 元数据 ---
+  dim_calendar: city_data/reference/marts/dim_calendar.csv
+  crops: raw_data/metadata/crops.csv
+  cities: raw_data/metadata/cities.csv
+  city_static: raw_data/metadata/city_static.csv
+  crop_calendar: raw_data/metadata/crop_calendar.csv
+  crop_agronomy: raw_data/metadata/crop_agronomy.csv
+  source_registry: raw_data/metadata/source_registry.csv
+  # --- 原始市场价格（仅用于补取 marts 未落库的 dayPriceRatio / dayVolumeRatio）---
+  raw_price_dir: raw_data/prices/shenyang_clz
+
+# 分析项目路径（相对项目根，由 src/_common.py 自动解析）
+project:
+  config: config
+  data_interim: ../data
+  data_processed: ../data/processed
+  data_raw: ../../raw_data/web_captures/shenyang
+  data_raw_district: ../../raw_data/web_captures/shenyang/district_production
+  models: ../assets/models
+  outputs: ../assets/outputs
+  figures: ../assets/outputs/figures
+  tables: ../assets/outputs/tables
+  metrics: ../assets/outputs/metrics
+  reports: v1_reports
+  logs: ../../archive/historical/shenyang_logs
+  snapshot: ../sources/data_snapshot.json
+
+# 分析产物文件（相对项目根）
+artifacts:
+  weather_daily: ../data/panels/shenyang_weather_daily.parquet
+  market_daily: ../data/panels/shenyang_market_daily.parquet
+  market_raw_wholesale: ../data/panels/shenyang_market_raw_wholesale.parquet
+  daily_panel: ../data/panels/shenyang_daily_panel.parquet
+  panel_weekly: ../data/panels/shenyang_weekly_panel.parquet
+  climatology_daily: ../data/panels/shenyang_climatology_daily.parquet
+  panel_hist: ../data/processed/shenyang_daily_panel_hist.parquet
+  panel_stl: ../data/processed/shenyang_daily_panel_stl.parquet
+  panel_final: ../data/processed/shenyang_panel_final.parquet
+  event_windows: ../data/processed/event_study_windows.parquet
+  yearly_panel: ../data/processed/shenyang_yearly_panel.parquet
+  results_registry: ../assets/outputs/results_registry.csv
+  # --- 区县农业生产数据层（本轮数据补充新增）---
+  district_source_registry: ../../raw_data/web_captures/shenyang/district_production/source_registry.csv
+  district_coordinates: ../data/processed/district_coordinates.csv
+  district_crop_area: ../data/processed/district_crop_area.csv
+  district_crop_production: ../data/processed/district_crop_production.csv
+  district_crop_yield: ../data/processed/district_crop_yield.csv
+  district_weather_daily: ../data/processed/district_weather_daily.parquet
+  district_weather_yearly: ../data/processed/district_weather_yearly.csv
+  district_yearly_panel: ../data/processed/district_yearly_agri_weather_panel.parquet

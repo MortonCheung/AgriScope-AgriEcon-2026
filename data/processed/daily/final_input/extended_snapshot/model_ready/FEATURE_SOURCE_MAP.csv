@@ -1,0 +1,663 @@
+﻿module,table,column,source_table,source_raw,transform,pit_safe
+shenyang_core,market_daily.parquet,city,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,county,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,market_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,store_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,platform,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,crop_raw,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,crop_standard,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,sku_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,specification,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,package_size,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,price_original,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,unit_original,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,price_per_kg,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,price_level,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,observation_date,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,observation_time,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,frequency,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,source_type,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,source_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,source_url,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,source_id,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,retrieval_time,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,promotion_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,member_price_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,derived_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,quality_grade,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,raw_file,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,geo_level,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,record_kind,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,note,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,source_text,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,retrieval_date,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,crop_standard_original,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,variety,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,specification_norm,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,grade,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,package,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,processing_state,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,crop_recovery_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,is_crop,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,is_proxy,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,is_derived,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,access_date,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,market_daily.parquet,price_level_canonical,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+shenyang_core,environment_daily.parquet,city,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,date,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,temperature_2m_max,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,temperature_2m_min,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,temperature_2m_mean,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,precipitation_sum,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,relative_humidity_2m_mean,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,wind_speed_10m_max,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,shortwave_radiation_sum,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,et0_fao_evapotranspiration,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,soil_water_layer_1,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,soil_water_layer_2,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,soil_water_layer_3,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,soil_temperature,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,data_type,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,source,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,aggregation_method,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,source_id,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,geo_level,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,frequency,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,is_proxy,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,is_derived,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,access_date,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,ym,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,ndvi_mean,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,ndvi_p10,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,ndvi_p90,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,ndvi_valid_ratio,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,source_frequency_ndvi,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,ndvi_anomaly_z,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,environment_daily.parquet,baseline_same_month,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+shenyang_core,phenology.parquet,city,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,county,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,crop_raw,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,crop_standard,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,year,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,stage,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,start_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,end_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,date_precision,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,source_id,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,source_url,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,source_text,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,quality_grade,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,derived_from_text,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,retrieval_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,geo_level,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,note,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,raw_file_new,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,stage_raw,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,stage_group,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,production_system,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,season,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,facility_or_open_field,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,standard_ref,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,db21_applicable,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,quality_flag,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,access_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,crop_flag,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,is_crop,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,frequency,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,is_proxy,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,is_derived,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,facility_type_norm,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,phenology.parquet,calendar_geo_scope,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+shenyang_core,crop_context.parquet,city,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,district,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,crop_raw,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,crop_standard,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,facility_type,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,area_value,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,area_original_unit,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,area_mu,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,production_value,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,production_original_unit,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,production_ton,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,yield_kg_per_mu,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,year_or_period,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,source_level,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,source_name,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,source_url,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,source_text,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,confidence,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,access_date,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,model_value,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,crop_flag,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,is_crop,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,is_derived,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,source_id,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,geo_level,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,frequency,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,crop_context.parquet,is_proxy,02_standardized/production/crop_spatial_structure,政府答复/年鉴/论文,官方结构信息,True
+shenyang_core,cost_reference.parquet,year,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,province,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,city,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,crop_raw,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,crop_standard,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,cost_basis,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,total_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,seed_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,fertilizer_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,pesticide_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,labor_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,machinery_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,land_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,film_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,water_electricity_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,irrigation_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,packaging_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,transport_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,other_cost,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,cost_original_text,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,geo_level,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,is_proxy,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,production_system,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,source_level,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,source_name,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,source_url,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,source_text,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,note,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,access_date,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,model_value,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,source_id,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,frequency,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,is_derived,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+shenyang_core,cost_reference.parquet,cost_source_class,02_standardized/cost/cost_components,论文/成本调查,reference（proxy 已标）,True
+chaoyang_extended,market_daily.parquet,city,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,county,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,market_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,store_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,platform,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,crop_raw,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,crop_standard,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,sku_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,specification,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,package_size,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,price_original,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,unit_original,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,price_per_kg,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,price_level,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,observation_date,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,observation_time,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,frequency,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,source_type,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,source_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,source_url,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,source_id,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,retrieval_time,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,promotion_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,member_price_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,derived_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,quality_grade,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,raw_file,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,geo_level,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,record_kind,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,note,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,source_text,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,retrieval_date,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,crop_standard_original,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,variety,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,specification_norm,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,grade,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,package,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,processing_state,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,crop_recovery_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,is_crop,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,is_proxy,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,is_derived,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,access_date,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,market_daily.parquet,price_level_canonical,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+chaoyang_extended,environment_daily.parquet,city,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,date,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,temperature_2m_max,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,temperature_2m_min,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,temperature_2m_mean,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,precipitation_sum,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,relative_humidity_2m_mean,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,wind_speed_10m_max,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,shortwave_radiation_sum,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,et0_fao_evapotranspiration,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,soil_water_layer_1,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,soil_water_layer_2,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,soil_water_layer_3,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,soil_temperature,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,data_type,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,source,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,aggregation_method,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,source_id,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,geo_level,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,frequency,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,is_proxy,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,is_derived,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,access_date,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,ym,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,ndvi_mean,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,ndvi_p10,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,ndvi_p90,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,ndvi_valid_ratio,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,source_frequency_ndvi,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,ndvi_anomaly_z,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,environment_daily.parquet,baseline_same_month,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+chaoyang_extended,phenology.parquet,city,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,county,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,crop_raw,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,crop_standard,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,year,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,stage,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,start_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,end_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,date_precision,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,source_id,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,source_url,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,source_text,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,quality_grade,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,derived_from_text,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,retrieval_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,geo_level,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,note,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,raw_file_new,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,stage_raw,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,stage_group,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,production_system,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,season,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,facility_or_open_field,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,standard_ref,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,db21_applicable,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,quality_flag,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,access_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,crop_flag,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,is_crop,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,frequency,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,is_proxy,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,is_derived,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,facility_type_norm,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+chaoyang_extended,phenology.parquet,calendar_geo_scope,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,market_daily.parquet,city,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,county,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,market_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,store_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,platform,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,crop_raw,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,crop_standard,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,sku_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,specification,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,package_size,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,price_original,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,unit_original,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,price_per_kg,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,price_level,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,observation_date,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,observation_time,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,frequency,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,source_type,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,source_name,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,source_url,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,source_id,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,retrieval_time,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,promotion_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,member_price_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,derived_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,quality_grade,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,raw_file,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,geo_level,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,record_kind,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,note,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,source_text,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,retrieval_date,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,crop_standard_original,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,variety,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,specification_norm,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,grade,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,package,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,processing_state,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,crop_recovery_flag,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,is_crop,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,is_proxy,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,is_derived,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,access_date,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,market_daily.parquet,price_level_canonical,02_standardized/market/price_observation,data/raw/city_data canonical,城市过滤,True
+jinzhou_extended,environment_daily.parquet,city,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,date,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,temperature_2m_max,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,temperature_2m_min,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,temperature_2m_mean,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,precipitation_sum,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,relative_humidity_2m_mean,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,wind_speed_10m_max,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,shortwave_radiation_sum,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,et0_fao_evapotranspiration,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,soil_water_layer_1,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,soil_water_layer_2,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,soil_water_layer_3,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,soil_temperature,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,data_type,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,source,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,aggregation_method,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,source_id,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,geo_level,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,frequency,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,is_proxy,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,is_derived,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,access_date,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,ym,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,ndvi_mean,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,ndvi_p10,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,ndvi_p90,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,ndvi_valid_ratio,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,source_frequency_ndvi,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,ndvi_anomaly_z,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,environment_daily.parquet,baseline_same_month,03_integrated/city_daily_environment,ERA5 / soil / Sentinel-2,城市过滤,True
+jinzhou_extended,phenology.parquet,city,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,county,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,crop_raw,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,crop_standard,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,year,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,stage,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,start_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,end_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,date_precision,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,source_id,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,source_url,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,source_text,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,quality_grade,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,derived_from_text,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,retrieval_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,geo_level,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,note,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,raw_file_new,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,stage_raw,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,stage_group,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,production_system,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,season,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,facility_or_open_field,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,standard_ref,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,db21_applicable,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,quality_flag,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,access_date,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,crop_flag,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,is_crop,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,frequency,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,is_proxy,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,is_derived,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,facility_type_norm,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+jinzhou_extended,phenology.parquet,calendar_geo_scope,02_standardized/production/crop_calendar,官方农事历/物候,城市过滤,True
+hri,hri_inputs.parquet,city,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,crop_standard,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,iso_year,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,iso_week,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_mean,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_median,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_min,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_max,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_std,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_n,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_level,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,n_markets,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,province_price_mean,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,city_vs_province_spread,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,w_temperature_2m_mean,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,w_precipitation_sum,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,w_shortwave_radiation_sum,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,w_wind_speed_10m_max,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_lag_1w,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_lag_2w,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_lag_4w,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_pct_rank,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+hri,hri_inputs.parquet,price_mom_4w,03_integrated/city_crop_weekly,canonical price,rank/pct_change,True
+climate,climate_daily.parquet,city,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,date,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,temperature_2m_max,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,temperature_2m_min,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,temperature_2m_mean,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,precipitation_sum,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,relative_humidity_2m_mean,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,wind_speed_10m_max,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,shortwave_radiation_sum,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,et0_fao_evapotranspiration,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,soil_water_layer_1,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,soil_water_layer_2,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,soil_water_layer_3,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,soil_temperature,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,data_type,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,source,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,aggregation_method,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,source_id,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,geo_level,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,frequency,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,is_proxy,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,is_derived,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,access_date,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,ym,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,ndvi_mean,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,ndvi_p10,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,ndvi_p90,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,ndvi_valid_ratio,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,source_frequency_ndvi,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,ndvi_anomaly_z,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,climate_daily.parquet,baseline_same_month,03_integrated/city_daily_environment,ERA5/soil/S2,整合,True
+climate,vegetation_anomaly.parquet,city,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,period,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,ndvi_mean,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,baseline_same_month,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,ndvi_anomaly_z,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,valid_pixel_ratio,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,quality_flag,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,source_id,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,source_url,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,access_date,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,geo_level,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,frequency,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,is_proxy,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+climate,vegetation_anomaly.parquet,is_derived,02_standardized/remote_sensing/vegetation_anomaly,Sentinel-2,派生(z 异常),True
+profit,cost_components.parquet,year,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,province,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,city,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,crop_raw,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,crop_standard,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,cost_basis,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,total_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,seed_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,fertilizer_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,pesticide_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,labor_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,machinery_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,land_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,film_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,water_electricity_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,irrigation_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,packaging_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,transport_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,other_cost,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,cost_original_text,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,geo_level,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,is_proxy,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,production_system,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,source_level,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,source_name,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,source_url,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,source_text,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,note,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,access_date,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,model_value,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,source_id,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,frequency,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,is_derived,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_components.parquet,cost_source_class,02_standardized/cost/cost_components,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,year,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,city,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,district,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,crop,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,cost_type,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,production_system,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,total_cost_per_mu,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,labor_cost,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,direct_production_cost,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,depreciation_cost,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,seed_cost,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,fertilizer_cost,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,pesticide_cost,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,film_cost,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,water_electricity_cost,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,other_cost,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,revenue_per_mu,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,net_income_per_mu,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,is_proxy,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,proxy_type,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,proxy_reason,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,original_geo_level,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,geo_level,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,observation_type,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,source_level,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,source_name,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,source_url,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,source_text,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,note,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,access_date,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,source_id,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,frequency,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,is_derived,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,cost_source_class,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,crop_cost.parquet,crop_standard,02_standardized/cost/crop_cost,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,year,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,city,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,district,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,crop,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,cost_type,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,production_system,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,total_cost_per_mu,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,labor_cost,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,direct_production_cost,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,depreciation_cost,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,seed_cost,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,fertilizer_cost,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,pesticide_cost,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,film_cost,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,water_electricity_cost,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,other_cost,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,revenue_per_mu,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,net_income_per_mu,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,is_proxy,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,proxy_type,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,proxy_reason,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,original_geo_level,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,geo_level,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,observation_type,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,source_level,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,source_name,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,source_url,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,source_text,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,note,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,access_date,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,cost_source_class,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+profit,cost_proxy.parquet,crop_standard,02_standardized/cost/cost_proxy,论文/发改委调查,口径区分（见 cost_basis）,True
+recommendation,structural_context.parquet,city,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,district,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,crop_raw,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,crop_standard,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,facility_type,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,area_value,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,area_original_unit,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,area_mu,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,production_value,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,production_original_unit,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,production_ton,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,yield_kg_per_mu,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,year_or_period,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,source_level,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,source_name,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,source_url,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,source_text,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,confidence,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,access_date,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,model_value,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,crop_flag,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,is_crop,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,is_derived,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,_block,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,year,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,province,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,cost_basis,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,total_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,seed_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,fertilizer_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,pesticide_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,labor_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,machinery_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,land_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,film_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,water_electricity_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,irrigation_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,packaging_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,transport_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,other_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,cost_original_text,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,geo_level,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,is_proxy,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,production_system,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,note,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,source_id,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,frequency,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,cost_source_class,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,crop,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,cost_type,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,total_cost_per_mu,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,direct_production_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,depreciation_cost,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,revenue_per_mu,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,net_income_per_mu,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,proxy_type,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,proxy_reason,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,original_geo_level,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,observation_type,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,column,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,value,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,unit,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,table,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,source_file,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,metric,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,facility_name,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,capacity_ton,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,capacity_m3,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,capacity_text,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,from_node,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,from_lat,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,from_lon,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,to_market,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,to_lat,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,to_lon,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,distance_km,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,duration_min,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,distance_type,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,method,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,scope,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,yoy_pct,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,hazard,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,structural_context.parquet,indicator,03_integrated/city_structural_context,多源,长表 _block,True
+recommendation,market_nodes.parquet,market_name,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,market_type,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,city,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,district,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,address,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,lat,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,lon,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,annual_throughput,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,throughput_unit,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,scale_desc,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,cold_storage,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,source_level,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,source_name,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,source_url,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,note,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,access_date,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,scale,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,source_id,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,geo_level,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,frequency,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,is_proxy,02_standardized/market/market_registry,政府/调研,静态,True
+recommendation,market_nodes.parquet,is_derived,02_standardized/market/market_registry,政府/调研,静态,True

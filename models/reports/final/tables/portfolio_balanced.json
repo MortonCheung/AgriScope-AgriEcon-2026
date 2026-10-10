@@ -1,0 +1,78 @@
+{
+  "status": "ok",
+  "risk_preference": "balanced",
+  "step_mu": 5.0,
+  "crops_considered": [
+    "青椒",
+    "茄子",
+    "芸豆",
+    "尖椒",
+    "甘蓝"
+  ],
+  "allocation": [
+    {
+      "crop": "茄子",
+      "area_mu": 30.0,
+      "share": 0.5,
+      "harvest_date": "2025-08-31",
+      "plant_date": "2025-06-12",
+      "cost_per_mu": 1550.0,
+      "profit_baseline": 229197.58,
+      "HRI": 17.89261881003065,
+      "market_risk": 22.826546561890922,
+      "climate_risk": 50.0
+    },
+    {
+      "crop": "甘蓝",
+      "area_mu": 30.0,
+      "share": 0.5,
+      "harvest_date": "2025-08-31",
+      "plant_date": "2025-06-12",
+      "cost_per_mu": 1550.0,
+      "profit_baseline": 120080.85,
+      "HRI": 11.305111080614926,
+      "market_risk": 26.624578395109566,
+      "climate_risk": 50.0
+    }
+  ],
+  "idle_area_mu": 0.0,
+  "portfolio_metrics": {
+    "total_area_mu": 60.0,
+    "idle_area_mu": 0.0,
+    "shares": {
+      "茄子": 0.5,
+      "甘蓝": 0.5
+    },
+    "hhi": 0.5,
+    "hhi_normalized": 0.0,
+    "avg_pairwise_corr": 0.2054,
+    "concentration_penalty": 0.0,
+    "correlation_penalty": 0.0,
+    "portfolio_profit_baseline": 349278.43,
+    "portfolio_profit_pessimistic": 261938.35,
+    "portfolio_profit_optimistic": 714409.21,
+    "portfolio_cost": 93000.0,
+    "portfolio_HRI": 14.6,
+    "portfolio_market_risk": 24.73,
+    "portfolio_climate_risk": 50.0,
+    "portfolio_confidence": 60.0,
+    "risk_adjusted_market": 24.73,
+    "note": "组合风险 = 面积加权 + 集中度惩罚 + 相关性惩罚；不假设组合必然降低风险，也不假设单户面积会影响市场价格",
+    "portfolio_utility": 0.4167
+  },
+  "single_crop_reference": {
+    "crop": "茄子",
+    "area_mu": 60.0,
+    "utility": 0.4038,
+    "hhi": 1.0,
+    "profit_baseline": 458395.17,
+    "profit_pessimistic": 331353.39,
+    "risk_adjusted_market": 28.53
+  },
+  "notes": [
+    "组合仅为同季方案（不做复种）；土地可分割，每单元一季一种作物",
+    "面积不影响价格（无农户级市场冲击模型），面积只决定敞口规模",
+    "组合是否优于单作物由效用与风险指标判定，不预设结论"
+  ],
+  "status_final": "OK"
+}

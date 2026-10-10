@@ -1,0 +1,2 @@
+﻿stage,stage_start,stage_end,stage_confidence,event_overlap_start,event_overlap_end,overlap_precip_mm,overlap_max_1h_mm,evidence,source_id,event_2day_precip_mm,note
+抽雄期(tasseling),2026-07-10,2026-07-25,中（区域粒度：7月）,2026-07-12,2026-07-14,218.3,21.2,AgriScope作物日历：辽宁玉米flowering/抽雄期=7月；官方技术资料称7月玉米‘正值生长关键期’,SRC-CROP-CALENDAR,218.3,文献/区域粒度物候区间，非沈北2026实测物候；仅用于暴露判断

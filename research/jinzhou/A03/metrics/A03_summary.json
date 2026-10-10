@@ -1,0 +1,10 @@
+{
+ "city": "jinzhou",
+ "freq": "D",
+ "n_crops": 11,
+ "n_lag_tests": 198,
+ "n_lag_sig": 6,
+ "n_nl_tests": 33,
+ "n_nl_sig": 2,
+ "alpha": 0.05
+}

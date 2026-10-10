@@ -1,0 +1,10 @@
+{
+ "city": "jinzhou",
+ "freq": "D",
+ "n_event_days": 45,
+ "n_event_clusters": 19,
+ "n_official_disaster": 23,
+ "median_post_z": -0.5784910467463373,
+ "placebo_p": 0.56120826709062,
+ "alpha": 0.05
+}

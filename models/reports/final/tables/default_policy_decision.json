@@ -1,0 +1,20 @@
+{
+  "decision": "A",
+  "reason": "Balanced_fix 在 untouched 期不劣于 Random，downside 不劣于 Profit_only，且高-HRI 抑制在 tuning/untouched 一致（无 evaluation overfitting）→ 保留 Balanced 为默认",
+  "untouched_balanced_fix_return": -0.008907182954215706,
+  "untouched_balanced_old_return": -0.014799391598762394,
+  "untouched_profit_only_return": -0.027373450038338763,
+  "untouched_risk_only_return": -0.020250071896908865,
+  "untouched_random_return": -0.020012211412860068,
+  "untouched_balanced_fix_high_hri": 0.012987012987012988,
+  "untouched_profit_only_high_hri": 0.1038961038961039,
+  "untouched_balanced_fix_downside": -0.07103810648242345,
+  "untouched_profit_only_downside": -0.08909613200112113,
+  "tuning_balanced_fix_return": 0.02423361979628593,
+  "tuning_random_return": 0.034611406939872365,
+  "balanced_fix_diversity": 3.0,
+  "balanced_fix_hhi": 0.6334120425029517,
+  "balanced_fix_downside_ok": true,
+  "no_evaluation_overfitting": true,
+  "ts": "2026-10-07 19:32:40"
+}

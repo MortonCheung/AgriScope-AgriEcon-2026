@@ -1,0 +1,13 @@
+{
+ "t0": "2026-07-13",
+ "max_1d_precip_mm": 173.9,
+ "max_1d_precip_date": "2026-07-13",
+ "max_1d_rank": 1,
+ "total_obs_days": 2083,
+ "max_3d_precip_mm": 221.10000000000002,
+ "t0_clim_mean_mm": 1.24,
+ "t0_clim_sd_mm": 3.306227144500886,
+ "t0_z_vs_clim": 52.222667243894115,
+ "case_post_mean_price": 0.3327593995345605,
+ "case_post_mean_volume": -0.455445313429509
+}

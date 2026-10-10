@@ -1,0 +1,7 @@
+{
+  "table": "cropland_landcover",
+  "status": "NOT_AVAILABLE",
+  "reason": "尚未采集耕地/土地覆盖栅格",
+  "searched": "data/raw/ + city_data/ + supplements",
+  "access_date": "2026-10-04"
+}

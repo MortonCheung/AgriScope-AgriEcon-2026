@@ -1,0 +1,208 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AgriScope Final Model Output Contract",
+  "model_version": "final_v1",
+  "data_version": "final_v1",
+  "type": "object",
+  "properties": {
+    "request_id": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string",
+      "enum": [
+        "沈阳",
+        "朝阳",
+        "锦州",
+        "大连",
+        "铁岭",
+        "丹东"
+      ]
+    },
+    "crop": {
+      "type": "string"
+    },
+    "area_mu": {
+      "type": "number"
+    },
+    "budget": {
+      "type": "number"
+    },
+    "risk_preference": {
+      "type": "string",
+      "enum": [
+        "conservative",
+        "balanced",
+        "aggressive"
+      ]
+    },
+    "price": {
+      "type": "object",
+      "properties": {
+        "mid": {
+          "type": "number"
+        },
+        "low": {
+          "type": "number"
+        },
+        "high": {
+          "type": "number"
+        },
+        "horizon_days": {
+          "type": "integer"
+        },
+        "method": {
+          "type": "string"
+        },
+        "range_type": {
+          "type": "string",
+          "enum": [
+            "prediction_interval",
+            "scenario_range"
+          ]
+        }
+      }
+    },
+    "profit": {
+      "type": "object",
+      "properties": {
+        "expected": {
+          "type": "number"
+        },
+        "pessimistic": {
+          "type": "number"
+        },
+        "break_even_price": {
+          "type": "number"
+        },
+        "cost_source_class": {
+          "type": "string"
+        },
+        "yield_source_class": {
+          "type": "string"
+        }
+      }
+    },
+    "hri": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number"
+        },
+        "level": {
+          "type": "string"
+        },
+        "components": {
+          "type": "object"
+        }
+      }
+    },
+    "market_risk": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number"
+        },
+        "level": {
+          "type": "string"
+        }
+      }
+    },
+    "climate_exposure": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number"
+        },
+        "n_years": {
+          "type": "integer"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "properties": {
+        "price_confidence": {
+          "type": "number"
+        },
+        "profit_confidence": {
+          "type": "number"
+        },
+        "risk_confidence": {
+          "type": "number"
+        },
+        "overall_confidence": {
+          "type": "number"
+        }
+      }
+    },
+    "recommendation": {
+      "type": "object",
+      "properties": {
+        "rank": {
+          "type": "integer"
+        },
+        "strategy": {
+          "type": "string"
+        },
+        "decision_score": {
+          "type": "number"
+        }
+      }
+    },
+    "stress_scenarios": {
+      "type": "array"
+    },
+    "reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_quality": {
+      "type": "object"
+    },
+    "proxy_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ok",
+        "insufficient_market_data",
+        "low_confidence",
+        "user_input_required",
+        "no_clear_winner",
+        "scenario_only"
+      ]
+    },
+    "model_version": {
+      "type": "string"
+    },
+    "data_version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "request_id",
+    "city",
+    "crop",
+    "price",
+    "confidence",
+    "status",
+    "model_version",
+    "data_version"
+  ]
+}

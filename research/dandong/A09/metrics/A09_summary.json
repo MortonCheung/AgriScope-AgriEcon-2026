@@ -1,0 +1,14 @@
+{
+ "city": "dandong",
+ "clim": {
+  "n_years": 17,
+  "precip_ann_mean": 957.3823529411765,
+  "precip_gs_mean": 790.4411764705883,
+  "tmean_ann_mean": 10.777037589570725,
+  "precip_ann_recent": 1011.9499999999999,
+  "precip_ann_early": 927.6181818181819,
+  "gs_share": 0.8256274768824307
+ },
+ "prod_top": "玉米 65.2%、水稻 26.3%、大豆 4.8%",
+ "prod_hhi": 0.49773220712887495
+}

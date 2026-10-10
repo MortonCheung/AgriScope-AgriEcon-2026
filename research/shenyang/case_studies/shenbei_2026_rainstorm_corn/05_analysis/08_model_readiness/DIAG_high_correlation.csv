@@ -1,0 +1,6 @@
+﻿v1,v2,r
+corn_area_ha,time_index,0.9
+time_index,antecedent_precip_14d,0.83
+repro_precip_sum,repro_precip_max_5d,0.9
+repro_precip_sum,repro_heavy_rain_days,0.87
+repro_precip_max_5d,repro_heavy_rain_days,0.84

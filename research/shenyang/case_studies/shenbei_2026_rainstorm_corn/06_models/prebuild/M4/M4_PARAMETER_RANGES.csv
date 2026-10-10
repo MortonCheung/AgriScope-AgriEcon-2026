@@ -1,0 +1,9 @@
+﻿parameter,role,note,range
+rain_mm_per_h,OBSERVED/DERIVED,ERA5 事件雨强（注意为单点 forcing）,—
+area_m2,OBSERVED（个案）,八间房村 8000 余亩 → 5.33e6 m²,量级
+k_inf_mm_h,CALIBRATABLE/LITERATURE_PARAMETER,入渗能力（土壤缺失 → 范围）,1~10
+k_nat_per_h,LATENT,自然排水/沟渠/外排综合速率,0.005~0.08
+init_storage_mm,LATENT,初始蓄水（前期湿润）,20~200
+pump_capacity_m3h,DERIVED,12×8寸泵（工程参考区间，非铭牌）,1800~6000
+intervention_start_h,OBSERVED,预警→行动：14.8h（八间房村）,—
+s_threshold_mm,ASSUMED,视为排净的残余深度,0.1~2

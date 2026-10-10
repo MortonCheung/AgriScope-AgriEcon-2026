@@ -1,0 +1,13 @@
+{
+  "cutoffs": [
+    "2025-02-28",
+    "2025-06-02",
+    "2025-09-01"
+  ],
+  "pareto_rows": 3,
+  "window_area_rows": 10,
+  "portfolio_status": "ok",
+  "stress_rows": 10,
+  "robustness_rows": 8,
+  "ts": "2026-10-07 19:33:36"
+}

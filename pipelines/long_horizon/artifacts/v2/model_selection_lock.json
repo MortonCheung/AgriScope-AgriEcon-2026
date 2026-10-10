@@ -1,0 +1,607 @@
+{
+  "config_hash": "3259aaad287e25b757c62e9bb293aaf0471a0bca34ffb5fae5a82f1ef8d7affe",
+  "target": "harvest_post_14",
+  "selection": {
+    "土豆|30|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 6.314921095922012
+    },
+    "尖椒|30|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 16.07628062874571
+    },
+    "甘蓝|30|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "last_value",
+      "selection_score": 17.39589197950584
+    },
+    "芸豆|30|cycle_market_average": {
+      "method": "elasticnet",
+      "baseline": "last_value",
+      "selection_score": 12.815324747758952
+    },
+    "芹菜|30|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 16.408999956792925
+    },
+    "茄子|30|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 14.900301636546267
+    },
+    "西红柿|30|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 11.545984260639411
+    },
+    "青椒|30|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 15.273932508888068
+    },
+    "韭菜|30|cycle_market_average": {
+      "method": "elasticnet",
+      "baseline": "same_season_mean",
+      "selection_score": 10.994825324316707
+    },
+    "黄瓜|30|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "last_value",
+      "selection_score": 17.38130728323086
+    },
+    "土豆|30|harvest_market_price": {
+      "method": "elasticnet",
+      "baseline": "last_value",
+      "selection_score": 9.67612675484006
+    },
+    "尖椒|30|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "last_value",
+      "selection_score": 24.3009744117382
+    },
+    "甘蓝|30|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 28.464304690897556
+    },
+    "芸豆|30|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 17.464544045850367
+    },
+    "芹菜|30|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 32.54885146538414
+    },
+    "茄子|30|harvest_market_price": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 27.647606711646034
+    },
+    "西红柿|30|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 19.955373614400656
+    },
+    "青椒|30|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 26.037104433909484
+    },
+    "韭菜|30|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 13.97301231801491
+    },
+    "黄瓜|30|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 21.676056085146506
+    },
+    "土豆|60|cycle_market_average": {
+      "method": "elasticnet",
+      "baseline": "last_value",
+      "selection_score": 7.84057236526062
+    },
+    "尖椒|60|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 21.72543595184487
+    },
+    "甘蓝|60|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "same_season_median",
+      "selection_score": 21.06316884916817
+    },
+    "芸豆|60|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 11.939675152984044
+    },
+    "芹菜|60|cycle_market_average": {
+      "method": "elasticnet",
+      "baseline": "last_value",
+      "selection_score": 28.384260570184185
+    },
+    "茄子|60|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 22.07073294431957
+    },
+    "西红柿|60|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "last_value",
+      "selection_score": 13.225860623275224
+    },
+    "青椒|60|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 23.33800515239755
+    },
+    "韭菜|60|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 11.441166228645288
+    },
+    "黄瓜|60|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 19.235203665739824
+    },
+    "土豆|60|harvest_market_price": {
+      "method": "elasticnet",
+      "baseline": "last_value",
+      "selection_score": 12.98856723912855
+    },
+    "尖椒|60|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 31.548013170809153
+    },
+    "甘蓝|60|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 29.921413945181676
+    },
+    "芸豆|60|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 15.88613879266908
+    },
+    "芹菜|60|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 30.69252030113647
+    },
+    "茄子|60|harvest_market_price": {
+      "method": "same_season_median",
+      "baseline": "same_season_median",
+      "selection_score": 36.50956207300999
+    },
+    "西红柿|60|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 21.747077809842402
+    },
+    "青椒|60|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 26.592084982973493
+    },
+    "韭菜|60|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 14.948795549580492
+    },
+    "黄瓜|60|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 23.555463470058392
+    },
+    "土豆|90|cycle_market_average": {
+      "method": "elasticnet",
+      "baseline": "last_value",
+      "selection_score": 9.878057634302564
+    },
+    "尖椒|90|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "last_value",
+      "selection_score": 26.60041907234996
+    },
+    "甘蓝|90|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 24.334520821678737
+    },
+    "芸豆|90|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 12.313746021191122
+    },
+    "芹菜|90|cycle_market_average": {
+      "method": "elasticnet",
+      "baseline": "same_season_mean",
+      "selection_score": 26.91057991167375
+    },
+    "茄子|90|cycle_market_average": {
+      "method": "same_season_median",
+      "baseline": "same_season_median",
+      "selection_score": 25.327850075658034
+    },
+    "西红柿|90|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 18.37533694299144
+    },
+    "青椒|90|cycle_market_average": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 22.751427160057617
+    },
+    "韭菜|90|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 11.233888044058546
+    },
+    "黄瓜|90|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 18.661748283608986
+    },
+    "土豆|90|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "last_value",
+      "selection_score": 14.101480207285132
+    },
+    "尖椒|90|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 36.988477534634754
+    },
+    "甘蓝|90|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 38.03355846706371
+    },
+    "芸豆|90|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 17.64663270309888
+    },
+    "芹菜|90|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 32.07734743246308
+    },
+    "茄子|90|harvest_market_price": {
+      "method": "same_season_median",
+      "baseline": "same_season_median",
+      "selection_score": 41.05026428307974
+    },
+    "西红柿|90|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 21.83213107293782
+    },
+    "青椒|90|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 29.71176196860599
+    },
+    "韭菜|90|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 14.964300908392929
+    },
+    "黄瓜|90|harvest_market_price": {
+      "method": "linear",
+      "baseline": "same_season_median",
+      "selection_score": 28.060077851296445
+    },
+    "土豆|120|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 10.708864465082463
+    },
+    "尖椒|120|cycle_market_average": {
+      "method": "same_season_median",
+      "baseline": "same_season_median",
+      "selection_score": 30.074649157963783
+    },
+    "甘蓝|120|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 23.352704347670162
+    },
+    "芸豆|120|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 11.623726698897716
+    },
+    "芹菜|120|cycle_market_average": {
+      "method": "elasticnet",
+      "baseline": "same_season_mean",
+      "selection_score": 28.99764388616388
+    },
+    "茄子|120|cycle_market_average": {
+      "method": "same_season_median",
+      "baseline": "same_season_median",
+      "selection_score": 25.688010728753426
+    },
+    "西红柿|120|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 18.016096404878226
+    },
+    "青椒|120|cycle_market_average": {
+      "method": "extra_trees",
+      "baseline": "same_season_median",
+      "selection_score": 24.95975464194916
+    },
+    "韭菜|120|cycle_market_average": {
+      "method": "elasticnet",
+      "baseline": "same_season_mean",
+      "selection_score": 11.566025177036625
+    },
+    "黄瓜|120|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 18.086375414458736
+    },
+    "土豆|120|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 18.330820940167694
+    },
+    "尖椒|120|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 38.338280315552495
+    },
+    "甘蓝|120|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 38.55975440567043
+    },
+    "芸豆|120|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 18.546811817683974
+    },
+    "芹菜|120|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 34.192177537594844
+    },
+    "茄子|120|harvest_market_price": {
+      "method": "same_season_median",
+      "baseline": "same_season_median",
+      "selection_score": 47.27025616090987
+    },
+    "西红柿|120|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 24.529065232607856
+    },
+    "青椒|120|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 35.407701001906545
+    },
+    "韭菜|120|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 15.076315266834925
+    },
+    "黄瓜|120|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_median",
+      "selection_score": 27.402924741780268
+    },
+    "土豆|150|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 11.452861246230807
+    },
+    "尖椒|150|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 29.394821620405857
+    },
+    "甘蓝|150|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 22.63463276471314
+    },
+    "芸豆|150|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "seasonal_naive",
+      "selection_score": 9.715897430830635
+    },
+    "芹菜|150|cycle_market_average": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 26.841825989471364
+    },
+    "茄子|150|cycle_market_average": {
+      "method": "same_season_median",
+      "baseline": "same_season_median",
+      "selection_score": 24.939822793171494
+    },
+    "西红柿|150|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 19.46774641100943
+    },
+    "青椒|150|cycle_market_average": {
+      "method": "linear",
+      "baseline": "same_season_mean",
+      "selection_score": 25.776961148242165
+    },
+    "韭菜|150|cycle_market_average": {
+      "method": "elasticnet",
+      "baseline": "same_season_mean",
+      "selection_score": 10.686688630056192
+    },
+    "黄瓜|150|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 18.121776310665066
+    },
+    "土豆|150|harvest_market_price": {
+      "method": "elasticnet",
+      "baseline": "same_season_median",
+      "selection_score": 15.26269943300794
+    },
+    "尖椒|150|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 42.48027518336345
+    },
+    "甘蓝|150|harvest_market_price": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 34.1612794951453
+    },
+    "芸豆|150|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 21.83496222264226
+    },
+    "芹菜|150|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 37.146530869963925
+    },
+    "茄子|150|harvest_market_price": {
+      "method": "same_season_median",
+      "baseline": "same_season_median",
+      "selection_score": 54.643111181252735
+    },
+    "西红柿|150|harvest_market_price": {
+      "method": "linear",
+      "baseline": "same_season_mean",
+      "selection_score": 24.289926692175197
+    },
+    "青椒|150|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_mean",
+      "selection_score": 39.82444829178098
+    },
+    "韭菜|150|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 16.66579085554169
+    },
+    "黄瓜|150|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_median",
+      "selection_score": 30.413524932569395
+    },
+    "土豆|180|cycle_market_average": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 12.563537560827449
+    },
+    "尖椒|180|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 29.254150561220907
+    },
+    "甘蓝|180|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 22.792332124006194
+    },
+    "芸豆|180|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "seasonal_naive",
+      "selection_score": 7.686929188119414
+    },
+    "芹菜|180|cycle_market_average": {
+      "method": "extra_trees",
+      "baseline": "last_value",
+      "selection_score": 26.1880761261857
+    },
+    "茄子|180|cycle_market_average": {
+      "method": "same_season_median",
+      "baseline": "same_season_median",
+      "selection_score": 23.449117343335146
+    },
+    "西红柿|180|cycle_market_average": {
+      "method": "catboost",
+      "baseline": "seasonal_naive",
+      "selection_score": 16.57477305200578
+    },
+    "青椒|180|cycle_market_average": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 26.147567459355884
+    },
+    "韭菜|180|cycle_market_average": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 7.565802744696615
+    },
+    "黄瓜|180|cycle_market_average": {
+      "method": "linear",
+      "baseline": "same_season_mean",
+      "selection_score": 16.2186709124614
+    },
+    "土豆|180|harvest_market_price": {
+      "method": "elasticnet",
+      "baseline": "same_season_mean",
+      "selection_score": 12.388764260451184
+    },
+    "尖椒|180|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 43.94940512648656
+    },
+    "甘蓝|180|harvest_market_price": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 32.32131582819815
+    },
+    "芸豆|180|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 21.155455678306232
+    },
+    "芹菜|180|harvest_market_price": {
+      "method": "last_value",
+      "baseline": "last_value",
+      "selection_score": 22.426855140991762
+    },
+    "茄子|180|harvest_market_price": {
+      "method": "same_season_median",
+      "baseline": "same_season_median",
+      "selection_score": 57.48843839984786
+    },
+    "西红柿|180|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 27.60416753425423
+    },
+    "青椒|180|harvest_market_price": {
+      "method": "extra_trees",
+      "baseline": "same_season_mean",
+      "selection_score": 37.805173118843214
+    },
+    "韭菜|180|harvest_market_price": {
+      "method": "same_season_mean",
+      "baseline": "same_season_mean",
+      "selection_score": 17.14585569212277
+    },
+    "黄瓜|180|harvest_market_price": {
+      "method": "catboost",
+      "baseline": "same_season_median",
+      "selection_score": 34.51076635032245
+    }
+  },
+  "locked_at": "2026-10-07T18:05:24.882962+00:00"
+}

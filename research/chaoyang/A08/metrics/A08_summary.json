@@ -1,0 +1,8 @@
+{
+ "city": "chaoyang",
+ "n_crops": 14,
+ "a01_loo_sign_consistency_median": 1.0,
+ "a02_sig_with_ar": 9,
+ "a02_sig_no_ar": 4,
+ "a04_placebo_p": 0.858739837398374
+}

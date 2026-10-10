@@ -1,0 +1,236 @@
+﻿source_id,source_name,publisher,source_level,url,access_date,dataset,city,category,origin_file
+C001,元旦临近 沈阳“菜篮子”货足价稳,新华网辽宁频道,C,http://ln.news.cn/20241231/ab3f536f1fad4e0f86b4a241e4ce42de/c.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C002,保供稳价不放松 安心过节有保障,沈阳粮油集团,C,https://www.sylyjt.com.cn/news/47.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C003,沈阳三大批发市场“炊烟袅袅”,国际在线（转沈阳日报）,C,https://ln.cri.cn/2020-05-15/6c8deda7-f605-224c-1ad1-bb9becf18486.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C004,辽宁省农产品现代流通体系建设发展规划(2024-2030),辽宁省商务厅（编制：沈阳大学）,S,https://swt.ln.gov.cn/swt/fwxx/yjzj/2024041210083480076/2024042209330027202.pdf,2026-10-04,market_supply_proxy;market_registry_v3;cold_chain_capacity_v3,辽宁省/沈阳/大连/丹东,supply_proxy;market;cold_chain,source_registry.csv
+C005,全力保障春节期间“菜篮子”量足价稳,沈阳市人民政府,S,https://www.shenyang.gov.cn/zt/jjlwlb/gzdt/202602/t20260213_4988514.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C006,沈城中秋节日市场显活力,沈阳市人民政府,S,https://www.shenyang.gov.cn/zwgk/zwdt/bmdt/202409/t20240919_4733823.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C007,沈阳市6家农产品批发市场被评为农业农村部定点市场,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/zsqsnyxxlb/2024040310404091628/index.shtml,2026-10-04,market_supply_proxy;market_registry_v3,沈阳,supply_proxy;market,source_registry.csv
+C008,沈阳市重要生活必需品市场监测情况专报,沈阳市商务局,S,https://swj.shenyang.gov.cn/ywdh/gnmy/202206/t20220614_3102777.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C009,辽宁生活必需品货源充足 价格略有上涨,人民网辽宁（转辽宁日报）,B,http://ln.people.com.cn/n2/2020/0130/c378318-33750299.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C01,东北地区日光温室果菜生产现状与轻简化途径,余朝阁等(沈阳农业大学)《中国蔬菜》2022(4),A,https://www.cnveg.org/CN/article/downloadArticleFile.do?attachType=PDF&id=19092,沈阳(东北8市加权),设施果菜成本构成/效益,2021-2022,论文,source_registry.csv
+C010,沈阳保供稳价守护百姓“菜篮子”,人民网辽宁（转辽宁日报）,B,http://ln.people.com.cn/n2/2021/1103/c378317-34987630.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C011,辽宁：肉、菜、蛋及粮油等重要生活必需品供应总体充足,辽宁日报（今日头条转载）,C,http://m.toutiao.com/group/7075522017780302366/,2026-10-04,market_supply_proxy,沈阳/丹东,supply_proxy,source_registry.csv
+C012,喜报！沈阳市新民市获批全国农产品骨干冷链物流重点县,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/fwzx/xdny/202407/t20240718_4703588.html,2026-10-04,market_supply_proxy;cold_chain_capacity_v3;market_registry_v3,沈阳,supply_proxy;cold_chain,source_registry.csv
+C013,筑牢粮仓 链通产销 数字赋能——解码“十四五”农业发展密码,新民市人民政府,S,https://www.xinmin.gov.cn/gzyw/yw/202511/t20251113_4933902.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C014,大民屯镇学习“六地”精神 创造现代化大农业现行地,新民市人民政府,S,https://www.xinmin.gov.cn/gzyw/xzjxx/202401/t20240103_4583984.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C015,各地果蔬年货市场货足价稳 “菜篮子”新春保供“不断档”,央视网,C,http://m.cnwest.com/szyw/a/2026/02/14/23298113.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C016,辽宁新民：全产业链条发展 助力提稳“菜篮子”,人民日报客户端,C,https://www.peopleapp.com/column/30035424832-500000476844,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C017,解码沈阳好“丰”景丨从“好滋味”到“新宠儿”,新华网辽宁频道,C,http://ln.news.cn/20230829/ad6d9b93955441258a4b7ea6ef535cd8/c.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C018,对县十九届人大三次会议《关于发展棚菜种植…的建议》答复,黑山县人民政府,S,http://www.heishan.gov.cn/info/1883/39883.htm,2026-10-04,market_supply_proxy;market_registry_v3,锦州,supply_proxy;market,source_registry.csv
+C019,四家子镇棚室西红柿抢“鲜”上市 产销两旺,黑山县人民政府,S,http://www.heishan.gov.cn/info/1016/46574.htm,2026-10-04,market_supply_proxy,锦州,supply_proxy,source_registry.csv
+C02,铁岭地区日光温室一年五熟栽培模式,刘红玉等(铁岭县蔬菜技术推广站)《中国蔬菜》2013(11),C,https://www.cnveg.org/CN/article/downloadArticleFile.do?attachType=PDF&id=16871,铁岭,分季种子+肥料+农药投入,2013,论文,source_registry.csv
+C020,市政协十五届三次会议《关于升级打造锦州“土特产”产业的建议》答复,锦州市农业农村局,S,http://nyncj.jz.gov.cn/info/1019/8169.htm,2026-10-04,market_supply_proxy;market_registry_v3,锦州,supply_proxy;market,source_registry.csv
+C021,从“靠天吃饭”到“靠棚致富”,央视网（转农民日报）,C,http://sannong.cntv.cn/2015/12/14/ARTI1450055915795793.shtml,2026-10-04,market_supply_proxy,朝阳,supply_proxy,source_registry.csv
+C022,五间房镇越冬番茄即将大量上市,朝阳日报,C,http://newpaper.cynews.com.cn/cyrm/mepaper/content/202603/19/c87327.html,2026-10-04,market_supply_proxy,朝阳,supply_proxy,source_registry.csv
+C023,北票市设施蔬菜产业成乡村振兴强引擎,朝阳市农业农村局（转辽宁日报）,S,https://nyncj.chaoyang.gov.cn/html/CYSNW/202602/0177086281714631.html,2026-10-04,market_supply_proxy;market_registry_v3,朝阳,supply_proxy;market,source_registry.csv
+C024,全市农业农村经济高质量发展取得新成效,朝阳市人民政府,S,https://chaoyang.gov.cn/html/CYSZF/202301/0167272154489240.html,2026-10-04,cold_chain_capacity_v3,朝阳,cold_chain;production,source_registry.csv
+C025,假日经济提质增效 消费市场价稳人气旺,大连市人民政府,S,https://www.dl.gov.cn/art/2026/5/9/art_1437_2511253.html,2026-10-04,market_supply_proxy,大连,supply_proxy,source_registry.csv
+C026,126场促消费活动精彩纷呈 生活必需品市场供应充足价格稳定,大连市人民政府,S,https://dldj.gov.cn/art/2026/2/24/art_1190_2500487.html,2026-10-04,market_supply_proxy,大连,supply_proxy,source_registry.csv
+C027,多措并举保障节日市场供应充足总体运行平稳,大连市人民政府,S,https://zfxxgk.dl.gov.cn/art/2026/2/13/art_1190_2500005.html,2026-10-04,market_supply_proxy,大连,supply_proxy,source_registry.csv
+C028,中秋、国庆“双节”市场供应充足 安全平稳有序,大连市商务局,S,https://boc.dl.gov.cn/art/2025/9/29/art_1932_2464952.html,2026-10-04,market_supply_proxy,大连,supply_proxy,source_registry.csv
+C029,对政协市九届一次会议第912089号提案的答复,铁岭市人民政府,S,http://www.tieling.gov.cn/tieling/zwgk/zfxxgk/fdzdgknr/jyta/szxta50/2022n/2023012213324035542/index.html,2026-10-04,market_supply_proxy;cold_chain_capacity_v3,铁岭,supply_proxy;cold_chain,source_registry.csv
+C03,设施越冬番茄接茬越夏黄瓜高效栽培技术,董环等(辽宁省农业科学院)《中国蔬菜》2023,A,https://www.cnveg.org/CN/article/downloadArticleFile.do?attachType=PDF&id=19446,朝阳-北票,设施番茄+黄瓜效益,2023,论文,source_registry.csv
+C030,市政协十六届五次会议第396号提案的答复,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/zwgk/fdzdgknr/jyta/zxta/202606/t20260601_5034708.html,2026-10-04,market_supply_proxy;cold_chain_capacity_v3,沈阳,supply_proxy;cold_chain,source_registry.csv
+C031,搭起大棚稳菜价（政策聚焦）,人民日报（人民网）,C,http://politics.people.com.cn/n/2014/0223/c1001-24436822.html,2026-10-04,market_supply_proxy,沈阳,supply_proxy,source_registry.csv
+C032,关于对省政协十三届三次会议第13030049号提案的答复,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/zfxxgk/fdzdgknr/jyta/szxta/szxssjschy2025n/2025082810291849003/index.shtml,2026-10-04,cold_chain_capacity_v3,辽宁省,cold_chain,source_registry.csv
+C033,关于对省十四届人大三次会议第1431349号建议的答复,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/zfxxgk/fdzdgknr/jyta/srddbjy/sssjrdschy2025n/2025082014322777707/index.shtml,2026-10-04,cold_chain_capacity_v3,辽宁省,cold_chain,source_registry.csv
+C034,聚焦2023“成绩单” 辽宁农业全面发力,辽宁日报（辽宁省人民政府网）,S,https://www.ln.gov.cn/web/ywdt/tjdt/2024012311224648103/index.shtml,2026-10-04,cold_chain_capacity_v3,辽宁省,cold_chain,source_registry.csv
+C035,辽宁省冷链物流高质量发展实施方案(2022—2025年),辽宁省人民政府办公厅,S,https://www.shenyang.gov.cn/zt/hqlmzc/lnszc/202301/t20230106_4362823.html,2026-10-04,cold_chain_capacity_v3,辽宁省,cold_chain,source_registry.csv
+C036,市人大十七届三次会议第0568号建议的答复,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/zwgk/fdzdgknr/jyta/rdjy/202405/t20240523_4647544.html,2026-10-04,cold_chain_capacity_v3,沈阳,cold_chain,source_registry.csv
+C037,东北冷鲜港8月底开业…落户浑南,指尖沈阳（今日头条转载）,C,http://m.toutiao.com/group/7400685389408305727/,2026-10-04,cold_chain_capacity_v3;market_registry_v3,沈阳,cold_chain;market,source_registry.csv
+C038,胡家镇建成3万吨“大冰箱”,盘锦日报（盘锦市人民政府网）,C,http://www.panjin.gov.cn/html/1738/2026-08-21/content-153085.html,2026-10-04,cold_chain_capacity_v3,盘锦,cold_chain,source_registry.csv
+C039,关于对省政协十三届三次会议第13030406号提案的答复,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/zfxxgk/fdzdgknr/jyta/szxta/szxssjschy2025n/2025091114561986426/index.shtml,2026-10-04,cold_chain_capacity_v3,辽宁省/丹东,cold_chain,source_registry.csv
+C04,今年大白菜价格翻番 大民屯菜农狂赚62万元,沈阳晚报(中国经济网转载),C,http://finance.ce.cn/rolling/201310/13/t20131013_1612153.shtml,沈阳-新民-大民屯,大白菜成本/收益,2013,新闻转载,source_registry.csv
+C040,农业农村部菜篮子产品批发价格平台（市场目录）,农业农村部信息中心,B,https://pfsc.agri.cn,2026-10-04,market_registry_v3,辽宁省,market,source_registry.csv
+C041,东北冷鲜港/十二线国际冷&鲜肉品专区开业通稿,今日头条（副食集团）,D,http://m.toutiao.com/group/7046343340589335071/,2026-10-04,market_registry_v3,沈阳,market,source_registry.csv
+C05,新民大民屯白菜销售遇冷,沈阳晚报(新浪转载),C,https://news.sina.com.cn/c/2009-10-31/081316530903s.shtml,沈阳-新民-大民屯,大白菜成本拆分,2009,新闻转载,source_registry.csv
+C06,辽宁沈阳：秋菜上市 土豆价格同比降八成,辽沈晚报(央视网转载),C,https://sannong.cntv.cn/2014/10/09/ARTI1412833120274433.shtml,沈阳-新民,土豆成本/价格,2014,新闻转载,source_registry.csv
+C07,沈阳地区马铃薯促早熟高产高效栽培技术研究,孙周平等(沈阳农业科技开发院)2000,A,https://potato.chinacrops.org/upimage/uploadfile/1729234454904065.pdf,沈阳,马铃薯间作费用/产量/产值,2000,论文,source_registry.csv
+C08,关于培育发展乡村特色优势产业的案例思考—以灵武市郝家桥镇韭菜产业发展为例,中国农村网,C,https://www.crnews.net/cy/tz/967062_20241106013125.html,宁夏-灵武,大棚韭菜人工/投入品成本,2024,调研,source_registry.csv
+C09,韭菜一亩地的利润是多少？2024年真实成本收益测算,一亩田,D,https://news.ymt.com/new_arg_tech/76F61Zg1,华北(山东/河北),韭菜成本拆分,2024,商业内容(可信度低),source_registry.csv
+C10,大白菜成景 “中国绿”受宠,营口日报,C,http://www.ykd.com.cn/pad/con/202510/23/content_65363.html,营口-大石桥,大白菜成本/效益,2025,新闻,source_registry.csv
+D01,沈阳市农业农村局 人大第0046号答复,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/zwgk/fdzdgknr/jyta/rdjy/202504/t20250411_4834857.html,2026-10-04,agri_insurance_claims_v3;irrigation_yearly_extended,沈阳,保险/灌溉,source_registry.csv
+D02,沈阳市财政局 信息快递,沈阳市财政局,S,https://czj.shenyang.gov.cn/zwgkzdgz/xxkd/202407/t20240715_4701762.html,2026-10-04,agri_insurance_claims_v3,沈阳,保险,source_registry.csv
+D03,沈阳市财政局 人大第0455号答复,沈阳市财政局,S,https://czj.shenyang.gov.cn/zwgkzdgz/fdzdgknr/jyta/srddbjy/2025n/202510/t20251011_4917688.html,2026-10-04,agri_insurance_claims_v3,沈阳,保险,source_registry.csv
+D04,铁岭市财政局 人大第961043号答复,铁岭市财政局,S,http://www.tieling.gov.cn/tieling/zwgk/zfxxgk/fdzdgknr/jyta/srddbjy54/2025n/2025081309065262479/index.html,2026-10-04,agri_insurance_claims_v3,铁岭,保险,source_registry.csv
+D05,铁岭市农业农村局 人大第961123号答复,铁岭市农业农村局,S,http://www.tieling.gov.cn/tieling/zwgk/zfxxgk/fdzdgknr/jyta/srddbjy54/2025n/2025070716251031208/index.html,2026-10-04,irrigation_yearly_extended,铁岭,灌溉,source_registry.csv
+D06,朝阳市农业农村局 粮食产量再创历史新高,朝阳市农业农村局,S,https://nyncj.chaoyang.gov.cn/html/CYSNW/202501/0173823249436258.html,2026-10-04,agri_insurance_claims_v3;irrigation_yearly_extended,朝阳,保险/灌溉,source_registry.csv
+D07,朝阳金融监管分局 新闻发布会,朝阳市人民政府,S,https://www.chaoyang.gov.cn/html/CYSZF/202504/0174556731510299.html,2026-10-04,agri_insurance_claims_v3,朝阳,保险,source_registry.csv
+D08,朝阳日报 建平杂粮产业升级,朝阳日报,C,http://newpaper.cynews.com.cn/cyrm/epaper/content/202608/22/c92523.html,2026-10-04,agri_insurance_claims_v3,朝阳,保险,source_registry.csv
+D09,中国银行保险报 绿萼红果满园春,中国银行保险报,C,http://www.cbimc.cn/m/content/2025-02/07/content_539162.html,2026-10-04,agri_insurance_claims_v3,丹东,保险,source_registry.csv
+D10,中华财险 大连市水稻完全成本保险条款,中华联合财险,B,https://property.cic.cn/u/cms/zhcaixian/202210/21143619h2w9.pdf,2026-10-04,agri_insurance_claims_v3,大连,保险,source_registry.csv
+D11,2024年辽宁省种植业保险工作方案,辽宁省财政厅/农业农村厅/辽宁金融监管局,S,https://www.ln.gov.cn/web/zwgkx/lnsrmzfgb/2024n/qk/2024n_dssq98/bmwj/2024070410340441581/,2026-10-04,agri_insurance_claims_v3,辽宁,保险,source_registry.csv
+D12,盖州市政府 人大第169号答复,盖州市人民政府,S,http://gaizhou.gov.cn/govxxgk/gzs/2024-08-29/eba67c21-fb7c-484d-b1ba-cb1b5987912a.html,2026-10-04,agri_insurance_claims_v3,营口(盖州),保险,source_registry.csv
+D13,辽宁省植保植检总站/农业农村厅 病虫害预报系列,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/nyxw/gzdt/2025072515182283086/,2026-10-04,pest_events,辽宁,病虫害,source_registry.csv
+D14,二代玉米螟发生趋势预报,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/nyxw/gzdt/2025080114485986088/,2026-10-04,pest_events,辽宁,病虫害,source_registry.csv
+D15,二代粘虫发生趋势预报,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/nyxw/gzdt/2025070116594830762/,2026-10-04,pest_events,辽宁,病虫害,source_registry.csv
+D16,二代棉铃虫发生趋势预报,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/nyxw/gzdt/2025070116570880914/,2026-10-04,pest_events,辽宁,病虫害,source_registry.csv
+D17,玉米白斑病发生趋势预报,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/nyxw/gzdt/2025080114492429308/,2026-10-04,pest_events,辽宁,病虫害,source_registry.csv
+D18,我省多地多措并举筑牢农作物病虫害防控防线,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/nyxw/gzdt/2025081416302090279/,2026-10-04,pest_events,辽宁,病虫害,source_registry.csv
+D19,一代玉米螟发生趋势预报(2024),辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/lnsnyfzfwzx/zxdt/2024062110123998545/index.shtml,2026-10-04,pest_events,辽宁,病虫害,source_registry.csv
+D20,二代粘虫发生趋势预报(2024),辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/lnsnyfzfwzx/zxdt/2024062110142153903/index.shtml,2026-10-04,pest_events,辽宁,病虫害,source_registry.csv
+D21,锦州市农业中心病虫害防控先手棋,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/lnsnyfzfwzx/zxdt/2025030711012237410/index.shtml,2026-10-04,pest_events,锦州,病虫害,source_registry.csv
+D22,省植保植检总站赴于洪区北票市指导番茄潜叶蛾,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/nyxw/gzdt/2025031215442851583/index.shtml,2026-10-04,pest_events,沈阳/朝阳,病虫害,source_registry.csv
+D23,沈阳市乡村振兴发展中心赴于洪区番茄潜叶蛾防控,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/zxzx/ncgz/202503/t20250311_4820231.html,2026-10-04,pest_events,沈阳,病虫害,source_registry.csv
+D24,沈阳市辽中区豆科植物虫害指导,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/fwzx/zlaq/202406/t20240619_4659349.html,2026-10-04,pest_events,沈阳,病虫害,source_registry.csv
+D25,辽阳市2024年虫口夺粮行动方案,辽阳市农业农村局,S,http://nyncj.liaoyang.gov.cn/govxxgk/LYSNW/2024-04-24/a53333f1-4e8d-4f5c-a713-895061ac8722.html,2026-10-04,pest_events,辽阳,病虫害,source_registry.csv
+D26,辽宁省2023年国民经济和社会发展统计公报,辽宁省统计局,S,https://tjj.ln.gov.cn/tjj/attachDir/2024/03/2024032815431143514.pdf,2026-10-04,irrigation_yearly_extended,辽宁,灌溉,source_registry.csv
+D27,辽宁出台方案2032年永久基本农田全部建成高标准,辽宁省人民政府/人民网,S,https://www.ln.gov.cn/web/ywdt/zymtkln/2025081209440491376/index.shtml,2026-10-04,irrigation_yearly_extended,辽宁,灌溉,source_registry.csv
+D28,辽宁省政协第13030170号提案答复,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/zfxxgk/fdzdgknr/jyta/szxta/szxssjschy2025n/2025082810503236765/index.shtml,2026-10-04,irrigation_yearly_extended,辽宁,灌溉,source_registry.csv
+D29,辽宁省政协第13030039号提案答复,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/zfxxgk/fdzdgknr/jyta/szxta/szxssjschy2025n/2025082810281296609/index.shtml,2026-10-04,irrigation_yearly_extended,辽宁,灌溉,source_registry.csv
+D30,我省今年计划新建和改造27座大中型灌区,辽宁日报/辽宁省人民政府,S,https://www.ln.gov.cn/web/qmzx/lnsqmzxxtpsnxd/lnzxd/bm/2024032509591998101/index.shtml,2026-10-04,irrigation_yearly_extended,辽宁,灌溉,source_registry.csv
+D31,辽宁粮食产量再创历史新高,人民日报客户端辽宁频道,S,https://www.peopleapp.com/column/30035507008-500000557724,2026-10-04,irrigation_yearly_extended,辽宁,灌溉,source_registry.csv
+D32,2025年辽宁省政府工作报告,辽宁省人民政府,S,https://www.ln.gov.cn/web/zwgkx/zfgzbg/szfgzbg/2025012009260358441/index.shtml,2026-10-04,irrigation_yearly_extended,辽宁,灌溉,source_registry.csv
+D33,沈阳市农业农村局 人大第0489号答复,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/zwgk/fdzdgknr/jyta/rdjy/202509/t20250928_4914120.html,2026-10-04,irrigation_yearly_extended,沈阳,灌溉,source_registry.csv
+D34,沈阳市水务局 用水双控成效,沈阳市水务局,S,https://sswj.shenyang.gov.cn/slxw/slyw/202504/t20250430_4845113.html,2026-10-04,irrigation_yearly_extended,沈阳,灌溉,source_registry.csv
+D35,2025年丹东市政府工作报告,丹东市人民政府,S,https://www.ln.gov.cn/web/zwgkx/zfgzbg/shizfgzbg/dds/2025011714472234900/,2026-10-04,irrigation_yearly_extended,丹东,灌溉,source_registry.csv
+D36,丹东市农业农村局扎实推进农业项目建设,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/zsqsnyxxlb/2024091916183518197/index.shtml,2026-10-04,irrigation_yearly_extended,丹东,灌溉,source_registry.csv
+D37,大连市农业农村局 人大第005号答复,大连市农业农村局,S,https://agri.dl.gov.cn/art/2025/5/16/art_11493_2448957.html,2026-10-04,irrigation_yearly_extended,大连,灌溉,source_registry.csv
+D38,大连市扎实开展高标准农田建设督导,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/zsqsnyxxlb/2025121715574372997/index.shtml,2026-10-04,irrigation_yearly_extended,大连,灌溉,source_registry.csv
+E-01,沈阳市2023年国民经济和社会发展统计公报,沈阳市统计局,S,https://www.shenyang.gov.cn/zwgk/fdzdgknr/tjxx/tjgb/202404/t20240415_4630416.html,2026-10-04,demand_demographics_econ,沈阳,demand,source_registry.csv
+E-02,沈阳市2024年国民经济和社会发展统计公报,沈阳市统计局,S,https://www.shenyang.gov.cn/zwgk/fdzdgknr/tjxx/tjgb/202504/t20250423_4841162.html,2026-10-04,demand_demographics_econ,沈阳,demand,source_registry.csv
+E-03,沈阳市2025年国民经济和社会发展统计公报,沈阳市统计局,S,https://www.shenyang.gov.cn/zwgk/fdzdgknr/tjxx/tjgb/202605/t20260519_5027959.html,2026-10-04,demand_demographics_econ,沈阳,demand,source_registry.csv
+E-04,沈阳统计年鉴2025,沈阳市统计局,S,https://www.shenyang.gov.cn/zwgk/fdzdgknr/tjxx/tjnj/202512/P020260226609509562253.pdf,2026-10-04,demand_population_series,沈阳,demand,source_registry.csv
+E-05,沈阳市2023年经济运行情况,沈阳市统计局,S,https://tjj.shenyang.gov.cn/sjfb/sqfx/202401/t20240122_4593872.html,2026-10-04,demand_retail,沈阳,demand,source_registry.csv
+E-06,大连市2023年国民经济和社会发展统计公报,大连市统计局,S,https://www.dl.gov.cn/art/2024/4/25/art_10018_2324993.html,2026-10-04,demand_demographics_econ,大连,demand,source_registry.csv
+E-07,大连市2024年国民经济和社会发展统计公报,大连市统计局,S,https://www.dl.gov.cn/art/2025/4/25/art_11400_2436517.html,2026-10-04,demand_demographics_econ,大连,demand,source_registry.csv
+E-08,大连市2025年国民经济和社会发展统计公报,大连市统计局,S,https://stats.dl.gov.cn/art/2026/4/20/art_3812_2508949.html,2026-10-04,demand_econ,大连,demand,source_registry.csv
+E-09,大连市2023年经济运行情况,大连市统计局,S,https://stats.dl.gov.cn/art/2024/1/22/art_3804_2312860.html,2026-10-04,demand_retail,大连,demand,source_registry.csv
+E-10,大连市2024年经济运行情况,大连市统计局,S,https://stats.dl.gov.cn/art/2025/1/21/art_3804_2396027.html,2026-10-04,demand_retail,大连,demand,source_registry.csv
+E-11,大连市2025年经济运行情况,大连市统计局,S,https://stats.dl.gov.cn/art/2026/1/30/art_3804_2497823.html,2026-10-04,demand_retail,大连,demand,source_registry.csv
+E-12,朝阳市2024年国民经济和社会发展统计公报,朝阳市统计局,S,https://www.chaoyang.gov.cn/html/CYSZF/202505/0174669308628614.html,2026-10-04,demand_demographics_econ,朝阳,demand,source_registry.csv
+E-13,朝阳市2025年国民经济和社会发展统计公报,朝阳市统计局,S,https://www.chaoyang.gov.cn/html/CYSZF/202607/0178487541498375.html,2026-10-04,demand_econ,朝阳,demand,source_registry.csv
+E-14,锦州市统计局2023年常住人口,锦州市统计局,S,http://tjj.jz.gov.cn/info/1024/4572.htm,2026-10-04,demand_population,锦州,demand,source_registry.csv
+E-15,锦州市2023年经济运行情况,锦州市统计局,S,http://tjj.jz.gov.cn/info/1043/4565.htm,2026-10-04,demand_retail,锦州,demand,source_registry.csv
+E-16,锦州市统计局2024年常住人口,锦州市统计局,S,https://tjj.jz.gov.cn/info/1097/4786.htm,2026-10-04,demand_population,锦州,demand,source_registry.csv
+E-17,锦州市2024年国民经济和社会发展统计公报,锦州市统计局,S,https://www.jz.gov.cn/info/1069/122603.htm,2026-10-04,demand_demographics_econ,锦州,demand,source_registry.csv
+E-18,锦州市统计局2025年常住人口,锦州市统计局,S,https://tjj.jz.gov.cn/info/1056/5030.htm,2026-10-04,demand_population,锦州,demand,source_registry.csv
+E-19,锦州市2025年1-12月经济运行情况,锦州市统计局,S,https://www.jz.gov.cn/info/1068/126073.htm,2026-10-04,demand_retail,锦州,demand,source_registry.csv
+E-20,铁岭市2024年国民经济和社会发展统计公报,铁岭市统计局,S,http://www.tieling.gov.cn/tieling/zwgk/zfxxgk/fdzdgknr/tjxx/tjgb/2025051410132752830/index.html,2026-10-04,demand_demographics_econ,铁岭,demand,source_registry.csv
+E-21,铁岭市1-12月消费品市场运行情况,铁岭市统计局,S,http://www.tieling.gov.cn/tieling/zwgk/zfxxgk/fdzdgknr/tjxx/tjfb/2024012509494488299/index.html,2026-10-04,demand_retail,铁岭,demand,source_registry.csv
+E-22,铁岭市人民政府2025年人口,铁岭市人民政府办公室,S,http://www.tieling.gov.cn/tieling/tlgk/rkymz/rk/2023060510033043827/index.html,2026-10-04,demand_population,铁岭,demand,source_registry.csv
+E-23,辽宁省政府网·丹东城市名片,辽宁省政府网,A,https://www.ln.gov.cn/web/sqgk/csmp/2025101310551566907/index.shtml,2026-10-04,demand_econ,丹东,demand,source_registry.csv
+E-24,丹东市2024年经济运行情况(转载),丹东市统计局,C,http://m.toutiao.com/group/7462655504486121996/,2026-10-04,demand_econ,丹东,demand,source_registry.csv
+E-25,辽宁省2025年国民经济,辽宁省统计局,S,https://www.ln.gov.cn/web/sqgk/gmjj/2026040910011632460/index.shtml,2026-10-04,demand_retail,辽宁,demand,source_registry.csv
+E-26,央视经济半小时大白菜滞销(中新网),中央电视台,C,http://www.chinanews.com.cn/cj/2011/11-08/3443807_2.shtml,2026-10-04,herding_case,大连,herding_events,source_registry.csv
+E-27,沈阳晚报西红柿价格低迷(中国网),沈阳晚报,C,http://finance.china.com.cn/roll/20140806/2591035.shtml,2026-10-04,herding_case,沈阳,herding_events,source_registry.csv
+E-28,人民日报新华网草莓乙草胺风波,人民日报/新华网,S,http://www.xinhuanet.com/politics/2015-05/05/c_127764707.htm,2026-10-04,herding_case,丹东,herding_events,source_registry.csv
+E-29,辽宁省发改委营口市秋菜价格低位运行,辽宁省发改委,S,https://fgw.ln.gov.cn/fgw/xxgk/jgjc/fxyc/2023112816001523654/index.shtml,2026-10-04,herding_case,营口,herding_events,source_registry.csv
+E-30,21世纪经济报道玉米价格承压(证券时报转载),21世纪经济报道,C,https://www.stcn.com/article/detail/1430110.html,2026-10-04,herding_case,辽宁,herding_events,source_registry.csv
+E-31,2024年中国玉米市场分析(王向博),特约分析师,C,http://m.toutiao.com/group/7470054351294186010/,2026-10-04,herding_case,沈阳,herding_events,source_registry.csv
+E-32,央广网草莓价格大跳水,央广网,C,https://china.cnr.cn/xwygd/20240119/t20240119_526564076.shtml,2026-10-04,herding_case,丹东,herding_events,source_registry.csv
+E-33,经济日报中国经济网丹东草莓的成长烦恼,经济日报,C,http://www.ce.cn/cysc/sp/info/202506/t20250630_2344376.shtml,2026-10-04,herding_case,丹东,herding_events,source_registry.csv
+E-34,辽望辽宁日报滞销西红柿,辽宁日报,C,https://www.lnrbxmt.com/news_details.html?id=556748,2026-10-04,herding_case,铁岭,herding_events,source_registry.csv
+E-35,辽宁省农业农村厅2026年第17周价格简讯,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/zwgk/zszdgz/ncpxx/lnsnzyscpzjg/2026043013355775996/index.shtml,2026-10-04,herding_case,辽宁,herding_events,source_registry.csv
+E-36,惠农网凌海韭菜滞销报价,惠农网(商户),D,https://m.cnhnb.com/gongying/8138808/,2026-10-04,herding_case,锦州,herding_events,source_registry.csv
+P01,市人大十七届二次会议《关于提高设施农业基础设施建设的建议》(0045号)的答复,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/zwgk/fdzdgknr/jyta/rdjy/202312/t20231221_4578023.html,沈阳,设施蔬菜面积/结构/区县分布,2022,政府公开信息,source_registry.csv
+P02,市人大十七届四次会议《关于沈阳市设施农业旧棚改造补贴政策的建议》(0031号)的答复,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/zwgk/fdzdgknr/jyta/rdjy/202509/t20250916_4907542.html,沈阳,设施存量/播种面积/产量,2024-2025,政府公开信息,source_registry.csv
+P03,市政协十六届三次会议《关于发展现代设施农业促进乡村产业振兴的提案》(0357号)的答复,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/zwgk/fdzdgknr/jyta/zxta/202405/t20240523_4647366.html,沈阳,设施蔬菜面积/产量,2023,政府公开信息,source_registry.csv
+P04,凝心聚力 转型升级 全力推进设施农业高质量发展,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/zxzx/ncgz/202502/t20250223_4813065.html,沈阳,设施存量/播种/产量,2024,政府公开信息,source_registry.csv
+P05,新民市2023年发展综述,新民市统计局,S,https://www.xinmin.gov.cn/zwgk/fdzdgknr/tjxx/tjnj/202411/t20241126_4765280.html,沈阳-新民,设施蔬菜/瓜果播种面积、产量,2023,政府公开信息,source_registry.csv
+P06,设施农业“丰”景独好 多项指标领跑全省,新民市人民政府(新民融媒),S,https://www.xinmin.gov.cn/gzyw/yw/202509/t20250908_4902807.html,沈阳-新民,设施面积结构,2025,政府公开信息,source_registry.csv
+P07,设施农业提质增效 赋能乡村振兴,新民市人民政府(新民融媒),S,https://www.xinmin.gov.cn/gzyw/yw/202605/t20260508_5023571.html,沈阳-新民,设施总面积/占比,2026,政府公开信息,source_registry.csv
+P08,大民屯镇：推动设施农业发展 谱写乡村振兴篇章,新民市人民政府(新民融媒),S,https://www.xinmin.gov.cn/gzyw/xzjxx/202502/t20250205_4805174.html,沈阳-新民-大民屯,设施蔬菜面积/产量,2024,政府公开信息,source_registry.csv
+P09,大民屯日产棚菜700吨 全力保供沈城菜篮子,沈阳日报(东北新闻网转载),C,http://liaoning.nen.com.cn/network/liaoningnews/lnnewsjingji/2022/11/30/452408263267324173.shtml,沈阳-新民-大民屯,温室暖棚栋数/占地/日产,2022,新闻转载,source_registry.csv
+P10,新民市2020年政府工作报告(2019数据),新民市人民政府,S,https://www.xinmin.gov.cn/zwgk/fdzdgknr/qtzfxx/gzbg/202208/t20220815_3925039.html,沈阳-新民,设施农业面积/产量,2019,政府公开信息,source_registry.csv
+P11,辽中区统计资料汇编(2024) 设施蔬菜瓜果面积及产量汇总表,辽中区统计局,S,https://www.liaozhong.gov.cn/zwgk/fdzdgknr/tjxx/tjnj/202504/P020250430499669963996.pdf,沈阳-辽中,分品种设施面积/产量/设施数,2024,内部资料(公开下载),source_registry.csv
+P12,辽中区统计资料汇编(2022) 设施蔬菜瓜果面积及产量汇总表,辽中区统计局,S,https://www.liaozhong.gov.cn/zwgk/fdzdgknr/tjxx/tjnj/202305/P020230526538922302688.pdf,沈阳-辽中,分品种设施面积/产量,2022,内部资料(公开下载),source_registry.csv
+P13,法库县国民经济统计资料(2023),法库县统计局,S,http://faku.gov.cn/zfxxgk/fdzdgknr/tjxx/tjnj/202509/P020260623390519752921.pdf,沈阳-法库,蔬菜播种面积/产量,2023,内部资料(公开下载),source_registry.csv
+P14,法库县国民经济统计资料(2021) 经济作物播种面积情况,法库县统计局,S,https://www.faku.gov.cn/zfxxgk/fdzdgknr/tjxx/tjnj/202509/P020250901576637554579.pdf,沈阳-法库,分品种经济作物播种面积(乡镇级),2021,内部资料(公开下载),source_registry.csv
+P15,法库县国民经济统计资料(2022),法库县统计局,S,http://faku.gov.cn/zfxxgk/fdzdgknr/tjxx/tjnj/202509/P020250901577263695886.pdf,沈阳-法库,蔬菜播种面积,2022,内部资料(公开下载),source_registry.csv
+P16,沈阳市法库“菜复菜”模式让农业增效、农民增收,法库县委宣传部(辽宁数据库),S,https://xiaokang.lnrbxmt.com/xinwenbaodao/2020-06-27/22544.html,沈阳-法库-包家屯镇,甘蓝/大葱种植面积,2020,公开报道,source_registry.csv
+P17,这个街道不一般！小地方种出大产业(苏家屯永乐街道),人民网辽宁频道,C,http://ln.people.com.cn/n2/2024/0425/c400026-40823563.html,沈阳-苏家屯-永乐,果蔬面积/产量/西芹产量,2024,新闻,source_registry.csv
+P18,于洪区多措并举解决农畜产品滞销难题,于洪区农业农村局,S,https://www.syyh.gov.cn/ztzl/gdzt/fkxxgzbdgrdfyyq/yhzxd/202206/t20220615_3229188.html,沈阳-于洪,设施蔬菜面积,2020,政府公开信息,source_registry.csv
+P19,于洪区农业经济发展“十四五”规划,于洪区人民政府,S,https://www.syyh.gov.cn/zwgk/fdzdgknr/ghxx/zxgh/202211/t20221125_4337281.html,沈阳-于洪,设施农业项目规划,2021-2025,政府公开信息,source_registry.csv
+P20,2025年康平县国民经济和社会发展统计公报,康平县统计局,S,https://www.kangping.gov.cn/zwgk/fdzdgknr/tjxx/tjgb/202606/t20260618_5043502.html,沈阳-康平,蔬菜及食用菌产量,2025,政府公开信息,source_registry.csv
+P21,康平县2010年政府工作报告(2009数据),康平县人民政府,S,https://www.kangping.gov.cn/zwgk/fdzdgknr/qtzfxx/gzbg/202208/t20220808_3843079.html,沈阳-康平,薯类面积,2009,政府公开信息,source_registry.csv
+P22,马铃薯绿色高效生产关键技术研究与应用 科学技术成果评价报告,本溪市农业综合发展服务中心/沈阳农业大学,A,https://nyncj.benxi.gov.cn/Upload/snw/ContentManage/Article/File/2023/08/25/科学技术成果评价报告(1).pdf,辽宁省,马铃薯面积/单产,2023,公开PDF,source_registry.csv
+P23,辽宁省马铃薯双膜覆盖高效栽培技术,张振洲等(本溪市马铃薯研究所)《中国马铃薯》2011(5),C,https://potato.chinacrops.org/upimage/uploadfile/1725863709251044.pdf,辽宁省,马铃薯面积/产量/产值,2011,论文,source_registry.csv
+P24,把光照资源请进屋 李宏伟们都富了(新民周坨子镇),辽宁日报(沈阳农业大学新闻网转载),C,https://news.syau.edu.cn/info/1010/11373.htm,沈阳-新民-周坨子,日光温室规模,2013,新闻转载,source_registry.csv
+P25,拎稳“菜篮子”“种”出好日子——沈阳市发展设施农业纪实,农民日报,C,https://szb.farmer.com.cn/2022/20220210/20220210_001/20220210_001_1.htm,沈阳,设施农业面积/暴雪/保险,2022,新闻,source_registry.csv
+SRC-ARCHIVE-WAYBACK-CDX,Internet Archive Wayback CDX API,Internet Archive,A,http://web.archive.org/cdx/search/cdx?url=nync.ln.gov.cn/zwgk/zdgz/ncpxx/&matchType=prefix&output=json,2026-10-04,_cdx_article_enumeration,辽宁省,price,source_registry.csv
+SRC-ASKCI-PRICE,中商情报网,中商情报网,,https://www.askci.com/news/data/price/,,,辽宁,,SOURCE_REGISTRY.csv
+SRC-BFYY-2023,铁岭设施番茄轮作生菜绿色高效栽培技术（北方园艺）,辽宁省农业科学院,A,https://www.aeeisp.com/bfyy/cn/article/pdf/preview/31c7f6a6-421f-4bb5-8218-4fcf48fba24d.pdf,2026-10-04,market_registry_extended,,,source_registry.csv
+SRC-CALENDAR,,,,,,法定节假日安排,,,SOURCE_REGISTRY.csv
+SRC-CNHNB-HANGQING,惠农网,惠农网,,https://www.cnhnb.com/hangqing/,,,铁岭/丹东/大连/锦州/朝阳,,SOURCE_REGISTRY.csv
+SRC-CY-JPZAIQING,朝阳市建平县/北票市政府,朝阳市建平县/北票市政府,,https://www.chaoyang.gov.cn/,,,朝阳,,SOURCE_REGISTRY.csv
+SRC-CY-SSNY-2024,朝阳市设施农业调研报告,朝阳市设施农业服务部/辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/zsqsnyxxlb/2024041011085532390/index.shtml,2026-10-04,market_registry_extended/crop_cost_yearly_extended,,,source_registry.csv
+SRC-CY-SYGG-2024,朝阳市2024年国民经济和社会发展统计公报,朝阳市统计局,S,https://www.chaoyang.gov.cn/html/CYSZF/202505/0174669308628614.html,2026-10-04,planting_area_yearly/production_yearly_extended,朝阳,production,source_registry.csv
+SRC-DB21-3416,DB21/T 3416.2/.3—2021 日光温室蔬菜绿色生产技术规程（番茄/黄瓜）,辽宁省市场监督管理局,S,DB21/T3416.2—2021; DB21/T3416.3—2021,2026-10-04,crop_calendar_detailed.csv(设施茬口),,,source_registry.csv
+SRC-DBS-FGJ,调兵山市发改局,调兵山市发改局,,https://www.dbs.gov.cn/,,,铁岭,,SOURCE_REGISTRY.csv
+SRC-DCE,,,,,,玉米/大豆/豆油期货行情,,,SOURCE_REGISTRY.csv
+SRC-DERIVED-WEATHER-EVENTS,,,,,,极端天气事件(气象阈值识别),,,SOURCE_REGISTRY.csv
+SRC-DL-12316,,,,,,12316金农热线农产品价格周报,,,SOURCE_REGISTRY.csv
+SRC-DL-COM-BATCH,,,,,,蔬菜批发价格汇总统计表+上市量,,,SOURCE_REGISTRY.csv
+SRC-DL-FGW-WEEKLY,,,,,,农副产品价格监测周报,,,SOURCE_REGISTRY.csv
+SRC-DL-SWJ-VOLUME,大连市商务局,大连市商务局,,https://boc.dl.gov.cn/,,,大连,,SOURCE_REGISTRY.csv
+SRC-ECOM-INSTANT,美团/多多/盒马/七鲜等,美团/多多/盒马/七鲜等,,-,,,,,SOURCE_REGISTRY.csv
+SRC-ECOM-JD,京东(第三方),京东(第三方),,https://item.m.jd.com/,,,,,SOURCE_REGISTRY.csv
+SRC-ERA5LAND-SOIL,,,,,,ERA5-Land 土壤分层含水量,,,SOURCE_REGISTRY.csv
+SRC-HYDRO-LNSLT,,,,,,水文动态/实时水情,,,SOURCE_REGISTRY.csv
+SRC-HYDRO-MWR,,,,,,大江大河/大型水库水情,,,SOURCE_REGISTRY.csv
+SRC-JP-SYGG-2024,建平县2024年国民经济和社会发展统计公报,建平县统计局,S,https://files.chaoyang.gov.cn/files/ueditor/JPXZF/jsp/upload/file/20250603/1748917493571058483.pdf,2026-10-04,planting_area_yearly/production_yearly_extended,朝阳,production,source_registry.csv
+SRC-JZ-CBIMC-2024,辽宁8·20洪涝保险理赔（中国银行保险报）,辽宁金融监管局/中国银行保险报,S,http://www.cbimc.cn/m/content/2024-09/12/content_529278.html,2026-10-04,disaster_loss_crop_events.csv/agri_insurance_claims.csv,,,source_registry.csv
+SRC-JZ-CBIMC-2025,锦州特色农险（中国银行保险报）,锦州金融监管分局/中国银行保险报,S,http://www.cbimc.cn/m/content/2025-06/16/content_549000.html,2026-10-04,agri_insurance_claims.csv,,,source_registry.csv
+SRC-JZ-HS-2023,黑山县设施蔬菜建议答复,黑山县人民政府,S,http://www.heishan.gov.cn/info/1883/39883.htm,2026-10-04,market_registry_extended/crop_cost_yearly_extended,,,source_registry.csv
+SRC-JZ-SYGG-2024,2024年锦州市国民经济和社会发展统计公报,锦州市统计局,S,https://tjj.jz.gov.cn/info/1057/4793.htm,2026-10-04,planting_area_yearly/production_yearly_extended,锦州,production,source_registry.csv
+SRC-KY-FGJ,开原市发改局,开原市发改局,,https://www.kaiyuan.gov.cn/,,,铁岭,,SOURCE_REGISTRY.csv
+SRC-LN-CZT-2025,辽宁省财政厅 对省人大第1322号建议的答复,辽宁省财政厅,S,https://czt.ln.gov.cn/czt/zfxxgk/fdzdgknr/jyta/srddbjy/sssjrdschy2025n/2025062016255583229/index.shtml,2026-10-04,agri_insurance_claims.csv,,,source_registry.csv
+SRC-LN-FGW-COST,辽宁省/各市发展改革委 成本调查,辽宁省发展改革委,S,https://fgw.ln.gov.cn/fgw/xxgk/jgjc/fxyc/,2026-10-04,crop_cost_yearly,辽宁(省域),cost,source_registry.csv
+SRC-LN-FGW-DL-MONTHLY,,,,,,大连市主要商品价格监测综述(月度),,,SOURCE_REGISTRY.csv
+SRC-LN-FGW-FUEL,,,,,,成品油价格调整公告,,,SOURCE_REGISTRY.csv
+SRC-LN-FGW-PRICE,,,,,,价格监测(每日价格/涉农产品/农副产品),,,SOURCE_REGISTRY.csv
+SRC-LN-FXZH,辽宁省防汛抗旱指挥部 灾情通报,辽宁省防汛抗旱指挥部,S,https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=3586243294659637073,2026-10-04,disaster_loss_events,辽宁(省域),disaster_loss,source_registry.csv
+SRC-LN-INSURANCE,辽宁省种植业保险工作方案,辽宁省财政厅/农业农村厅/金融监管局,S,https://www.ln.gov.cn/web/zwgkx/lnsrmzfgb/2023n/zk/zk6/bmwj/2023080110475072659/,2026-10-04,cost_proxy_insurance,辽宁(省域),cost_proxy,source_registry.csv
+SRC-LN-NFRA-2025,辽宁金融监管局 对省人大第1431322号建议的答复,国家金融监督管理总局辽宁监管局,S,https://www.nfra.gov.cn/branch/liaoning/view/pages/common/ItemDetail.html?docId=1210189&itemId=1701,2026-10-04,agri_insurance_claims.csv,,,source_registry.csv
+SRC-LN-NYNC-2025-66,辽宁省农业农村厅 省人大第1431378号答复,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/zfxxgk/fdzdgknr/jyta/srddbjy/sssjrdschy2025n/2025082115283575928/index.shtml,2026-10-04,cold_chain_capacity.csv,,,source_registry.csv
+SRC-LN-NYNC-DISASTER,,,,,,农业要闻(防灾减灾),,,SOURCE_REGISTRY.csv
+SRC-LN-NYNC-PRICE,,,,,,农产品信息·价格简讯,,,SOURCE_REGISTRY.csv
+SRC-LN-NYNC-VEG-WEEKLY,辽宁省农业农村厅 省内主要蔬菜品种价格简讯,辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/zwgk/zszdgz/ncpxx/lnsnzyscpzjg/index.shtml,2026-10-04,price_lnnync_veg_weekly_extended,辽宁(省域),price,source_registry.csv
+SRC-LN-NYNC-VEG-WEEKLY-HIST,辽宁省农业农村厅 省内主要蔬菜品种价格简讯（历史原件 经Wayback Machine）,辽宁省农业农村厅,S,https://web.archive.org/web/*/nync.ln.gov.cn/zwgk/zdgz/ncpxx/*,2026-10-04,price_lnnync_veg_weekly_historical,辽宁省,price,source_registry.csv
+SRC-LN-PESTS,,,,,,植保/病虫害相关公开栏目,,,SOURCE_REGISTRY.csv
+SRC-LN-RIBao,辽宁日报（辽宁省人民政府网）,辽宁日报,C,https://www.ln.gov.cn/web/ywdt/qsgd/ass_2_1/2024083009011157096/index.shtml,2026-10-04,disaster_loss_events,铁岭,disaster_loss,source_registry.csv
+SRC-LN-SLT-DISASTER,,,,,,汛情快报/监测预警/防汛动态,,,SOURCE_REGISTRY.csv
+SRC-LN-SOIL-OFFICIAL,,,,,,土壤墒情/旱情监测,,,SOURCE_REGISTRY.csv
+SRC-LN-SWT-CIRC-2024,辽宁省农产品现代流通体系建设发展规划(2024-2030),辽宁省商务厅,S,https://swt.ln.gov.cn/swt/ywxx/tzgg/2024041210074077223/2024042209324921254.pdf,2026-10-04,cold_chain_capacity.csv,,,source_registry.csv
+SRC-LN-TJJ-BULLETIN,,,,,,年度统计公报,,,SOURCE_REGISTRY.csv
+SRC-LN-TJJ-WIDE,,,,,,辽宁统计年鉴·各地区宽表,,,SOURCE_REGISTRY.csv
+SRC-LN-TJJ-YEARBOOK,,,,,,辽宁统计年鉴(Excel),,,SOURCE_REGISTRY.csv
+SRC-LN-YB-2018,辽宁统计年鉴2018（数据年2017）,辽宁省统计局,S,https://tjj.ln.gov.cn/tjj/tjsj/tjnj/njsjxz/,2026-10-04,planting_area_crop_yearly/production_crop_yearly/crop_yield_by_city,,,source_registry.csv
+SRC-LN-YB-2019,辽宁统计年鉴2019（数据年2018）,辽宁省统计局,S,https://tjj.ln.gov.cn/tjj/tjsj/tjnj/njsjxz/,2026-10-04,planting_area_crop_yearly/production_crop_yearly/crop_yield_by_city,,,source_registry.csv
+SRC-LN-YB-2020,辽宁统计年鉴2020（数据年2019）,辽宁省统计局,S,https://tjj.ln.gov.cn/tjj/tjsj/tjnj/njsjxz/2023110210085021756/index.shtml,2026-10-04,planting_area_crop_yearly/irrigation_yearly,,,source_registry.csv
+SRC-LN-YB-2024-ONLINE,辽宁统计年鉴2024（在线版，数据年2023，JPG+OCR）,辽宁省统计局,S,https://tjj.ln.gov.cn/tjj/tjsj/otherpages/2024/left.htm,2026-10-04,planting_area_crop_yearly_ocr.csv,,,source_registry.csv
+SRC-LN-YB-2025-ONLINE,辽宁统计年鉴2025（在线版，数据年2024，JPG+OCR）,辽宁省统计局,S,https://tjj.ln.gov.cn/tjj/tjsj/otherpages/2025/left.htm,2026-10-04,planting_area_crop_yearly_ocr.csv,,,source_registry.csv
+SRC-LNNYNC-LIANBO,辽宁省农业农村厅,辽宁省农业农村厅,,https://nync.ln.gov.cn/,,,六城,,SOURCE_REGISTRY.csv
+SRC-LNNYNC-VEG-MARKET,,,,,,主要蔬菜价格简讯-市场级极值节点,,,SOURCE_REGISTRY.csv
+SRC-LOGISTICS,,,,,,物流中断/道路封闭事件,,,SOURCE_REGISTRY.csv
+SRC-MARKET-SUPPLY,,,,,,批发市场上市量/成交量/库存,,,SOURCE_REGISTRY.csv
+SRC-MOA-PFSC-MARKET,,,,,,全国农产品批发市场价格信息系统·市场目录,,,SOURCE_REGISTRY.csv
+SRC-MOA-PFSC-PRICE,,,,,,全国农产品批发市场价格信息系统·价格查询,,,SOURCE_REGISTRY.csv
+SRC-MOA-PFSC-SPOT,农业农村部,农业农村部,,https://pfsc.agri.cn/,,,辽宁,,SOURCE_REGISTRY.csv
+SRC-MOA-VEG-MARKET,农业农村部蔬菜市场分析预警团队/经济日报,农业农村部,C,http://www.ce.cn/cysc/sp/info/202312/11/t20231211_38824047.shtml,2026-10-04,herding_events,全国(含辽宁),herding,source_registry.csv
+SRC-MOFCOM,,,,,,全国农产品产销智能分析平台,,,SOURCE_REGISTRY.csv
+SRC-MOFCOM-CIF,,,,,,辽宁商务预报(cif),,,SOURCE_REGISTRY.csv
+SRC-OM-ERA5LAND-SOIL,Open-Meteo Archive API / ERA5-Land（土壤分层）,Open-Meteo / Copernicus,A,https://archive-api.open-meteo.com/v1/archive,2026-10-04,soil_moisture_daily_extended,沈阳,soil,source_registry.csv
+SRC-REMOTE-SENSING,,,,,,MODIS/Sentinel-2 植被指数,,,SOURCE_REGISTRY.csv
+SRC-STATS-CN,,,,,,数据查询接口(CPI/人口等),,,SOURCE_REGISTRY.csv
+SRC-SY-BULLETIN-2025,,,,,,2025年沈阳市国民经济和社会发展统计公报+粮食产量调查,,,SOURCE_REGISTRY.csv
+SRC-SY-CLZ-PRICE,,,,,,菜篮子信息发布平台（lnsyjgjc.com）,,,SOURCE_REGISTRY.csv
+SRC-SY-DISASTER-2026,,,,,,2026年7月台风巴威暴雨沈阳与沈北灾情通报,,,SOURCE_REGISTRY.csv
+SRC-SY-FGW-COST,沈阳市发展改革委 成本调查监审,沈阳市发展和改革委员会,S,https://fgw.shenyang.gov.cn/wjgz/cbdcjs/,2026-10-04,crop_cost_yearly,沈阳,cost,source_registry.csv
+SRC-SY-FGW-RESEARCH-2022,沈阳市关于部分蔬菜市场情况的调研报告,沈阳市价格监测局/辽宁省发改委,S,https://fgw.ln.gov.cn/fgw/xxgk/jgjc/fxyc/BFDE92662276474D98CFE6497CCD2900/index.shtml,2026-10-04,herding_events,沈阳,herding,source_registry.csv
+SRC-SY-NYNC-0045,沈阳市农业农村局 人大建议第0045号答复,沈阳市农业农村局,S,https://nyncj.shenyang.gov.cn/zwgk/fdzdgknr/jyta/rdjy/202312/t20231221_4578023.html,2026-10-04,crop_cost_yearly_extended/market_registry_extended,,,source_registry.csv
+SRC-SY-NYNC-COLD-2024,新民市获批全国农产品骨干冷链物流重点县,沈阳市农业农村局/辽宁省农业农村厅,S,https://nync.ln.gov.cn/nync/index/nyyw/zsqsnyxxlb/2024062110094411114/index.shtml,2026-10-04,cold_chain_capacity.csv,,,source_registry.csv
+SRC-SY-STAT-DIST,沈阳统计年鉴 分区县农业表（既有）,沈阳市统计局,S,https://tjj.shenyang.gov.cn/sjfb/ndsj/,2026-10-04,production_yearly_extended,沈阳,production,source_registry.csv
+SRC-SY-SYGG-2019,2019年沈阳市国民经济和社会发展统计公报,沈阳市统计局,S,https://www.shenyang.gov.cn/zwgk/fdzdgknr/tjxx/tjgb/202201/t20220122_2578737.html,2026-10-04,planting_area_yearly/production_yearly_extended,沈阳,production,source_registry.csv
+SRC-SY-SYGG-2024,沈阳市2024年国民经济和社会发展统计公报,沈阳市统计局,S,https://www.shenyang.gov.cn/zwgk/fdzdgknr/tjxx/tjgb/202504/t20250423_4841162.html,2026-10-04,planting_area_yearly/production_yearly_extended,沈阳,production,source_registry.csv
+SRC-SY-SYGG-2025,沈阳经济·农业（2025年）,沈阳市人民政府/统计局,S,https://www.shenyang.gov.cn/wssy/syjj/ny/,2026-10-04,planting_area_yearly/production_yearly_extended,沈阳,production,source_registry.csv
+SRC-SY-VEG-2023,2023年全市蔬菜产能稳步增长,沈阳市统计局,S,https://tjj.shenyang.gov.cn/sjfb/sqfx/202401/t20240122_4593890.html,2026-10-04,planting_area_yearly/production_yearly_extended,沈阳,production,source_registry.csv
+SRC-SYAU-GH-COST-2022,东北地区日光温室果菜生产现状与轻简化途径,沈阳农业大学/中国蔬菜,A,https://www.cnveg.org/CN/article/downloadArticleFile.do?attachType=PDF&id=19092,2026-10-04,crop_cost_yearly_extended.csv(设施果菜),,,source_registry.csv
+SRC-TL-SYGG-2024,2024年铁岭市国民经济和社会发展统计公报,铁岭市统计局,S,http://www.tieling.gov.cn/tieling/zwgk/zfxxgk/fdzdgknr/tjxx/tjgb/2025051410132752830/index.html,2026-10-04,planting_area_yearly/production_yearly_extended,铁岭,production,source_registry.csv
+SRC-VEG-AGRO-REF,,,,,,10种蔬菜物候与气象敏感性参考资料,,,SOURCE_REGISTRY.csv
+SRC-WEATHER-CMA,,,,,,中国气象数据网,,,SOURCE_REGISTRY.csv
+SRC-WEATHER-NASA,,,,,,POWER Daily API (MERRA2),,,SOURCE_REGISTRY.csv
+SRC-WEATHER-OM,,,,,,ERA5 / ERA5-Land 再分析,,,SOURCE_REGISTRY.csv
+SRC-YMT-CHANDI,一亩田,一亩田,,https://m_hangqing.ymt.com/,,,丹东,,SOURCE_REGISTRY.csv

@@ -1,0 +1,4 @@
+﻿market_name,market_type,city,district,address,lat,lon,annual_throughput,throughput_unit,scale_desc,cold_storage,source_level,source_name,source_url,note,access_date,source_id,geo_level,frequency,is_proxy,is_derived
+大连双兴商品城,wholesale,大连,西岗区,金光大道,38.92499,121.620,,,占地约11万㎡,冷库,S,辽宁省商务厅《辽宁省农产品现代流通体系建设发展规划(2024-2030)》,https://swt.ln.gov.cn/swt/fwxx/yjzj/2024041210083480076/2024042209330027202.pdf,年交易额约260亿元；蔬菜日均450-550吨,2026-10-04,SRC-MARKET-REGISTRY,city,static,False,True
+大连果菜批发市场(南关岭),wholesale,大连,甘井子区,南关岭,, ,,,,,S,大连市人民政府,https://www.dl.gov.cn/art/2026/5/9/art_1437_2511253.html,与双兴合并日均蔬菜上市约950-1043吨；坐标待补,2026-10-04,SRC-MARKET-REGISTRY,city,static,False,True
+大连现代农业产业中心农产品交易市场,wholesale,大连,,,, ,,,,,S,大连市人民政府,https://dldj.gov.cn/art/2026/2/24/art_1190_2500487.html,蔬菜库存纳入市级统计；坐标待补,2026-10-04,SRC-MARKET-REGISTRY,city,static,False,True

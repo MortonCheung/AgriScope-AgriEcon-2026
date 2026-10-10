@@ -1,0 +1,7 @@
+﻿city,tier,price_level,has_price_model,model_horizons,scenario_horizons,n_crops,basis
+沈阳,FULL,wholesale,True,"[7, 14, 30]","[60, 90]",10,shenyang_core/market_daily.parquet（发改委菜篮子，单一 wholesale，2021-2026 日频）
+朝阳,EXTENDED,market_average,True,"[7, 14, 30]","[7, 14, 30, 60, 90]",10,chaoyang_extended/market_daily.parquet（发改委全市均价 market_average 单层，密度低于沈阳）
+锦州,LIMITED,mixed_ocr,False,[],[],0,jinzhou_extended/market_daily.parquet（多 price_level / OCR 转录，口径不单一）
+大连,INSUFFICIENT_MARKET_DATA,,False,,,0,
+铁岭,INSUFFICIENT_MARKET_DATA,,False,,,0,
+丹东,INSUFFICIENT_MARKET_DATA,,False,,,0,

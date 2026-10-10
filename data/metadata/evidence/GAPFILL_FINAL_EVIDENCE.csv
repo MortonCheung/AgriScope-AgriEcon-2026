@@ -1,0 +1,5 @@
+﻿evidence_id,type,local_path,source_url,publisher,title,value_used,access_date
+GAPFILL-A,pdf,data/raw/gapfill_final/pdf/liaozhong_2023_stat_compilation.pdf,https://www.liaozhong.gov.cn/zwgk/fdzdgknr/tjxx/tjnj/202405/P020240516370316048915.pdf,辽中区统计局,2023年辽中区统计资料汇编（含设施蔬菜、瓜果面积及产量汇总表）,辽中区 2023 设施蔬菜/芹菜/油菜/黄瓜/西红柿/辣椒/其他蔬菜 面积与产量,2026-10-05
+GAPFILL-B,web,,https://www.shenyang.gov.cn/zt/jjlwlb/gzdt/202502/t20250228_4815478.html,沈阳市统计局/沈阳日报,设施农业助力乡村产业提质增效（2024）,设施蔬菜面积48.5万亩/产量206.4万吨；黄瓜73.9%/80.0%；西红柿78.2%/79.9%；食用菌8.4万吨,2026-10-05
+GAPFILL-C,web,,https://www.shenyang.gov.cn/zwgk/fdzdgknr/tjxx/tjgb/202504/t20250423_4841162.html,沈阳市统计局,2024年沈阳市国民经济和社会发展统计公报,蔬菜及食用菌播种面积67.0千公顷/产量418.4万吨,2026-10-05
+GAPFILL-D,web,,https://www.shenyang.gov.cn/zwgk/zwdt/bmdt/202507/t20250710_4874951.html,沈阳市统计局/沈阳日报,上半年经济作物生产形势向好（2025H1）,蔬菜种植面积46.5万亩/产量127.1万吨；西红柿+7.6%、黄瓜+24.2%,2026-10-05

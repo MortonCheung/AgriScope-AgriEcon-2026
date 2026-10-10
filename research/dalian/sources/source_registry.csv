@@ -1,0 +1,12 @@
+﻿source_id,source_name,source_url,source_type,quality_grade,n_obs,date_min,date_max,price_level,note
+SRC-DA-01,大连市农业农村局 12316金农热线 农产品价格周报,https://agri.dl.gov.cn/art/2024/6/11/art_4141_2333582.html,,B,45499,2016-07-24,2026-09-22,farm_gate,
+SRC-DA-02,惠农网行情,https://www.cnhnb.com/hangqing/q-0-0-0-1533-20250301/,third_party_b2b,C,899,2020-01-01,2026-09-22,farm_gate,
+SRC-DA-03,辽宁省农业农村厅 主要蔬菜产品价格简讯,,official_government,B,432,2024-07-10,2026-09-17,wholesale,
+SRC-DA-04,辽宁省农业农村厅 主要粮油产品价格简讯,,official_government,B,426,2024-07-10,2026-09-17,wholesale,
+SRC-DA-05,大连市发展改革研究中心·农副产品价格监测周报,https://www.dl.gov.cn/col/col1190/index.html,official_government,B,279,2023-03-31,2026-09-16,retail_market,
+SRC-DA-06,大连市政府/发展改革研究中心周报,https://www.dl.gov.cn/col/col1190/index.html,official_government,B,279,2023-03-31,2026-09-16,market_average,
+SRC-DA-07,辽宁省发改委价格监测局·大连市价格监测综述,https://fgw.ln.gov.cn/fgw/xxgk/jgjc/fxyc/,official_government,B,250,2021-01-04,2024-10-24,retail_market,
+SRC-DA-08,中国价格信息网(36城市月度),https://fgw.ln.gov.cn/fgw/xxgk/jgjc/fxyc/,official_government,B,222,2021-01-04,2024-10-24,market_average,
+SRC-DA-09,商务部 大连商务预报(市场级批发价),,official_government,A,18,2026-08-26,2026-08-26,wholesale,
+SRC-DA-10,Open-Meteo Historical Weather API（ERA5 / ERA5-Land 再分析网格）,https://archive-api.open-meteo.com/v1/archive,official_api,A,,,,,再分析网格，非气象站实测
+SRC-DA-11,辽宁统计年鉴（农作物播种面积/产量/单产，分市）,https://tjj.ln.gov.cn/,official_statistics,A,,,,,城市级年鉴

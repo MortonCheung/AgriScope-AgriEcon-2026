@@ -1,0 +1,10 @@
+﻿ref_id,ref_type,scope,indicator,value,unit,year,tech_mode,source_type,source_id,source_url,quality,notes
+PRD-01,市级面积口径,沈阳市,2026年粮食计划播种面积,847,万亩,2026,—,authoritative_media(央视网),SRC-CCTV-2026-0427,https://politics.gmw.cn/2026-04/27/content_38734955.htm,B,★分母口径：沈阳市全域；同期玉米计划播种面积见 PRD-02
+PRD-02,市级面积口径,沈阳市,2026年玉米计划播种面积,651,万亩,2026,—,authoritative_media(央视网),SRC-CCTV-2026-0427,https://politics.gmw.cn/2026-04/27/content_38734955.htm,B,★沈阳市玉米计划面积651万亩(计划口径，非统计年鉴实际值)；可用于估算沈北占全市份额的量级参照
+PRD-03,典型产量(示范技术),沈北新区虎石台街道佟古家子村,玉米亩产(地力提升模式),>900,kg/亩,2025,堆沤肥300kg/亩+土壤深松+铁391品种+单粒精播,official(辽宁省农业农村厅),SRC-LN-NYNC-2025-SC,https://nync.ln.gov.cn/nync/index/nyyw/zsqgnyxxlb/2025110616305094315,B,★种粮大户李龙1000亩；亩纯收益300余元。对照同地块常规模式仅600余公斤
+PRD-04,典型产量(传统模式),沈北新区虎石台街道佟古家子村,玉米亩产(传统化肥模式),≈600,kg/亩,(改造前),传统化肥,official(辽宁省农业农村厅),SRC-LN-NYNC-2025-SC,https://nync.ln.gov.cn/nync/index/nyyw/zsqgnyxxlb/2025110616305094315,B,"原文""以前种玉米…亩产最多600多公斤""；与PRD-03构成技改前后对照"
+PRD-05,技术模式参数,沈北新区,宽窄行增密种植行距,窄行35~45 / 宽行70~90,cm,2026,玉米宽窄行种植,official,SRC-NSY-2026-DCDT,https://www.nsy.gov.cn/zwgk/fdzdgknr/zdlyxxgk/qbj/snbt/nylbt/202607/t20260728_5064026.html,A,财落街道新农村1000亩(农户杨长春)应用；市/区两级推广的主推技术
+PRD-06,技术效果,沈北新区,化肥利用率(地力提升模式),43,%,2025,堆沤肥+深松+保护性耕作,official(辽宁省农业农村厅),SRC-LN-NYNC-2025-SC,https://nync.ln.gov.cn/nync/index/nyyw/zsqgnyxxlb/2025110616305094315,B,
+PRD-07,技术效果,沈北新区(绿色种养循环试点),玉米平均亩增产,26,kg/亩,三年累计(约2023-2025),畜禽粪肥还田替代部分化肥,authoritative_media(农民日报),SRC-FARMER-DAILY-GREEN,http://www.jlncb.cn/jlncb/pc/paper/att/202603/10/f292dea0-8068-49d3-b516-1193871c6e19.pdf,B,同期亩均增效57元；全区畜禽粪污资源化综合利用率稳步提升
+PRD-08,项目范围,沈北新区,2026年粮油规模种植主体单产提升项目支持作物,玉米/水稻/大豆(优先),—,2026,气力播种/合理密植/水肥一体/低损收获/一喷多促/病虫防控,official,SRC-NSY-2026-DCDT,https://www.nsy.gov.cn/zwgk/fdzdgknr/zdlyxxgk/qbj/snbt/nylbt/202607/t20260728_5064026.html,A,实施区域覆盖全区粮油种植集中区域，优先旱田集中区、水稻主产区；各街道可自主调整次要作物
+PRD-09,空间分布佐证,沈北新区,玉米规模化种植片位置线索,虎石台街道(佟古家子村)、财落街道(新农村),—,2025-2026,—,official(辽宁省农业农村厅)+官网,SRC-LN-NYNC-2025-SC|SRC-NSY-2026-DCDT,https://nync.ln.gov.cn/nync/index/nyyw/zsqgnyxxlb/2025110616305094315,B,"★替代""玉米空间分布掩膜""的定性线索：虎石台/财落/兴隆台/新城子等街道均有千亩级玉米规模种植主体；与南侧沈北新区101国道沿线高标准农田项目村(财落/兴隆台)空间呼应"

@@ -1,0 +1,10 @@
+{
+ "city": "chaoyang",
+ "freq": "D",
+ "n_crops": 14,
+ "n_lag_tests": 252,
+ "n_lag_sig": 0,
+ "n_nl_tests": 42,
+ "n_nl_sig": 0,
+ "alpha": 0.05
+}

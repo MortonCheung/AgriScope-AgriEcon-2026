@@ -1,0 +1,2 @@
+﻿crop,response,hazard_key,exploratory,n,n_grid,c_hat,c_ci_low,c_ci_high,ci_width_frac,slope_change,se_robust,b2_ci_low,b2_ci_high,supwald_stat,p_supwald,f_ssr,boot_boundary_frac,n_boot_skipped,note
+黄瓜,price,precip_3d,True,1410,78,6.000000000000008,0.10000000000000711,24.963262605042026,0.11245256718698333,0.06298778115573545,0.01727717738790699,-2.2623134880939064,0.14378704703715478,13.291286983059518,0.17165668662674652,12.907156118636815,0.126,0,探索性（未通过预登记门槛）

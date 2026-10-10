@@ -1,0 +1,18 @@
+﻿module,city,crop,table,fields,date_range,quality,limitations
+price_model,六城,10蔬菜及主要品类,04_model_ready/*/market_daily.parquet,"price_per_kg,price_level_canonical,crop_standard,variety,grade,observation_date",2020-2026,A,price_level 8 类不可混用；crop_standard 已去污染
+price_model,省,10蔬菜,02_standardized/market/province_price_reference.parquet,"price,week,crop_standard",2019-2026,A,省级背景，非城市价
+hri,六城,主要蔬菜,04_model_ready/hri/hri_inputs.parquet,"price_pct_rank,price_mom_4w,price_mean",2020-2026,B,HRI 是扩种诱因强度
+market_risk,六城,主要蔬菜,02_standardized/market/supply_proxy.parquet,"proxy_type,value,unit,city,crop,date",2019-2026,B,proxy_type 分别标准化；不可混成绝对供应量
+climate,六城,—,04_model_ready/climate/climate_daily.parquet,"temperature_2m_mean,precipitation_sum,et0,ndvi_mean,ndvi_anomaly_z",2010-2026,A,NDVI 月度 forward-map，source_frequency=monthly
+climate,六城,—,04_model_ready/climate/vegetation_anomaly.parquet,"ndvi_anomaly,ndvi_percentile",2021-2026,A,仅表示植被状态异常，非减产
+production,沈阳区县,粮食/蔬菜主要作物,02_standardized/production/yearbook_shenyang_district_crop.parquet,"district,crop,year,metric,value,unit",2018-2024,A,新增解析：年鉴 9 区县
+production,六城,主要作物,02_standardized/production/production_yearly.parquet,"crop,planting_area,production,yield_source_class",2017-2025,B,禁止总体亩产冒充单作物
+production,沈阳,设施蔬菜,04_model_ready/shenyang_core/crop_context.parquet,"crop_standard,facility_type,area_mu",2022-2025,B,截面结构，非时序
+production,沈阳辽中,设施蔬菜分品种,02_standardized/production/district_facility_vegetable.parquet,"crop_standard,facility_type,metric,value,unit,year",2023,A,district×crop 实际值（新增定点补数）
+production,沈阳,设施农业规模,02_standardized/production/facility_agriculture_city.parquet,"item,metric,value,unit,year",2024-2025,B,公开报道+公报口径，city 级
+profit,沈阳/东北,番茄/黄瓜等,04_model_ready/profit/cost_components.parquet,"cost_basis,total_cost,各构成项,cost_source_class",2000-2025,C,cost_source_class 必读；USER_REQUIRED 需用户输入
+profit,沈阳/铁岭/辽阳,玉米/水稻/大豆,02_standardized/cost/crop_cost.parquet,"total_cost_per_mu,各分项,cost_source_class",2020-2025,B,REGIONAL_PROXY 降权
+recommendation,六城,—,04_model_ready/recommendation/structural_context.parquet,_block 各块字段,—,B,解释性上下文
+recommendation,沈阳,—,04_model_ready/shenyang_core/phenology.parquet,"crop_standard,stage,start_date,end_date,calendar_geo_scope,facility_type_norm",2013-2025,B,区分 city/district/province/northeast
+evidence,六城,跟风作物,02_standardized/evidence/herding_events.parquet,"crop,event_type,date,source",2011-2026,C,仅外部验证 / 案例证据，不训练分类器
+market_risk,六城,—,02_standardized/infrastructure/market_accessibility.parquet,"market,distance_km,duration_min",static,A,OSRM 派生

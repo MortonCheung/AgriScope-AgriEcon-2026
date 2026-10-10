@@ -1,0 +1,7 @@
+{
+  "table": "case_events",
+  "status": "NOT_AVAILABLE",
+  "reason": "无来源",
+  "searched": "data/raw/ + city_data/ + supplements",
+  "access_date": "2026-10-04"
+}

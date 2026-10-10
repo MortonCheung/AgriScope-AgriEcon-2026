@@ -1,0 +1,16 @@
+﻿module,city,table,fields,time_semantics,availability,source_class,proxy,forbidden
+Price Model,沈阳,shenyang_core/market_daily.parquet,"price_per_kg,observation_date,crop_standard,price_level_canonical",日频观测，特征仅用 <=t,inference_time_available,LOCAL_CANONICAL_A,no,未来价格/未来窗口均值/centered rolling/volume(不在 model_ready)
+Price Model,朝阳,chaoyang_extended/market_daily.parquet,"price_per_kg(market_average 子集),observation_date,crop_standard",日频，仅取 market_average 单层,inference_time_available,LOCAL_CANONICAL_A,no,farm_gate/wholesale 混合；跨城价格拼接
+Price Model,锦州,jinzhou_extended/market_daily.parquet,(弱化/降级，不做主模型),-,degraded,LOCAL_OCR_B,partial,多 level 混算；OCR 未校验值直接当真实
+HRI,沈阳(既有),hri/hri_inputs.parquet,"price_mean(仅 wholesale 行),price_lag_*,price_pct_rank,price_mom_4w",城×作物×周，expanding past-only 分位,inference_time_available,LOCAL_CANONICAL_A,no,复合 price_level 行（farm_gate|wholesale 等）；volume(单位未知)
+HRI,沈阳,shenyang_core/market_daily.parquet,price_per_kg（Final HRI 自建周序列，单一 wholesale）,周合成，past-only,inference_time_available,LOCAL_CANONICAL_A,no,未来窗口/全样本分位
+Market Risk,沈阳,shenyang_core/market_daily.parquet,price_per_kg（波动/回撤/异常）,日频，<=t,inference_time_available,LOCAL_CANONICAL_A,no,未来波动/未来回撤
+Climate Exposure,六城,climate/climate_daily.parquet,"temperature_2m_*,precipitation_sum,et0,ndvi_anomaly_z",日频环境；NDVI 为月度 forward-map(source_frequency_ndvi),inference_time_available,ERA5_A,no,把 NDVI 当月度日频真实值；把异常当减产
+Climate Exposure,六城,climate/vegetation_anomaly.parquet,"ndvi_anomaly_z,ndvi_percentile",月度,inference_time_available,Sentinel2_A,no,日频化
+Production Context,沈阳区县,shenyang_core/crop_context.parquet,"crop_standard,facility_type,area_mu",截面（cross_section，非时序）,static_context,LOCAL_REPORT_S,no,当作时序面积增速
+Production Context,沈阳,shenyang_core/phenology.parquet,"crop_standard,stage,start_date,end_date,calendar_geo_scope",事件/日历（多 geo_scope）,static_context,LOCAL_B,no,跨 geo_scope 混用
+Profit Engine,沈阳/东北,profit/cost_components.parquet,"total_cost,各项,cost_source_class",cross_section,user_or_reference,RESEARCH_REFERENCE_C,yes,proxy 与真实值同权；输出虚假精准值
+Profit Engine,沈阳/铁岭/辽阳,profit/crop_cost.parquet,"total_cost_per_mu,各项,cost_source_class",yearly,local_or_proxy,LOCAL/REGIONAL_PROXY,partial,REGIONAL_PROXY 不提权
+Profit Engine,区域,profit/cost_proxy.parquet,"total_cost_per_mu,cost_source_class",cross_section(区域),proxy_only,REGIONAL_PROXY,yes,当作本地真实值
+Recommendation,六城,recommendation/market_nodes.parquet,"market_name,lat,lon,scale",static,static_context,PUBLIC_S,no,当作动态运力
+Recommendation,六城,recommendation/structural_context.parquet,"_block,各块字段",静态/解释性,static_context,mixed,partial,进核心数值模型

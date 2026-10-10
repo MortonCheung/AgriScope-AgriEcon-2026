@@ -1,0 +1,81 @@
+﻿feature,group,definition,window,pit_rule,missing_policy
+price_lag_obs_1,price_lag,倒数第 2 个观测的价格（观测滞后）,obs-1,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_2,price_lag,倒数第 3 个观测的价格（观测滞后）,obs-2,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_3,price_lag,倒数第 4 个观测的价格（观测滞后）,obs-3,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_5,price_lag,倒数第 6 个观测的价格（观测滞后）,obs-5,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_7,price_lag,倒数第 8 个观测的价格（观测滞后）,obs-7,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_10,price_lag,倒数第 11 个观测的价格（观测滞后）,obs-10,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_14,price_lag,倒数第 15 个观测的价格（观测滞后）,obs-14,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_21,price_lag,倒数第 22 个观测的价格（观测滞后）,obs-21,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_30,price_lag,倒数第 31 个观测的价格（观测滞后）,obs-30,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_45,price_lag,倒数第 46 个观测的价格（观测滞后）,obs-45,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_60,price_lag,倒数第 61 个观测的价格（观测滞后）,obs-60,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_obs_90,price_lag,倒数第 91 个观测的价格（观测滞后）,obs-90,仅用 <=t 的观测,不足则 NA，不插值
+price_lag_cal_7,price_lag,最近一个 <= t-7 自然日的观测价格（日历滞后）,cal-7,仅用 <=t 的观测,不足则 NA，不用未来插值
+price_lag_cal_14,price_lag,最近一个 <= t-14 自然日的观测价格（日历滞后）,cal-14,仅用 <=t 的观测,不足则 NA，不用未来插值
+price_lag_cal_30,price_lag,最近一个 <= t-30 自然日的观测价格（日历滞后）,cal-30,仅用 <=t 的观测,不足则 NA，不用未来插值
+price_lag_cal_60,price_lag,最近一个 <= t-60 自然日的观测价格（日历滞后）,cal-60,仅用 <=t 的观测,不足则 NA，不用未来插值
+price_lag_cal_90,price_lag,最近一个 <= t-90 自然日的观测价格（日历滞后）,cal-90,仅用 <=t 的观测,不足则 NA，不用未来插值
+price_ma7,rolling,近 7 个观测的均值（含 t）,obs-7,含 t，严格 <=t,前 w-1 观测 NA
+price_ma14,rolling,近 14 个观测的均值（含 t）,obs-14,含 t，严格 <=t,前 w-1 观测 NA
+price_ma30,rolling,近 30 个观测的均值（含 t）,obs-30,含 t，严格 <=t,前 w-1 观测 NA
+price_ma60,rolling,近 60 个观测的均值（含 t）,obs-60,含 t，严格 <=t,前 w-1 观测 NA
+price_ma90,rolling,近 90 个观测的均值（含 t）,obs-90,含 t，严格 <=t,前 w-1 观测 NA
+price_median7,rolling,近 7 个观测的中位数（含 t）,obs-7,含 t,前 w-1 观测 NA
+price_median30,rolling,近 30 个观测的中位数（含 t）,obs-30,含 t,前 w-1 观测 NA
+price_std7,volatility,近 7 观测价格标准差（含 t）,obs-7,含 t,前 w-1 观测 NA
+price_std14,volatility,近 14 观测价格标准差（含 t）,obs-14,含 t,前 w-1 观测 NA
+price_std30,volatility,近 30 观测价格标准差（含 t）,obs-30,含 t,前 w-1 观测 NA
+price_std60,volatility,近 60 观测价格标准差（含 t）,obs-60,含 t,前 w-1 观测 NA
+price_std90,volatility,近 90 观测价格标准差（含 t）,obs-90,含 t,前 w-1 观测 NA
+price_return_7,momentum,t 相对 7 观察前的收益率,obs-7,<=t,分母为 0 或缺失→NA
+price_return_14,momentum,t 相对 14 观察前的收益率,obs-14,<=t,分母为 0 或缺失→NA
+price_return_30,momentum,t 相对 30 观察前的收益率,obs-30,<=t,分母为 0 或缺失→NA
+price_return_60,momentum,t 相对 60 观察前的收益率,obs-60,<=t,分母为 0 或缺失→NA
+price_return_90,momentum,t 相对 90 观察前的收益率,obs-90,<=t,分母为 0 或缺失→NA
+price_momentum_30,momentum,价格相对自身 30 观测均值的偏离度,obs-30,含 t,均值为 0/缺失→NA
+price_momentum_60,momentum,价格相对自身 60 观测均值的偏离度,obs-60,含 t,均值为 0/缺失→NA
+price_momentum_90,momentum,价格相对自身 90 观测均值的偏离度,obs-90,含 t,均值为 0/缺失→NA
+continuous_rise_days,trend,截至 t 的连续上涨观测数,upto-t,<=t,起点为 0
+continuous_fall_days,trend,截至 t 的连续下跌观测数,upto-t,<=t,起点为 0
+rolling_slope_7,trend,近 7 观测对数价格线性趋势斜率,obs-7,含 t,窗口不足→NA
+rolling_slope_30,trend,近 30 观测对数价格线性趋势斜率,obs-30,含 t,窗口不足→NA
+rolling_slope_60,trend,近 60 观测对数价格线性趋势斜率,obs-60,含 t,窗口不足→NA
+volatility_7,volatility,近 7 观测日收益率标准差,obs-7,含 t,窗口不足→NA
+volatility_30,volatility,近 30 观测日收益率标准差,obs-30,含 t,窗口不足→NA
+volatility_60,volatility,近 60 观测日收益率标准差,obs-60,含 t,窗口不足→NA
+rolling_max_30,drawdown,近 30 观测最高价（含 t）,obs-30,含 t,前 29 观测 NA
+drawdown_30,drawdown,相对近 30 观测最高价的回撤（<=0）,obs-30,含 t,窗口不足→NA
+max_drawdown_90,drawdown,近 90 观测窗口内最大回撤,obs-90,含 t,窗口不足→NA
+expanding_price_percentile,percentile,当前价在自身历史（t 之前+当天）中的分位,expanding,仅 <=t,少于 30 观测→NA
+same_month_price_percentile,percentile,当前价在同作物同月（历史年份，严格更早日期）中的分位,same-month,严格 <=t,少于 20 样本→NA
+same_season_price_percentile,percentile,当前价在历史同季窗口（doy±15 天，严格更早日期）中的分位,same-season,严格 <=t,少于 20 样本→NA
+seasonal_p10,seasonal_quantile,历史同月（严格更早年份）P10 分位,same-month-prior-years,仅 year<t.year 且 date<t,样本<20 或年份<2 → NA
+seasonal_p50,seasonal_quantile,历史同月（严格更早年份）P50 分位,same-month-prior-years,仅 year<t.year 且 date<t,样本<20 或年份<2 → NA
+seasonal_p90,seasonal_quantile,历史同月（严格更早年份）P90 分位,same-month-prior-years,仅 year<t.year 且 date<t,样本<20 或年份<2 → NA
+seasonal_sample_count,seasonal_quantile,季节分位样本数,same-month-prior-years,严格 <=t,—
+seasonal_year_count,seasonal_quantile,季节分位覆盖年份数,same-month-prior-years,严格 <=t,—
+seasonal_feature_available,seasonal_quantile,季节分位是否可用,-,严格 <=t,—
+price_vs_seasonal_p50,seasonal_quantile,当前价相对历史同月 P50 的偏离,same-month-prior-years,严格 <=t,缺失→NA
+price_raw,base,官方原始价格（元/斤，wholesale）,-,观测,-
+price_per_500g,base,元/500g = price_raw,-,观测,-
+price_per_kg,base,元/kg = price_per_500g × 2,-,观测,-
+volume_raw,volume,成交量原始值（单位 unknown，仅相对口径）,-,观测,禁止解释为吨
+volume_change_1d,volume,成交量环比（相对上一观测）,obs-1,<=t,NA
+volume_change_7d,volume,成交量 7 观测变化,obs-7,<=t,NA
+volume_ma7,volume,成交量 7 观测均值,obs-7,含 t,NA
+volume_ma30,volume,成交量 30 观测均值,obs-30,含 t,NA
+volume_zscore,volume,成交量 expanding z 分数,expanding,<=t,少于30→NA
+volume_percentile,volume,成交量 expanding 分位,expanding,<=t,少于30→NA
+target_mean_price_next_7d,target,未来 7 自然天窗口平均价（元/kg）,fwd-7,未来（仅作标签）,窗口不完整→NA
+target_mean_price_next_14d,target,未来 14 自然天窗口平均价,fwd-14,未来（仅作标签）,窗口不完整→NA
+target_mean_price_next_30d,target,未来 30 自然天窗口平均价【主目标】,fwd-30,未来（仅作标签）,窗口不完整→NA
+target_median_price_next_30d,target,未来 30 天窗口中位价,fwd-30,未来（仅作标签）,窗口不完整→NA
+target_min_price_next_30d,target,未来 30 天窗口最低价,fwd-30,未来（仅作标签）,窗口不完整→NA
+target_max_price_next_30d,target,未来 30 天窗口最高价,fwd-30,未来（仅作标签）,窗口不完整→NA
+target_price_t7,target,t+7 前最近观测价,fwd-7,未来（仅作标签）,窗口不完整→NA
+target_price_t14,target,t+14 前最近观测价,fwd-14,未来（仅作标签）,窗口不完整→NA
+target_price_t30,target,t+30 前最近观测价,fwd-30,未来（仅作标签）,窗口不完整→NA
+target_obs_count_next_7d,target_meta,未来 7 天窗口内观测数,fwd-7,未来,—
+target_obs_count_next_14d,target_meta,未来 14 天窗口内观测数,fwd-14,未来,—
+target_obs_count_next_30d,target_meta,未来 30 天窗口内观测数,fwd-30,未来,—

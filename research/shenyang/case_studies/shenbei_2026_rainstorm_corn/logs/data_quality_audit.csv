@@ -1,0 +1,11 @@
+﻿dataset,path,rows,cols,unit,dup_rows,missing_rate,time_min,time_max
+沈北玉米年序列,03_clean/agriculture/corn_annual_pnb.csv,8,14,ha/t/kg每ha,0,0.1429,1970-01-01 00:00:00.000002018,1970-01-01 00:00:00.000002025
+沈北粮食水稻大豆,03_clean/agriculture/pnb_grain_rice_soy.csv,4,14,,0,0.0,1970-01-01 00:00:00.000002021,1970-01-01 00:00:00.000002025
+沈北逐小时气象,03_clean/weather/pnb_hourly.parquet,102600,5,mm/C/%/km·h,0,0.0,2015-01-01 00:00:00,2026-09-14 23:00:00
+沈北日值气象,03_clean/weather/pnb_daily_1991_2026.parquet,13041,12,mm/C,0,0.0833,1991-01-01 00:00:00,2026-09-14 00:00:00
+灾情事件时间线,03_clean/disaster/disaster_event_timeline.csv,7,15,,0,0.0857,2026-07-12 00:00:00,2026-08-24 00:00:00
+干预时间线,03_clean/intervention/intervention_timeline.csv,8,13,,0,0.0192,2026-07-13 09:10:00,2026-07-13 09:10:00
+玉米物候,03_clean/phenology/corn_phenology_2026.csv,8,6,,0,0.0,2026-04-20 00:00:00,2026-09-20 00:00:00
+现实世界时间轴,04_marts/REAL_WORLD_TIMELINE_2026.csv,55,9,,0,0.0727,2026-04-20 00:00:00,2026-09-20 00:00:00
+玉米年度基线,04_marts/corn_annual_baseline.csv,8,24,,0,0.099,1970-01-01 00:00:00.000002018,1970-01-01 00:00:00.000002025
+暴雨事件特征,04_marts/rainfall_event_features.csv,62,17,mm,0,0.0,2026-06-15 00:00:00,2026-08-15 00:00:00

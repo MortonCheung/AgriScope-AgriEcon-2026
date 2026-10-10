@@ -1,0 +1,124 @@
+{
+ "city": "大连",
+ "city_code": "dalian",
+ "generated_at": "2026-09-23T10:08:59",
+ "generated_by": "archive/migration/generate_manifests.py",
+ "note": "本清单仅为既有文件的索引（路径/大小/SHA256/行数），未重新生成或改动任何数据。",
+ "sections": [
+  "data",
+  "research",
+  "case_studies",
+  "assets",
+  "sources"
+ ],
+ "data_root": "data/research/dalian/data",
+ "n_datasets": 16,
+ "datasets": [
+  {
+   "path": "data/disaster_events_algorithm.csv",
+   "bytes": 2676,
+   "sha256": "047d97774875fe0335f4069a4b7c580b86b523b357ab8898515f102f27bff541",
+   "rows": 18
+  },
+  {
+   "path": "data/disaster_events_observed.csv",
+   "bytes": 8908,
+   "sha256": "ac266328ef6a7616f13495af812390ee19ee6d1b0e1b6a4571a69bf0a2dc8ce3",
+   "rows": 16
+  },
+  {
+   "path": "data/input_cost_weekly.csv",
+   "bytes": 60158,
+   "sha256": "957c5e9d9fcc5e0f71a00e45a282169f60028e13c444c8e582fc2b9506470a3a",
+   "rows": 562
+  },
+  {
+   "path": "data/marts/fact_price_dalian.csv",
+   "bytes": 173862,
+   "sha256": "b31d5ac477f45d8f2de45970c1a0b1f6758106d324005247aa4e21e023649d8e",
+   "rows": 678
+  },
+  {
+   "path": "data/phenology_events.csv",
+   "bytes": 9773,
+   "sha256": "7d45b224784f7c052733213c6e96a7891358b6b421adda55b889b6dc6ea31a7a",
+   "rows": 33
+  },
+  {
+   "path": "data/policy_events.csv",
+   "bytes": 10933,
+   "sha256": "ccaa6302a0b20597add372d8044abdd01c99790d3b82a3f5c852d0e870d2c62b",
+   "rows": 15
+  },
+  {
+   "path": "data/price_observation.csv",
+   "bytes": 16554385,
+   "sha256": "e454d5b03ff3f481ca14a80c743d3ab927d00d485a15ed7b159648f704df206f",
+   "rows": 48304
+  },
+  {
+   "path": "data/production_yearly.csv",
+   "bytes": 20969,
+   "sha256": "49398b1f5ef6a348442966ac778b43796d1fa13e750fa4ef4b38c96a57f811fc",
+   "rows": 120
+  },
+  {
+   "path": "data/soil_daily.csv",
+   "bytes": 327448,
+   "sha256": "f46b7579a874df0c8b4c558a219dd127d18d1cd2023d72c6ed72d24bf4dfbb79",
+   "rows": 2083
+  },
+  {
+   "path": "data/volume_observations.csv",
+   "bytes": 100466,
+   "sha256": "7bc0f721bb4e7b4788f180fd006f4caeea68c59e32f89e7d9415d46d28bd6da5",
+   "rows": 295
+  },
+  {
+   "path": "data/weather_daily.csv",
+   "bytes": 192669,
+   "sha256": "7cad5b8624db7b33220fd0d7795524d7bcb6e787fd52cd8188dcb2bb97c96a11",
+   "rows": 2083
+  },
+  {
+   "path": "data/weather_daily_era5.csv",
+   "bytes": 688248,
+   "sha256": "2f926b754869ac7c5363980d6410a065b16fa6e20e76527f3649aada55544a85",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_daily_era5land.csv",
+   "bytes": 672444,
+   "sha256": "ead9a6b737ea0f97fcaadbee4a69bacd91a5d5b82bafed1bfc214063647fbcbd",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily.csv",
+   "bytes": 201515,
+   "sha256": "2c06920965462773d313d15feee8ef219ee70114e54dc6dea9637cf64ba44630",
+   "rows": 2083
+  },
+  {
+   "path": "data/weather_extra_daily_era5.csv",
+   "bytes": 686581,
+   "sha256": "b03d367c8853e432df80d2302bbae95035ab04ea0ba01398fa6f18a2474523d7",
+   "rows": 6101
+  },
+  {
+   "path": "data/weather_extra_daily_era5land.csv",
+   "bytes": 658291,
+   "sha256": "9e34134d5155f7676408484e26138195a2cf4b3642c4071a434300806f19d1ed",
+   "rows": 6101
+  }
+ ],
+ "sources": [
+  "sources/MANIFEST.csv",
+  "sources/data_snapshot.json",
+  "sources/staged/price/liaoning-agri-risk/dalian_12316_prices.csv",
+  "sources/staged/price/liaoning-agri-risk/dalian_mofcom_price.csv",
+  "sources/staged/price/liaoning-agri-risk/dalian_nanguanling_wholesale.csv",
+  "sources/staged/price/liaoning-agri-risk/dalian_price_monthly.csv",
+  "sources/staged/price/liaoning-agri-risk/dalian_price_weekly.csv",
+  "sources/staged/production/liaoning-agri-risk/dalian_production_2025.csv"
+ ]
+}
