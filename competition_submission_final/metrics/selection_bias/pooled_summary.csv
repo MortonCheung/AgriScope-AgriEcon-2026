@@ -1,0 +1,7 @@
+﻿pool,mode,crops,beats,share,mean_improve,mean_WAPE_sel,mean_WAPE_base
+全池,in_sample_selection,30,28,93.3,17.94,9.99,12.29
+全池,forward_selection,20,9,45.0,-3.99,11.96,11.7
+无_tuned,in_sample_selection,30,25,83.3,14.78,10.36,12.29
+无_tuned,forward_selection,20,8,40.0,-7.47,12.39,11.7
+全池,in_sample(仅2025+2026),20,18,90.0,18.86,9.36,11.7
+无_tuned,in_sample(仅2025+2026),20,16,80.0,15.03,9.8,11.7
