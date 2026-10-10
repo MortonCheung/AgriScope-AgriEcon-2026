@@ -1,0 +1,5 @@
+﻿test,passed,note
+P0-A1 季节策略未成熟标签,False,选到「西红柿」＝使用了未成熟标签（应为已闭合窗口的「黄瓜」）
+P0-A2 未来扰动不变性,False,选择随 t 之后的标签变动而改变（西红柿 → 黄瓜）＝使用了未成熟标签
+P0-B  随机高HRI命中率口径,False,high_hri 类型为 bool（应为 float 占比）
+P0-C  训练/测试标签 purge,False,fold1_test2024 train_max=2023-12-29 +30d 超过 train_end; fold1_test2024 test_max=2024-12-31 +30d 超过 test_end; fold2_test2025 train_max=2024-12-31 +30d 超过 train_end; fold2_test2025 test_max=2025-12-31 +30d 超过 test_end; fold3_test2026 train_max=2025-12-31 +30d 超过 train_end; fold3_test2026 test_max=2026-09-14 +30d 超过 test_end
